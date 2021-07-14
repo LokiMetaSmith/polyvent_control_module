@@ -1,0 +1,8 @@
+There were a few issues with the old control module that we have to discuss:
+
+The production of a current control module takes many steps, mostly involving wiring and the installation and modification of boards and modules.
+certain parts are unnecessarily complex, and can be simplified by a lot. A microcontroller is not needed on the valves board
+it is not very easy to use, so it should be better documented, and maybe have it use an Arduino nano instead of a standalone atmega328p, to solve bootloading and programming issues.
+To improve modularity, I can also add blank modules, for further prototyping of future designs.
+
+My solution is to create a new control module, where each individual submodule connects into a backplane, it'll look a bit like the gpu slots on a modern pc. This solves the wiring issue. The valves board will get a shift register instead of an Arduino microcontroller, which will mean that it doesn't need to be programmed, this will improve its reliability. Blank modules will also be created. So far, I want to create a main board module, a power supply module, a battery module, a motor board module, a valves control module, and a blank prototyping module.
