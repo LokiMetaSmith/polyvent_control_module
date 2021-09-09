@@ -247,6 +247,34 @@
 </package>
 </packages>
 </library>
+<library name="LM1084IS-5.0">
+<packages>
+<package name="TO254P1435X457-3N">
+<wire x1="-2.0574" y1="-4.318" x2="-3.0226" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-4.318" x2="-3.0226" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-10.033" x2="-2.0574" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-10.033" x2="-2.0574" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-4.318" x2="-0.4826" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-4.318" x2="-0.4826" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-10.033" x2="0.4826" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-10.033" x2="0.4826" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-4.318" x2="2.0574" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-4.318" x2="2.0574" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-10.033" x2="3.0226" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-10.033" x2="3.0226" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="-4.318" x2="5.08" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="-4.318" x2="5.08" y2="4.318" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="4.318" x2="-5.08" y2="4.318" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="4.318" x2="-5.08" y2="-4.318" width="0.1524" layer="51"/>
+<text x="-4.481609375" y="5.270990625" size="2.08801875" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.824690625" y="-12.7685" size="2.085690625" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<smd name="1" x="-2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="2" x="0" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="3" x="2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="4" x="0" y="0.1524" dx="10.16" dy="8.9408" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -555,6 +583,17 @@ design rules under a new name.</description>
 <element name="XS1" library="con-dg55" package="DG55CB-2P-1" value="" x="9" y="58" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.73" y="68" size="1.778" layer="25" rot="R270"/>
 <attribute name="VALUE" x="0.27" y="68" size="1.778" layer="27" rot="R90" align="bottom-right"/>
+</element>
+<element name="U1" library="LM1084IS-5.0" package="TO254P1435X457-3N" value="LM1084IS-5.0" x="10" y="27" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="10" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" LDO Regulator Pos 5V 5A 4-Pin(3+Tab) TO-263 Tube " x="10" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="10" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="LM1084IS-5.0" x="10" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.518390625" y="32.270990625" size="2.08801875" layer="25" ratio="10" rot="SR0"/>
+<attribute name="PACKAGE" value="TO-263 Texas Instruments" x="10" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="10" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM1084IS-5.0/?ref=eda" x="10" y="27" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="4.175309375" y="14.2315" size="2.085690625" layer="27" ratio="10" rot="SR0"/>
 </element>
 </elements>
 <signals>
@@ -2163,6 +2202,14 @@ design rules under a new name.</description>
 <wire x1="165.77855" y1="23.49" x2="166.81195" y2="24.5234" width="0.254" layer="16"/>
 <wire x1="170.20805" y1="24.5234" x2="171.24145" y2="23.49" width="0.254" layer="16"/>
 <wire x1="166.81195" y1="24.5234" x2="170.20805" y2="24.5234" width="0.254" layer="16"/>
+</signal>
+<signal name="IN">
+<contactref element="U1" pad="3"/>
+</signal>
+<signal name="N$1">
+<contactref element="U1" pad="2"/>
+<contactref element="U1" pad="4"/>
+<wire x1="10" y1="17.9576" x2="10" y2="27.1524" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -409,8 +409,6 @@
 <pad name="10@JP2" x="16.51" y="6.35" drill="1.016" diameter="1.8796"/>
 <pad name="11@JP2" x="16.51" y="3.81" drill="1.016" diameter="1.8796"/>
 <pad name="12@JP2" x="16.51" y="1.27" drill="1.016" diameter="1.8796"/>
-<hole x="10.79" y="28.915" drill="0.85"/>
-<hole x="6.99" y="28.915" drill="0.85"/>
 <wire x1="12.79" y1="33.392" x2="4.99" y2="33.392" width="0.127" layer="49"/>
 <wire x1="12.79" y1="28.392" x2="4.99" y2="28.392" width="0.127" layer="49"/>
 <wire x1="12.79" y1="28.392" x2="12.79" y2="33.392" width="0.127" layer="49"/>
@@ -531,6 +529,9 @@
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+</class>
+<class number="1" name="POWER" width="0.254" drill="0.254">
+<clearance class="1" value="0.3048"/>
 </class>
 </classes>
 <designrules name="default">
@@ -1118,7 +1119,6 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="U1" pad="4"/>
-<contactref element="U$1" pad="4@JP1"/>
 <contactref element="Q1" pad="P$3"/>
 <wire x1="19.95" y1="15.5" x2="22.31" y2="13.14" width="1.5" layer="1"/>
 <wire x1="22.31" y1="13.14" x2="22.31" y2="13.07" width="1.8" layer="1"/>
@@ -1161,6 +1161,7 @@ design rules under a new name.</description>
 <wire x1="27" y1="28.35" x2="27" y2="31.1" width="1.8" layer="1"/>
 <wire x1="27" y1="36.9" x2="26.3" y2="37.6" width="1.8" layer="1"/>
 <wire x1="26.3" y1="37.6" x2="22" y2="37.6" width="1.8" layer="1"/>
+<contactref element="U$1" pad="4@JP1"/>
 <wire x1="79.95" y1="59.5" x2="81.3" y2="62.9" width="0" layer="19" extent="1-1"/>
 <wire x1="82.31" y1="57.07" x2="79.95" y2="59.5" width="0" layer="19" extent="1-1"/>
 <wire x1="67.31" y1="57.07" x2="79.95" y2="59.5" width="0" layer="19" extent="1-1"/>
@@ -1208,7 +1209,7 @@ design rules under a new name.</description>
 <wire x1="82.31" y1="13.07" x2="79.95" y2="15.5" width="0" layer="19" extent="1-1"/>
 <wire x1="81.3" y1="18.9" x2="79.95" y2="15.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="24V/12V">
+<signal name="24V/12V" class="1">
 <contactref element="J1" pad="5"/>
 <contactref element="J1" pad="6"/>
 <contactref element="J1" pad="20"/>
@@ -1222,37 +1223,38 @@ design rules under a new name.</description>
 <wire x1="24.75" y1="31.05" x2="24.7" y2="31.1" width="1.8" layer="1"/>
 <contactref element="J2" pad="1"/>
 <contactref element="J2" pad="2"/>
-<polygon width="1.6" layer="16">
-<vertex x="83" y="63"/>
+<polygon width="1.6" layer="16" thermals="no">
+<vertex x="75.9" y="70.1"/>
 <vertex x="86.6" y="59.4"/>
 <vertex x="95" y="59.4"/>
 <vertex x="96.8" y="61.2"/>
-<vertex x="96.8" y="65.3"/>
 <vertex x="96.8" y="70.3"/>
-<vertex x="96.4" y="70.7"/>
 <vertex x="86.4" y="80.7"/>
-<vertex x="31.8" y="80.7"/>
 <vertex x="25.6" y="80.7"/>
 <vertex x="17" y="72.1"/>
-<vertex x="17" y="40.3"/>
-<vertex x="17.7" y="39.6"/>
-<vertex x="14.8" y="36.7"/>
-<vertex x="14.8" y="34.3"/>
-<vertex x="12.4" y="31.9"/>
+<vertex x="17" y="37.6"/>
 <vertex x="11.3" y="31.9"/>
 <vertex x="9.1" y="34.1"/>
 <vertex x="9.1" y="34.4"/>
 <vertex x="5.1" y="34.4"/>
 <vertex x="5.1" y="30.9"/>
 <vertex x="8.1" y="27.9"/>
-<vertex x="11.4" y="27.9"/>
 <vertex x="17" y="27.9"/>
-<vertex x="21.2" y="32.1"/>
 <vertex x="24.4" y="35.3"/>
 <vertex x="24.4" y="66.7"/>
 <vertex x="27.8" y="70.1"/>
-<vertex x="66" y="70.1"/>
-<vertex x="75.9" y="70.1"/>
+</polygon>
+<polygon width="1.6" layer="1" thermals="no">
+<vertex x="5" y="34.6"/>
+<vertex x="5" y="31"/>
+<vertex x="8.1" y="27.9"/>
+<vertex x="17" y="27.9"/>
+<vertex x="21.55" y="32.45"/>
+<vertex x="20" y="34"/>
+<vertex x="20" y="38"/>
+<vertex x="17.4" y="38"/>
+<vertex x="11.3" y="31.9"/>
+<vertex x="8.6" y="34.6"/>
 </polygon>
 <wire x1="10.68" y1="31.16" x2="24.7" y2="31.1" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1354,9 +1356,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="EXT_2">
 <contactref element="J1" pad="16"/>
-</signal>
-<signal name="UCC">
-<contactref element="U$1" pad="4@JP2"/>
 </signal>
 <signal name="12V">
 <contactref element="U2" pad="4"/>
@@ -1812,6 +1811,33 @@ design rules under a new name.</description>
 <contactref element="R69" pad="1"/>
 <contactref element="U$1" pad="5@JP2"/>
 <wire x1="29.51" y1="58.05" x2="84.3" y2="61.55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCC">
+<contactref element="U$1" pad="4@JP2"/>
+</signal>
+<signal name="N$1">
+<via x="19" y="37" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$2">
+<via x="17" y="37" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$3">
+<via x="17" y="35" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$4">
+<via x="15" y="35" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$6">
+<via x="15" y="33" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$7">
+<via x="17" y="33" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$8">
+<via x="19" y="33" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$9">
+<via x="19" y="35" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
