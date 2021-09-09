@@ -863,6 +863,12 @@ design rules under a new name.</description>
 <via x="40" y="19" extent="1-16" drill="0.35"/>
 <wire x1="40" y1="19" x2="42" y2="17" width="2.54" layer="16"/>
 <wire x1="42" y1="17" x2="42" y2="14" width="2.54" layer="16"/>
+<via x="57.1" y="66.4" extent="1-16" drill="0.35"/>
+<via x="57.1" y="67.7" extent="1-16" drill="0.35"/>
+<via x="41" y="19" extent="1-16" drill="0.35"/>
+<via x="39.5" y="18.3" extent="1-16" drill="0.35"/>
+<via x="41.5" y="14.8" extent="1-16" drill="0.35"/>
+<via x="42.6" y="14.8" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="24V/12V">
 <contactref element="J1" pad="5"/>
