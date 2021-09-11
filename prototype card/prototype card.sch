@@ -1226,6 +1226,107 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="TBP02R1-381-14BE">
+<packages>
+<package name="CUI_TBP02R1-381-14BE">
+<wire x1="-2.3" y1="-1.2" x2="-2.3" y2="8" width="0.127" layer="51"/>
+<wire x1="-2.3" y1="8" x2="51.83" y2="8" width="0.127" layer="51"/>
+<wire x1="51.83" y1="8" x2="51.83" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="51.83" y1="-1.2" x2="-2.3" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="-2.3" y1="-1.2" x2="-2.3" y2="8" width="0.127" layer="21"/>
+<wire x1="51.83" y1="8" x2="51.83" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="8" x2="51.83" y2="8" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-1.2" x2="-1.3" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="51.83" y1="-1.2" x2="50.83" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="8.25" x2="52.08" y2="8.25" width="0.05" layer="39"/>
+<wire x1="52.08" y1="-1.3" x2="-2.55" y2="-1.3" width="0.05" layer="39"/>
+<wire x1="-2.55" y1="-1.3" x2="-2.55" y2="8.25" width="0.05" layer="39"/>
+<wire x1="52.08" y1="8.25" x2="52.08" y2="-1.3" width="0.05" layer="39"/>
+<text x="-3.3" y="9" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.3" y="-3.45" size="1.778" layer="27">&gt;VALUE</text>
+<circle x="0" y="-2.2" radius="0.1" width="0.2" layer="21"/>
+<circle x="0" y="-2.2" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.4" shape="square"/>
+<pad name="2" x="3.81" y="0" drill="1.4"/>
+<pad name="3" x="7.62" y="0" drill="1.4"/>
+<pad name="4" x="11.43" y="0" drill="1.4"/>
+<pad name="5" x="15.24" y="0" drill="1.4"/>
+<pad name="6" x="19.05" y="0" drill="1.4"/>
+<pad name="7" x="22.86" y="0" drill="1.4"/>
+<pad name="8" x="26.67" y="0" drill="1.4"/>
+<pad name="9" x="30.48" y="0" drill="1.4"/>
+<pad name="10" x="34.29" y="0" drill="1.4"/>
+<pad name="11" x="38.1" y="0" drill="1.4"/>
+<pad name="12" x="41.91" y="0" drill="1.4"/>
+<pad name="13" x="45.72" y="0" drill="1.4"/>
+<pad name="14" x="49.53" y="0" drill="1.4"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TBP02R1-381-14BE">
+<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<text x="-5.58" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="17.78" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="15.24" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="12.7" length="middle" direction="pas"/>
+<pin name="4" x="-10.16" y="10.16" length="middle" direction="pas"/>
+<pin name="5" x="-10.16" y="7.62" length="middle" direction="pas"/>
+<pin name="6" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="7" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="8" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="9" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="10" x="-10.16" y="-5.08" length="middle" direction="pas"/>
+<pin name="11" x="-10.16" y="-7.62" length="middle" direction="pas"/>
+<pin name="12" x="-10.16" y="-10.16" length="middle" direction="pas"/>
+<pin name="13" x="-10.16" y="-12.7" length="middle" direction="pas"/>
+<pin name="14" x="-10.16" y="-15.24" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TBP02R1-381-14BE" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/TBP02R1-381-14BE/CUI%20Devices/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TBP02R1-381-14BE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CUI_TBP02R1-381-14BE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tbp02r1-381-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
+<attribute name="DESCRIPTION" value="2~24 Poles, Pluggable,Receptacle, Horizontal, 3.81 Pitch, Terminal Block Connector"/>
+<attribute name="MF" value="CUI Devices"/>
+<attribute name="MP" value="TBP02R1-381-14BE"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBP02R1-381-14BE/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1246,6 +1347,7 @@
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X30" device="" package3d_urn="urn:adsk.eagle:package:22460/2"/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X30" device="" package3d_urn="urn:adsk.eagle:package:22460/2"/>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X30" device="" package3d_urn="urn:adsk.eagle:package:22460/2"/>
+<part name="J2" library="TBP02R1-381-14BE" deviceset="TBP02R1-381-14BE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1287,6 +1389,10 @@
 <instance part="JP5" gate="A" x="-48.26" y="53.34" smashed="yes">
 <attribute name="NAME" x="-54.61" y="92.075" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-54.61" y="10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="J2" gate="G$1" x="-127" y="116.84" smashed="yes">
+<attribute name="NAME" x="-132.58" y="137.16" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-132.08" y="96.52" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2067,6 +2173,8 @@
 <wire x1="43.18" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
 <label x="43.18" y="68.58" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="N$3" class="0">
 </net>
 </nets>
 </sheet>
