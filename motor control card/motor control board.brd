@@ -155,42 +155,6 @@ SS_1
 and reconfigured)</text>
 </plain>
 <libraries>
-<library name="high power stepper driver 36V4">
-<packages>
-<package name="BREAKOUT_BOARD">
-<wire x1="0" y1="0" x2="0" y2="30.5" width="0.127" layer="21"/>
-<wire x1="0" y1="30.5" x2="33" y2="30.5" width="0.127" layer="21"/>
-<wire x1="33" y1="30.5" x2="33" y2="0" width="0.127" layer="21"/>
-<wire x1="33" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="V5(OUT)" x="31.75" y="1.3" drill="1.2"/>
-<pad name="IOREF" x="31.75" y="3.84" drill="1.2"/>
-<pad name="GND" x="31.75" y="6.38" drill="1.2"/>
-<pad name="STEP" x="31.75" y="8.92" drill="1.2"/>
-<pad name="DIR" x="31.75" y="11.46" drill="1.2"/>
-<pad name="MISO" x="31.75" y="14" drill="1.2"/>
-<pad name="MOSI" x="31.75" y="16.54" drill="1.2"/>
-<pad name="SCLK" x="31.75" y="19.08" drill="1.2"/>
-<pad name="SCS" x="31.75" y="21.62" drill="1.2"/>
-<pad name="SLEEP" x="31.75" y="24.16" drill="1.2"/>
-<pad name="RESET" x="31.75" y="26.7" drill="1.2"/>
-<pad name="FAULT" x="31.75" y="29.24" drill="1.2"/>
-<pad name="BOUT2" x="1.27" y="6.35" drill="1.2"/>
-<pad name="BOUT1" x="1.27" y="8.89" drill="1.2"/>
-<pad name="AOUT2" x="1.27" y="11.43" drill="1.2"/>
-<pad name="AOUT1" x="1.27" y="13.97" drill="1.2"/>
-<pad name="GND_3" x="1.27" y="16.51" drill="1.2"/>
-<pad name="GND_2" x="1.27" y="19.05" drill="1.2"/>
-<pad name="VIN_2" x="1.27" y="21.59" drill="1.2"/>
-<pad name="VIN" x="1.27" y="24.13" drill="1.2"/>
-<pad name="BIN1" x="26.22" y="29.24" drill="1.2"/>
-<pad name="BIN2" x="23.68" y="29.24" drill="1.2"/>
-<pad name="STALL" x="21.14" y="29.24" drill="1.2"/>
-<pad name="BEMF" x="18.6" y="29.24" drill="1.2"/>
-<wire x1="2.254" y1="24.127" x2="2.254" y2="21.727" width="0.127" layer="21"/>
-<wire x1="2.381" y1="19.127" x2="2.381" y2="16.527" width="0.127" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-SAMD21-Mini-Breakout">
 <packages>
 <package name="JP1_SPARKFUN-SAMD21-MINI-BREAKOUT-V10">
@@ -219,8 +183,6 @@ and reconfigured)</text>
 <pad name="10@JP2" x="16.51" y="6.35" drill="1.016" diameter="1.8796"/>
 <pad name="11@JP2" x="16.51" y="3.81" drill="1.016" diameter="1.8796"/>
 <pad name="12@JP2" x="16.51" y="1.27" drill="1.016" diameter="1.8796"/>
-<hole x="10.79" y="28.915" drill="0.85"/>
-<hole x="6.99" y="28.915" drill="0.85"/>
 <wire x1="12.79" y1="33.392" x2="4.99" y2="33.392" width="0.127" layer="49"/>
 <wire x1="12.79" y1="28.392" x2="4.99" y2="28.392" width="0.127" layer="49"/>
 <wire x1="12.79" y1="28.392" x2="12.79" y2="33.392" width="0.127" layer="49"/>
@@ -234,17 +196,8 @@ and reconfigured)</text>
 <wire x1="4.89" y1="32.115" x2="4.89" y2="33.115" width="0.3048" layer="21"/>
 <pad name="1@JP4" x="13.589" y="17.907" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="2@JP4" x="13.589" y="20.447" drill="1.016" diameter="1.8796" rot="R180"/>
-<wire x1="12.065" y1="6.387" x2="5.715" y2="6.387" width="0.127" layer="51"/>
-<wire x1="5.715" y1="6.387" x2="5.715" y2="2.957" width="0.127" layer="51"/>
-<wire x1="5.715" y1="2.957" x2="12.065" y2="2.957" width="0.127" layer="51"/>
-<wire x1="12.065" y1="2.957" x2="12.065" y2="6.387" width="0.127" layer="51"/>
-<wire x1="10.99" y1="-0.003" x2="10.99" y2="2.797" width="0.127" layer="51"/>
-<wire x1="6.79" y1="2.797" x2="6.79" y2="-0.003" width="0.127" layer="51"/>
 <wire x1="10.99" y1="-0.003" x2="6.79" y2="-0.003" width="0.127" layer="51"/>
-<wire x1="10.99" y1="2.797" x2="6.79" y2="2.797" width="0.127" layer="51"/>
-<wire x1="7.552" y1="2.797" x2="10.228" y2="2.797" width="0.2032" layer="21"/>
 <wire x1="10.228" y1="-0.003" x2="7.552" y2="-0.003" width="0.2032" layer="21"/>
-<circle x="8.89" y="1.397" radius="0.805" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="33.02" width="0.2032" layer="21"/>
 <wire x1="0" y1="33.02" x2="17.78" y2="33.02" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.2032" layer="21"/>
@@ -557,6 +510,42 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 </library>
+<library name="high_power_stepper_driver_36V4">
+<packages>
+<package name="BREAKOUT_BOARD">
+<wire x1="0" y1="0" x2="0" y2="30.5" width="0.127" layer="21"/>
+<wire x1="0" y1="30.5" x2="33" y2="30.5" width="0.127" layer="21"/>
+<wire x1="33" y1="30.5" x2="33" y2="0" width="0.127" layer="21"/>
+<wire x1="33" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="V5(OUT)" x="31.75" y="1.3" drill="1.2"/>
+<pad name="IOREF" x="31.75" y="3.84" drill="1.2"/>
+<pad name="GND" x="31.75" y="6.38" drill="1.2"/>
+<pad name="STEP" x="31.75" y="8.92" drill="1.2"/>
+<pad name="DIR" x="31.75" y="11.46" drill="1.2"/>
+<pad name="MISO" x="31.75" y="14" drill="1.2"/>
+<pad name="MOSI" x="31.75" y="16.54" drill="1.2"/>
+<pad name="SCLK" x="31.75" y="19.08" drill="1.2"/>
+<pad name="SCS" x="31.75" y="21.62" drill="1.2"/>
+<pad name="SLEEP" x="31.75" y="24.16" drill="1.2"/>
+<pad name="RESET" x="31.75" y="26.7" drill="1.2"/>
+<pad name="FAULT" x="31.75" y="29.24" drill="1.2"/>
+<pad name="BOUT2" x="1.27" y="6.35" drill="1.2"/>
+<pad name="BOUT1" x="1.27" y="8.89" drill="1.2"/>
+<pad name="AOUT2" x="1.27" y="11.43" drill="1.2"/>
+<pad name="AOUT1" x="1.27" y="13.97" drill="1.2"/>
+<pad name="GND_3" x="1.27" y="16.51" drill="1.2"/>
+<pad name="GND_2" x="1.27" y="19.05" drill="1.2"/>
+<pad name="VIN_2" x="1.27" y="21.59" drill="1.2"/>
+<pad name="VIN" x="1.27" y="24.13" drill="1.2"/>
+<pad name="BIN1" x="26.22" y="29.24" drill="1.2"/>
+<pad name="BIN2" x="23.68" y="29.24" drill="1.2"/>
+<pad name="STALL" x="21.14" y="29.24" drill="1.2"/>
+<pad name="BEMF" x="18.6" y="29.24" drill="1.2"/>
+<wire x1="2.254" y1="24.127" x2="2.254" y2="21.727" width="0.127" layer="21"/>
+<wire x1="2.381" y1="19.127" x2="2.381" y2="16.527" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -767,9 +756,16 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/harting/09231486921/3180439" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-8.59" y="67.73" locked="yes" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U$1" library="high power stepper driver 36V4" package="BREAKOUT_BOARD" value="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4" x="84" y="75" locked="yes" smashed="yes" rot="R180"/>
-<element name="U$3" library="SparkFun-SAMD21-Mini-Breakout" package="JP1_SPARKFUN-SAMD21-MINI-BREAKOUT-V10" value="" x="29" y="42" locked="yes" smashed="yes"/>
-<element name="U$2" library="high power stepper driver 36V4" package="BREAKOUT_BOARD" value="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4" x="84" y="41" smashed="yes" rot="R180"/>
+<element name="U$1" library="high_power_stepper_driver_36V4" package="BREAKOUT_BOARD" value="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4" x="84" y="75" locked="yes" smashed="yes" rot="R180">
+<attribute name="PURCHASE_URL_POLOLU" value="https://www.pololu.com/product/3730/resources" x="84" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="U$3" library="SparkFun-SAMD21-Mini-Breakout" package="JP1_SPARKFUN-SAMD21-MINI-BREAKOUT-V10" value="" x="29" y="42" locked="yes" smashed="yes">
+<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-13664/5766914?s=N4IgTCBcDaIM4EMC2ATMBGABEglgOx0wCMAnAUwQGsB7AVwBcQBdAXyA" x="29" y="42" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE_URL_SPARKFUN" value="https://www.sparkfun.com/products/13664" x="29" y="42" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$2" library="high_power_stepper_driver_36V4" package="BREAKOUT_BOARD" value="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4" x="84" y="41" smashed="yes" rot="R180">
+<attribute name="PURCHASE_URL_POLOLU" value="https://www.pololu.com/product/3730/resources" x="84" y="41" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="J2" library="TBP02R1-381-07BE" package="CUI_TBP02R1-381-07BE" value="TBP02R1-381-07BE" x="91" y="35" locked="yes" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="91" y="36" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tbp02r1-381-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="91" y="36" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
@@ -839,7 +835,6 @@ design rules under a new name.</description>
 <contactref element="J1" pad="17"/>
 <contactref element="J1" pad="19"/>
 <contactref element="J1" pad="18"/>
-<contactref element="U$3" pad="4@JP1"/>
 <contactref element="J2" pad="3"/>
 <contactref element="J3" pad="3"/>
 <polygon width="0.1524" layer="1" thermals="no">
@@ -869,31 +864,7 @@ design rules under a new name.</description>
 <via x="39.5" y="18.3" extent="1-16" drill="0.35"/>
 <via x="41.5" y="14.8" extent="1-16" drill="0.35"/>
 <via x="42.6" y="14.8" extent="1-16" drill="0.35"/>
-<wire x1="82.73" y1="58.49" x2="91" y2="59.24" width="0" layer="19" extent="1-1"/>
-<wire x1="82.73" y1="55.95" x2="82.73" y2="58.49" width="0" layer="19" extent="1-1"/>
-<wire x1="58" y1="67" x2="82.73" y2="58.49" width="0" layer="19" extent="1-1"/>
-<wire x1="57.1" y1="66.4" x2="58" y2="67" width="0" layer="19" extent="1-1"/>
-<wire x1="57.1" y1="67.7" x2="58" y2="67" width="0" layer="19" extent="1-1"/>
-<wire x1="30.27" y1="50.89" x2="52.25" y2="68.62" width="0" layer="19" extent="1-1"/>
-<wire x1="52.25" y1="34.62" x2="30.27" y2="50.89" width="0" layer="19" extent="1-1"/>
-<wire x1="41" y1="19" x2="52.25" y2="34.62" width="0" layer="19" extent="1-1"/>
-<wire x1="40" y1="19" x2="41" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="39.5" y1="18.3" x2="40" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="41.5" y1="14.8" x2="42" y2="14" width="0" layer="19" extent="1-1"/>
-<wire x1="42.6" y1="14.8" x2="42" y2="14" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="21" x2="39.5" y2="18.3" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="23.54" x2="10.68" y2="21" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="26.08" x2="10.68" y2="23.54" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="26.08" x2="10.68" y2="26.08" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="26.08" x2="8.14" y2="26.08" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="28.62" x2="5.6" y2="26.08" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="23.54" x2="10.68" y2="23.54" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="23.54" x2="5.6" y2="26.08" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="21" x2="10.68" y2="21" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="21" x2="5.6" y2="23.54" width="0" layer="19" extent="1-1"/>
-<wire x1="91" y1="27.38" x2="82.73" y2="55.95" width="0" layer="19" extent="1-1"/>
-<wire x1="82.73" y1="24.49" x2="91" y2="27.38" width="0" layer="19" extent="1-1"/>
-<wire x1="82.73" y1="21.95" x2="82.73" y2="24.49" width="0" layer="19" extent="1-1"/>
+<contactref element="U$3" pad="4@JP1"/>
 </signal>
 <signal name="24V/12V">
 <contactref element="J1" pad="5"/>
@@ -949,16 +920,6 @@ design rules under a new name.</description>
 <vertex x="5.7" y="34.5"/>
 <vertex x="5.1" y="33.8"/>
 </polygon>
-<wire x1="82.73" y1="50.87" x2="82.73" y2="53.41" width="0" layer="19" extent="1-1"/>
-<wire x1="82.73" y1="19.41" x2="82.73" y2="50.87" width="0" layer="19" extent="1-1"/>
-<wire x1="82.73" y1="16.87" x2="82.73" y2="19.41" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="28.62" x2="82.73" y2="19.41" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="31.16" x2="10.68" y2="28.62" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="31.16" x2="10.68" y2="31.16" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="33.7" x2="8.14" y2="31.16" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="33.7" x2="8.14" y2="33.7" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="31.16" x2="8.14" y2="31.16" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="28.62" x2="10.68" y2="28.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="J1" pad="39"/>
@@ -1594,6 +1555,21 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="21,19,64ea66e866e864ea"/>
+<approved hash="19,1,ae2024e7186d6a91"/>
+<approved hash="19,1,5151af8411af15a1"/>
+<approved hash="19,1,0809c8fa5b8d7a95"/>
+<approved hash="19,1,e0a616cbb539a2bf"/>
+<approved hash="19,1,ae40ce57f39d6951"/>
+<approved hash="19,1,0a69206ab05d7b35"/>
+<approved hash="19,1,e126fdbb5d89a07f"/>
+<approved hash="19,1,5181b11c0f171681"/>
+<approved hash="19,1,ac40d21fec256b71"/>
+<approved hash="19,1,0a793c22acd57b75"/>
+<approved hash="19,1,e1f6e1334151a06f"/>
+<approved hash="19,1,52f146f4fb7f1741"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

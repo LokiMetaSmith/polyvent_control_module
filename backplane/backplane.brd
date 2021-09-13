@@ -170,81 +170,6 @@
 <hole x="115" y="3" drill="3.4"/>
 </plain>
 <libraries>
-<library name="5535070-4">
-<packages>
-<package name="TE_5535070-4">
-<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="2.755" width="0.127" layer="51"/>
-<wire x1="-45.72" y1="2.755" x2="7.62" y2="2.755" width="0.127" layer="51"/>
-<wire x1="7.62" y1="2.755" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
-<wire x1="7.62" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="51"/>
-<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="51"/>
-<wire x1="-45.72" y1="-7.835" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
-<wire x1="7.62" y1="-7.835" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
-<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="2.755" width="0.127" layer="21"/>
-<wire x1="7.62" y1="2.755" x2="7.62" y2="-7.835" width="0.127" layer="21"/>
-<wire x1="7.62" y1="2.755" x2="-45.72" y2="2.755" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="21"/>
-<wire x1="-45.97" y1="-8.085" x2="-45.97" y2="3.005" width="0.05" layer="39"/>
-<wire x1="-45.97" y1="3.005" x2="7.87" y2="3.005" width="0.05" layer="39"/>
-<wire x1="7.87" y1="3.005" x2="7.87" y2="-8.085" width="0.05" layer="39"/>
-<wire x1="7.87" y1="-8.085" x2="-45.97" y2="-8.085" width="0.05" layer="39"/>
-<text x="-46.72" y="4.005" size="1.27" layer="25">&gt;NAME</text>
-<text x="-46.72" y="-10.085" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="8.27" y="0" radius="0.1" width="0.2" layer="21"/>
-<circle x="8.27" y="0" radius="0.1" width="0.2" layer="51"/>
-<hole x="-43.74" y="-2.24" drill="2.79"/>
-<hole x="5.64" y="-2.24" drill="2.79"/>
-<pad name="A1" x="0" y="0" drill="1" diameter="1.35" shape="square"/>
-<pad name="A2" x="-2.54" y="0" drill="1" diameter="1.35"/>
-<pad name="A3" x="-5.08" y="0" drill="1" diameter="1.35"/>
-<pad name="A4" x="-7.62" y="0" drill="1" diameter="1.35"/>
-<pad name="A5" x="-10.16" y="0" drill="1" diameter="1.35"/>
-<pad name="A6" x="-12.7" y="0" drill="1" diameter="1.35"/>
-<pad name="A7" x="-15.24" y="0" drill="1" diameter="1.35"/>
-<pad name="A8" x="-17.78" y="0" drill="1" diameter="1.35"/>
-<pad name="A9" x="-20.32" y="0" drill="1" diameter="1.35"/>
-<pad name="A10" x="-22.86" y="0" drill="1" diameter="1.35"/>
-<pad name="A11" x="-25.4" y="0" drill="1" diameter="1.35"/>
-<pad name="A12" x="-27.94" y="0" drill="1" diameter="1.35"/>
-<pad name="A13" x="-30.48" y="0" drill="1" diameter="1.35"/>
-<pad name="A14" x="-33.02" y="0" drill="1" diameter="1.35"/>
-<pad name="A15" x="-35.56" y="0" drill="1" diameter="1.35"/>
-<pad name="A16" x="-38.1" y="0" drill="1" diameter="1.35"/>
-<pad name="B1" x="0" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B2" x="-2.54" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B3" x="-5.08" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B4" x="-7.62" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B5" x="-10.16" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B6" x="-12.7" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B7" x="-15.24" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B8" x="-17.78" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B9" x="-20.32" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B10" x="-22.86" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B11" x="-25.4" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B12" x="-27.94" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B13" x="-30.48" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B14" x="-33.02" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B15" x="-35.56" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B16" x="-38.1" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="C1" x="0" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C2" x="-2.54" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C3" x="-5.08" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C4" x="-7.62" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C5" x="-10.16" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C6" x="-12.7" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C7" x="-15.24" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C8" x="-17.78" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C9" x="-20.32" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C10" x="-22.86" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C11" x="-25.4" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C12" x="-27.94" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C13" x="-30.48" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C14" x="-33.02" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C15" x="-35.56" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C16" x="-38.1" y="-5.08" drill="1" diameter="1.35"/>
-</package>
-</packages>
-</library>
 <library name="con-dg55">
 <description>&lt;b&gt;&lt;font SIZE=4 FACE=ARIAL  color='#FF0505'&gt;D&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#F9050A'&gt;G&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#F4050F'&gt;5&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#EF0614'&gt;5&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#E9061A'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#E4071F'&gt;D&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#DF0724'&gt;E&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#D9082A'&gt;G&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#D4082F'&gt;S&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#CF0934'&gt;O&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#C9093A'&gt;N&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#C4093F'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#BF0A44'&gt;E&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#B90A4A'&gt;L&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#B40B4F'&gt;E&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#AF0B54'&gt;C&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#A90C5A'&gt;T&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#A40C5F'&gt;R&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#9F0D64'&gt;O&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#990D6A'&gt;N&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#940D6F'&gt;I&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#8F0E74'&gt;C&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#890E7A'&gt;S&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#840F7F'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#7F0F84'&gt;1&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#7A1089'&gt;0&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#74108F'&gt;m&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#6F1194'&gt;m&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#6A1199'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#64119F'&gt;P&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#5F12A4'&gt;l&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#5A12A9'&gt;a&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#5413AF'&gt;s&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#4F13B4'&gt;t&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#4A14B9'&gt;i&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#4414BF'&gt;c&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#3F15C4'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt; &lt;font SIZE=4 FACE=ARIAL  color='#3A15C9'&gt;C&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#3415CF'&gt;o&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#2F16D4'&gt;n&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#2A16D9'&gt;n&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#2417DF'&gt;e&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#1F17E4'&gt;c&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#1A18E9'&gt;t&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#1418EF'&gt;o&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#0F19F4'&gt;r&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#0A19F9'&gt;s&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;/b&gt;
 &lt;p&gt;
@@ -329,34 +254,6 @@
 <pad name="2" x="5" y="0" drill="1.8" diameter="3.6"/>
 <text x="-10" y="8.73" size="1.778" layer="25">&gt;name</text>
 <text x="-10" y="-8.73" size="1.778" layer="27" rot="R180" align="bottom-right">&gt;value</text>
-</package>
-</packages>
-</library>
-<library name="LM1084IS-5.0">
-<packages>
-<package name="TO254P1435X457-3N">
-<wire x1="-2.0574" y1="-4.318" x2="-3.0226" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="-3.0226" y1="-4.318" x2="-3.0226" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="-3.0226" y1="-10.033" x2="-2.0574" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="-2.0574" y1="-10.033" x2="-2.0574" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="0.4826" y1="-4.318" x2="-0.4826" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="-0.4826" y1="-4.318" x2="-0.4826" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="-0.4826" y1="-10.033" x2="0.4826" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="0.4826" y1="-10.033" x2="0.4826" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="3.0226" y1="-4.318" x2="2.0574" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="2.0574" y1="-4.318" x2="2.0574" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="2.0574" y1="-10.033" x2="3.0226" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="3.0226" y1="-10.033" x2="3.0226" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="-5.08" y1="-4.318" x2="5.08" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="5.08" y1="-4.318" x2="5.08" y2="4.318" width="0.1524" layer="51"/>
-<wire x1="5.08" y1="4.318" x2="-5.08" y2="4.318" width="0.1524" layer="51"/>
-<wire x1="-5.08" y1="4.318" x2="-5.08" y2="-4.318" width="0.1524" layer="51"/>
-<text x="-4.481609375" y="5.270990625" size="2.08801875" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.824690625" y="-12.7685" size="2.085690625" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<smd name="1" x="-2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
-<smd name="2" x="0" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
-<smd name="3" x="2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
-<smd name="4" x="0" y="0.1524" dx="10.16" dy="8.9408" layer="1"/>
 </package>
 </packages>
 </library>
@@ -875,6 +772,109 @@ chip tantalum</description>
 </package>
 </packages>
 </library>
+<library name="din41612_48_pin_backplane">
+<packages>
+<package name="HARTING_09232486825">
+<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="2.755" width="0.127" layer="51"/>
+<wire x1="-45.72" y1="2.755" x2="7.62" y2="2.755" width="0.127" layer="51"/>
+<wire x1="7.62" y1="2.755" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="51"/>
+<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="51"/>
+<wire x1="-45.72" y1="-7.835" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-7.835" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
+<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="2.755" width="0.127" layer="21"/>
+<wire x1="7.62" y1="2.755" x2="7.62" y2="-7.835" width="0.127" layer="21"/>
+<wire x1="7.62" y1="2.755" x2="-45.72" y2="2.755" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="21"/>
+<wire x1="-45.97" y1="-8.085" x2="-45.97" y2="3.005" width="0.05" layer="39"/>
+<wire x1="-45.97" y1="3.005" x2="7.87" y2="3.005" width="0.05" layer="39"/>
+<wire x1="7.87" y1="3.005" x2="7.87" y2="-8.085" width="0.05" layer="39"/>
+<wire x1="7.87" y1="-8.085" x2="-45.97" y2="-8.085" width="0.05" layer="39"/>
+<text x="-46.72" y="4.005" size="1.27" layer="25">&gt;NAME</text>
+<text x="-46.72" y="-10.085" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="8.27" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="8.27" y="0" radius="0.1" width="0.2" layer="51"/>
+<hole x="-43.74" y="-2.24" drill="2.79"/>
+<hole x="5.64" y="-2.24" drill="2.79"/>
+<pad name="A1" x="0" y="0" drill="1" diameter="1.35" shape="square"/>
+<pad name="A2" x="-2.54" y="0" drill="1" diameter="1.35"/>
+<pad name="A3" x="-5.08" y="0" drill="1" diameter="1.35"/>
+<pad name="A4" x="-7.62" y="0" drill="1" diameter="1.35"/>
+<pad name="A5" x="-10.16" y="0" drill="1" diameter="1.35"/>
+<pad name="A6" x="-12.7" y="0" drill="1" diameter="1.35"/>
+<pad name="A7" x="-15.24" y="0" drill="1" diameter="1.35"/>
+<pad name="A8" x="-17.78" y="0" drill="1" diameter="1.35"/>
+<pad name="A9" x="-20.32" y="0" drill="1" diameter="1.35"/>
+<pad name="A10" x="-22.86" y="0" drill="1" diameter="1.35"/>
+<pad name="A11" x="-25.4" y="0" drill="1" diameter="1.35"/>
+<pad name="A12" x="-27.94" y="0" drill="1" diameter="1.35"/>
+<pad name="A13" x="-30.48" y="0" drill="1" diameter="1.35"/>
+<pad name="A14" x="-33.02" y="0" drill="1" diameter="1.35"/>
+<pad name="A15" x="-35.56" y="0" drill="1" diameter="1.35"/>
+<pad name="A16" x="-38.1" y="0" drill="1" diameter="1.35"/>
+<pad name="B1" x="0" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B2" x="-2.54" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B3" x="-5.08" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B4" x="-7.62" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B5" x="-10.16" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B6" x="-12.7" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B7" x="-15.24" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B8" x="-17.78" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B9" x="-20.32" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B10" x="-22.86" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B11" x="-25.4" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B12" x="-27.94" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B13" x="-30.48" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B14" x="-33.02" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B15" x="-35.56" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B16" x="-38.1" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="C1" x="0" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C2" x="-2.54" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C3" x="-5.08" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C4" x="-7.62" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C5" x="-10.16" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C6" x="-12.7" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C7" x="-15.24" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C8" x="-17.78" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C9" x="-20.32" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C10" x="-22.86" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C11" x="-25.4" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C12" x="-27.94" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C13" x="-30.48" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C14" x="-33.02" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C15" x="-35.56" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C16" x="-38.1" y="-5.08" drill="1" diameter="1.35"/>
+</package>
+</packages>
+</library>
+<library name="LM1084IS">
+<packages>
+<package name="TO254P1435X457-3N">
+<wire x1="-2.0574" y1="-4.318" x2="-3.0226" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-4.318" x2="-3.0226" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-10.033" x2="-2.0574" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-10.033" x2="-2.0574" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-4.318" x2="-0.4826" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-4.318" x2="-0.4826" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-10.033" x2="0.4826" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-10.033" x2="0.4826" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-4.318" x2="2.0574" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-4.318" x2="2.0574" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-10.033" x2="3.0226" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-10.033" x2="3.0226" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="-4.318" x2="5.08" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="-4.318" x2="5.08" y2="4.318" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="4.318" x2="-5.08" y2="4.318" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="4.318" x2="-5.08" y2="-4.318" width="0.1524" layer="51"/>
+<text x="-4.481609375" y="5.270990625" size="2.08801875" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.824690625" y="-12.7685" size="2.085690625" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<smd name="1" x="-2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="2" x="0" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="3" x="2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="4" x="0" y="0.1524" dx="10.16" dy="8.9408" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1068,157 +1068,162 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="5535070-4" package="TE_5535070-4" value="5535070-4" x="25" y="59.05" smashed="yes" rot="R90">
+<element name="J1" library="din41612_48_pin_backplane" package="HARTING_09232486825" value="09232486825" x="25" y="59.05" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COMMENT" value="5535070-4" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COMMENT" value="09232486825" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole " x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="5535070-4" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="HARTING" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="09232486825" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="22.995" y="10.33" size="1.27" layer="25" rot="R90"/>
 <attribute name="NUMBER_OF_POSITIONS" value="48" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="None" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5535070-4/?ref=eda" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="7$" x="36.43" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447" x="25" y="59.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="35.085" y="12.33" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J2" library="5535070-4" package="TE_5535070-4" value="5535070-4" x="45.32" y="59.05" smashed="yes" rot="R90">
+<element name="J2" library="din41612_48_pin_backplane" package="HARTING_09232486825" value="09232486825" x="45.32" y="59.05" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COMMENT" value="5535070-4" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COMMENT" value="09232486825" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole " x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="5535070-4" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="HARTING" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="09232486825" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="43.315" y="10.33" size="1.27" layer="25" rot="R90"/>
 <attribute name="NUMBER_OF_POSITIONS" value="48" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="None" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5535070-4/?ref=eda" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="7$" x="73.26" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447" x="45.32" y="59.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="55.405" y="12.33" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J3" library="5535070-4" package="TE_5535070-4" value="5535070-4" x="65.64" y="59.05" smashed="yes" rot="R90">
+<element name="J3" library="din41612_48_pin_backplane" package="HARTING_09232486825" value="09232486825" x="65.64" y="59.05" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COMMENT" value="5535070-4" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COMMENT" value="09232486825" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole " x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="5535070-4" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="HARTING" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="09232486825" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="63.635" y="10.33" size="1.27" layer="25" rot="R90"/>
 <attribute name="NUMBER_OF_POSITIONS" value="48" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="None" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5535070-4/?ref=eda" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="7$" x="110.09" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447" x="65.64" y="59.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="75.725" y="12.33" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J4" library="5535070-4" package="TE_5535070-4" value="5535070-4" x="85.96" y="59.05" smashed="yes" rot="R90">
+<element name="J4" library="din41612_48_pin_backplane" package="HARTING_09232486825" value="09232486825" x="85.96" y="59.05" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COMMENT" value="5535070-4" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COMMENT" value="09232486825" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole " x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="5535070-4" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="HARTING" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="09232486825" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="83.955" y="10.33" size="1.27" layer="25" rot="R90"/>
 <attribute name="NUMBER_OF_POSITIONS" value="48" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="None" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5535070-4/?ref=eda" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="7$" x="146.92" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447" x="85.96" y="59.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="96.045" y="12.33" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J5" library="5535070-4" package="TE_5535070-4" value="5535070-4" x="106.28" y="59.05" smashed="yes" rot="R90">
+<element name="J5" library="din41612_48_pin_backplane" package="HARTING_09232486825" value="09232486825" x="106.28" y="59.05" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COMMENT" value="5535070-4" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COMMENT" value="09232486825" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole " x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="5535070-4" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="HARTING" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="09232486825" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="104.275" y="10.33" size="1.27" layer="25" rot="R90"/>
 <attribute name="NUMBER_OF_POSITIONS" value="48" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="None" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5535070-4/?ref=eda" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="7$" x="183.75" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447" x="106.28" y="59.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="116.365" y="12.33" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J6" library="5535070-4" package="TE_5535070-4" value="5535070-4" x="126.6" y="59.05" smashed="yes" rot="R90">
+<element name="J6" library="din41612_48_pin_backplane" package="HARTING_09232486825" value="09232486825" x="126.6" y="59.05" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COMMENT" value="5535070-4" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COMMENT" value="09232486825" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole " x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="5535070-4" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="HARTING" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="09232486825" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="124.595" y="10.33" size="1.27" layer="25" rot="R90"/>
 <attribute name="NUMBER_OF_POSITIONS" value="48" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="None" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5535070-4/?ref=eda" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="7$" x="220.58" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447" x="126.6" y="59.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="136.685" y="12.33" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J7" library="5535070-4" package="TE_5535070-4" value="5535070-4" x="146.92" y="59.05" smashed="yes" rot="R90">
+<element name="J7" library="din41612_48_pin_backplane" package="HARTING_09232486825" value="09232486825" x="146.92" y="59.05" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COMMENT" value="5535070-4" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COMMENT" value="09232486825" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole " x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="5535070-4" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="HARTING" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="09232486825" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="144.915" y="10.33" size="1.27" layer="25" rot="R90"/>
 <attribute name="NUMBER_OF_POSITIONS" value="48" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="None" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5535070-4/?ref=eda" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="7$" x="257.41" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447" x="146.92" y="59.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="157.005" y="12.33" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J8" library="5535070-4" package="TE_5535070-4" value="5535070-4" x="167.24" y="59.05" smashed="yes" rot="R90">
+<element name="J8" library="din41612_48_pin_backplane" package="HARTING_09232486825" value="09232486825" x="167.24" y="59.05" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COMMENT" value="5535070-4" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COMMENT" value="09232486825" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole " x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="5535070-4" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="HARTING" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="09232486825" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="165.235" y="10.33" size="1.27" layer="25" rot="R90"/>
 <attribute name="NUMBER_OF_POSITIONS" value="48" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="None" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5535070-4/?ref=eda" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="7$" x="294.24" y="80.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447" x="167.24" y="59.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="177.325" y="12.33" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="XS1" library="con-dg55" package="DG55CB-2P-1" value="" x="8" y="62" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.73" y="72" size="1.778" layer="25" rot="R270"/>
+<attribute name="PURCHASE_URL_DIGIKEY" value="" x="8" y="62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.73" y="72" size="1.778" layer="27" rot="R90" align="bottom-right"/>
 </element>
-<element name="U1" library="LM1084IS-5.0" package="TO254P1435X457-3N" value="LM1084IS-5.0" x="13" y="44" smashed="yes">
+<element name="U1" library="LM1084IS" package="TO254P1435X457-3N" value="LM1084IS-5.0" x="13" y="44" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="13" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" LDO Regulator Pos 5V 5A 4-Pin(3+Tab) TO-263 Tube " x="13" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Texas Instruments" x="13" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="LM1084IS-5.0" x="13" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="4.018390625" y="46.270990625" size="2.08801875" layer="25" ratio="10" rot="SR0"/>
 <attribute name="PACKAGE" value="TO-263 Texas Instruments" x="13" y="44" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="13" y="44" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM1084IS-5.0/?ref=eda" x="13" y="44" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="5$" x="13" y="44" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.digikey.ca/en/products/detail/texas-instruments/LM1084IS-5-0-NOPB/363552?s=N4IgTCBcDaIDIFkCMAGAHAFgJIGUC0ArAHQogC6AvkA" x="13" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.475309375" y="32.0315" size="2.085690625" layer="27" ratio="10" rot="SR90"/>
 </element>
 <element name="C1" library="rc-master-smd" package="C3216/T" value="10Uf" x="13" y="31.6" smashed="yes">
+<attribute name="CAPACITOR_TYPE" value="tantalum" x="13" y="31.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="10.614" y="29.57" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="16.714" y="30.822" size="0.6096" layer="27" ratio="10"/>
 </element>
 <element name="C2" library="rc-master-smd" package="C1206" value="10Uf" x="7" y="36" smashed="yes" rot="R90">
+<attribute name="CAPACITOR_TYPE" value="mlcc" x="7" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="6.476" y="38.714" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="9.032" y="33.714" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U2" library="LM1084IS-5.0" package="TO254P1435X457-3N" value="LM1084IS-3.3" x="13" y="24" smashed="yes">
+<element name="U2" library="LM1084IS" package="TO254P1435X457-3N" value="LM1084IS-3.3" x="13" y="24" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="-1" y="47" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" LDO Regulator Pos 5V 5A 4-Pin(3+Tab) TO-263 Tube " x="-1" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="LDO Regulator Pos 3.3V 5A 4-Pin(3+Tab) TO-263 Tube " x="-1" y="47" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Texas Instruments" x="-1" y="47" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="LM1084IS-5.0" x="-1" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="LM1084IS-3.3" x="-1" y="47" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="3.518390625" y="26.270990625" size="2.08801875" layer="25" ratio="10" rot="SR0"/>
 <attribute name="PACKAGE" value="TO-263 Texas Instruments" x="-1" y="47" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-1" y="47" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM1084IS-5.0/?ref=eda" x="-1" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="5$" x="-1" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.digikey.ca/en/products/detail/texas-instruments/LM1084IS-5-0-NOPB/363552?s=https://www.digikey.ca/en/products/detail/texas-instruments/LM1084IS-3-3-NOPB/363551?s=N4IgTCBcDaIDIFkCMAGAHAFgJIGUC0AzAHQEgC6AvkA" x="-1" y="47" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.575309375" y="12.5315" size="2.085690625" layer="27" ratio="10" rot="SR90"/>
 </element>
 <element name="C3" library="rc-master-smd" package="C3216/T" value="10Uf" x="13" y="11" smashed="yes">
+<attribute name="CAPACITOR_TYPE" value="tantalum" x="13" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="10.714" y="12.27" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="10.714" y="9.222" size="0.6096" layer="27" ratio="10"/>
 </element>
 <element name="C4" library="rc-master-smd" package="C1206" value="10Uf" x="7" y="16" smashed="yes" rot="R90">
+<attribute name="CAPACITOR_TYPE" value="mlcc" x="7" y="16" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.476" y="13.714" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="9.032" y="13.714" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -1239,6 +1244,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="192.9854" y="4.0698" locked="yes" size="1.27133125" layer="27"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X19" package3d_urn="urn:adsk.eagle:package:22492/2" value="" x="217.26" y="29.9" locked="yes" smashed="yes" rot="R90">
+<attribute name="COMPONENT" value="female header 1x19" x="217.26" y="29.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="215.4312" y="5.6938" locked="yes" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="1" x="217.26" y="29.9" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="220.435" y="5.77" locked="yes" size="1.27" layer="27" rot="R90"/>

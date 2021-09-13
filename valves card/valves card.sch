@@ -1925,91 +1925,6 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="m_transistor">
-<description>&lt;/h3&gt;Transistor&lt;/h3&gt;</description>
-<packages>
-<package name="TO-252">
-<wire x1="0.508" y1="3.556" x2="0.508" y2="3.048" width="0.127" layer="51"/>
-<wire x1="0.508" y1="3.048" x2="0.508" y2="1.524" width="0.127" layer="51"/>
-<wire x1="0.508" y1="1.524" x2="0.508" y2="0.508" width="0.127" layer="51"/>
-<wire x1="0.508" y1="0.508" x2="0.508" y2="-0.508" width="0.127" layer="51"/>
-<wire x1="0.508" y1="-0.508" x2="0.508" y2="-1.524" width="0.127" layer="51"/>
-<wire x1="0.508" y1="-1.524" x2="0.508" y2="-3.048" width="0.127" layer="51"/>
-<wire x1="0.508" y1="-3.048" x2="0.508" y2="-3.556" width="0.127" layer="51"/>
-<wire x1="0.508" y1="-3.048" x2="4.064" y2="-3.048" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.048" x2="4.064" y2="-1.524" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-1.524" x2="0.508" y2="-1.524" width="0.127" layer="51"/>
-<wire x1="0.508" y1="1.524" x2="4.064" y2="1.524" width="0.127" layer="51"/>
-<wire x1="4.064" y1="1.524" x2="4.064" y2="3.048" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.048" x2="0.508" y2="3.048" width="0.127" layer="51"/>
-<wire x1="0.508" y1="0.508" x2="1.016" y2="0.508" width="0.127" layer="51"/>
-<wire x1="1.016" y1="0.508" x2="1.016" y2="-0.508" width="0.127" layer="51"/>
-<wire x1="1.016" y1="-0.508" x2="0.508" y2="-0.508" width="0.127" layer="51"/>
-<wire x1="-5.334" y1="3.556" x2="-6.096" y2="2.794" width="0.127" layer="51"/>
-<wire x1="-6.096" y1="2.794" x2="-6.096" y2="-2.794" width="0.127" layer="51"/>
-<wire x1="-6.096" y1="-2.794" x2="-5.334" y2="-3.556" width="0.127" layer="51"/>
-<wire x1="0.508" y1="3.556" x2="-5.334" y2="3.556" width="0.127" layer="21"/>
-<wire x1="-5.334" y1="-3.556" x2="0.508" y2="-3.556" width="0.127" layer="21"/>
-<wire x1="4.826" y1="3.302" x2="0.508" y2="3.302" width="0.127" layer="39"/>
-<wire x1="0.508" y1="3.302" x2="0.508" y2="3.556" width="0.127" layer="39"/>
-<wire x1="0.508" y1="3.556" x2="-7.112" y2="3.556" width="0.127" layer="39"/>
-<wire x1="-7.112" y1="3.556" x2="-7.112" y2="-3.556" width="0.127" layer="39"/>
-<wire x1="-7.112" y1="-3.556" x2="0.508" y2="-3.556" width="0.127" layer="39"/>
-<wire x1="0.508" y1="-3.556" x2="0.508" y2="-3.302" width="0.127" layer="39"/>
-<wire x1="0.508" y1="-3.302" x2="4.826" y2="-3.302" width="0.127" layer="39"/>
-<wire x1="4.826" y1="-3.302" x2="4.826" y2="-1.27" width="0.127" layer="39"/>
-<wire x1="4.826" y1="-1.27" x2="1.524" y2="-1.27" width="0.127" layer="39"/>
-<wire x1="1.524" y1="-1.27" x2="1.524" y2="1.27" width="0.127" layer="39"/>
-<wire x1="1.524" y1="1.27" x2="4.826" y2="1.27" width="0.127" layer="39"/>
-<wire x1="4.826" y1="1.27" x2="4.826" y2="3.302" width="0.127" layer="39"/>
-<smd name="P$2" x="-3.5" y="0" dx="6.7" dy="6.7" layer="1"/>
-<smd name="P$3" x="3.1" y="2.3" dx="3" dy="1.6" layer="1"/>
-<smd name="P$1" x="3.1" y="-2.3" dx="3" dy="1.6" layer="1"/>
-<text x="-7" y="6.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-7" y="4.5" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="IGFET-EN-GDS">
-<wire x1="-2.54" y1="0" x2="-1.2192" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.762" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0" y1="3.683" x2="0" y2="1.397" width="0.254" layer="94"/>
-<wire x1="1.905" y1="0.635" x2="0.635" y2="0" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-0.635" x2="0.635" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.397" x2="0" y2="-3.683" width="0.254" layer="94"/>
-<wire x1="-1.143" y1="2.54" x2="-1.143" y2="-2.54" width="0.254" layer="94"/>
-<text x="-2.54" y="0.762" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<pin name="D" x="5.08" y="2.54" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="S" x="5.08" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="G" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="STD45NF75" prefix="Q" uservalue="yes">
-<description>&lt;b&gt;N-Channel 75V Power MOSFET&lt;/b&gt;&lt;br&gt;
-TO-252 DPAK</description>
-<gates>
-<gate name="G$1" symbol="IGFET-EN-GDS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO-252">
-<connects>
-<connect gate="G$1" pin="D" pad="P$2"/>
-<connect gate="G$1" pin="G" pad="P$1"/>
-<connect gate="G$1" pin="S" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TBP02R1-381-14BE">
 <packages>
 <package name="CUI_TBP02R1-381-14BE">
@@ -2507,6 +2422,110 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </deviceset>
 </devicesets>
 </library>
+<library name="BUK9214-30A,118">
+<description>Transistors, Fets...</description>
+<packages>
+<package name="DPAK_TO252">
+<wire x1="-5.805" y1="3.123" x2="0.395" y2="3.123" width="0.127" layer="21"/>
+<wire x1="0.395" y1="3.123" x2="0.395" y2="-3.377" width="0.127" layer="21"/>
+<wire x1="0.395" y1="-3.377" x2="-5.805" y2="-3.377" width="0.127" layer="21"/>
+<wire x1="-5.805" y1="-3.377" x2="-5.805" y2="3.123" width="0.127" layer="21"/>
+<smd name="2" x="-4.405" y="-0.127" dx="6.7" dy="6" layer="1" roundness="10" rot="R90"/>
+<smd name="1" x="2.295" y="-2.407" dx="1.6" dy="3" layer="1" roundness="10" rot="R90"/>
+<smd name="3" x="2.295" y="2.153" dx="1.6" dy="3" layer="1" roundness="10" rot="R90"/>
+<text x="-0.381" y="3.937" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="-5.08" y="3.937" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
+<rectangle x1="1.495" y1="-3.927" x2="2.295" y2="-0.927" layer="21" rot="R90"/>
+<rectangle x1="1.495" y1="0.673" x2="2.295" y2="3.673" layer="21" rot="R90"/>
+<rectangle x1="0.345" y1="-0.477" x2="1.145" y2="0.223" layer="21" rot="R270"/>
+<polygon width="0.127" layer="21">
+<vertex x="-5.805" y="-2.827"/>
+<vertex x="-6.505" y="-2.827"/>
+<vertex x="-7.005" y="-2.227"/>
+<vertex x="-7.005" y="1.973"/>
+<vertex x="-6.505" y="2.573"/>
+<vertex x="-5.805" y="2.573"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="MOSFET_N-CHN">
+<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="-1.778" y1="0.762" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="3.175" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-1.905" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.508" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="0.762" x2="1.778" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="0.508" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.508" x2="0.762" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="0.508" x2="0.508" y2="0.254" width="0.1524" layer="94"/>
+<circle x="0" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="2.54" radius="0.3592" width="0" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.27" y="0.508"/>
+<vertex x="0.762" y="-0.254"/>
+<vertex x="1.778" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.524" y="0"/>
+<vertex x="-0.508" y="0.762"/>
+<vertex x="-0.508" y="-0.762"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BUK9214-30A-118" prefix="T" uservalue="yes">
+<description>N-Channel MOSFET&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;SOT23 N-Chn MOSFET&lt;/u&gt;&lt;br&gt;
+TSM3404, IRLML2502 (Vgs&amp;gt;=+/-20V, Vds&amp;lt;=20V, Id&amp;gt;=3A + Rds&amp;lt;=0.05Ohm @ Vgs=4.5V)&lt;br&gt;
+BSS138  (Vgs&amp;gt;=+/-20V, Vds&amp;lt;=40V, Id&amp;gt;=0.2A + Rds&amp;lt;=3Ohm @ Vgs=4.5V)&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;SOT223 Low Side Switch with Protection (Infineon)&lt;/u&gt;&lt;br&gt;
+BSP76 (Vin=0...10V, Vds&amp;lt;=42V, Id=1.4A + Rds=0.2Ohm @ Vin=5V)&lt;br&gt;
+BSP77 (Vin=0...10V, Vds&amp;lt;=42V, Id=2.2A + Rds=0.1Ohm @ Vin=5V)&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;D²Pak Low Side Switch with Protection (Infineon)&lt;/u&gt;&lt;br&gt;
+BTS117TC (Vin=0...10V, Vds&amp;lt;=60V, Id=3.5A + Rds=0.12Ohm @ Vin=5V)&lt;br&gt;
+BTS133TC (Vin=0...10V, Vds&amp;lt;=60V, Id=7A + Rds=0.06Ohm @ Vin=5V)&lt;br&gt;
+BTS141TC (Vin=0...10V, Vds&amp;lt;=60V, Id=12A + Rds=0.03Ohm @ Vin=5V)&lt;br&gt;
+BTS3018TC (Vin=0...10V, Vds&amp;lt;=60V, Id=6A + Rds=0.02Ohm @ Vin=5V)&lt;br&gt;</description>
+<gates>
+<gate name="T" symbol="MOSFET_N-CHN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-DPAK" package="DPAK_TO252">
+<connects>
+<connect gate="T" pin="D" pad="2"/>
+<connect gate="T" pin="G" pad="1"/>
+<connect gate="T" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DEVICE" value="BUK9214-30A,118" constant="no"/>
+<attribute name="PACKAGE" value="DPAK" constant="no"/>
+<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2540,16 +2559,18 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="SparkFun-SAMD21-Mini-Breakout" deviceset="SAM_D21_MINI_BREAKOUT" device=""/>
-<part name="Q1" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q1" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="J2" library="TBP02R1-381-14BE" deviceset="TBP02R1-381-14BE" device=""/>
-<part name="U4" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
+<part name="U4" library="EL817C" deviceset="EL817C" device="" value="OR-815">
+<attribute name="MP" value="OR-815"/>
+</part>
 <part name="R7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q3" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q3" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="U6" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
 <part name="R13" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R14" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
@@ -2557,7 +2578,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q5" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q5" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="U8" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
 <part name="R19" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R20" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
@@ -2565,7 +2586,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R21" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q7" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q7" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="U10" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
 <part name="R25" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R26" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
@@ -2573,7 +2594,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R27" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q9" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q9" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="U12" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
 <part name="R31" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R32" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
@@ -2581,7 +2602,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R33" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q11" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q11" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="U14" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
 <part name="R37" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R38" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
@@ -2589,7 +2610,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R39" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q13" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q13" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="U16" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
 <part name="R43" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R44" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
@@ -2597,7 +2618,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R45" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q15" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q15" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="U18" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
 <part name="R49" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R50" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
@@ -2605,7 +2626,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R51" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q17" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q17" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="U20" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
 <part name="R55" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R56" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
@@ -2613,7 +2634,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND62" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND63" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R57" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q19" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q19" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="U22" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
 <part name="R61" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R62" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
@@ -2621,7 +2642,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND69" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R63" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q21" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q21" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="U24" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
 <part name="R67" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R68" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
@@ -2629,7 +2650,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R69" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="100"/>
-<part name="Q23" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
+<part name="Q23" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="P1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
 </parts>
@@ -2716,7 +2737,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="VALUE" x="259.08" y="-20.32" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="60.96" y="-30.48" smashed="yes"/>
-<instance part="Q1" gate="G$1" x="251.46" y="33.02" smashed="yes">
+<instance part="Q1" gate="T" x="251.46" y="33.02" smashed="yes">
 <attribute name="NAME" x="248.92" y="33.782" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="J2" gate="G$1" x="149.86" y="-15.24" smashed="yes">
@@ -2748,7 +2769,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="288.29" y="44.6786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="285.75" y="39.878" size="1.778" layer="96"/>
 </instance>
-<instance part="Q3" gate="G$1" x="345.44" y="33.02" smashed="yes">
+<instance part="Q3" gate="T" x="345.44" y="33.02" smashed="yes">
 <attribute name="NAME" x="342.9" y="33.782" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U6" gate="G$1" x="391.16" y="38.1" smashed="yes">
@@ -2776,7 +2797,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="369.57" y="44.6786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="367.03" y="39.878" size="1.778" layer="96"/>
 </instance>
-<instance part="Q5" gate="G$1" x="426.72" y="33.02" smashed="yes">
+<instance part="Q5" gate="T" x="426.72" y="33.02" smashed="yes">
 <attribute name="NAME" x="424.18" y="33.782" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U8" gate="G$1" x="218.44" y="99.06" smashed="yes">
@@ -2804,7 +2825,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="196.85" y="105.6386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="100.838" size="1.778" layer="96"/>
 </instance>
-<instance part="Q7" gate="G$1" x="254" y="93.98" smashed="yes">
+<instance part="Q7" gate="T" x="254" y="93.98" smashed="yes">
 <attribute name="NAME" x="251.46" y="94.742" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U10" gate="G$1" x="309.88" y="96.52" smashed="yes">
@@ -2832,7 +2853,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="288.29" y="103.0986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="285.75" y="98.298" size="1.778" layer="96"/>
 </instance>
-<instance part="Q9" gate="G$1" x="345.44" y="91.44" smashed="yes">
+<instance part="Q9" gate="T" x="345.44" y="91.44" smashed="yes">
 <attribute name="NAME" x="342.9" y="92.202" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U12" gate="G$1" x="391.16" y="96.52" smashed="yes">
@@ -2860,7 +2881,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="369.57" y="103.0986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="367.03" y="98.298" size="1.778" layer="96"/>
 </instance>
-<instance part="Q11" gate="G$1" x="426.72" y="91.44" smashed="yes">
+<instance part="Q11" gate="T" x="426.72" y="91.44" smashed="yes">
 <attribute name="NAME" x="424.18" y="92.202" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U14" gate="G$1" x="218.44" y="132.08" smashed="yes">
@@ -2888,7 +2909,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="196.85" y="138.6586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="133.858" size="1.778" layer="96"/>
 </instance>
-<instance part="Q13" gate="G$1" x="254" y="127" smashed="yes">
+<instance part="Q13" gate="T" x="254" y="127" smashed="yes">
 <attribute name="NAME" x="251.46" y="127.762" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U16" gate="G$1" x="307.34" y="132.08" smashed="yes">
@@ -2916,7 +2937,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="285.75" y="138.6586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="283.21" y="133.858" size="1.778" layer="96"/>
 </instance>
-<instance part="Q15" gate="G$1" x="342.9" y="127" smashed="yes">
+<instance part="Q15" gate="T" x="342.9" y="127" smashed="yes">
 <attribute name="NAME" x="340.36" y="127.762" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U18" gate="G$1" x="391.16" y="132.08" smashed="yes">
@@ -2944,7 +2965,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="369.57" y="138.6586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="367.03" y="133.858" size="1.778" layer="96"/>
 </instance>
-<instance part="Q17" gate="G$1" x="426.72" y="127" smashed="yes">
+<instance part="Q17" gate="T" x="426.72" y="127" smashed="yes">
 <attribute name="NAME" x="424.18" y="127.762" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U20" gate="G$1" x="218.44" y="162.56" smashed="yes">
@@ -2972,7 +2993,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="196.85" y="169.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="164.338" size="1.778" layer="96"/>
 </instance>
-<instance part="Q19" gate="G$1" x="254" y="157.48" smashed="yes">
+<instance part="Q19" gate="T" x="254" y="157.48" smashed="yes">
 <attribute name="NAME" x="251.46" y="158.242" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U22" gate="G$1" x="307.34" y="162.56" smashed="yes">
@@ -3000,7 +3021,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="285.75" y="169.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="283.21" y="164.338" size="1.778" layer="96"/>
 </instance>
-<instance part="Q21" gate="G$1" x="342.9" y="157.48" smashed="yes">
+<instance part="Q21" gate="T" x="342.9" y="157.48" smashed="yes">
 <attribute name="NAME" x="340.36" y="158.242" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="U24" gate="G$1" x="391.16" y="162.56" smashed="yes">
@@ -3028,7 +3049,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="369.57" y="169.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="367.03" y="164.338" size="1.778" layer="96"/>
 </instance>
-<instance part="Q23" gate="G$1" x="426.72" y="157.48" smashed="yes">
+<instance part="Q23" gate="T" x="426.72" y="157.48" smashed="yes">
 <attribute name="NAME" x="424.18" y="158.242" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="P1" gate="G$1" x="129.54" y="17.78" smashed="yes" rot="R270">
@@ -3109,8 +3130,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <wire x1="261.62" y1="-15.24" x2="261.62" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="256.54" y1="30.48" x2="259.08" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="T" pin="S"/>
+<wire x1="251.46" y1="27.94" x2="259.08" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="259.08" y1="30.48" x2="259.08" y2="27.94" width="0.1524" layer="91"/>
 </segment>
@@ -3121,8 +3142,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<wire x1="350.52" y1="30.48" x2="353.06" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="T" pin="S"/>
+<wire x1="345.44" y1="27.94" x2="353.06" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="353.06" y1="30.48" x2="353.06" y2="27.94" width="0.1524" layer="91"/>
 </segment>
@@ -3133,8 +3154,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="G$1" pin="S"/>
-<wire x1="431.8" y1="30.48" x2="434.34" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="T" pin="S"/>
+<wire x1="426.72" y1="27.94" x2="434.34" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="434.34" y1="30.48" x2="434.34" y2="27.94" width="0.1524" layer="91"/>
 </segment>
@@ -3145,8 +3166,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q7" gate="G$1" pin="S"/>
-<wire x1="259.08" y1="91.44" x2="261.62" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="Q7" gate="T" pin="S"/>
+<wire x1="254" y1="88.9" x2="261.62" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="261.62" y1="91.44" x2="261.62" y2="88.9" width="0.1524" layer="91"/>
 </segment>
@@ -3157,8 +3178,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND33" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q9" gate="G$1" pin="S"/>
-<wire x1="350.52" y1="88.9" x2="353.06" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="Q9" gate="T" pin="S"/>
+<wire x1="345.44" y1="86.36" x2="353.06" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="353.06" y1="88.9" x2="353.06" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -3169,8 +3190,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q11" gate="G$1" pin="S"/>
-<wire x1="431.8" y1="88.9" x2="434.34" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="Q11" gate="T" pin="S"/>
+<wire x1="426.72" y1="86.36" x2="434.34" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 <wire x1="434.34" y1="88.9" x2="434.34" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -3181,8 +3202,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND45" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q13" gate="G$1" pin="S"/>
-<wire x1="259.08" y1="124.46" x2="261.62" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="Q13" gate="T" pin="S"/>
+<wire x1="254" y1="121.92" x2="261.62" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="GND44" gate="1" pin="GND"/>
 <wire x1="261.62" y1="124.46" x2="261.62" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -3193,8 +3214,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND51" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q15" gate="G$1" pin="S"/>
-<wire x1="347.98" y1="124.46" x2="350.52" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="Q15" gate="T" pin="S"/>
+<wire x1="342.9" y1="121.92" x2="350.52" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="GND50" gate="1" pin="GND"/>
 <wire x1="350.52" y1="124.46" x2="350.52" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -3205,8 +3226,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND57" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q17" gate="G$1" pin="S"/>
-<wire x1="431.8" y1="124.46" x2="434.34" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="Q17" gate="T" pin="S"/>
+<wire x1="426.72" y1="121.92" x2="434.34" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="GND56" gate="1" pin="GND"/>
 <wire x1="434.34" y1="124.46" x2="434.34" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -3217,8 +3238,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND63" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q19" gate="G$1" pin="S"/>
-<wire x1="259.08" y1="154.94" x2="261.62" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="Q19" gate="T" pin="S"/>
+<wire x1="254" y1="152.4" x2="261.62" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND62" gate="1" pin="GND"/>
 <wire x1="261.62" y1="154.94" x2="261.62" y2="152.4" width="0.1524" layer="91"/>
 </segment>
@@ -3229,8 +3250,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND69" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q21" gate="G$1" pin="S"/>
-<wire x1="347.98" y1="154.94" x2="350.52" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="Q21" gate="T" pin="S"/>
+<wire x1="342.9" y1="152.4" x2="350.52" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND68" gate="1" pin="GND"/>
 <wire x1="350.52" y1="154.94" x2="350.52" y2="152.4" width="0.1524" layer="91"/>
 </segment>
@@ -3241,8 +3262,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="GND75" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q23" gate="G$1" pin="S"/>
-<wire x1="431.8" y1="154.94" x2="434.34" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="Q23" gate="T" pin="S"/>
+<wire x1="426.72" y1="152.4" x2="434.34" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND74" gate="1" pin="GND"/>
 <wire x1="434.34" y1="154.94" x2="434.34" y2="152.4" width="0.1524" layer="91"/>
 </segment>
@@ -3353,6 +3374,11 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="J1" gate="G$1" pin="38"/>
 <wire x1="15.24" y1="33.02" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
 <label x="10.16" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="101.6" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<label x="109.22" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -3639,8 +3665,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<junction x="246.38" y="33.02"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
+<junction x="246.38" y="30.48"/>
+<pinref part="Q1" gate="T" pin="G"/>
+<wire x1="246.38" y1="33.02" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -3673,8 +3700,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN2" class="0">
 <segment>
-<pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="350.52" y1="35.56" x2="358.14" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="T" pin="D"/>
+<wire x1="345.44" y1="38.1" x2="358.14" y2="35.56" width="0.1524" layer="91"/>
 <label x="350.52" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3685,8 +3712,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN3" class="0">
 <segment>
-<pinref part="Q5" gate="G$1" pin="D"/>
-<wire x1="431.8" y1="35.56" x2="439.42" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="T" pin="D"/>
+<wire x1="426.72" y1="38.1" x2="439.42" y2="35.56" width="0.1524" layer="91"/>
 <label x="431.8" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3697,8 +3724,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN4" class="0">
 <segment>
-<pinref part="Q7" gate="G$1" pin="D"/>
-<wire x1="259.08" y1="96.52" x2="266.7" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="Q7" gate="T" pin="D"/>
+<wire x1="254" y1="99.06" x2="266.7" y2="96.52" width="0.1524" layer="91"/>
 <label x="259.08" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3709,8 +3736,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN5" class="0">
 <segment>
-<pinref part="Q9" gate="G$1" pin="D"/>
-<wire x1="350.52" y1="93.98" x2="358.14" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="Q9" gate="T" pin="D"/>
+<wire x1="345.44" y1="96.52" x2="358.14" y2="93.98" width="0.1524" layer="91"/>
 <label x="350.52" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3721,8 +3748,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN6" class="0">
 <segment>
-<pinref part="Q11" gate="G$1" pin="D"/>
-<wire x1="431.8" y1="93.98" x2="439.42" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="Q11" gate="T" pin="D"/>
+<wire x1="426.72" y1="96.52" x2="439.42" y2="93.98" width="0.1524" layer="91"/>
 <label x="431.8" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3733,8 +3760,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN7" class="0">
 <segment>
-<pinref part="Q13" gate="G$1" pin="D"/>
-<wire x1="259.08" y1="129.54" x2="266.7" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="Q13" gate="T" pin="D"/>
+<wire x1="254" y1="132.08" x2="266.7" y2="129.54" width="0.1524" layer="91"/>
 <label x="259.08" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3745,8 +3772,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN8" class="0">
 <segment>
-<pinref part="Q15" gate="G$1" pin="D"/>
-<wire x1="347.98" y1="129.54" x2="355.6" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="Q15" gate="T" pin="D"/>
+<wire x1="342.9" y1="132.08" x2="355.6" y2="129.54" width="0.1524" layer="91"/>
 <label x="347.98" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3757,8 +3784,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN9" class="0">
 <segment>
-<pinref part="Q17" gate="G$1" pin="D"/>
-<wire x1="431.8" y1="129.54" x2="439.42" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="Q17" gate="T" pin="D"/>
+<wire x1="426.72" y1="132.08" x2="439.42" y2="129.54" width="0.1524" layer="91"/>
 <label x="431.8" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3769,8 +3796,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN10" class="0">
 <segment>
-<pinref part="Q19" gate="G$1" pin="D"/>
-<wire x1="259.08" y1="160.02" x2="266.7" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="Q19" gate="T" pin="D"/>
+<wire x1="254" y1="162.56" x2="266.7" y2="160.02" width="0.1524" layer="91"/>
 <label x="259.08" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3781,8 +3808,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN12" class="0">
 <segment>
-<pinref part="Q23" gate="G$1" pin="D"/>
-<wire x1="431.8" y1="160.02" x2="439.42" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="Q23" gate="T" pin="D"/>
+<wire x1="426.72" y1="162.56" x2="439.42" y2="160.02" width="0.1524" layer="91"/>
 <label x="431.8" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3793,8 +3820,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN11" class="0">
 <segment>
-<pinref part="Q21" gate="G$1" pin="D"/>
-<wire x1="347.98" y1="160.02" x2="355.6" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="Q21" gate="T" pin="D"/>
+<wire x1="342.9" y1="162.56" x2="355.6" y2="160.02" width="0.1524" layer="91"/>
 <label x="347.98" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3805,8 +3832,8 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="DRAIN1" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="256.54" y1="35.56" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="T" pin="D"/>
+<wire x1="251.46" y1="38.1" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
 <label x="256.54" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3819,8 +3846,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<junction x="340.36" y="33.02"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
+<junction x="340.36" y="30.48"/>
+<pinref part="Q3" gate="T" pin="G"/>
+<wire x1="340.36" y1="33.02" x2="340.36" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -3855,8 +3883,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<junction x="421.64" y="33.02"/>
-<pinref part="Q5" gate="G$1" pin="G"/>
+<junction x="421.64" y="30.48"/>
+<pinref part="Q5" gate="T" pin="G"/>
+<wire x1="421.64" y1="33.02" x2="421.64" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -3891,8 +3920,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<junction x="248.92" y="93.98"/>
-<pinref part="Q7" gate="G$1" pin="G"/>
+<junction x="248.92" y="91.44"/>
+<pinref part="Q7" gate="T" pin="G"/>
+<wire x1="248.92" y1="93.98" x2="248.92" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -3927,8 +3957,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<junction x="340.36" y="91.44"/>
-<pinref part="Q9" gate="G$1" pin="G"/>
+<junction x="340.36" y="88.9"/>
+<pinref part="Q9" gate="T" pin="G"/>
+<wire x1="340.36" y1="91.44" x2="340.36" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -3963,8 +3994,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
 <pinref part="R32" gate="G$1" pin="2"/>
-<junction x="421.64" y="91.44"/>
-<pinref part="Q11" gate="G$1" pin="G"/>
+<junction x="421.64" y="88.9"/>
+<pinref part="Q11" gate="T" pin="G"/>
+<wire x1="421.64" y1="91.44" x2="421.64" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -3999,8 +4031,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R37" gate="G$1" pin="2"/>
 <pinref part="R38" gate="G$1" pin="2"/>
-<junction x="248.92" y="127"/>
-<pinref part="Q13" gate="G$1" pin="G"/>
+<junction x="248.92" y="124.46"/>
+<pinref part="Q13" gate="T" pin="G"/>
+<wire x1="248.92" y1="127" x2="248.92" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -4035,8 +4068,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
 <pinref part="R44" gate="G$1" pin="2"/>
-<junction x="337.82" y="127"/>
-<pinref part="Q15" gate="G$1" pin="G"/>
+<junction x="337.82" y="124.46"/>
+<pinref part="Q15" gate="T" pin="G"/>
+<wire x1="337.82" y1="127" x2="337.82" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -4071,8 +4105,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R49" gate="G$1" pin="2"/>
 <pinref part="R50" gate="G$1" pin="2"/>
-<junction x="421.64" y="127"/>
-<pinref part="Q17" gate="G$1" pin="G"/>
+<junction x="421.64" y="124.46"/>
+<pinref part="Q17" gate="T" pin="G"/>
+<wire x1="421.64" y1="127" x2="421.64" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -4107,8 +4142,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R55" gate="G$1" pin="2"/>
 <pinref part="R56" gate="G$1" pin="2"/>
-<junction x="248.92" y="157.48"/>
-<pinref part="Q19" gate="G$1" pin="G"/>
+<junction x="248.92" y="154.94"/>
+<pinref part="Q19" gate="T" pin="G"/>
+<wire x1="248.92" y1="157.48" x2="248.92" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -4143,8 +4179,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R61" gate="G$1" pin="2"/>
 <pinref part="R62" gate="G$1" pin="2"/>
-<junction x="337.82" y="157.48"/>
-<pinref part="Q21" gate="G$1" pin="G"/>
+<junction x="337.82" y="154.94"/>
+<pinref part="Q21" gate="T" pin="G"/>
+<wire x1="337.82" y1="157.48" x2="337.82" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$70" class="0">
@@ -4179,8 +4216,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="R67" gate="G$1" pin="2"/>
 <pinref part="R68" gate="G$1" pin="2"/>
-<junction x="421.64" y="157.48"/>
-<pinref part="Q23" gate="G$1" pin="G"/>
+<junction x="421.64" y="154.94"/>
+<pinref part="Q23" gate="T" pin="G"/>
+<wire x1="421.64" y1="157.48" x2="421.64" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$76" class="0">

@@ -152,108 +152,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="high power stepper driver 36V4">
-<packages>
-<package name="BREAKOUT_BOARD">
-<wire x1="0" y1="0" x2="0" y2="30.5" width="0.127" layer="21"/>
-<wire x1="0" y1="30.5" x2="33" y2="30.5" width="0.127" layer="21"/>
-<wire x1="33" y1="30.5" x2="33" y2="0" width="0.127" layer="21"/>
-<wire x1="33" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="V5(OUT)" x="31.75" y="1.3" drill="1.2"/>
-<pad name="IOREF" x="31.75" y="3.84" drill="1.2"/>
-<pad name="GND" x="31.75" y="6.38" drill="1.2"/>
-<pad name="STEP" x="31.75" y="8.92" drill="1.2"/>
-<pad name="DIR" x="31.75" y="11.46" drill="1.2"/>
-<pad name="MISO" x="31.75" y="14" drill="1.2"/>
-<pad name="MOSI" x="31.75" y="16.54" drill="1.2"/>
-<pad name="SCLK" x="31.75" y="19.08" drill="1.2"/>
-<pad name="SCS" x="31.75" y="21.62" drill="1.2"/>
-<pad name="SLEEP" x="31.75" y="24.16" drill="1.2"/>
-<pad name="RESET" x="31.75" y="26.7" drill="1.2"/>
-<pad name="FAULT" x="31.75" y="29.24" drill="1.2"/>
-<pad name="BOUT2" x="1.27" y="6.35" drill="1.2"/>
-<pad name="BOUT1" x="1.27" y="8.89" drill="1.2"/>
-<pad name="AOUT2" x="1.27" y="11.43" drill="1.2"/>
-<pad name="AOUT1" x="1.27" y="13.97" drill="1.2"/>
-<pad name="GND_3" x="1.27" y="16.51" drill="1.2"/>
-<pad name="GND_2" x="1.27" y="19.05" drill="1.2"/>
-<pad name="VIN_2" x="1.27" y="21.59" drill="1.2"/>
-<pad name="VIN" x="1.27" y="24.13" drill="1.2"/>
-<pad name="BIN1" x="26.22" y="29.24" drill="1.2"/>
-<pad name="BIN2" x="23.68" y="29.24" drill="1.2"/>
-<pad name="STALL" x="21.14" y="29.24" drill="1.2"/>
-<pad name="BEMF" x="18.6" y="29.24" drill="1.2"/>
-<wire x1="2.254" y1="24.127" x2="2.254" y2="21.727" width="0.127" layer="21"/>
-<wire x1="2.381" y1="19.127" x2="2.381" y2="16.527" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BOARD">
-<wire x1="0" y1="-25.4" x2="20.32" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-25.4" x2="20.32" y2="40.64" width="0.254" layer="94"/>
-<wire x1="20.32" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
-<wire x1="0" y1="40.64" x2="0" y2="-25.4" width="0.254" layer="94"/>
-<pin name="AOUT1" x="-5.08" y="38.1" length="middle"/>
-<pin name="AOUT2" x="-5.08" y="35.56" length="middle"/>
-<pin name="BOUT1" x="-5.08" y="33.02" length="middle"/>
-<pin name="BOUT2" x="-5.08" y="30.48" length="middle"/>
-<pin name="POWER_(8-50V)" x="-5.08" y="25.4" length="middle"/>
-<pin name="5V" x="-5.08" y="22.86" length="middle"/>
-<pin name="GND" x="-5.08" y="20.32" length="middle"/>
-<pin name="MOSI" x="-5.08" y="15.24" length="middle"/>
-<pin name="MISO" x="-5.08" y="12.7" length="middle"/>
-<pin name="SCLK" x="-5.08" y="10.16" length="middle"/>
-<pin name="CS" x="-5.08" y="7.62" length="middle"/>
-<pin name="IOREF" x="-5.08" y="-5.08" length="middle"/>
-<pin name="RESET" x="-5.08" y="-7.62" length="middle"/>
-<pin name="SLEEP" x="-5.08" y="-10.16" length="middle"/>
-<pin name="FAULT" x="-5.08" y="-12.7" length="middle"/>
-<pin name="BIN1" x="-5.08" y="-15.24" length="middle"/>
-<pin name="BIN2" x="-5.08" y="-17.78" length="middle"/>
-<pin name="BEMF" x="-5.08" y="-22.86" length="middle"/>
-<pin name="STALL" x="-5.08" y="-20.32" length="middle"/>
-<pin name="STEP" x="-5.08" y="2.54" length="middle"/>
-<pin name="DIR" x="-5.08" y="0" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4">
-<gates>
-<gate name="G$1" symbol="BOARD" x="0" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="BREAKOUT_BOARD">
-<connects>
-<connect gate="G$1" pin="5V" pad="V5(OUT)"/>
-<connect gate="G$1" pin="AOUT1" pad="AOUT1"/>
-<connect gate="G$1" pin="AOUT2" pad="AOUT2"/>
-<connect gate="G$1" pin="BEMF" pad="BEMF"/>
-<connect gate="G$1" pin="BIN1" pad="BIN1"/>
-<connect gate="G$1" pin="BIN2" pad="BIN2"/>
-<connect gate="G$1" pin="BOUT1" pad="BOUT1"/>
-<connect gate="G$1" pin="BOUT2" pad="BOUT2"/>
-<connect gate="G$1" pin="CS" pad="SCS"/>
-<connect gate="G$1" pin="DIR" pad="DIR"/>
-<connect gate="G$1" pin="FAULT" pad="FAULT"/>
-<connect gate="G$1" pin="GND" pad="GND GND_2 GND_3"/>
-<connect gate="G$1" pin="IOREF" pad="IOREF"/>
-<connect gate="G$1" pin="MISO" pad="MISO"/>
-<connect gate="G$1" pin="MOSI" pad="MOSI"/>
-<connect gate="G$1" pin="POWER_(8-50V)" pad="VIN VIN_2"/>
-<connect gate="G$1" pin="RESET" pad="RESET"/>
-<connect gate="G$1" pin="SCLK" pad="SCLK"/>
-<connect gate="G$1" pin="SLEEP" pad="SLEEP"/>
-<connect gate="G$1" pin="STALL" pad="STALL"/>
-<connect gate="G$1" pin="STEP" pad="STEP"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-SAMD21-Mini-Breakout">
 <packages>
 <package name="JP1_SPARKFUN-SAMD21-MINI-BREAKOUT-V10">
@@ -282,8 +180,6 @@
 <pad name="10@JP2" x="16.51" y="6.35" drill="1.016" diameter="1.8796"/>
 <pad name="11@JP2" x="16.51" y="3.81" drill="1.016" diameter="1.8796"/>
 <pad name="12@JP2" x="16.51" y="1.27" drill="1.016" diameter="1.8796"/>
-<hole x="10.79" y="28.915" drill="0.85"/>
-<hole x="6.99" y="28.915" drill="0.85"/>
 <wire x1="12.79" y1="33.392" x2="4.99" y2="33.392" width="0.127" layer="49"/>
 <wire x1="12.79" y1="28.392" x2="4.99" y2="28.392" width="0.127" layer="49"/>
 <wire x1="12.79" y1="28.392" x2="12.79" y2="33.392" width="0.127" layer="49"/>
@@ -297,17 +193,8 @@
 <wire x1="4.89" y1="32.115" x2="4.89" y2="33.115" width="0.3048" layer="21"/>
 <pad name="1@JP4" x="13.589" y="17.907" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="2@JP4" x="13.589" y="20.447" drill="1.016" diameter="1.8796" rot="R180"/>
-<wire x1="12.065" y1="6.387" x2="5.715" y2="6.387" width="0.127" layer="51"/>
-<wire x1="5.715" y1="6.387" x2="5.715" y2="2.957" width="0.127" layer="51"/>
-<wire x1="5.715" y1="2.957" x2="12.065" y2="2.957" width="0.127" layer="51"/>
-<wire x1="12.065" y1="2.957" x2="12.065" y2="6.387" width="0.127" layer="51"/>
-<wire x1="10.99" y1="-0.003" x2="10.99" y2="2.797" width="0.127" layer="51"/>
-<wire x1="6.79" y1="2.797" x2="6.79" y2="-0.003" width="0.127" layer="51"/>
 <wire x1="10.99" y1="-0.003" x2="6.79" y2="-0.003" width="0.127" layer="51"/>
-<wire x1="10.99" y1="2.797" x2="6.79" y2="2.797" width="0.127" layer="51"/>
-<wire x1="7.552" y1="2.797" x2="10.228" y2="2.797" width="0.2032" layer="21"/>
 <wire x1="10.228" y1="-0.003" x2="7.552" y2="-0.003" width="0.2032" layer="21"/>
-<circle x="8.89" y="1.397" radius="0.805" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="33.02" width="0.2032" layer="21"/>
 <wire x1="0" y1="33.02" x2="17.78" y2="33.02" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.2032" layer="21"/>
@@ -386,7 +273,10 @@
 <connect gate="G$1" pin="VIN" pad="1@JP2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-13664/5766914?s=N4IgTCBcDaIM4EMC2ATMBGABEglgOx0wCMAnAUwQGsB7AVwBcQBdAXyA" constant="no"/>
+<attribute name="PURCHASE_URL_SPARKFUN" value="https://www.sparkfun.com/products/13664" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1218,6 +1108,110 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </deviceset>
 </devicesets>
 </library>
+<library name="high_power_stepper_driver_36V4">
+<packages>
+<package name="BREAKOUT_BOARD">
+<wire x1="0" y1="0" x2="0" y2="30.5" width="0.127" layer="21"/>
+<wire x1="0" y1="30.5" x2="33" y2="30.5" width="0.127" layer="21"/>
+<wire x1="33" y1="30.5" x2="33" y2="0" width="0.127" layer="21"/>
+<wire x1="33" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="V5(OUT)" x="31.75" y="1.3" drill="1.2"/>
+<pad name="IOREF" x="31.75" y="3.84" drill="1.2"/>
+<pad name="GND" x="31.75" y="6.38" drill="1.2"/>
+<pad name="STEP" x="31.75" y="8.92" drill="1.2"/>
+<pad name="DIR" x="31.75" y="11.46" drill="1.2"/>
+<pad name="MISO" x="31.75" y="14" drill="1.2"/>
+<pad name="MOSI" x="31.75" y="16.54" drill="1.2"/>
+<pad name="SCLK" x="31.75" y="19.08" drill="1.2"/>
+<pad name="SCS" x="31.75" y="21.62" drill="1.2"/>
+<pad name="SLEEP" x="31.75" y="24.16" drill="1.2"/>
+<pad name="RESET" x="31.75" y="26.7" drill="1.2"/>
+<pad name="FAULT" x="31.75" y="29.24" drill="1.2"/>
+<pad name="BOUT2" x="1.27" y="6.35" drill="1.2"/>
+<pad name="BOUT1" x="1.27" y="8.89" drill="1.2"/>
+<pad name="AOUT2" x="1.27" y="11.43" drill="1.2"/>
+<pad name="AOUT1" x="1.27" y="13.97" drill="1.2"/>
+<pad name="GND_3" x="1.27" y="16.51" drill="1.2"/>
+<pad name="GND_2" x="1.27" y="19.05" drill="1.2"/>
+<pad name="VIN_2" x="1.27" y="21.59" drill="1.2"/>
+<pad name="VIN" x="1.27" y="24.13" drill="1.2"/>
+<pad name="BIN1" x="26.22" y="29.24" drill="1.2"/>
+<pad name="BIN2" x="23.68" y="29.24" drill="1.2"/>
+<pad name="STALL" x="21.14" y="29.24" drill="1.2"/>
+<pad name="BEMF" x="18.6" y="29.24" drill="1.2"/>
+<wire x1="2.254" y1="24.127" x2="2.254" y2="21.727" width="0.127" layer="21"/>
+<wire x1="2.381" y1="19.127" x2="2.381" y2="16.527" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BOARD">
+<wire x1="0" y1="-25.4" x2="20.32" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-25.4" x2="20.32" y2="40.64" width="0.254" layer="94"/>
+<wire x1="20.32" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
+<wire x1="0" y1="40.64" x2="0" y2="-25.4" width="0.254" layer="94"/>
+<pin name="AOUT1" x="-5.08" y="38.1" length="middle"/>
+<pin name="AOUT2" x="-5.08" y="35.56" length="middle"/>
+<pin name="BOUT1" x="-5.08" y="33.02" length="middle"/>
+<pin name="BOUT2" x="-5.08" y="30.48" length="middle"/>
+<pin name="POWER_(8-50V)" x="-5.08" y="25.4" length="middle"/>
+<pin name="5V" x="-5.08" y="22.86" length="middle"/>
+<pin name="GND" x="-5.08" y="20.32" length="middle"/>
+<pin name="MOSI" x="-5.08" y="15.24" length="middle"/>
+<pin name="MISO" x="-5.08" y="12.7" length="middle"/>
+<pin name="SCLK" x="-5.08" y="10.16" length="middle"/>
+<pin name="CS" x="-5.08" y="7.62" length="middle"/>
+<pin name="IOREF" x="-5.08" y="-5.08" length="middle"/>
+<pin name="RESET" x="-5.08" y="-7.62" length="middle"/>
+<pin name="SLEEP" x="-5.08" y="-10.16" length="middle"/>
+<pin name="FAULT" x="-5.08" y="-12.7" length="middle"/>
+<pin name="BIN1" x="-5.08" y="-15.24" length="middle"/>
+<pin name="BIN2" x="-5.08" y="-17.78" length="middle"/>
+<pin name="BEMF" x="-5.08" y="-22.86" length="middle"/>
+<pin name="STALL" x="-5.08" y="-20.32" length="middle"/>
+<pin name="STEP" x="-5.08" y="2.54" length="middle"/>
+<pin name="DIR" x="-5.08" y="0" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4">
+<gates>
+<gate name="G$1" symbol="BOARD" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="BREAKOUT_BOARD">
+<connects>
+<connect gate="G$1" pin="5V" pad="V5(OUT)"/>
+<connect gate="G$1" pin="AOUT1" pad="AOUT1"/>
+<connect gate="G$1" pin="AOUT2" pad="AOUT2"/>
+<connect gate="G$1" pin="BEMF" pad="BEMF"/>
+<connect gate="G$1" pin="BIN1" pad="BIN1"/>
+<connect gate="G$1" pin="BIN2" pad="BIN2"/>
+<connect gate="G$1" pin="BOUT1" pad="BOUT1"/>
+<connect gate="G$1" pin="BOUT2" pad="BOUT2"/>
+<connect gate="G$1" pin="CS" pad="SCS"/>
+<connect gate="G$1" pin="DIR" pad="DIR"/>
+<connect gate="G$1" pin="FAULT" pad="FAULT"/>
+<connect gate="G$1" pin="GND" pad="GND GND_2 GND_3"/>
+<connect gate="G$1" pin="IOREF" pad="IOREF"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="POWER_(8-50V)" pad="VIN VIN_2"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="SLEEP" pad="SLEEP"/>
+<connect gate="G$1" pin="STALL" pad="STALL"/>
+<connect gate="G$1" pin="STEP" pad="STEP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PURCHASE_URL_POLOLU" value="https://www.pololu.com/product/3730/resources" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1236,10 +1230,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="high power stepper driver 36V4" deviceset="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4" device=""/>
+<part name="U$1" library="high_power_stepper_driver_36V4" deviceset="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4" device=""/>
 <part name="U$3" library="SparkFun-SAMD21-Mini-Breakout" deviceset="SAM_D21_MINI_BREAKOUT" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$2" library="high power stepper driver 36V4" deviceset="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4" device=""/>
+<part name="U$2" library="high_power_stepper_driver_36V4" deviceset="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4" device=""/>
 <part name="J2" library="TBP02R1-381-07BE" deviceset="TBP02R1-381-07BE" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

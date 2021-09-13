@@ -1442,7 +1442,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="SCCDRRV100MDSA3" deviceset="SCCDRRV100MDSA3" device="SSCDRRV100MDSA3" package3d_urn="urn:adsk.eagle:package:23793141/1"/>
+<part name="U$1" library="SCCDRRV100MDSA3" deviceset="SCCDRRV100MDSA3" device="SSCDRRV100MDSA3" package3d_urn="urn:adsk.eagle:package:23793141/1" value="SSCDRRV100MDSA3"/>
 <part name="U$2" library="MCP346XRT-E:ST" deviceset="MCP346X-E/ST" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1453,9 +1453,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="U$3" library="SCCDRRV100MDSA3" deviceset="SCCDRRV100MDSA3" device="SSCDRRV100MDSA3" package3d_urn="urn:adsk.eagle:package:23793141/1"/>
-<part name="U$4" library="SCCDRRV100MDSA3" deviceset="SCCDRRV100MDSA3" device="SSCDRRV100MDSA3" package3d_urn="urn:adsk.eagle:package:23793141/1"/>
-<part name="U$5" library="SCCDRRV100MDSA3" deviceset="SCCDRRV100MDSA3" device="SSCDRRV100MDSA3" package3d_urn="urn:adsk.eagle:package:23793141/1"/>
+<part name="U$3" library="SCCDRRV100MDSA3" deviceset="SCCDRRV100MDSA3" device="SSCDRRV100MDSA3" package3d_urn="urn:adsk.eagle:package:23793141/1" value="SSCDRRV100MDSA3"/>
+<part name="U$4" library="SCCDRRV100MDSA3" deviceset="SCCDRRV100MDSA3" device="SSCDRRV100MDSA3" package3d_urn="urn:adsk.eagle:package:23793141/1" value="SSCDRRV100MDSA3"/>
+<part name="U$5" library="SCCDRRV100MDSA3" deviceset="SCCDRRV100MDSA3" device="SSCDRRV100MDSA3" package3d_urn="urn:adsk.eagle:package:23793141/1" value="SSCDRRV100MDSA3"/>
 <part name="X1" library="con-JST XH" deviceset="S4B-XH" device="-A"/>
 <part name="X2" library="con-JST XH" deviceset="S4B-XH" device="-A"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

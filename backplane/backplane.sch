@@ -158,215 +158,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="5535070-4">
-<packages>
-<package name="TE_5535070-4">
-<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="2.755" width="0.127" layer="51"/>
-<wire x1="-45.72" y1="2.755" x2="7.62" y2="2.755" width="0.127" layer="51"/>
-<wire x1="7.62" y1="2.755" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
-<wire x1="7.62" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="51"/>
-<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="51"/>
-<wire x1="-45.72" y1="-7.835" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
-<wire x1="7.62" y1="-7.835" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
-<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="2.755" width="0.127" layer="21"/>
-<wire x1="7.62" y1="2.755" x2="7.62" y2="-7.835" width="0.127" layer="21"/>
-<wire x1="7.62" y1="2.755" x2="-45.72" y2="2.755" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="21"/>
-<wire x1="-45.97" y1="-8.085" x2="-45.97" y2="3.005" width="0.05" layer="39"/>
-<wire x1="-45.97" y1="3.005" x2="7.87" y2="3.005" width="0.05" layer="39"/>
-<wire x1="7.87" y1="3.005" x2="7.87" y2="-8.085" width="0.05" layer="39"/>
-<wire x1="7.87" y1="-8.085" x2="-45.97" y2="-8.085" width="0.05" layer="39"/>
-<text x="-46.72" y="4.005" size="1.27" layer="25">&gt;NAME</text>
-<text x="-46.72" y="-10.085" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="8.27" y="0" radius="0.1" width="0.2" layer="21"/>
-<circle x="8.27" y="0" radius="0.1" width="0.2" layer="51"/>
-<hole x="-43.74" y="-2.24" drill="2.79"/>
-<hole x="5.64" y="-2.24" drill="2.79"/>
-<pad name="A1" x="0" y="0" drill="1" diameter="1.35" shape="square"/>
-<pad name="A2" x="-2.54" y="0" drill="1" diameter="1.35"/>
-<pad name="A3" x="-5.08" y="0" drill="1" diameter="1.35"/>
-<pad name="A4" x="-7.62" y="0" drill="1" diameter="1.35"/>
-<pad name="A5" x="-10.16" y="0" drill="1" diameter="1.35"/>
-<pad name="A6" x="-12.7" y="0" drill="1" diameter="1.35"/>
-<pad name="A7" x="-15.24" y="0" drill="1" diameter="1.35"/>
-<pad name="A8" x="-17.78" y="0" drill="1" diameter="1.35"/>
-<pad name="A9" x="-20.32" y="0" drill="1" diameter="1.35"/>
-<pad name="A10" x="-22.86" y="0" drill="1" diameter="1.35"/>
-<pad name="A11" x="-25.4" y="0" drill="1" diameter="1.35"/>
-<pad name="A12" x="-27.94" y="0" drill="1" diameter="1.35"/>
-<pad name="A13" x="-30.48" y="0" drill="1" diameter="1.35"/>
-<pad name="A14" x="-33.02" y="0" drill="1" diameter="1.35"/>
-<pad name="A15" x="-35.56" y="0" drill="1" diameter="1.35"/>
-<pad name="A16" x="-38.1" y="0" drill="1" diameter="1.35"/>
-<pad name="B1" x="0" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B2" x="-2.54" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B3" x="-5.08" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B4" x="-7.62" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B5" x="-10.16" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B6" x="-12.7" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B7" x="-15.24" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B8" x="-17.78" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B9" x="-20.32" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B10" x="-22.86" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B11" x="-25.4" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B12" x="-27.94" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B13" x="-30.48" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B14" x="-33.02" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B15" x="-35.56" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="B16" x="-38.1" y="-2.54" drill="1" diameter="1.35"/>
-<pad name="C1" x="0" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C2" x="-2.54" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C3" x="-5.08" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C4" x="-7.62" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C5" x="-10.16" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C6" x="-12.7" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C7" x="-15.24" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C8" x="-17.78" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C9" x="-20.32" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C10" x="-22.86" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C11" x="-25.4" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C12" x="-27.94" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C13" x="-30.48" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C14" x="-33.02" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C15" x="-35.56" y="-5.08" drill="1" diameter="1.35"/>
-<pad name="C16" x="-38.1" y="-5.08" drill="1" diameter="1.35"/>
-</package>
-</packages>
-<symbols>
-<symbol name="5535070-4">
-<wire x1="-5.08" y1="-60.96" x2="-5.08" y2="63.5" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="63.5" x2="5.08" y2="63.5" width="0.254" layer="94"/>
-<wire x1="5.08" y1="63.5" x2="5.08" y2="-60.96" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-60.96" x2="-5.08" y2="-60.96" width="0.254" layer="94"/>
-<text x="-5.58" y="63.5" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-63.5" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A1" x="-10.16" y="60.96" length="middle" direction="pas"/>
-<pin name="A2" x="-10.16" y="58.42" length="middle" direction="pas"/>
-<pin name="A3" x="-10.16" y="55.88" length="middle" direction="pas"/>
-<pin name="A4" x="-10.16" y="53.34" length="middle" direction="pas"/>
-<pin name="A5" x="-10.16" y="50.8" length="middle" direction="pas"/>
-<pin name="A6" x="-10.16" y="48.26" length="middle" direction="pas"/>
-<pin name="A7" x="-10.16" y="45.72" length="middle" direction="pas"/>
-<pin name="A8" x="-10.16" y="43.18" length="middle" direction="pas"/>
-<pin name="A9" x="-10.16" y="40.64" length="middle" direction="pas"/>
-<pin name="A10" x="-10.16" y="38.1" length="middle" direction="pas"/>
-<pin name="A11" x="-10.16" y="35.56" length="middle" direction="pas"/>
-<pin name="A12" x="-10.16" y="33.02" length="middle" direction="pas"/>
-<pin name="A13" x="-10.16" y="30.48" length="middle" direction="pas"/>
-<pin name="A14" x="-10.16" y="27.94" length="middle" direction="pas"/>
-<pin name="A15" x="-10.16" y="25.4" length="middle" direction="pas"/>
-<pin name="A16" x="-10.16" y="22.86" length="middle" direction="pas"/>
-<pin name="B1" x="-10.16" y="20.32" length="middle" direction="pas"/>
-<pin name="B2" x="-10.16" y="17.78" length="middle" direction="pas"/>
-<pin name="B3" x="-10.16" y="15.24" length="middle" direction="pas"/>
-<pin name="B4" x="-10.16" y="12.7" length="middle" direction="pas"/>
-<pin name="B5" x="-10.16" y="10.16" length="middle" direction="pas"/>
-<pin name="B6" x="-10.16" y="7.62" length="middle" direction="pas"/>
-<pin name="B7" x="-10.16" y="5.08" length="middle" direction="pas"/>
-<pin name="B8" x="-10.16" y="2.54" length="middle" direction="pas"/>
-<pin name="B9" x="-10.16" y="0" length="middle" direction="pas"/>
-<pin name="B10" x="-10.16" y="-2.54" length="middle" direction="pas"/>
-<pin name="B11" x="-10.16" y="-5.08" length="middle" direction="pas"/>
-<pin name="B12" x="-10.16" y="-7.62" length="middle" direction="pas"/>
-<pin name="B13" x="-10.16" y="-10.16" length="middle" direction="pas"/>
-<pin name="B14" x="-10.16" y="-12.7" length="middle" direction="pas"/>
-<pin name="B15" x="-10.16" y="-15.24" length="middle" direction="pas"/>
-<pin name="B16" x="-10.16" y="-17.78" length="middle" direction="pas"/>
-<pin name="C1" x="-10.16" y="-20.32" length="middle" direction="pas"/>
-<pin name="C2" x="-10.16" y="-22.86" length="middle" direction="pas"/>
-<pin name="C3" x="-10.16" y="-25.4" length="middle" direction="pas"/>
-<pin name="C4" x="-10.16" y="-27.94" length="middle" direction="pas"/>
-<pin name="C5" x="-10.16" y="-30.48" length="middle" direction="pas"/>
-<pin name="C6" x="-10.16" y="-33.02" length="middle" direction="pas"/>
-<pin name="C7" x="-10.16" y="-35.56" length="middle" direction="pas"/>
-<pin name="C8" x="-10.16" y="-38.1" length="middle" direction="pas"/>
-<pin name="C9" x="-10.16" y="-40.64" length="middle" direction="pas"/>
-<pin name="C10" x="-10.16" y="-43.18" length="middle" direction="pas"/>
-<pin name="C11" x="-10.16" y="-45.72" length="middle" direction="pas"/>
-<pin name="C12" x="-10.16" y="-48.26" length="middle" direction="pas"/>
-<pin name="C13" x="-10.16" y="-50.8" length="middle" direction="pas"/>
-<pin name="C14" x="-10.16" y="-53.34" length="middle" direction="pas"/>
-<pin name="C15" x="-10.16" y="-55.88" length="middle" direction="pas"/>
-<pin name="C16" x="-10.16" y="-58.42" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="5535070-4" prefix="J">
-<description> &lt;a href="https://pricing.snapeda.com/parts/5535070-4/TE%20Connectivity/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="5535070-4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TE_5535070-4">
-<connects>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A10" pad="A10"/>
-<connect gate="G$1" pin="A11" pad="A11"/>
-<connect gate="G$1" pin="A12" pad="A12"/>
-<connect gate="G$1" pin="A13" pad="A13"/>
-<connect gate="G$1" pin="A14" pad="A14"/>
-<connect gate="G$1" pin="A15" pad="A15"/>
-<connect gate="G$1" pin="A16" pad="A16"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="A8" pad="A8"/>
-<connect gate="G$1" pin="A9" pad="A9"/>
-<connect gate="G$1" pin="B1" pad="B1"/>
-<connect gate="G$1" pin="B10" pad="B10"/>
-<connect gate="G$1" pin="B11" pad="B11"/>
-<connect gate="G$1" pin="B12" pad="B12"/>
-<connect gate="G$1" pin="B13" pad="B13"/>
-<connect gate="G$1" pin="B14" pad="B14"/>
-<connect gate="G$1" pin="B15" pad="B15"/>
-<connect gate="G$1" pin="B16" pad="B16"/>
-<connect gate="G$1" pin="B2" pad="B2"/>
-<connect gate="G$1" pin="B3" pad="B3"/>
-<connect gate="G$1" pin="B4" pad="B4"/>
-<connect gate="G$1" pin="B5" pad="B5"/>
-<connect gate="G$1" pin="B6" pad="B6"/>
-<connect gate="G$1" pin="B7" pad="B7"/>
-<connect gate="G$1" pin="B8" pad="B8"/>
-<connect gate="G$1" pin="B9" pad="B9"/>
-<connect gate="G$1" pin="C1" pad="C1"/>
-<connect gate="G$1" pin="C10" pad="C10"/>
-<connect gate="G$1" pin="C11" pad="C11"/>
-<connect gate="G$1" pin="C12" pad="C12"/>
-<connect gate="G$1" pin="C13" pad="C13"/>
-<connect gate="G$1" pin="C14" pad="C14"/>
-<connect gate="G$1" pin="C15" pad="C15"/>
-<connect gate="G$1" pin="C16" pad="C16"/>
-<connect gate="G$1" pin="C2" pad="C2"/>
-<connect gate="G$1" pin="C3" pad="C3"/>
-<connect gate="G$1" pin="C4" pad="C4"/>
-<connect gate="G$1" pin="C5" pad="C5"/>
-<connect gate="G$1" pin="C6" pad="C6"/>
-<connect gate="G$1" pin="C7" pad="C7"/>
-<connect gate="G$1" pin="C8" pad="C8"/>
-<connect gate="G$1" pin="C9" pad="C9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]"/>
-<attribute name="COMMENT" value="5535070-4"/>
-<attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole "/>
-<attribute name="MF" value="TE Connectivity"/>
-<attribute name="MP" value="5535070-4"/>
-<attribute name="NUMBER_OF_POSITIONS" value="48"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/5535070-4/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -530,77 +321,6 @@
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="LM1084IS-5.0">
-<packages>
-<package name="TO254P1435X457-3N">
-<wire x1="-2.0574" y1="-4.318" x2="-3.0226" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="-3.0226" y1="-4.318" x2="-3.0226" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="-3.0226" y1="-10.033" x2="-2.0574" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="-2.0574" y1="-10.033" x2="-2.0574" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="0.4826" y1="-4.318" x2="-0.4826" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="-0.4826" y1="-4.318" x2="-0.4826" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="-0.4826" y1="-10.033" x2="0.4826" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="0.4826" y1="-10.033" x2="0.4826" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="3.0226" y1="-4.318" x2="2.0574" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="2.0574" y1="-4.318" x2="2.0574" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="2.0574" y1="-10.033" x2="3.0226" y2="-10.033" width="0.1524" layer="51"/>
-<wire x1="3.0226" y1="-10.033" x2="3.0226" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="-5.08" y1="-4.318" x2="5.08" y2="-4.318" width="0.1524" layer="51"/>
-<wire x1="5.08" y1="-4.318" x2="5.08" y2="4.318" width="0.1524" layer="51"/>
-<wire x1="5.08" y1="4.318" x2="-5.08" y2="4.318" width="0.1524" layer="51"/>
-<wire x1="-5.08" y1="4.318" x2="-5.08" y2="-4.318" width="0.1524" layer="51"/>
-<text x="-4.481609375" y="5.270990625" size="2.08801875" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.824690625" y="-12.7685" size="2.085690625" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<smd name="1" x="-2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
-<smd name="2" x="0" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
-<smd name="3" x="2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
-<smd name="4" x="0" y="0.1524" dx="10.16" dy="8.9408" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LM1084IS-5.0">
-<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="5.08" x2="-15.24" y2="5.08" width="0.1524" layer="94"/>
-<text x="-4.3047" y="7.641490625" size="2.08868125" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.422940625" y="-14.3339" size="2.0877" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<pin name="IN" x="-20.32" y="0" length="middle" direction="pwr"/>
-<pin name="ADJ/GND" x="-20.32" y="-5.08" length="middle" direction="pas"/>
-<pin name="OUT" x="20.32" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="VOUT" x="20.32" y="-2.54" length="middle" direction="out" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LM1084IS-5.0" prefix="U">
-<description>Low Dropout Positive Regulators &lt;a href="https://pricing.snapeda.com/parts/LM1084IS-5.0/Texas%20Instruments/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
-<gates>
-<gate name="A" symbol="LM1084IS-5.0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO254P1435X457-3N">
-<connects>
-<connect gate="A" pin="ADJ/GND" pad="1"/>
-<connect gate="A" pin="IN" pad="3"/>
-<connect gate="A" pin="OUT" pad="2"/>
-<connect gate="A" pin="VOUT" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" LDO Regulator Pos 5V 5A 4-Pin(3+Tab) TO-263 Tube "/>
-<attribute name="MF" value="Texas Instruments"/>
-<attribute name="MP" value="LM1084IS-5.0"/>
-<attribute name="PACKAGE" value="TO-263 Texas Instruments"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM1084IS-5.0/?ref=eda"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -2805,6 +2525,313 @@ Metric Code Size 5664</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="din41612_48_pin_backplane">
+<packages>
+<package name="HARTING_09232486825">
+<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="2.755" width="0.127" layer="51"/>
+<wire x1="-45.72" y1="2.755" x2="7.62" y2="2.755" width="0.127" layer="51"/>
+<wire x1="7.62" y1="2.755" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="51"/>
+<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="51"/>
+<wire x1="-45.72" y1="-7.835" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-7.835" x2="7.62" y2="-7.835" width="0.127" layer="51"/>
+<wire x1="-45.72" y1="-7.835" x2="-45.72" y2="2.755" width="0.127" layer="21"/>
+<wire x1="7.62" y1="2.755" x2="7.62" y2="-7.835" width="0.127" layer="21"/>
+<wire x1="7.62" y1="2.755" x2="-45.72" y2="2.755" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-7.835" x2="-45.72" y2="-7.835" width="0.127" layer="21"/>
+<wire x1="-45.97" y1="-8.085" x2="-45.97" y2="3.005" width="0.05" layer="39"/>
+<wire x1="-45.97" y1="3.005" x2="7.87" y2="3.005" width="0.05" layer="39"/>
+<wire x1="7.87" y1="3.005" x2="7.87" y2="-8.085" width="0.05" layer="39"/>
+<wire x1="7.87" y1="-8.085" x2="-45.97" y2="-8.085" width="0.05" layer="39"/>
+<text x="-46.72" y="4.005" size="1.27" layer="25">&gt;NAME</text>
+<text x="-46.72" y="-10.085" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="8.27" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="8.27" y="0" radius="0.1" width="0.2" layer="51"/>
+<hole x="-43.74" y="-2.24" drill="2.79"/>
+<hole x="5.64" y="-2.24" drill="2.79"/>
+<pad name="A1" x="0" y="0" drill="1" diameter="1.35" shape="square"/>
+<pad name="A2" x="-2.54" y="0" drill="1" diameter="1.35"/>
+<pad name="A3" x="-5.08" y="0" drill="1" diameter="1.35"/>
+<pad name="A4" x="-7.62" y="0" drill="1" diameter="1.35"/>
+<pad name="A5" x="-10.16" y="0" drill="1" diameter="1.35"/>
+<pad name="A6" x="-12.7" y="0" drill="1" diameter="1.35"/>
+<pad name="A7" x="-15.24" y="0" drill="1" diameter="1.35"/>
+<pad name="A8" x="-17.78" y="0" drill="1" diameter="1.35"/>
+<pad name="A9" x="-20.32" y="0" drill="1" diameter="1.35"/>
+<pad name="A10" x="-22.86" y="0" drill="1" diameter="1.35"/>
+<pad name="A11" x="-25.4" y="0" drill="1" diameter="1.35"/>
+<pad name="A12" x="-27.94" y="0" drill="1" diameter="1.35"/>
+<pad name="A13" x="-30.48" y="0" drill="1" diameter="1.35"/>
+<pad name="A14" x="-33.02" y="0" drill="1" diameter="1.35"/>
+<pad name="A15" x="-35.56" y="0" drill="1" diameter="1.35"/>
+<pad name="A16" x="-38.1" y="0" drill="1" diameter="1.35"/>
+<pad name="B1" x="0" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B2" x="-2.54" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B3" x="-5.08" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B4" x="-7.62" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B5" x="-10.16" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B6" x="-12.7" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B7" x="-15.24" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B8" x="-17.78" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B9" x="-20.32" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B10" x="-22.86" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B11" x="-25.4" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B12" x="-27.94" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B13" x="-30.48" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B14" x="-33.02" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B15" x="-35.56" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="B16" x="-38.1" y="-2.54" drill="1" diameter="1.35"/>
+<pad name="C1" x="0" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C2" x="-2.54" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C3" x="-5.08" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C4" x="-7.62" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C5" x="-10.16" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C6" x="-12.7" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C7" x="-15.24" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C8" x="-17.78" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C9" x="-20.32" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C10" x="-22.86" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C11" x="-25.4" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C12" x="-27.94" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C13" x="-30.48" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C14" x="-33.02" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C15" x="-35.56" y="-5.08" drill="1" diameter="1.35"/>
+<pad name="C16" x="-38.1" y="-5.08" drill="1" diameter="1.35"/>
+</package>
+</packages>
+<symbols>
+<symbol name="09232486825">
+<wire x1="-5.08" y1="-60.96" x2="-5.08" y2="63.5" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="63.5" x2="5.08" y2="63.5" width="0.254" layer="94"/>
+<wire x1="5.08" y1="63.5" x2="5.08" y2="-60.96" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-60.96" x2="-5.08" y2="-60.96" width="0.254" layer="94"/>
+<text x="-5.58" y="63.5" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-63.5" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A1" x="-10.16" y="60.96" length="middle" direction="pas"/>
+<pin name="A2" x="-10.16" y="58.42" length="middle" direction="pas"/>
+<pin name="A3" x="-10.16" y="55.88" length="middle" direction="pas"/>
+<pin name="A4" x="-10.16" y="53.34" length="middle" direction="pas"/>
+<pin name="A5" x="-10.16" y="50.8" length="middle" direction="pas"/>
+<pin name="A6" x="-10.16" y="48.26" length="middle" direction="pas"/>
+<pin name="A7" x="-10.16" y="45.72" length="middle" direction="pas"/>
+<pin name="A8" x="-10.16" y="43.18" length="middle" direction="pas"/>
+<pin name="A9" x="-10.16" y="40.64" length="middle" direction="pas"/>
+<pin name="A10" x="-10.16" y="38.1" length="middle" direction="pas"/>
+<pin name="A11" x="-10.16" y="35.56" length="middle" direction="pas"/>
+<pin name="A12" x="-10.16" y="33.02" length="middle" direction="pas"/>
+<pin name="A13" x="-10.16" y="30.48" length="middle" direction="pas"/>
+<pin name="A14" x="-10.16" y="27.94" length="middle" direction="pas"/>
+<pin name="A15" x="-10.16" y="25.4" length="middle" direction="pas"/>
+<pin name="A16" x="-10.16" y="22.86" length="middle" direction="pas"/>
+<pin name="B1" x="-10.16" y="20.32" length="middle" direction="pas"/>
+<pin name="B2" x="-10.16" y="17.78" length="middle" direction="pas"/>
+<pin name="B3" x="-10.16" y="15.24" length="middle" direction="pas"/>
+<pin name="B4" x="-10.16" y="12.7" length="middle" direction="pas"/>
+<pin name="B5" x="-10.16" y="10.16" length="middle" direction="pas"/>
+<pin name="B6" x="-10.16" y="7.62" length="middle" direction="pas"/>
+<pin name="B7" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="B8" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="B9" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="B10" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="B11" x="-10.16" y="-5.08" length="middle" direction="pas"/>
+<pin name="B12" x="-10.16" y="-7.62" length="middle" direction="pas"/>
+<pin name="B13" x="-10.16" y="-10.16" length="middle" direction="pas"/>
+<pin name="B14" x="-10.16" y="-12.7" length="middle" direction="pas"/>
+<pin name="B15" x="-10.16" y="-15.24" length="middle" direction="pas"/>
+<pin name="B16" x="-10.16" y="-17.78" length="middle" direction="pas"/>
+<pin name="C1" x="-10.16" y="-20.32" length="middle" direction="pas"/>
+<pin name="C2" x="-10.16" y="-22.86" length="middle" direction="pas"/>
+<pin name="C3" x="-10.16" y="-25.4" length="middle" direction="pas"/>
+<pin name="C4" x="-10.16" y="-27.94" length="middle" direction="pas"/>
+<pin name="C5" x="-10.16" y="-30.48" length="middle" direction="pas"/>
+<pin name="C6" x="-10.16" y="-33.02" length="middle" direction="pas"/>
+<pin name="C7" x="-10.16" y="-35.56" length="middle" direction="pas"/>
+<pin name="C8" x="-10.16" y="-38.1" length="middle" direction="pas"/>
+<pin name="C9" x="-10.16" y="-40.64" length="middle" direction="pas"/>
+<pin name="C10" x="-10.16" y="-43.18" length="middle" direction="pas"/>
+<pin name="C11" x="-10.16" y="-45.72" length="middle" direction="pas"/>
+<pin name="C12" x="-10.16" y="-48.26" length="middle" direction="pas"/>
+<pin name="C13" x="-10.16" y="-50.8" length="middle" direction="pas"/>
+<pin name="C14" x="-10.16" y="-53.34" length="middle" direction="pas"/>
+<pin name="C15" x="-10.16" y="-55.88" length="middle" direction="pas"/>
+<pin name="C16" x="-10.16" y="-58.42" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="09232486825" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/5535070-4/TE%20Connectivity/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="09232486825" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HARTING_09232486825">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A10" pad="A10"/>
+<connect gate="G$1" pin="A11" pad="A11"/>
+<connect gate="G$1" pin="A12" pad="A12"/>
+<connect gate="G$1" pin="A13" pad="A13"/>
+<connect gate="G$1" pin="A14" pad="A14"/>
+<connect gate="G$1" pin="A15" pad="A15"/>
+<connect gate="G$1" pin="A16" pad="A16"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="A8" pad="A8"/>
+<connect gate="G$1" pin="A9" pad="A9"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B10" pad="B10"/>
+<connect gate="G$1" pin="B11" pad="B11"/>
+<connect gate="G$1" pin="B12" pad="B12"/>
+<connect gate="G$1" pin="B13" pad="B13"/>
+<connect gate="G$1" pin="B14" pad="B14"/>
+<connect gate="G$1" pin="B15" pad="B15"/>
+<connect gate="G$1" pin="B16" pad="B16"/>
+<connect gate="G$1" pin="B2" pad="B2"/>
+<connect gate="G$1" pin="B3" pad="B3"/>
+<connect gate="G$1" pin="B4" pad="B4"/>
+<connect gate="G$1" pin="B5" pad="B5"/>
+<connect gate="G$1" pin="B6" pad="B6"/>
+<connect gate="G$1" pin="B7" pad="B7"/>
+<connect gate="G$1" pin="B8" pad="B8"/>
+<connect gate="G$1" pin="B9" pad="B9"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C10" pad="C10"/>
+<connect gate="G$1" pin="C11" pad="C11"/>
+<connect gate="G$1" pin="C12" pad="C12"/>
+<connect gate="G$1" pin="C13" pad="C13"/>
+<connect gate="G$1" pin="C14" pad="C14"/>
+<connect gate="G$1" pin="C15" pad="C15"/>
+<connect gate="G$1" pin="C16" pad="C16"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+<connect gate="G$1" pin="C3" pad="C3"/>
+<connect gate="G$1" pin="C4" pad="C4"/>
+<connect gate="G$1" pin="C5" pad="C5"/>
+<connect gate="G$1" pin="C6" pad="C6"/>
+<connect gate="G$1" pin="C7" pad="C7"/>
+<connect gate="G$1" pin="C8" pad="C8"/>
+<connect gate="G$1" pin="C9" pad="C9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]"/>
+<attribute name="COMMENT" value="09232486825"/>
+<attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole "/>
+<attribute name="MF" value="HARTING"/>
+<attribute name="MP" value="09232486825"/>
+<attribute name="NUMBER_OF_POSITIONS" value="48"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="7$"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="LM1084IS">
+<packages>
+<package name="TO254P1435X457-3N">
+<wire x1="-2.0574" y1="-4.318" x2="-3.0226" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-4.318" x2="-3.0226" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-10.033" x2="-2.0574" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-10.033" x2="-2.0574" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-4.318" x2="-0.4826" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-4.318" x2="-0.4826" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-10.033" x2="0.4826" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-10.033" x2="0.4826" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-4.318" x2="2.0574" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-4.318" x2="2.0574" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-10.033" x2="3.0226" y2="-10.033" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-10.033" x2="3.0226" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="-4.318" x2="5.08" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="-4.318" x2="5.08" y2="4.318" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="4.318" x2="-5.08" y2="4.318" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="4.318" x2="-5.08" y2="-4.318" width="0.1524" layer="51"/>
+<text x="-4.481609375" y="5.270990625" size="2.08801875" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.824690625" y="-12.7685" size="2.085690625" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<smd name="1" x="-2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="2" x="0" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="3" x="2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="4" x="0" y="0.1524" dx="10.16" dy="8.9408" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LM1084IS-5.0">
+<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="-15.24" y2="5.08" width="0.1524" layer="94"/>
+<text x="-4.3047" y="7.641490625" size="2.08868125" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.422940625" y="-14.3339" size="2.0877" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="IN" x="-20.32" y="0" length="middle" direction="pwr"/>
+<pin name="ADJ/GND" x="-20.32" y="-5.08" length="middle" direction="pas"/>
+<pin name="OUT" x="20.32" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="VOUT" x="20.32" y="-2.54" length="middle" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM1084IS-3.3" prefix="U">
+<description>Low Dropout Positive Regulators &lt;a href="https://pricing.snapeda.com/parts/LM1084IS-5.0/Texas%20Instruments/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="LM1084IS-5.0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO254P1435X457-3N">
+<connects>
+<connect gate="A" pin="ADJ/GND" pad="1"/>
+<connect gate="A" pin="IN" pad="3"/>
+<connect gate="A" pin="OUT" pad="2"/>
+<connect gate="A" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value="LDO Regulator Pos 3.3V 5A 4-Pin(3+Tab) TO-263 Tube "/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MP" value="LM1084IS-3.3"/>
+<attribute name="PACKAGE" value="TO-263 Texas Instruments"/>
+<attribute name="PRICE" value="5$"/>
+<attribute name="PURCHASE-URL" value="https://www.digikey.ca/en/products/detail/texas-instruments/LM1084IS-5-0-NOPB/363552?s=https://www.digikey.ca/en/products/detail/texas-instruments/LM1084IS-3-3-NOPB/363551?s=N4IgTCBcDaIDIFkCMAGAHAFgJIGUC0AzAHQEgC6AvkA"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM1084IS-5.0" prefix="U">
+<description>Low Dropout Positive Regulators &lt;a href="https://pricing.snapeda.com/parts/LM1084IS-5.0/Texas%20Instruments/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="LM1084IS-5.0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO254P1435X457-3N">
+<connects>
+<connect gate="A" pin="ADJ/GND" pad="1"/>
+<connect gate="A" pin="IN" pad="3"/>
+<connect gate="A" pin="OUT" pad="2"/>
+<connect gate="A" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" LDO Regulator Pos 5V 5A 4-Pin(3+Tab) TO-263 Tube "/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MP" value="LM1084IS-5.0"/>
+<attribute name="PACKAGE" value="TO-263 Texas Instruments"/>
+<attribute name="PRICE" value="5$"/>
+<attribute name="PURCHASE-URL" value="https://www.digikey.ca/en/products/detail/texas-instruments/LM1084IS-5-0-NOPB/363552?s=N4IgTCBcDaIDIFkCMAGAHAFgJIGUC0ArAHQogC6AvkA"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2815,25 +2842,35 @@ Metric Code Size 5664</description>
 </class>
 </classes>
 <parts>
-<part name="J1" library="5535070-4" deviceset="5535070-4" device=""/>
-<part name="J2" library="5535070-4" deviceset="5535070-4" device=""/>
-<part name="J3" library="5535070-4" deviceset="5535070-4" device=""/>
-<part name="J4" library="5535070-4" deviceset="5535070-4" device=""/>
-<part name="J5" library="5535070-4" deviceset="5535070-4" device=""/>
-<part name="J6" library="5535070-4" deviceset="5535070-4" device=""/>
-<part name="J7" library="5535070-4" deviceset="5535070-4" device=""/>
-<part name="J8" library="5535070-4" deviceset="5535070-4" device=""/>
+<part name="J1" library="din41612_48_pin_backplane" deviceset="09232486825" device=""/>
+<part name="J2" library="din41612_48_pin_backplane" deviceset="09232486825" device=""/>
+<part name="J3" library="din41612_48_pin_backplane" deviceset="09232486825" device=""/>
+<part name="J4" library="din41612_48_pin_backplane" deviceset="09232486825" device=""/>
+<part name="J5" library="din41612_48_pin_backplane" deviceset="09232486825" device=""/>
+<part name="J6" library="din41612_48_pin_backplane" deviceset="09232486825" device=""/>
+<part name="J7" library="din41612_48_pin_backplane" deviceset="09232486825" device=""/>
+<part name="J8" library="din41612_48_pin_backplane" deviceset="09232486825" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="XS1" library="con-dg55" deviceset="2P" device=""/>
-<part name="U1" library="LM1084IS-5.0" deviceset="LM1084IS-5.0" device=""/>
-<part name="C1" library="rc-master-smd" deviceset="CP_" device="3216" value="10Uf"/>
-<part name="C2" library="rc-master-smd" deviceset="C_" device="1206" value="10Uf"/>
+<part name="XS1" library="con-dg55" deviceset="2P" device="">
+<attribute name="PURCHASE_URL_DIGIKEY" value=""/>
+</part>
+<part name="U1" library="LM1084IS" deviceset="LM1084IS-5.0" device=""/>
+<part name="C1" library="rc-master-smd" deviceset="CP_" device="3216" value="10Uf">
+<attribute name="CAPACITOR_TYPE" value="tantalum"/>
+</part>
+<part name="C2" library="rc-master-smd" deviceset="C_" device="1206" value="10Uf">
+<attribute name="CAPACITOR_TYPE" value="mlcc"/>
+</part>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U2" library="LM1084IS-5.0" deviceset="LM1084IS-5.0" device="" value="LM1084IS-3.3"/>
-<part name="C3" library="rc-master-smd" deviceset="CP_" device="3216" value="10Uf"/>
-<part name="C4" library="rc-master-smd" deviceset="C_" device="1206" value="10Uf"/>
+<part name="U2" library="LM1084IS" deviceset="LM1084IS-3.3" device="" value="LM1084IS-3.3"/>
+<part name="C3" library="rc-master-smd" deviceset="CP_" device="3216" value="10Uf">
+<attribute name="CAPACITOR_TYPE" value="tantalum"/>
+</part>
+<part name="C4" library="rc-master-smd" deviceset="C_" device="1206" value="10Uf">
+<attribute name="CAPACITOR_TYPE" value="mlcc"/>
+</part>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X15" device="" package3d_urn="urn:adsk.eagle:package:22427/2"/>
@@ -2842,7 +2879,9 @@ Metric Code Size 5664</description>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X19" device="" package3d_urn="urn:adsk.eagle:package:22492/2"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X19" device="" package3d_urn="urn:adsk.eagle:package:22492/2">
+<attribute name="COMPONENT" value="female header 1x19"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2893,6 +2932,7 @@ Metric Code Size 5664</description>
 <instance part="XS1" gate="G$1" x="7.62" y="147.32" smashed="yes">
 <attribute name="NAME" x="5.08" y="153.67" size="1.778" layer="95"/>
 <attribute name="VALUE" x="5.08" y="143.51" size="1.778" layer="96" rot="R180" align="bottom-right"/>
+<attribute name="PURCHASE_URL_DIGIKEY" x="7.62" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U1" gate="A" x="-53.34" y="152.4" smashed="yes">
 <attribute name="NAME" x="-57.6447" y="160.041490625" size="2.08868125" layer="95" ratio="10" rot="SR0"/>
@@ -2901,10 +2941,12 @@ Metric Code Size 5664</description>
 <instance part="C1" gate="G$1" x="-81.28" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="-83.185" y="145.923" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-77.47" y="139.7" size="1.778" layer="96" rot="R90"/>
+<attribute name="CAPACITOR_TYPE" x="-81.28" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="-33.02" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="-34.29" y="144.145" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-28.8925" y="138.43" size="1.778" layer="96" rot="R90"/>
+<attribute name="CAPACITOR_TYPE" x="-33.02" y="142.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="-60.96" y="134.62" smashed="yes">
 <attribute name="VALUE" x="-63.5" y="132.08" size="1.778" layer="96"/>
@@ -2916,10 +2958,12 @@ Metric Code Size 5664</description>
 <instance part="C3" gate="G$1" x="-83.82" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="-85.725" y="115.443" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-80.01" y="109.22" size="1.778" layer="96" rot="R90"/>
+<attribute name="CAPACITOR_TYPE" x="-83.82" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="-35.56" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="-36.83" y="113.665" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-31.4325" y="107.95" size="1.778" layer="96" rot="R90"/>
+<attribute name="CAPACITOR_TYPE" x="-35.56" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="-63.5" y="104.14" smashed="yes">
 <attribute name="VALUE" x="-66.04" y="101.6" size="1.778" layer="96"/>
@@ -2950,6 +2994,7 @@ Metric Code Size 5664</description>
 <instance part="JP1" gate="G$1" x="-134.62" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="-128.27" y="40.005" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-128.27" y="93.98" size="1.778" layer="96" rot="R180"/>
+<attribute name="COMPONENT" x="-134.62" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 </instances>
 <busses>

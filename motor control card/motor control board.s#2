@@ -392,47 +392,8 @@
 <pad name="BIN2" x="23.68" y="29.24" drill="1.2"/>
 <pad name="STALL" x="21.14" y="29.24" drill="1.2"/>
 <pad name="BEMF" x="18.6" y="29.24" drill="1.2"/>
-<text x="30.6" y="0.8" size="0.85" layer="21" align="bottom-right">FLT
-
-RST
-
-SLP
-
-SCS
-
-SCLK
-
-MOSI
-
-MISO
-
-DIR
-
-STEP
-
-GND
-
-IOREF
-
-V5(OUT)</text>
-<text x="18.1" y="28.1" size="0.85" layer="21" rot="R90" align="top-right">BEMF
-
-STALL
-
-BIN2
-
-BIN1</text>
-<text x="2.4" y="22.3" size="1.27" layer="21">24V</text>
-<text x="2.4" y="17.1" size="1.27" layer="21">GND</text>
-<wire x1="2" y1="24" x2="2" y2="21.6" width="0.127" layer="21"/>
-<wire x1="2" y1="19" x2="2" y2="16.4" width="0.127" layer="21"/>
-<text x="2.4" y="6" size="0.85" layer="21">AOUT1
-
-AOUT2
-
-BOUT1
-
-BOUT2</text>
+<wire x1="2.254" y1="24.127" x2="2.254" y2="21.727" width="0.127" layer="21"/>
+<wire x1="2.381" y1="19.127" x2="2.381" y2="16.527" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1265,6 +1226,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="2" name="GND" width="0.3048" drill="0">
+<clearance class="0" value="0.3048"/>
+<clearance class="1" value="0.3048"/>
+</class>
 </classes>
 <parts>
 <part name="J1" library="8-1393644-0" deviceset="8-1393644-0" device=""/>
@@ -1361,7 +1326,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="2">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="J1" gate="G$1" pin="4"/>
@@ -1407,6 +1372,16 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="J3" gate="G$1" pin="3"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="127" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="119.38" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<wire x1="119.38" y1="27.94" x2="101.6" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="24V/12V" class="0">
@@ -1885,11 +1860,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <wire x1="127" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
 <label x="119.38" y="71.12" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="127" y1="167.64" x2="119.38" y2="167.64" width="0.1524" layer="91"/>
-<label x="119.38" y="167.64" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SW2" class="0">
 <segment>
@@ -1897,17 +1867,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <wire x1="-22.86" y1="144.78" x2="-33.02" y2="144.78" width="0.1524" layer="91"/>
 <label x="-30.48" y="144.78" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="119.38" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="119.38" y1="27.94" x2="101.6" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="127" y1="167.64" x2="119.38" y2="167.64" width="0.1524" layer="91"/>
+<label x="119.38" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR2" class="0">
@@ -2069,10 +2032,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
