@@ -3345,6 +3345,11 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <wire x1="15.24" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
 <label x="10.16" y="71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="15.24" y1="111.76" x2="2.54" y2="111.76" width="0.1524" layer="91"/>
+<label x="2.54" y="111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
