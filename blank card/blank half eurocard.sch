@@ -73,9 +73,42 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="8-1393644-0">
+<library name="supply1" urn="urn:adsk.eagle:library:371">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="TE_8-1393644-0">
+</packages>
+<symbols>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="din41612_48_pin_board">
+<packages>
+<package name="HARTING_09231486921">
 <wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="51"/>
 <wire x1="-45.73" y1="0" x2="7.63" y2="0" width="0.127" layer="51"/>
 <wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
@@ -149,7 +182,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="8-1393644-0">
+<symbol name="09231486921">
 <wire x1="-5.08" y1="-60.96" x2="-5.08" y2="63.5" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="63.5" x2="5.08" y2="63.5" width="0.254" layer="94"/>
 <wire x1="5.08" y1="63.5" x2="5.08" y2="-60.96" width="0.254" layer="94"/>
@@ -207,13 +240,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="8-1393644-0" prefix="J">
+<deviceset name="09231486921" prefix="J">
 <description> &lt;a href="https://pricing.snapeda.com/parts/8-1393644-0/TE%20Connectivity/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="8-1393644-0" x="0" y="0"/>
+<gate name="G$1" symbol="09231486921" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TE_8-1393644-0">
+<device name="" package="HARTING_09231486921">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -267,48 +300,15 @@
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="COMMENT" value="8-1393644-0"/>
+<attribute name="COMMENT" value="09231486921"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray "/>
 <attribute name="EU_ROHS_COMPLIANCE" value="Compliant"/>
-<attribute name="MF" value="TE Connectivity"/>
-<attribute name="MP" value="8-1393644-0"/>
+<attribute name="MF" value="HARTING"/>
+<attribute name="MP" value="09231486921"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/8-1393644-0/?ref=eda"/>
+<attribute name="PRICE" value="6$" constant="no"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/harting/09231486921/3180439"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="supply1" urn="urn:adsk.eagle:library:371">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -325,7 +325,7 @@
 </class>
 </classes>
 <parts>
-<part name="J1" library="8-1393644-0" deviceset="8-1393644-0" device=""/>
+<part name="J1" library="din41612_48_pin_board" deviceset="09231486921" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

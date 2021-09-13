@@ -166,7 +166,12 @@
 <hole x="2.84" y="74.36" drill="2.25"/>
 <hole x="97.16" y="74.36" drill="2.25"/>
 <hole x="97.16" y="5.64" drill="2.25"/>
-<text x="-20.1" y="-0.2" size="1.7" layer="25" align="bottom-right">SS_15
+<text x="18.9" y="13.6" size="1.7" layer="25" align="bottom-right">SCK
+MISO
+MOSI
+SDA
+SCL
+SS_15
 SS_14
 SS_13
 SS_12
@@ -1178,7 +1183,21 @@ design rules under a new name.</description>
 <contactref element="JP4" pad="27"/>
 <contactref element="JP4" pad="28"/>
 <contactref element="JP4" pad="29"/>
-<wire x1="87.29" y1="70" x2="89.83" y2="70" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="36.24" x2="8.14" y2="36.24" width="1.27" layer="1"/>
+<wire x1="8.14" y1="36.24" x2="5.6" y2="36.24" width="1.27" layer="1"/>
+<wire x1="5.6" y1="36.24" x2="3" y2="38.84" width="1.27" layer="1"/>
+<wire x1="3" y1="38.84" x2="3" y2="61" width="1.27" layer="1"/>
+<wire x1="3" y1="61" x2="3.129" y2="61.129" width="1.27" layer="1"/>
+<wire x1="3.129" y1="61.129" x2="4.32376875" y2="61.129" width="1.27" layer="1"/>
+<wire x1="13.19476875" y1="70" x2="16.17" y2="70" width="1.27" layer="1"/>
+<wire x1="4.32376875" y1="61.129" x2="13.19476875" y2="70" width="1.27" layer="1"/>
+<wire x1="16.17" y1="70" x2="18.71" y2="70" width="1.27" layer="1"/>
+<wire x1="18.71" y1="70" x2="21.25" y2="70" width="1.27" layer="1"/>
+<wire x1="21.25" y1="70" x2="23.79" y2="70" width="1.27" layer="1"/>
+<wire x1="23.79" y1="70" x2="26.33" y2="70" width="1.27" layer="1"/>
+<wire x1="26.33" y1="70" x2="28.87" y2="70" width="1.27" layer="1"/>
+<wire x1="28.87" y1="70" x2="31.41" y2="70" width="1.27" layer="1"/>
+<wire x1="31.41" y1="70" x2="89.83" y2="70" width="1.27" layer="1"/>
 <wire x1="84.75" y1="70" x2="87.29" y2="70" width="0" layer="19" extent="1-1"/>
 <wire x1="82.21" y1="70" x2="84.75" y2="70" width="0" layer="19" extent="1-1"/>
 <wire x1="79.67" y1="70" x2="82.21" y2="70" width="0" layer="19" extent="1-1"/>
@@ -1200,16 +1219,7 @@ design rules under a new name.</description>
 <wire x1="39.03" y1="70" x2="41.57" y2="70" width="0" layer="19" extent="1-1"/>
 <wire x1="36.49" y1="70" x2="39.03" y2="70" width="0" layer="19" extent="1-1"/>
 <wire x1="33.95" y1="70" x2="36.49" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="31.41" y1="70" x2="33.95" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="28.87" y1="70" x2="31.41" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="26.33" y1="70" x2="28.87" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="23.79" y1="70" x2="26.33" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="21.25" y1="70" x2="23.79" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="18.71" y1="70" x2="21.25" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="16.17" y1="70" x2="18.71" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="36.24" x2="16.17" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="36.24" x2="10.68" y2="36.24" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="36.24" x2="8.14" y2="36.24" width="0" layer="19" extent="1-1"/>
+<wire x1="89.83" y1="70" x2="87.29" y2="70" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="J1" pad="38"/>
@@ -1243,7 +1253,13 @@ design rules under a new name.</description>
 <contactref element="JP3" pad="27"/>
 <contactref element="JP3" pad="28"/>
 <contactref element="JP3" pad="29"/>
-<wire x1="87.29" y1="74" x2="89.83" y2="74" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="33.7" x2="16" y2="39.02" width="1.27" layer="16"/>
+<wire x1="16" y1="61" x2="10" y2="67" width="1.27" layer="16"/>
+<wire x1="10" y1="67" x2="10" y2="70" width="1.27" layer="16"/>
+<wire x1="14" y1="74" x2="16.17" y2="74" width="1.27" layer="16"/>
+<wire x1="16" y1="39.02" x2="16" y2="61" width="1.27" layer="16"/>
+<wire x1="10" y1="70" x2="14" y2="74" width="1.27" layer="16"/>
+<wire x1="16.17" y1="74" x2="89.83" y2="74" width="1.27" layer="1"/>
 <wire x1="84.75" y1="74" x2="87.29" y2="74" width="0" layer="19" extent="1-1"/>
 <wire x1="82.21" y1="74" x2="84.75" y2="74" width="0" layer="19" extent="1-1"/>
 <wire x1="79.67" y1="74" x2="82.21" y2="74" width="0" layer="19" extent="1-1"/>
@@ -1271,8 +1287,7 @@ design rules under a new name.</description>
 <wire x1="23.79" y1="74" x2="26.33" y2="74" width="0" layer="19" extent="1-1"/>
 <wire x1="21.25" y1="74" x2="23.79" y2="74" width="0" layer="19" extent="1-1"/>
 <wire x1="18.71" y1="74" x2="21.25" y2="74" width="0" layer="19" extent="1-1"/>
-<wire x1="16.17" y1="74" x2="18.71" y2="74" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="33.7" x2="16.17" y2="74" width="0" layer="19" extent="1-1"/>
+<wire x1="89.83" y1="74" x2="87.29" y2="74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
 <contactref element="J1" pad="40"/>

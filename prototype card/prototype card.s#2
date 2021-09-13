@@ -2253,6 +2253,8 @@
 <pinref part="U$4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
+<net name="N$3" class="0">
+</net>
 </nets>
 </sheet>
 </sheets>

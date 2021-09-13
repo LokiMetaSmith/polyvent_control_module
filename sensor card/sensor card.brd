@@ -206,82 +206,6 @@ SS_1
 <text x="31.82" y="43.18" size="1.778" layer="25">P4</text>
 </plain>
 <libraries>
-<library name="8-1393644-0">
-<packages>
-<package name="TE_8-1393644-0">
-<wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="51"/>
-<wire x1="-45.73" y1="0" x2="7.63" y2="0" width="0.127" layer="51"/>
-<wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
-<wire x1="7.63" y1="-5.54" x2="-45.73" y2="-5.54" width="0.127" layer="51"/>
-<wire x1="-45.73" y1="-5.54" x2="-45.73" y2="-11.94" width="0.127" layer="51"/>
-<wire x1="-45.73" y1="-11.94" x2="7.63" y2="-11.94" width="0.127" layer="51"/>
-<wire x1="7.63" y1="-11.94" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
-<wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="21"/>
-<wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="21"/>
-<wire x1="-45.73" y1="0" x2="-39.095" y2="0" width="0.127" layer="21"/>
-<wire x1="0.995" y1="0" x2="7.63" y2="0" width="0.127" layer="21"/>
-<wire x1="-45.73" y1="-5.54" x2="7.63" y2="-5.54" width="0.127" layer="21"/>
-<wire x1="-45.98" y1="-12.19" x2="-45.98" y2="6.005" width="0.05" layer="39"/>
-<wire x1="-45.98" y1="6.005" x2="7.88" y2="6.005" width="0.05" layer="39"/>
-<wire x1="7.88" y1="6.005" x2="7.88" y2="-12.19" width="0.05" layer="39"/>
-<wire x1="7.88" y1="-12.19" x2="-45.98" y2="-12.19" width="0.05" layer="39"/>
-<text x="-46.73" y="7.005" size="1.27" layer="25">&gt;NAME</text>
-<text x="-46.73" y="-14.19" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="8.28" y="0" radius="0.1" width="0.2" layer="21"/>
-<circle x="8.28" y="0" radius="0.1" width="0.2" layer="51"/>
-<hole x="-43.18" y="-2.54" drill="2.8"/>
-<hole x="5.08" y="-2.54" drill="2.8"/>
-<pad name="1" x="0" y="0" drill="1" diameter="1.35" shape="square"/>
-<pad name="2" x="-2.54" y="0" drill="1" diameter="1.35"/>
-<pad name="3" x="-5.08" y="0" drill="1" diameter="1.35"/>
-<pad name="4" x="-7.62" y="0" drill="1" diameter="1.35"/>
-<pad name="5" x="-10.16" y="0" drill="1" diameter="1.35"/>
-<pad name="6" x="-12.7" y="0" drill="1" diameter="1.35"/>
-<pad name="7" x="-15.24" y="0" drill="1" diameter="1.35"/>
-<pad name="8" x="-17.78" y="0" drill="1" diameter="1.35"/>
-<pad name="9" x="-20.32" y="0" drill="1" diameter="1.35"/>
-<pad name="10" x="-22.86" y="0" drill="1" diameter="1.35"/>
-<pad name="11" x="-25.4" y="0" drill="1" diameter="1.35"/>
-<pad name="12" x="-27.94" y="0" drill="1" diameter="1.35"/>
-<pad name="13" x="-30.48" y="0" drill="1" diameter="1.35"/>
-<pad name="14" x="-33.02" y="0" drill="1" diameter="1.35"/>
-<pad name="15" x="-35.56" y="0" drill="1" diameter="1.35"/>
-<pad name="16" x="-38.1" y="0" drill="1" diameter="1.35"/>
-<pad name="17" x="0" y="2.54" drill="1" diameter="1.35"/>
-<pad name="18" x="-2.54" y="2.54" drill="1" diameter="1.35"/>
-<pad name="19" x="-5.08" y="2.54" drill="1" diameter="1.35"/>
-<pad name="20" x="-7.62" y="2.54" drill="1" diameter="1.35"/>
-<pad name="21" x="-10.16" y="2.54" drill="1" diameter="1.35"/>
-<pad name="22" x="-12.7" y="2.54" drill="1" diameter="1.35"/>
-<pad name="23" x="-15.24" y="2.54" drill="1" diameter="1.35"/>
-<pad name="24" x="-17.78" y="2.54" drill="1" diameter="1.35"/>
-<pad name="25" x="-20.32" y="2.54" drill="1" diameter="1.35"/>
-<pad name="26" x="-22.86" y="2.54" drill="1" diameter="1.35"/>
-<pad name="27" x="-25.4" y="2.54" drill="1" diameter="1.35"/>
-<pad name="28" x="-27.94" y="2.54" drill="1" diameter="1.35"/>
-<pad name="29" x="-30.48" y="2.54" drill="1" diameter="1.35"/>
-<pad name="30" x="-33.02" y="2.54" drill="1" diameter="1.35"/>
-<pad name="31" x="-35.56" y="2.54" drill="1" diameter="1.35"/>
-<pad name="32" x="-38.1" y="2.54" drill="1" diameter="1.35"/>
-<pad name="33" x="0" y="5.08" drill="1" diameter="1.35"/>
-<pad name="34" x="-2.54" y="5.08" drill="1" diameter="1.35"/>
-<pad name="35" x="-5.08" y="5.08" drill="1" diameter="1.35"/>
-<pad name="36" x="-7.62" y="5.08" drill="1" diameter="1.35"/>
-<pad name="37" x="-10.16" y="5.08" drill="1" diameter="1.35"/>
-<pad name="38" x="-12.7" y="5.08" drill="1" diameter="1.35"/>
-<pad name="39" x="-15.24" y="5.08" drill="1" diameter="1.35"/>
-<pad name="40" x="-17.78" y="5.08" drill="1" diameter="1.35"/>
-<pad name="41" x="-20.32" y="5.08" drill="1" diameter="1.35"/>
-<pad name="42" x="-22.86" y="5.08" drill="1" diameter="1.35"/>
-<pad name="43" x="-25.4" y="5.08" drill="1" diameter="1.35"/>
-<pad name="44" x="-27.94" y="5.08" drill="1" diameter="1.35"/>
-<pad name="45" x="-30.48" y="5.08" drill="1" diameter="1.35"/>
-<pad name="46" x="-33.02" y="5.08" drill="1" diameter="1.35"/>
-<pad name="47" x="-35.56" y="5.08" drill="1" diameter="1.35"/>
-<pad name="48" x="-38.1" y="5.08" drill="1" diameter="1.35"/>
-</package>
-</packages>
-</library>
 <library name="SCCDRRV100MDSA3">
 <packages>
 <package name="DIP1270W53P254L1303H508Q8B" urn="urn:adsk.eagle:footprint:23793155/1" locally_modified="yes">
@@ -703,6 +627,82 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </package>
 </packages>
 </library>
+<library name="din41612_48_pin_board">
+<packages>
+<package name="HARTING_09231486921">
+<wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="51"/>
+<wire x1="-45.73" y1="0" x2="7.63" y2="0" width="0.127" layer="51"/>
+<wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
+<wire x1="7.63" y1="-5.54" x2="-45.73" y2="-5.54" width="0.127" layer="51"/>
+<wire x1="-45.73" y1="-5.54" x2="-45.73" y2="-11.94" width="0.127" layer="51"/>
+<wire x1="-45.73" y1="-11.94" x2="7.63" y2="-11.94" width="0.127" layer="51"/>
+<wire x1="7.63" y1="-11.94" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
+<wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="21"/>
+<wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="21"/>
+<wire x1="-45.73" y1="0" x2="-39.095" y2="0" width="0.127" layer="21"/>
+<wire x1="0.995" y1="0" x2="7.63" y2="0" width="0.127" layer="21"/>
+<wire x1="-45.73" y1="-5.54" x2="7.63" y2="-5.54" width="0.127" layer="21"/>
+<wire x1="-45.98" y1="-12.19" x2="-45.98" y2="6.005" width="0.05" layer="39"/>
+<wire x1="-45.98" y1="6.005" x2="7.88" y2="6.005" width="0.05" layer="39"/>
+<wire x1="7.88" y1="6.005" x2="7.88" y2="-12.19" width="0.05" layer="39"/>
+<wire x1="7.88" y1="-12.19" x2="-45.98" y2="-12.19" width="0.05" layer="39"/>
+<text x="-46.73" y="7.005" size="1.27" layer="25">&gt;NAME</text>
+<text x="-46.73" y="-14.19" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="8.28" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="8.28" y="0" radius="0.1" width="0.2" layer="51"/>
+<hole x="-43.18" y="-2.54" drill="2.8"/>
+<hole x="5.08" y="-2.54" drill="2.8"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.35" shape="square"/>
+<pad name="2" x="-2.54" y="0" drill="1" diameter="1.35"/>
+<pad name="3" x="-5.08" y="0" drill="1" diameter="1.35"/>
+<pad name="4" x="-7.62" y="0" drill="1" diameter="1.35"/>
+<pad name="5" x="-10.16" y="0" drill="1" diameter="1.35"/>
+<pad name="6" x="-12.7" y="0" drill="1" diameter="1.35"/>
+<pad name="7" x="-15.24" y="0" drill="1" diameter="1.35"/>
+<pad name="8" x="-17.78" y="0" drill="1" diameter="1.35"/>
+<pad name="9" x="-20.32" y="0" drill="1" diameter="1.35"/>
+<pad name="10" x="-22.86" y="0" drill="1" diameter="1.35"/>
+<pad name="11" x="-25.4" y="0" drill="1" diameter="1.35"/>
+<pad name="12" x="-27.94" y="0" drill="1" diameter="1.35"/>
+<pad name="13" x="-30.48" y="0" drill="1" diameter="1.35"/>
+<pad name="14" x="-33.02" y="0" drill="1" diameter="1.35"/>
+<pad name="15" x="-35.56" y="0" drill="1" diameter="1.35"/>
+<pad name="16" x="-38.1" y="0" drill="1" diameter="1.35"/>
+<pad name="17" x="0" y="2.54" drill="1" diameter="1.35"/>
+<pad name="18" x="-2.54" y="2.54" drill="1" diameter="1.35"/>
+<pad name="19" x="-5.08" y="2.54" drill="1" diameter="1.35"/>
+<pad name="20" x="-7.62" y="2.54" drill="1" diameter="1.35"/>
+<pad name="21" x="-10.16" y="2.54" drill="1" diameter="1.35"/>
+<pad name="22" x="-12.7" y="2.54" drill="1" diameter="1.35"/>
+<pad name="23" x="-15.24" y="2.54" drill="1" diameter="1.35"/>
+<pad name="24" x="-17.78" y="2.54" drill="1" diameter="1.35"/>
+<pad name="25" x="-20.32" y="2.54" drill="1" diameter="1.35"/>
+<pad name="26" x="-22.86" y="2.54" drill="1" diameter="1.35"/>
+<pad name="27" x="-25.4" y="2.54" drill="1" diameter="1.35"/>
+<pad name="28" x="-27.94" y="2.54" drill="1" diameter="1.35"/>
+<pad name="29" x="-30.48" y="2.54" drill="1" diameter="1.35"/>
+<pad name="30" x="-33.02" y="2.54" drill="1" diameter="1.35"/>
+<pad name="31" x="-35.56" y="2.54" drill="1" diameter="1.35"/>
+<pad name="32" x="-38.1" y="2.54" drill="1" diameter="1.35"/>
+<pad name="33" x="0" y="5.08" drill="1" diameter="1.35"/>
+<pad name="34" x="-2.54" y="5.08" drill="1" diameter="1.35"/>
+<pad name="35" x="-5.08" y="5.08" drill="1" diameter="1.35"/>
+<pad name="36" x="-7.62" y="5.08" drill="1" diameter="1.35"/>
+<pad name="37" x="-10.16" y="5.08" drill="1" diameter="1.35"/>
+<pad name="38" x="-12.7" y="5.08" drill="1" diameter="1.35"/>
+<pad name="39" x="-15.24" y="5.08" drill="1" diameter="1.35"/>
+<pad name="40" x="-17.78" y="5.08" drill="1" diameter="1.35"/>
+<pad name="41" x="-20.32" y="5.08" drill="1" diameter="1.35"/>
+<pad name="42" x="-22.86" y="5.08" drill="1" diameter="1.35"/>
+<pad name="43" x="-25.4" y="5.08" drill="1" diameter="1.35"/>
+<pad name="44" x="-27.94" y="5.08" drill="1" diameter="1.35"/>
+<pad name="45" x="-30.48" y="5.08" drill="1" diameter="1.35"/>
+<pad name="46" x="-33.02" y="5.08" drill="1" diameter="1.35"/>
+<pad name="47" x="-35.56" y="5.08" drill="1" diameter="1.35"/>
+<pad name="48" x="-38.1" y="5.08" drill="1" diameter="1.35"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -896,17 +896,17 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="8-1393644-0" package="TE_8-1393644-0" value="8-1393644-0" x="5.6" y="21" smashed="yes" rot="R270">
+<element name="J1" library="din41612_48_pin_board" package="HARTING_09231486921" value="09231486921" x="5.6" y="21" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COMMENT" value="8-1393644-0" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COMMENT" value="09231486921" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray " x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="8-1393644-0" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="HARTING" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="09231486921" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.605" y="67.73" size="1.27" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/8-1393644-0/?ref=eda" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="6$" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/harting/09231486921/3180439" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-8.59" y="67.73" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$1" library="SCCDRRV100MDSA3" package="DIP1270W53P254L1303H508Q8B" package3d_urn="urn:adsk.eagle:package:23793141/1" value="SCCDRRV100MDSA3SSCDRRV100MDSA3" x="43" y="71" smashed="yes" rot="R270"/>
@@ -1031,6 +1031,34 @@ design rules under a new name.</description>
 <vertex x="100" y="0"/>
 <vertex x="100" y="80"/>
 </polygon>
+<wire x1="91" y1="34.25" x2="91" y2="47.25" width="0" layer="19" extent="1-1"/>
+<wire x1="82.4" y1="31.2" x2="91" y2="34.25" width="0" layer="19" extent="1-1"/>
+<wire x1="79.9" y1="26" x2="82.4" y2="31.2" width="0" layer="19" extent="1-1"/>
+<wire x1="82.4" y1="19.2" x2="79.9" y2="26" width="0" layer="19" extent="1-1"/>
+<wire x1="79.9" y1="14" x2="82.4" y2="19.2" width="0" layer="19" extent="1-1"/>
+<wire x1="72.125" y1="26.2178" x2="79.9" y2="26" width="0" layer="19" extent="1-1"/>
+<wire x1="71.475" y1="26.2178" x2="72.125" y2="26.2178" width="0" layer="19" extent="1-1"/>
+<wire x1="66.925" y1="26.2178" x2="71.475" y2="26.2178" width="0" layer="19" extent="1-1"/>
+<wire x1="71.475" y1="20.3822" x2="71.475" y2="26.2178" width="0" layer="19" extent="1-1"/>
+<wire x1="72.125" y1="20.3822" x2="71.475" y2="20.3822" width="0" layer="19" extent="1-1"/>
+<wire x1="70.175" y1="20.3822" x2="71.475" y2="20.3822" width="0" layer="19" extent="1-1"/>
+<wire x1="68.875" y1="20.3822" x2="70.175" y2="20.3822" width="0" layer="19" extent="1-1"/>
+<wire x1="67.575" y1="20.3822" x2="68.875" y2="20.3822" width="0" layer="19" extent="1-1"/>
+<wire x1="66.925" y1="20.3822" x2="67.575" y2="20.3822" width="0" layer="19" extent="1-1"/>
+<wire x1="61.81" y1="46.35" x2="66.925" y2="26.2178" width="0" layer="19" extent="1-1"/>
+<wire x1="46.81" y1="56.683334375" x2="61.81" y2="46.35" width="0" layer="19" extent="1-1"/>
+<wire x1="62.81" y1="67.016659375" x2="46.81" y2="56.683334375" width="0" layer="19" extent="1-1"/>
+<wire x1="46.81" y1="77.35" x2="62.81" y2="67.016659375" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="26.08" x2="46.81" y2="56.683334375" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="23.54" x2="10.68" y2="26.08" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="26.08" x2="10.68" y2="26.08" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="26.08" x2="8.14" y2="26.08" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="28.62" x2="5.6" y2="26.08" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="21" x2="10.68" y2="23.54" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="23.54" x2="10.68" y2="23.54" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="23.54" x2="5.6" y2="26.08" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="21" x2="10.68" y2="21" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="21" x2="5.6" y2="23.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="J1" pad="39"/>

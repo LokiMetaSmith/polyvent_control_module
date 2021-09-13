@@ -83,9 +83,9 @@
 <hole x="97.16" y="5.64" drill="2.25"/>
 </plain>
 <libraries>
-<library name="8-1393644-0">
+<library name="din41612_48_pin_board">
 <packages>
-<package name="TE_8-1393644-0">
+<package name="HARTING_09231486921">
 <wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="51"/>
 <wire x1="-45.73" y1="0" x2="7.63" y2="0" width="0.127" layer="51"/>
 <wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
@@ -352,17 +352,17 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="8-1393644-0" package="TE_8-1393644-0" value="8-1393644-0" x="5.6" y="21" smashed="yes" rot="R270">
+<element name="J1" library="din41612_48_pin_board" package="HARTING_09231486921" value="09231486921" x="5.6" y="21" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COMMENT" value="8-1393644-0" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COMMENT" value="09231486921" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray " x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="8-1393644-0" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="HARTING" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="09231486921" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.605" y="67.73" size="1.27" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/8-1393644-0/?ref=eda" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="6$" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/harting/09231486921/3180439" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-8.59" y="67.73" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
