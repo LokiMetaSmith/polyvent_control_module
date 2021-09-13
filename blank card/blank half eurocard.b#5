@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -77,91 +77,11 @@
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<hole x="2.84" y="5.64" drill="2.25"/>
-<hole x="2.84" y="74.36" drill="2.25"/>
-<hole x="97.16" y="74.36" drill="2.25"/>
-<hole x="97.16" y="5.64" drill="2.25"/>
 </plain>
 <libraries>
 <library name="8-1393644-0">
 <packages>
 <package name="TE_8-1393644-0">
-<wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="51"/>
-<wire x1="-45.73" y1="0" x2="7.63" y2="0" width="0.127" layer="51"/>
-<wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
-<wire x1="7.63" y1="-5.54" x2="-45.73" y2="-5.54" width="0.127" layer="51"/>
-<wire x1="-45.73" y1="-5.54" x2="-45.73" y2="-11.94" width="0.127" layer="51"/>
-<wire x1="-45.73" y1="-11.94" x2="7.63" y2="-11.94" width="0.127" layer="51"/>
-<wire x1="7.63" y1="-11.94" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
-<wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="21"/>
-<wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="21"/>
-<wire x1="-45.73" y1="0" x2="-39.095" y2="0" width="0.127" layer="21"/>
-<wire x1="0.995" y1="0" x2="7.63" y2="0" width="0.127" layer="21"/>
-<wire x1="-45.73" y1="-5.54" x2="7.63" y2="-5.54" width="0.127" layer="21"/>
-<wire x1="-45.98" y1="-12.19" x2="-45.98" y2="6.005" width="0.05" layer="39"/>
-<wire x1="-45.98" y1="6.005" x2="7.88" y2="6.005" width="0.05" layer="39"/>
-<wire x1="7.88" y1="6.005" x2="7.88" y2="-12.19" width="0.05" layer="39"/>
-<wire x1="7.88" y1="-12.19" x2="-45.98" y2="-12.19" width="0.05" layer="39"/>
-<text x="-46.73" y="7.005" size="1.27" layer="25">&gt;NAME</text>
-<text x="-46.73" y="-14.19" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="8.28" y="0" radius="0.1" width="0.2" layer="21"/>
-<circle x="8.28" y="0" radius="0.1" width="0.2" layer="51"/>
-<hole x="-43.18" y="-2.54" drill="2.8"/>
-<hole x="5.08" y="-2.54" drill="2.8"/>
-<pad name="1" x="0" y="0" drill="1" diameter="1.35" shape="square"/>
-<pad name="2" x="-2.54" y="0" drill="1" diameter="1.35"/>
-<pad name="3" x="-5.08" y="0" drill="1" diameter="1.35"/>
-<pad name="4" x="-7.62" y="0" drill="1" diameter="1.35"/>
-<pad name="5" x="-10.16" y="0" drill="1" diameter="1.35"/>
-<pad name="6" x="-12.7" y="0" drill="1" diameter="1.35"/>
-<pad name="7" x="-15.24" y="0" drill="1" diameter="1.35"/>
-<pad name="8" x="-17.78" y="0" drill="1" diameter="1.35"/>
-<pad name="9" x="-20.32" y="0" drill="1" diameter="1.35"/>
-<pad name="10" x="-22.86" y="0" drill="1" diameter="1.35"/>
-<pad name="11" x="-25.4" y="0" drill="1" diameter="1.35"/>
-<pad name="12" x="-27.94" y="0" drill="1" diameter="1.35"/>
-<pad name="13" x="-30.48" y="0" drill="1" diameter="1.35"/>
-<pad name="14" x="-33.02" y="0" drill="1" diameter="1.35"/>
-<pad name="15" x="-35.56" y="0" drill="1" diameter="1.35"/>
-<pad name="16" x="-38.1" y="0" drill="1" diameter="1.35"/>
-<pad name="17" x="0" y="2.54" drill="1" diameter="1.35"/>
-<pad name="18" x="-2.54" y="2.54" drill="1" diameter="1.35"/>
-<pad name="19" x="-5.08" y="2.54" drill="1" diameter="1.35"/>
-<pad name="20" x="-7.62" y="2.54" drill="1" diameter="1.35"/>
-<pad name="21" x="-10.16" y="2.54" drill="1" diameter="1.35"/>
-<pad name="22" x="-12.7" y="2.54" drill="1" diameter="1.35"/>
-<pad name="23" x="-15.24" y="2.54" drill="1" diameter="1.35"/>
-<pad name="24" x="-17.78" y="2.54" drill="1" diameter="1.35"/>
-<pad name="25" x="-20.32" y="2.54" drill="1" diameter="1.35"/>
-<pad name="26" x="-22.86" y="2.54" drill="1" diameter="1.35"/>
-<pad name="27" x="-25.4" y="2.54" drill="1" diameter="1.35"/>
-<pad name="28" x="-27.94" y="2.54" drill="1" diameter="1.35"/>
-<pad name="29" x="-30.48" y="2.54" drill="1" diameter="1.35"/>
-<pad name="30" x="-33.02" y="2.54" drill="1" diameter="1.35"/>
-<pad name="31" x="-35.56" y="2.54" drill="1" diameter="1.35"/>
-<pad name="32" x="-38.1" y="2.54" drill="1" diameter="1.35"/>
-<pad name="33" x="0" y="5.08" drill="1" diameter="1.35"/>
-<pad name="34" x="-2.54" y="5.08" drill="1" diameter="1.35"/>
-<pad name="35" x="-5.08" y="5.08" drill="1" diameter="1.35"/>
-<pad name="36" x="-7.62" y="5.08" drill="1" diameter="1.35"/>
-<pad name="37" x="-10.16" y="5.08" drill="1" diameter="1.35"/>
-<pad name="38" x="-12.7" y="5.08" drill="1" diameter="1.35"/>
-<pad name="39" x="-15.24" y="5.08" drill="1" diameter="1.35"/>
-<pad name="40" x="-17.78" y="5.08" drill="1" diameter="1.35"/>
-<pad name="41" x="-20.32" y="5.08" drill="1" diameter="1.35"/>
-<pad name="42" x="-22.86" y="5.08" drill="1" diameter="1.35"/>
-<pad name="43" x="-25.4" y="5.08" drill="1" diameter="1.35"/>
-<pad name="44" x="-27.94" y="5.08" drill="1" diameter="1.35"/>
-<pad name="45" x="-30.48" y="5.08" drill="1" diameter="1.35"/>
-<pad name="46" x="-33.02" y="5.08" drill="1" diameter="1.35"/>
-<pad name="47" x="-35.56" y="5.08" drill="1" diameter="1.35"/>
-<pad name="48" x="-38.1" y="5.08" drill="1" diameter="1.35"/>
-</package>
-</packages>
-</library>
-<library name="din41612_48_pin_board">
-<packages>
-<package name="HARTING_09231486921">
 <wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="51"/>
 <wire x1="-45.73" y1="0" x2="7.63" y2="0" width="0.127" layer="51"/>
 <wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
@@ -428,161 +348,21 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="8-1393644-0" package="TE_8-1393644-0" value="8-1393644-0" x="5.6" y="21" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COMMENT" value="8-1393644-0" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray " x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="TE Connectivity" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="8-1393644-0" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="12.605" y="67.73" size="1.27" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="None" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/8-1393644-0/?ref=eda" x="5.6" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-8.59" y="67.73" size="1.27" layer="27" rot="R270"/>
-</element>
-<element name="J2" library="din41612_48_pin_board" package="HARTING_09231486921" value="09231486921" x="39" y="-9" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="39" y="-9" size="1.778" layer="27" display="off"/>
-<attribute name="COMMENT" value="09231486921" x="39" y="-9" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray " x="39" y="-9" size="1.778" layer="27" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="39" y="-9" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="HARTING" x="39" y="-9" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="09231486921" x="39" y="-9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.73" y="-1.995" size="1.27" layer="25"/>
-<attribute name="PACKAGE" value="None" x="39" y="-9" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="6$" x="39" y="-9" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/harting/09231486921/3180439" x="39" y="-9" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-7.73" y="-23.19" size="1.27" layer="27"/>
+<element name="J1" library="8-1393644-0" package="TE_8-1393644-0" value="8-1393644-0" x="5.5" y="21.1" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="5.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COMMENT" value="8-1393644-0" x="5.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray " x="5.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="5.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="TE Connectivity" x="5.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="8-1393644-0" x="5.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.505" y="67.83" size="1.27" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="5.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="5.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/8-1393644-0/?ref=eda" x="5.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-8.69" y="67.83" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
 <signals>
-<signal name="GND">
-<contactref element="J1" pad="1"/>
-<contactref element="J1" pad="4"/>
-<contactref element="J1" pad="2"/>
-<contactref element="J1" pad="3"/>
-<contactref element="J1" pad="33"/>
-<contactref element="J1" pad="35"/>
-<contactref element="J1" pad="34"/>
-<contactref element="J1" pad="17"/>
-<contactref element="J1" pad="19"/>
-<contactref element="J1" pad="18"/>
-<wire x1="10.68" y1="23.54" x2="10.68" y2="26.08" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="26.08" x2="10.68" y2="26.08" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="26.08" x2="8.14" y2="26.08" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="28.62" x2="5.6" y2="26.08" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="21" x2="10.68" y2="23.54" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="23.54" x2="10.68" y2="23.54" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="23.54" x2="5.6" y2="26.08" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="21" x2="10.68" y2="21" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="21" x2="5.6" y2="23.54" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="24V/12V">
-<contactref element="J1" pad="5"/>
-<contactref element="J1" pad="6"/>
-<contactref element="J1" pad="20"/>
-<contactref element="J1" pad="21"/>
-<contactref element="J1" pad="22"/>
-<contactref element="J1" pad="36"/>
-<contactref element="J1" pad="37"/>
-<wire x1="5.6" y1="33.7" x2="8.14" y2="33.7" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="31.16" x2="8.14" y2="33.7" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="31.16" x2="8.14" y2="31.16" width="0" layer="19" extent="1-1"/>
-<wire x1="10.68" y1="28.62" x2="10.68" y2="31.16" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="31.16" x2="5.6" y2="33.7" width="0" layer="19" extent="1-1"/>
-<wire x1="8.14" y1="28.62" x2="8.14" y2="31.16" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="5V">
-<contactref element="J1" pad="39"/>
-<contactref element="J1" pad="23"/>
-<contactref element="J1" pad="7"/>
-<wire x1="8.14" y1="36.24" x2="10.68" y2="36.24" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="36.24" x2="8.14" y2="36.24" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="3.3V">
-<contactref element="J1" pad="38"/>
-</signal>
-<signal name="SCK">
-<contactref element="J1" pad="40"/>
-</signal>
-<signal name="MISO">
-<contactref element="J1" pad="41"/>
-</signal>
-<signal name="MOSI">
-<contactref element="J1" pad="42"/>
-</signal>
-<signal name="SDA">
-<contactref element="J1" pad="43"/>
-</signal>
-<signal name="SCL">
-<contactref element="J1" pad="44"/>
-</signal>
-<signal name="SS_1">
-<contactref element="J1" pad="8"/>
-</signal>
-<signal name="SS_2">
-<contactref element="J1" pad="9"/>
-</signal>
-<signal name="SS_3">
-<contactref element="J1" pad="10"/>
-</signal>
-<signal name="SS_4">
-<contactref element="J1" pad="11"/>
-</signal>
-<signal name="SS_5">
-<contactref element="J1" pad="12"/>
-</signal>
-<signal name="SS_6">
-<contactref element="J1" pad="13"/>
-</signal>
-<signal name="SS_7">
-<contactref element="J1" pad="14"/>
-</signal>
-<signal name="SS_8">
-<contactref element="J1" pad="24"/>
-</signal>
-<signal name="SS_9">
-<contactref element="J1" pad="25"/>
-</signal>
-<signal name="SS_10">
-<contactref element="J1" pad="26"/>
-</signal>
-<signal name="SS_11">
-<contactref element="J1" pad="27"/>
-</signal>
-<signal name="SS_12">
-<contactref element="J1" pad="28"/>
-</signal>
-<signal name="SS_13">
-<contactref element="J1" pad="29"/>
-</signal>
-<signal name="SS_14">
-<contactref element="J1" pad="30"/>
-</signal>
-<signal name="SS_15">
-<contactref element="J1" pad="45"/>
-</signal>
-<signal name="EXT_1">
-<contactref element="J1" pad="15"/>
-</signal>
-<signal name="EXT_3">
-<contactref element="J1" pad="31"/>
-</signal>
-<signal name="EXT_5">
-<contactref element="J1" pad="46"/>
-</signal>
-<signal name="EXT_7">
-<contactref element="J1" pad="48"/>
-</signal>
-<signal name="EXT_6">
-<contactref element="J1" pad="47"/>
-</signal>
-<signal name="EXT_4">
-<contactref element="J1" pad="32"/>
-</signal>
-<signal name="EXT_2">
-<contactref element="J1" pad="16"/>
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
