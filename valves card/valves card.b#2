@@ -1369,8 +1369,9 @@ design rules under a new name.</description>
 <via x="17" y="32" extent="1-16" drill="0.35"/>
 <via x="17" y="30" extent="1-16" drill="0.35"/>
 <via x="15" y="32" extent="1-16" drill="0.35"/>
-<wire x1="17" y1="32" x2="23.8" y2="32" width="1.6" layer="1"/>
-<wire x1="23.8" y1="32" x2="24.75" y2="31.05" width="1.6" layer="1"/>
+<wire x1="24.3" y1="31.5" x2="17.5" y2="31.5" width="1.6" layer="1"/>
+<wire x1="17" y1="32" x2="17.5" y2="31.5" width="1.6" layer="1"/>
+<wire x1="24.3" y1="31.5" x2="24.75" y2="31.05" width="1.6" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="J1" pad="39"/>
@@ -1380,7 +1381,23 @@ design rules under a new name.</description>
 <signal name="3.3V">
 <contactref element="J1" pad="38"/>
 <contactref element="U$1" pad="4@JP2"/>
-<wire x1="10.68" y1="33.7" x2="29.51" y2="60.59" width="0" layer="19" extent="1-1"/>
+<wire x1="29.51" y1="60.59" x2="29.51" y2="59.95381875" width="0.508" layer="16"/>
+<wire x1="29.51" y1="59.95381875" x2="28.1638" y2="58.60761875" width="0.508" layer="16"/>
+<wire x1="25.1316" y1="39.81603125" x2="26" y2="38.94763125" width="0.508" layer="16"/>
+<wire x1="25.1316" y1="51.24119375" x2="25.1316" y2="39.81603125" width="0.508" layer="16"/>
+<wire x1="28.1638" y1="58.60761875" x2="28.1638" y2="54.27339375" width="0.508" layer="16"/>
+<wire x1="28.1638" y1="54.27339375" x2="25.1316" y2="51.24119375" width="0.508" layer="16"/>
+<wire x1="26" y1="34.8" x2="24.2" y2="33" width="0.508" layer="16"/>
+<via x="24.2" y="33" extent="1-16" drill="0.35"/>
+<wire x1="26" y1="38.94763125" x2="26" y2="34.8" width="0.508" layer="16"/>
+<wire x1="20.6936" y1="34.3064" x2="18" y2="37" width="0.508" layer="1"/>
+<wire x1="20.6936" y1="33.8316625" x2="20.6936" y2="34.3064" width="0.508" layer="1"/>
+<wire x1="24.2" y1="33" x2="21.5252625" y2="33" width="0.508" layer="1"/>
+<wire x1="21.5252625" y1="33" x2="20.6936" y2="33.8316625" width="0.508" layer="1"/>
+<wire x1="12.1954" y1="35.2154" x2="10.68" y2="33.7" width="0.508" layer="1"/>
+<wire x1="13.32499375" y1="35.2154" x2="12.1954" y2="35.2154" width="0.508" layer="1"/>
+<wire x1="18" y1="37" x2="15.10959375" y2="37" width="0.508" layer="1"/>
+<wire x1="15.10959375" y1="37" x2="13.32499375" y2="35.2154" width="0.508" layer="1"/>
 </signal>
 <signal name="SCK">
 <contactref element="J1" pad="40"/>

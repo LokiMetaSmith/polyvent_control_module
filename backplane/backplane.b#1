@@ -760,9 +760,9 @@ chip tantalum</description>
 </package>
 </packages>
 </library>
-<library name="LM1084IS" urn="urn:adsk.eagle:library:30825294">
+<library name="LM1084IS">
 <packages>
-<package name="TO254P1435X457-3N" urn="urn:adsk.eagle:footprint:30825296/1" library_version="1" library_locally_modified="yes">
+<package name="TO254P1435X457-3N">
 <wire x1="-2.0574" y1="-4.318" x2="-3.0226" y2="-4.318" width="0.1524" layer="51"/>
 <wire x1="-3.0226" y1="-4.318" x2="-3.0226" y2="-10.033" width="0.1524" layer="51"/>
 <wire x1="-3.0226" y1="-10.033" x2="-2.0574" y2="-10.033" width="0.1524" layer="51"/>
@@ -1154,7 +1154,7 @@ design rules under a new name.</description>
 <attribute name="PURCHASE_URL_DIGIKEY" value="" x="8" y="62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.73" y="72" size="1.778" layer="27" rot="R90" align="bottom-right"/>
 </element>
-<element name="U1" library="LM1084IS" library_urn="urn:adsk.eagle:library:30825294" package="TO254P1435X457-3N" value="LM1084IS-5.0" x="13" y="44" smashed="yes">
+<element name="U1" library="LM1084IS" package="TO254P1435X457-3N" value="LM1084IS-5.0" x="13" y="44" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="13" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" LDO Regulator Pos 5V 5A 4-Pin(3+Tab) TO-263 Tube " x="13" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Texas Instruments" x="13" y="44" size="1.778" layer="27" display="off"/>
@@ -1175,7 +1175,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.476" y="38.714" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="9.032" y="33.714" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U2" library="LM1084IS" library_urn="urn:adsk.eagle:library:30825294" package="TO254P1435X457-3N" value="LM1084IS-3.3" x="13" y="24" smashed="yes">
+<element name="U2" library="LM1084IS" package="TO254P1435X457-3N" value="LM1084IS-3.3" x="13" y="24" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="-1" y="47" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="LDO Regulator Pos 3.3V 5A 4-Pin(3+Tab) TO-263 Tube " x="-1" y="47" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Texas Instruments" x="-1" y="47" size="1.778" layer="27" display="off"/>

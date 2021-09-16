@@ -170,6 +170,93 @@
 <hole x="115" y="3" drill="3.4"/>
 </plain>
 <libraries>
+<library name="con-dg55">
+<description>&lt;b&gt;&lt;font SIZE=4 FACE=ARIAL  color='#FF0505'&gt;D&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#F9050A'&gt;G&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#F4050F'&gt;5&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#EF0614'&gt;5&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#E9061A'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#E4071F'&gt;D&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#DF0724'&gt;E&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#D9082A'&gt;G&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#D4082F'&gt;S&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#CF0934'&gt;O&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#C9093A'&gt;N&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#C4093F'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#BF0A44'&gt;E&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#B90A4A'&gt;L&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#B40B4F'&gt;E&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#AF0B54'&gt;C&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#A90C5A'&gt;T&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#A40C5F'&gt;R&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#9F0D64'&gt;O&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#990D6A'&gt;N&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#940D6F'&gt;I&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#8F0E74'&gt;C&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#890E7A'&gt;S&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#840F7F'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#7F0F84'&gt;1&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#7A1089'&gt;0&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#74108F'&gt;m&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#6F1194'&gt;m&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#6A1199'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#64119F'&gt;P&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#5F12A4'&gt;l&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#5A12A9'&gt;a&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#5413AF'&gt;s&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#4F13B4'&gt;t&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#4A14B9'&gt;i&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#4414BF'&gt;c&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#3F15C4'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt; &lt;font SIZE=4 FACE=ARIAL  color='#3A15C9'&gt;C&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#3415CF'&gt;o&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#2F16D4'&gt;n&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#2A16D9'&gt;n&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#2417DF'&gt;e&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#1F17E4'&gt;c&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#1A18E9'&gt;t&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#1418EF'&gt;o&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#0F19F4'&gt;r&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#0A19F9'&gt;s&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;/b&gt;
+&lt;p&gt;
+300V 20A&lt;p&gt;
+22~12 AWG - 4mm&lt;sup&gt;2&lt;/sup&gt;&lt;p&gt;
+
+&lt;a href="http://www.degson.com/20081120/epdf/175.pdf"&gt;&lt;font color=red&gt;Datasheet&lt;/font&gt;&lt;/a&gt;&lt;p&gt;
+
+
+
+&lt;img src="http://www.degson.com/20081120/bigpic/175.jpg" alt="" /&gt;&lt;p&gt;
+&lt;author&gt;Created by sergeyev792@yandex.ru&lt;/author&gt;
+&lt;p&gt;</description>
+<packages>
+<package name="DG55CB-2P-1">
+<description>DG55</description>
+<wire x1="-9.153334375" y1="-6.970003125" x2="-0.84666875" y2="-6.970003125" width="0.15" layer="21"/>
+<wire x1="-9.153334375" y1="6.97" x2="-0.84666875" y2="6.97" width="0.15" layer="21"/>
+<wire x1="-9.153334375" y1="4.5" x2="-0.84666875" y2="4.5" width="0.15" layer="21"/>
+<wire x1="-9.1533375" y1="-4.5" x2="-0.84666875" y2="-4.5" width="0.15" layer="21"/>
+<circle x="-5" y="0" radius="3.333334375" width="0.15" layer="21"/>
+<wire x1="-5.18283125" y1="1.031359375" x2="-4.81655" y2="1.031975" width="0.15" layer="21" curve="89.807238"/>
+<wire x1="-5.574921875" y1="1.423446875" x2="-6.423446875" y2="0.574921875" width="0.15" layer="21" curve="180"/>
+<wire x1="-3.968021875" y1="0.183446875" x2="-3.9686375" y2="-0.182828125" width="0.15" layer="21" curve="89.805285"/>
+<wire x1="-4.425078125" y1="-1.423446875" x2="-3.576553125" y2="-0.574921875" width="0.15" layer="21" curve="180"/>
+<wire x1="-6.031978125" y1="-0.183446875" x2="-6.0313625" y2="0.182828125" width="0.15" layer="21" curve="89.806259"/>
+<wire x1="-4.81716875" y1="-1.031359375" x2="-5.183446875" y2="-1.031978125" width="0.15" layer="21" curve="89.807235"/>
+<wire x1="-3.576553125" y1="0.574921875" x2="-4.425078125" y2="1.423446875" width="0.15" layer="21" curve="180"/>
+<wire x1="-6.423446875" y1="-0.574921875" x2="-5.574921875" y2="-1.423446875" width="0.15" layer="21" curve="180"/>
+<wire x1="-6.423446875" y1="-0.574921875" x2="-6.031978125" y2="-0.183446875" width="0.15" layer="21"/>
+<wire x1="-6.031359375" y1="0.18283125" x2="-6.42345" y2="0.574921875" width="0.15" layer="21"/>
+<wire x1="-5.574921875" y1="1.423446875" x2="-5.18283125" y2="1.031359375" width="0.15" layer="21"/>
+<wire x1="-4.816553125" y1="1.031978125" x2="-4.425078125" y2="1.423446875" width="0.15" layer="21"/>
+<wire x1="-3.576553125" y1="0.574921875" x2="-3.968021875" y2="0.183446875" width="0.15" layer="21"/>
+<wire x1="-3.968640625" y1="-0.18283125" x2="-3.576553125" y2="-0.574921875" width="0.15" layer="21"/>
+<wire x1="-4.425078125" y1="-1.423446875" x2="-4.8164625" y2="-1.032065625" width="0.15" layer="21"/>
+<wire x1="-5.183446875" y1="-1.031978125" x2="-5.57491875" y2="-1.42345" width="0.15" layer="21"/>
+<circle x="-2.682225" y="-0.000003125" radius="0.24801875" width="0.15" layer="21"/>
+<wire x1="-9.137625" y1="-3.646921875" x2="-1.353075" y2="-4.137625" width="0.15" layer="21"/>
+<wire x1="-8.646921875" y1="4.137628125" x2="-9.137628125" y2="-3.646921875" width="0.15" layer="21"/>
+<wire x1="-0.862371875" y1="3.646921875" x2="-1.353078125" y2="-4.137628125" width="0.15" layer="21"/>
+<wire x1="-8.646925" y1="4.137628125" x2="-0.862375" y2="3.646921875" width="0.15" layer="21"/>
+<wire x1="0.8466625" y1="7.809996875" x2="-0.84666875" y2="7.809996875" width="0.15" layer="21"/>
+<wire x1="-9.153334375" y1="7.809996875" x2="-10.846665625" y2="7.809996875" width="0.15" layer="21"/>
+<wire x1="0.8466625" y1="-7.810003125" x2="-0.84666875" y2="-7.810003125" width="0.15" layer="21"/>
+<wire x1="-9.153334375" y1="-7.810003125" x2="-10.846665625" y2="-7.810003125" width="0.15" layer="21"/>
+<wire x1="-10.846665625" y1="7.809996875" x2="-10.846665625" y2="-7.810003125" width="0.15" layer="21"/>
+<wire x1="-9.1533375" y1="7.81" x2="-9.1533375" y2="-7.81" width="0.15" layer="21"/>
+<wire x1="-0.84666875" y1="7.81" x2="-0.84666875" y2="-7.81" width="0.15" layer="21"/>
+<wire x1="0.8466625" y1="7.81" x2="0.8466625" y2="-7.81" width="0.15" layer="21"/>
+<wire x1="0.846659375" y1="-6.97" x2="9.153328125" y2="-6.97" width="0.15" layer="21"/>
+<wire x1="0.846659375" y1="6.97" x2="9.153328125" y2="6.97" width="0.15" layer="21"/>
+<wire x1="0.846659375" y1="4.500003125" x2="9.153328125" y2="4.500003125" width="0.15" layer="21"/>
+<wire x1="0.846659375" y1="-4.499996875" x2="9.153328125" y2="-4.499996875" width="0.15" layer="21"/>
+<circle x="4.999996875" y="0.000003125" radius="3.33333125" width="0.15" layer="21"/>
+<wire x1="4.817165625" y1="1.0313625" x2="5.183440625" y2="1.03198125" width="0.15" layer="21" curve="89.806747"/>
+<wire x1="4.425075" y1="1.42345" x2="3.576546875" y2="0.57491875" width="0.15" layer="21" curve="179.999789"/>
+<wire x1="6.031975" y1="0.18345" x2="6.03135625" y2="-0.182828125" width="0.15" layer="21" curve="89.807235"/>
+<wire x1="5.57491875" y1="-1.423446875" x2="6.423446875" y2="-0.574915625" width="0.15" layer="21" curve="179.999367"/>
+<wire x1="3.96801875" y1="-0.183446875" x2="3.9686375" y2="0.18283125" width="0.15" layer="21" curve="89.806261"/>
+<wire x1="5.182828125" y1="-1.03135625" x2="4.816546875" y2="-1.031971875" width="0.15" layer="21" curve="89.807237"/>
+<wire x1="6.42344375" y1="0.574921875" x2="5.57491875" y2="1.423446875" width="0.15" layer="21" curve="179.999578"/>
+<wire x1="3.57655" y1="-0.57491875" x2="4.425075" y2="-1.42344375" width="0.15" layer="21" curve="180"/>
+<wire x1="3.57655" y1="-0.57491875" x2="3.96801875" y2="-0.183446875" width="0.15" layer="21"/>
+<wire x1="3.9686375" y1="0.18283125" x2="3.576546875" y2="0.574921875" width="0.15" layer="21"/>
+<wire x1="4.425075" y1="1.42345" x2="4.817165625" y2="1.0313625" width="0.15" layer="21"/>
+<wire x1="5.18344375" y1="1.031978125" x2="5.57491875" y2="1.42345" width="0.15" layer="21"/>
+<wire x1="6.42344375" y1="0.574921875" x2="6.031975" y2="0.18345" width="0.15" layer="21"/>
+<wire x1="6.03135625" y1="-0.182828125" x2="6.42344375" y2="-0.57491875" width="0.15" layer="21"/>
+<wire x1="5.57491875" y1="-1.423446875" x2="5.183534375" y2="-1.0320625" width="0.15" layer="21"/>
+<wire x1="4.81655" y1="-1.031975" x2="4.425078125" y2="-1.423446875" width="0.15" layer="21"/>
+<circle x="7.317771875" y="0" radius="0.248015625" width="0.15" layer="21"/>
+<wire x1="0.862371875" y1="-3.64691875" x2="8.646921875" y2="-4.137625" width="0.15" layer="21"/>
+<wire x1="1.353075" y1="4.137628125" x2="0.86236875" y2="-3.646921875" width="0.15" layer="21"/>
+<wire x1="9.137625" y1="3.646925" x2="8.64691875" y2="-4.137625" width="0.15" layer="21"/>
+<wire x1="1.353071875" y1="4.137628125" x2="9.137621875" y2="3.646925" width="0.15" layer="21"/>
+<wire x1="10.846659375" y1="7.81" x2="9.153328125" y2="7.81" width="0.15" layer="21"/>
+<wire x1="10.846659375" y1="-7.81" x2="9.153328125" y2="-7.81" width="0.15" layer="21"/>
+<wire x1="9.153328125" y1="7.81" x2="9.153328125" y2="-7.81" width="0.15" layer="21"/>
+<wire x1="10.846659375" y1="7.81" x2="10.846659375" y2="-7.81" width="0.15" layer="21"/>
+<pad name="1" x="-5" y="0" drill="1.8" diameter="3.6"/>
+<pad name="2" x="5" y="0" drill="1.8" diameter="3.6"/>
+<text x="-10" y="8.73" size="1.778" layer="25">&gt;name</text>
+<text x="-10" y="-8.73" size="1.778" layer="27" rot="R180" align="bottom-right">&gt;value</text>
+</package>
+</packages>
+</library>
 <library name="rc-master-smd">
 <description>&lt;b&gt;R/C MASTER-SMD! - v1.01 (07/03/2007)&lt;/b&gt;&lt;p&gt;
 &lt;p&gt;This library is a collection of SMD ONLY resistors and capacitors by various manufacturers. The pad sizes, spacing and silkscreen widths have been tweaked for use in dense fine pitch layouts where space, alignment and precision are critical. In general these components are designed for routing in grid increments of 5 mils&lt;/p&gt;
@@ -760,9 +847,9 @@ chip tantalum</description>
 </package>
 </packages>
 </library>
-<library name="LM1084IS" urn="urn:adsk.eagle:library:30825294">
+<library name="LM1084IS">
 <packages>
-<package name="TO254P1435X457-3N" urn="urn:adsk.eagle:footprint:30825296/1" library_version="1" library_locally_modified="yes">
+<package name="TO254P1435X457-3N">
 <wire x1="-2.0574" y1="-4.318" x2="-3.0226" y2="-4.318" width="0.1524" layer="51"/>
 <wire x1="-3.0226" y1="-4.318" x2="-3.0226" y2="-10.033" width="0.1524" layer="51"/>
 <wire x1="-3.0226" y1="-10.033" x2="-2.0574" y2="-10.033" width="0.1524" layer="51"/>
@@ -785,59 +872,6 @@ chip tantalum</description>
 <smd name="2" x="0" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
 <smd name="3" x="2.54" y="-9.0424" dx="1.016" dy="2.6924" layer="1"/>
 <smd name="4" x="0" y="0.1524" dx="10.16" dy="8.9408" layer="1"/>
-</package>
-</packages>
-</library>
-<library name="polyvent_power_connector">
-<description>&lt;b&gt;&lt;font SIZE=4 FACE=ARIAL  color='#FF0505'&gt;D&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#F9050A'&gt;G&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#F4050F'&gt;5&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#EF0614'&gt;5&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#E9061A'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#E4071F'&gt;D&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#DF0724'&gt;E&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#D9082A'&gt;G&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#D4082F'&gt;S&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#CF0934'&gt;O&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#C9093A'&gt;N&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#C4093F'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#BF0A44'&gt;E&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#B90A4A'&gt;L&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#B40B4F'&gt;E&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#AF0B54'&gt;C&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#A90C5A'&gt;T&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#A40C5F'&gt;R&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#9F0D64'&gt;O&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#990D6A'&gt;N&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#940D6F'&gt;I&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#8F0E74'&gt;C&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#890E7A'&gt;S&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#840F7F'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#7F0F84'&gt;1&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#7A1089'&gt;0&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#74108F'&gt;m&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#6F1194'&gt;m&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#6A1199'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#64119F'&gt;P&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#5F12A4'&gt;l&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#5A12A9'&gt;a&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#5413AF'&gt;s&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#4F13B4'&gt;t&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#4A14B9'&gt;i&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#4414BF'&gt;c&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#3F15C4'&gt; &lt;/font SIZE=4 FACE=ARIAL &gt; &lt;font SIZE=4 FACE=ARIAL  color='#3A15C9'&gt;C&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#3415CF'&gt;o&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#2F16D4'&gt;n&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#2A16D9'&gt;n&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#2417DF'&gt;e&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#1F17E4'&gt;c&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#1A18E9'&gt;t&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#1418EF'&gt;o&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#0F19F4'&gt;r&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;font SIZE=4 FACE=ARIAL  color='#0A19F9'&gt;s&lt;/font SIZE=4 FACE=ARIAL &gt;&lt;/b&gt;
-&lt;p&gt;
-300V 20A&lt;p&gt;
-22~12 AWG - 4mm&lt;sup&gt;2&lt;/sup&gt;&lt;p&gt;
-
-&lt;a href="http://www.degson.com/20081120/epdf/175.pdf"&gt;&lt;font color=red&gt;Datasheet&lt;/font&gt;&lt;/a&gt;&lt;p&gt;
-
-
-
-&lt;img src="http://www.degson.com/20081120/bigpic/175.jpg" alt="" /&gt;&lt;p&gt;
-&lt;author&gt;Created by sergeyev792@yandex.ru&lt;/author&gt;
-&lt;p&gt;</description>
-<packages>
-<package name="T38120-02-0">
-<description>DG55</description>
-<wire x1="-9.153334375" y1="-6.970003125" x2="-0.84666875" y2="-6.970003125" width="0.15" layer="21"/>
-<wire x1="-9.153334375" y1="6.97" x2="-0.84666875" y2="6.97" width="0.15" layer="21"/>
-<wire x1="-9.153334375" y1="4.5" x2="-0.84666875" y2="4.5" width="0.15" layer="21"/>
-<wire x1="-9.1533375" y1="-4.5" x2="-0.84666875" y2="-4.5" width="0.15" layer="21"/>
-<circle x="-2.682225" y="-0.000003125" radius="0.24801875" width="0.15" layer="21"/>
-<wire x1="-9.137625" y1="-3.646921875" x2="-1.353075" y2="-4.137625" width="0.15" layer="21"/>
-<wire x1="-8.646921875" y1="4.137628125" x2="-9.137628125" y2="-3.646921875" width="0.15" layer="21"/>
-<wire x1="-0.862371875" y1="3.646921875" x2="-1.353078125" y2="-4.137628125" width="0.15" layer="21"/>
-<wire x1="-8.646925" y1="4.137628125" x2="-0.862375" y2="3.646921875" width="0.15" layer="21"/>
-<wire x1="0.8466625" y1="7.809996875" x2="-0.84666875" y2="7.809996875" width="0.15" layer="21"/>
-<wire x1="-9.153334375" y1="7.809996875" x2="-10.846665625" y2="7.809996875" width="0.15" layer="21"/>
-<wire x1="0.8466625" y1="-7.810003125" x2="-0.84666875" y2="-7.810003125" width="0.15" layer="21"/>
-<wire x1="-9.153334375" y1="-7.810003125" x2="-10.846665625" y2="-7.810003125" width="0.15" layer="21"/>
-<wire x1="-10.846665625" y1="7.809996875" x2="-10.846665625" y2="-7.810003125" width="0.15" layer="21"/>
-<wire x1="-9.1533375" y1="7.81" x2="-9.1533375" y2="-7.81" width="0.15" layer="21"/>
-<wire x1="-0.84666875" y1="7.81" x2="-0.84666875" y2="-7.81" width="0.15" layer="21"/>
-<wire x1="0.8466625" y1="7.81" x2="0.8466625" y2="-7.81" width="0.15" layer="21"/>
-<wire x1="0.846659375" y1="-6.97" x2="9.153328125" y2="-6.97" width="0.15" layer="21"/>
-<wire x1="0.846659375" y1="6.97" x2="9.153328125" y2="6.97" width="0.15" layer="21"/>
-<wire x1="0.846659375" y1="4.500003125" x2="9.153328125" y2="4.500003125" width="0.15" layer="21"/>
-<wire x1="0.846659375" y1="-4.499996875" x2="9.153328125" y2="-4.499996875" width="0.15" layer="21"/>
-<circle x="7.317771875" y="0" radius="0.248015625" width="0.15" layer="21"/>
-<wire x1="0.862371875" y1="-3.64691875" x2="8.646921875" y2="-4.137625" width="0.15" layer="21"/>
-<wire x1="1.353075" y1="4.137628125" x2="0.86236875" y2="-3.646921875" width="0.15" layer="21"/>
-<wire x1="9.137625" y1="3.646925" x2="8.64691875" y2="-4.137625" width="0.15" layer="21"/>
-<wire x1="1.353071875" y1="4.137628125" x2="9.137621875" y2="3.646925" width="0.15" layer="21"/>
-<wire x1="10.846659375" y1="7.81" x2="9.153328125" y2="7.81" width="0.15" layer="21"/>
-<wire x1="10.846659375" y1="-7.81" x2="9.153328125" y2="-7.81" width="0.15" layer="21"/>
-<wire x1="9.153328125" y1="7.81" x2="9.153328125" y2="-7.81" width="0.15" layer="21"/>
-<wire x1="10.846659375" y1="7.81" x2="10.846659375" y2="-7.81" width="0.15" layer="21"/>
-<pad name="1" x="-5" y="0" drill="2.5" diameter="5"/>
-<pad name="2" x="5" y="0" drill="2.5" diameter="5"/>
-<text x="-10" y="8.73" size="1.778" layer="25">&gt;name</text>
-<text x="-10" y="-8.73" size="1.778" layer="27" rot="R180" align="bottom-right">&gt;value</text>
 </package>
 </packages>
 </library>
@@ -1146,15 +1180,12 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447" x="167.24" y="59.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="177.325" y="12.33" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="XS1" library="polyvent_power_connector" package="T38120-02-0" value="" x="8" y="62" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER" value="Curtis Industries" x="8" y="62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER-PART-NUM" value="T38120-02-0" x="8" y="62" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="XS1" library="con-dg55" package="DG55CB-2P-1" value="" x="8" y="62" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.73" y="72" size="1.778" layer="25" rot="R270"/>
-<attribute name="ORDER-URL" value="https://www.digikey.ca/en/products/detail/curtis-industries/T38120-02-0/4855629" x="8" y="62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE_URL_DIGIKEY" value="" x="8" y="62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.73" y="72" size="1.778" layer="27" rot="R90" align="bottom-right"/>
 </element>
-<element name="U1" library="LM1084IS" library_urn="urn:adsk.eagle:library:30825294" package="TO254P1435X457-3N" value="LM1084IS-5.0" x="13" y="44" smashed="yes">
+<element name="U1" library="LM1084IS" package="TO254P1435X457-3N" value="LM1084IS-5.0" x="13" y="44" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="13" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" LDO Regulator Pos 5V 5A 4-Pin(3+Tab) TO-263 Tube " x="13" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Texas Instruments" x="13" y="44" size="1.778" layer="27" display="off"/>
@@ -1175,7 +1206,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.476" y="38.714" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="9.032" y="33.714" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U2" library="LM1084IS" library_urn="urn:adsk.eagle:library:30825294" package="TO254P1435X457-3N" value="LM1084IS-3.3" x="13" y="24" smashed="yes">
+<element name="U2" library="LM1084IS" package="TO254P1435X457-3N" value="LM1084IS-3.3" x="13" y="24" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="-1" y="47" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="LDO Regulator Pos 3.3V 5A 4-Pin(3+Tab) TO-263 Tube " x="-1" y="47" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Texas Instruments" x="-1" y="47" size="1.778" layer="27" display="off"/>

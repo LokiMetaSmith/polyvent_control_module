@@ -2543,7 +2543,8 @@ BTS3018TC (Vin=0...10V, Vds&amp;lt;=60V, Id=6A + Rds=0.02Ohm @ Vin=5V)&lt;br&gt;
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U2" library="EL817C" deviceset="EL817C" device="" value="OR-815">
+<part name="U2" library="EL817C" deviceset="EL817C" device="" value="EL817(D)-ND">
+<attribute name="BEST_I_COULD_FIND" value="EL817(D)-ND"/>
 <attribute name="MP" value="OR-815"/>
 </part>
 <part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
@@ -2693,6 +2694,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <instance part="U2" gate="G$1" x="215.9" y="38.1" smashed="yes">
 <attribute name="NAME" x="208.26538125" y="45.73461875" size="2.54486875" layer="95"/>
 <attribute name="VALUE" x="208.26795" y="25.3799" size="2.54401875" layer="96"/>
+<attribute name="BEST_I_COULD_FIND" x="215.9" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="241.3" y="33.02" smashed="yes">
 <attribute name="NAME" x="240.03" y="34.5186" size="1.778" layer="95"/>

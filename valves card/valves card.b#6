@@ -848,7 +848,7 @@ design rules under a new name.</description>
 <attribute name="AVAILABILITY" value="Bad" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Everlight" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="OR-815" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="38.604659375" y="9.19763125" size="1.271159375" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="DIP-4 Everlight" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
