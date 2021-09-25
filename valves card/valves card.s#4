@@ -2542,7 +2542,9 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="U$1" library="SparkFun-SAMD21-Mini-Breakout" deviceset="SAM_D21_MINI_BREAKOUT" device=""/>
 <part name="Q1" library="m_transistor" deviceset="STD45NF75" device="" value="IRLZ44NSTRLPBF"/>
 <part name="J2" library="TBP02R1-381-14BE" deviceset="TBP02R1-381-14BE" device=""/>
-<part name="U4" library="EL817C" deviceset="EL817C" device="" value="OR-815"/>
+<part name="U4" library="EL817C" deviceset="EL817C" device="" value="OR-815">
+<attribute name="MP" value="OR-815"/>
+</part>
 <part name="R7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="600"/>
 <part name="R8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

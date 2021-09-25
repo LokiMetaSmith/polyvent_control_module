@@ -3314,7 +3314,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="R68" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$150" class="1">
+<net name="24V" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
 <pinref part="J1" gate="G$1" pin="6"/>

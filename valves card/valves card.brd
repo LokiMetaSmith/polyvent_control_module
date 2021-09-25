@@ -164,6 +164,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTJjODE0" projecturn="a.cGVyc29uYWw6dWUyYWFmMDMwIzIwMjAwODE1MzIzNjg3MzAx" f3durn="urn:adsk.wipprod:dm.lineage:qNhJGBfgQ0mSe4L_LkHI8g" pcbguid="81a7e88e-a544-478a-828f-9ae69a135e87" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="0e11d027-5972-4da6-bd9e-e80dec3f924d" lastsyncedrevisionid="0e11d027-5972-4da6-bd9e-e80dec3f924d" lastboardhashguid="10dd5cbf-2d28-42bb-8bd6-ccc65134bc0e" lastpushedtime="2021-09-24T20:22:37Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
@@ -1317,7 +1318,7 @@ design rules under a new name.</description>
 <wire x1="73.2" y1="62.88394375" x2="72.8396" y2="62.52354375" width="1.016" layer="1"/>
 <wire x1="72.8396" y1="62.52354375" x2="72.8396" y2="58.2396" width="1.016" layer="1"/>
 </signal>
-<signal name="N$150" class="1">
+<signal name="24V" class="1">
 <contactref element="J1" pad="5"/>
 <contactref element="J1" pad="6"/>
 <contactref element="J1" pad="20"/>
@@ -2346,6 +2347,11 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
