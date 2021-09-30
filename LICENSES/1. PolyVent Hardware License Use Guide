@@ -1,0 +1,23 @@
+Hardware for PolyVent is licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal.
+To assert the license in repositories and redistributed archives, we must:
+
+1. If redistributing files, archive them in a .zip or similar format
+2. Ensure that the license text (HARDWARE LICENSE.md) is included in the
+   archive or repo
+3. Include the CERN License User Guide (cern_ohl_p_v2_howto.pdf) in the repo
+   or archive
+4. Include the CHANGES.TXT file, so that the recipient can document any changes
+   they make to the source
+   
+Each technical document describing an aspect of the hardware design should
+contain a copy of the text contained in HARDWARE LICENSE HEADER TEMPLATE,
+attached at the start of the file.
+
+Each CAD drawing or file should contain in the title block/title information a
+copy of the text contained in HARDWARE LICENSE CAD TITLE BLOCK.
+
+Any circuit boards should contain the text from HARDWARE LICENSE CAD TITLE BLOCK
+in silkscreening on the board itself.
+
+The text of the license or any of the templates MAY NOT BE CHANGED under any
+circumstance.

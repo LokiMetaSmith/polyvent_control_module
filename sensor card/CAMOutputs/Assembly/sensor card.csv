@@ -1,0 +1,9 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"ARROW_ELECTRONICS-PURCHASE-URL";"AVAILABILITY";"COMMENT";"CUI_PURCHASE_URL";"DESCRIPTION";"DIGIKEY-PURCHASE-URL";"EU_ROHS_COMPLIANCE";"MF";"MOUSER-PURCHASE-URL";"MP";"PACKAGE";"POPULARITY";"PRICE";"PURCHASE-URL-DIGIKEY";
+"5";"";"PINHD-1X1";"1X01";"P1, P2, P3, P4, P5";"PIN HEADER";"";"";"";"";"";"";"";"";"";"";"";"64";"";"";
+"1";"";"PINHD-1X15";"1X15";"JP2";"PIN HEADER";"";"";"";"";"";"";"";"";"";"";"";"4";"";"";
+"1";"09231486921";"09231486921";"HARTING_09231486921";"J1";"Check prices";"";"In Stock";"09231486921";"";" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray ";"";"Compliant";"HARTING";"";"09231486921";"None";"";"6$";"https://www.digikey.ca/en/products/detail/harting/09231486921/3180439";
+"1";"MCP346X-E/ST";"MCP346X-E/ST";"TSSOP20";"U$2";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"2";"MJ-3536N";"MJ-3536N";"CUI_MJ-3536N";"J2, J3";"2 Conductors 3 Contacts 12V 3.5 mm Right Angle Through Hole Audio Jack Connector";"https://snapeda.com/shop?store=Arrow+Electronics&id=559067";"Unavailable";"";"https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/mj-3536n?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM";"3.5 mm, Mono, Right Angle, Through Hole, Audio Jack Connector";"https://snapeda.com/shop?store=DigiKey&id=559067";"";"CUI Devices";"https://snapeda.com/shop?store=Mouser&id=559067";"MJ-3536N";"None";"";"None";"";
+"2";"S4B-XH-A";"S4B-XH-A";"S4B-XH-A";"X1, X2";"JST XH series header 2.50mm pitch disconnectable crimp style connectors, horizontal (side entry type), 4 pins";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"5";"SOLDERJUMPERTRACE";"SOLDERJUMPERTRACE";"SJ_2S-TRACE";"SJ1, SJ2, SJ3, SJ4, SJ5";"Solder Jumper";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"4";"SSCDRRV100MDSA3";"SCCDRRV100MDSA3SSCDRRV100MDSA3";"DIP1270W53P254L1303H508Q8B";"U$1, U$3, U$4, U$5";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
