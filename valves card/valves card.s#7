@@ -1829,8 +1829,17 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="4.89" y1="32.115" x2="4.89" y2="33.115" width="0.3048" layer="21"/>
 <pad name="1@JP4" x="13.589" y="17.907" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="2@JP4" x="13.589" y="20.447" drill="1.016" diameter="1.8796" rot="R180"/>
+<wire x1="12.065" y1="6.387" x2="5.715" y2="6.387" width="0.127" layer="51"/>
+<wire x1="5.715" y1="6.387" x2="5.715" y2="2.957" width="0.127" layer="51"/>
+<wire x1="5.715" y1="2.957" x2="12.065" y2="2.957" width="0.127" layer="51"/>
+<wire x1="12.065" y1="2.957" x2="12.065" y2="6.387" width="0.127" layer="51"/>
+<wire x1="10.99" y1="-0.003" x2="10.99" y2="2.797" width="0.127" layer="51"/>
+<wire x1="6.79" y1="2.797" x2="6.79" y2="-0.003" width="0.127" layer="51"/>
 <wire x1="10.99" y1="-0.003" x2="6.79" y2="-0.003" width="0.127" layer="51"/>
+<wire x1="10.99" y1="2.797" x2="6.79" y2="2.797" width="0.127" layer="51"/>
+<wire x1="7.552" y1="2.797" x2="10.228" y2="2.797" width="0.2032" layer="21"/>
 <wire x1="10.228" y1="-0.003" x2="7.552" y2="-0.003" width="0.2032" layer="21"/>
+<circle x="8.89" y="1.397" radius="0.805" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="33.02" width="0.2032" layer="21"/>
 <wire x1="0" y1="33.02" x2="17.78" y2="33.02" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.2032" layer="21"/>
@@ -1839,37 +1848,37 @@ Source: AVX .. aphvc.pdf</description>
 </packages>
 <symbols>
 <symbol name="SPARKFUN-SAMD21-MINI-BREAKOUT">
-<wire x1="-17.78" y1="-30.48" x2="17.78" y2="-30.48" width="0.2" layer="94"/>
-<wire x1="17.78" y1="-30.48" x2="17.78" y2="35.56" width="0.2" layer="94"/>
-<wire x1="17.78" y1="35.56" x2="-17.78" y2="35.56" width="0.2" layer="94"/>
-<wire x1="-17.78" y1="35.56" x2="-17.78" y2="-30.48" width="0.2" layer="94"/>
-<pin name="1/TX" x="-22.86" y="33.02" length="middle"/>
-<pin name="0/RX" x="-22.86" y="27.94" length="middle"/>
-<pin name="/RST" x="-22.86" y="22.86" length="middle" direction="in"/>
-<pin name="GND" x="-22.86" y="17.78" length="middle" direction="pwr"/>
-<pin name="2" x="-22.86" y="12.7" length="middle"/>
-<pin name="3" x="-22.86" y="7.62" length="middle"/>
-<pin name="4" x="-22.86" y="2.54" length="middle"/>
-<pin name="5" x="-22.86" y="-2.54" length="middle"/>
-<pin name="6" x="-22.86" y="-7.62" length="middle"/>
-<pin name="7" x="-22.86" y="-12.7" length="middle"/>
-<pin name="8" x="-22.86" y="-17.78" length="middle"/>
-<pin name="9" x="-22.86" y="-22.86" length="middle"/>
-<pin name="VIN" x="22.86" y="33.02" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND2" x="22.86" y="27.94" length="middle" direction="pwr" rot="R180"/>
-<pin name="AREF" x="22.86" y="22.86" length="middle" direction="pwr" rot="R180"/>
-<pin name="VCC" x="22.86" y="17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="A3" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="A2" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="A1" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="A0" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="13" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="12" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="11" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="10" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="SDA" x="22.86" y="-27.94" length="middle" rot="R180"/>
-<pin name="SCL" x="-22.86" y="-27.94" length="middle"/>
-<text x="-12.7" y="7.62" size="1.4224" layer="97">SAM D21 MINI BREAKOUT</text>
+<wire x1="0" y1="35.56" x2="35.56" y2="35.56" width="0.2" layer="94"/>
+<wire x1="35.56" y1="35.56" x2="35.56" y2="101.6" width="0.2" layer="94"/>
+<wire x1="35.56" y1="101.6" x2="0" y2="101.6" width="0.2" layer="94"/>
+<wire x1="0" y1="101.6" x2="0" y2="35.56" width="0.2" layer="94"/>
+<pin name="1/TX" x="-5.08" y="99.06" length="middle"/>
+<pin name="0/RX" x="-5.08" y="93.98" length="middle"/>
+<pin name="/RST" x="-5.08" y="88.9" length="middle" direction="in"/>
+<pin name="GND" x="-5.08" y="83.82" length="middle" direction="pwr"/>
+<pin name="2" x="-5.08" y="78.74" length="middle"/>
+<pin name="3" x="-5.08" y="73.66" length="middle"/>
+<pin name="4" x="-5.08" y="68.58" length="middle"/>
+<pin name="5" x="-5.08" y="63.5" length="middle"/>
+<pin name="6" x="-5.08" y="58.42" length="middle"/>
+<pin name="7" x="-5.08" y="53.34" length="middle"/>
+<pin name="8" x="-5.08" y="48.26" length="middle"/>
+<pin name="9" x="-5.08" y="43.18" length="middle"/>
+<pin name="VIN" x="40.64" y="99.06" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND2" x="40.64" y="93.98" length="middle" direction="pwr" rot="R180"/>
+<pin name="AREF" x="40.64" y="88.9" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC" x="40.64" y="83.82" length="middle" direction="pwr" rot="R180"/>
+<pin name="A3" x="40.64" y="78.74" length="middle" rot="R180"/>
+<pin name="A2" x="40.64" y="73.66" length="middle" rot="R180"/>
+<pin name="A1" x="40.64" y="68.58" length="middle" rot="R180"/>
+<pin name="A0" x="40.64" y="63.5" length="middle" rot="R180"/>
+<pin name="13" x="40.64" y="58.42" length="middle" rot="R180"/>
+<pin name="12" x="40.64" y="53.34" length="middle" rot="R180"/>
+<pin name="11" x="40.64" y="48.26" length="middle" rot="R180"/>
+<pin name="10" x="40.64" y="43.18" length="middle" rot="R180"/>
+<pin name="SDA" x="40.64" y="38.1" length="middle" rot="R180"/>
+<pin name="SCL" x="-5.08" y="38.1" length="middle"/>
+<text x="5.08" y="73.66" size="1.4224" layer="97">SAM D21 MINI BREAKOUT</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1881,27 +1890,27 @@ Source: AVX .. aphvc.pdf</description>
 <devices>
 <device name="" package="JP1_SPARKFUN-SAMD21-MINI-BREAKOUT-V10">
 <connects>
-<connect gate="G$1" pin="/RST" pad="10@JP1"/>
-<connect gate="G$1" pin="0/RX" pad="11@JP1"/>
-<connect gate="G$1" pin="1/TX" pad="12@JP1"/>
+<connect gate="G$1" pin="/RST" pad="3@JP1"/>
+<connect gate="G$1" pin="0/RX" pad="2@JP1"/>
+<connect gate="G$1" pin="1/TX" pad="1@JP1"/>
 <connect gate="G$1" pin="10" pad="12@JP2"/>
 <connect gate="G$1" pin="11" pad="11@JP2"/>
 <connect gate="G$1" pin="12" pad="10@JP2"/>
 <connect gate="G$1" pin="13" pad="9@JP2"/>
-<connect gate="G$1" pin="2" pad="8@JP1"/>
-<connect gate="G$1" pin="3" pad="7@JP1"/>
-<connect gate="G$1" pin="4" pad="6@JP1"/>
-<connect gate="G$1" pin="5" pad="5@JP1"/>
-<connect gate="G$1" pin="6" pad="4@JP1"/>
-<connect gate="G$1" pin="7" pad="3@JP1"/>
-<connect gate="G$1" pin="8" pad="2@JP1"/>
-<connect gate="G$1" pin="9" pad="1@JP1"/>
+<connect gate="G$1" pin="2" pad="5@JP1"/>
+<connect gate="G$1" pin="3" pad="6@JP1"/>
+<connect gate="G$1" pin="4" pad="7@JP1"/>
+<connect gate="G$1" pin="5" pad="8@JP1"/>
+<connect gate="G$1" pin="6" pad="9@JP1"/>
+<connect gate="G$1" pin="7" pad="10@JP1"/>
+<connect gate="G$1" pin="8" pad="11@JP1"/>
+<connect gate="G$1" pin="9" pad="12@JP1"/>
 <connect gate="G$1" pin="A0" pad="8@JP2"/>
 <connect gate="G$1" pin="A1" pad="7@JP2"/>
 <connect gate="G$1" pin="A2" pad="6@JP2"/>
 <connect gate="G$1" pin="A3" pad="5@JP2"/>
 <connect gate="G$1" pin="AREF" pad="3@JP2"/>
-<connect gate="G$1" pin="GND" pad="9@JP1"/>
+<connect gate="G$1" pin="GND" pad="4@JP1"/>
 <connect gate="G$1" pin="GND2" pad="2@JP2"/>
 <connect gate="G$1" pin="SCL" pad="1@JP4"/>
 <connect gate="G$1" pin="SDA" pad="2@JP4"/>
@@ -1909,10 +1918,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="VIN" pad="1@JP2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-13664/5766914?s=N4IgTCBcDaIM4EMC2ATMBGABEglgOx0wCMAnAUwQGsB7AVwBcQBdAXyA" constant="no"/>
-<attribute name="PURCHASE_URL_SPARKFUN" value="https://www.sparkfun.com/products/13664" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2732,7 +2738,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <instance part="GND14" gate="1" x="261.62" y="-17.78" smashed="yes">
 <attribute name="VALUE" x="259.08" y="-20.32" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="76.2" y="35.56" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="60.96" y="-30.48" smashed="yes"/>
 <instance part="Q1" gate="T" x="251.46" y="33.02" smashed="yes">
 <attribute name="NAME" x="248.92" y="33.782" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -3373,7 +3379,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="99.06" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
 <label x="109.22" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3385,7 +3391,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="13"/>
-<wire x1="99.06" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
 <label x="109.22" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3397,7 +3403,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="12"/>
-<wire x1="99.06" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
 <label x="109.22" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3409,7 +3415,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="11"/>
-<wire x1="99.06" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
 <label x="109.22" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3690,7 +3696,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 <label x="40.64" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3871,7 +3877,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="3"/>
-<wire x1="53.34" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
 <label x="40.64" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3908,7 +3914,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="4"/>
-<wire x1="53.34" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 <label x="40.64" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3945,7 +3951,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="5"/>
-<wire x1="53.34" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
 <label x="40.64" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3982,7 +3988,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="6"/>
-<wire x1="53.34" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
 <label x="40.64" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4019,7 +4025,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="7"/>
-<wire x1="53.34" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
 <label x="40.64" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4056,7 +4062,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="8"/>
-<wire x1="53.34" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
 <label x="40.64" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4093,7 +4099,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="9"/>
-<wire x1="53.34" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
 <label x="40.64" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4130,7 +4136,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A0"/>
-<wire x1="99.06" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
 <label x="109.22" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4167,7 +4173,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A1"/>
-<wire x1="121.92" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
 <label x="109.22" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4204,7 +4210,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A2"/>
-<wire x1="99.06" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
 <label x="109.22" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4241,7 +4247,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A3"/>
-<wire x1="121.92" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
 <label x="109.22" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4251,7 +4257,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="U$1" gate="G$1" pin="10"/>
 <wire x1="132.08" y1="12.7" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="12.7" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="20.32" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
 <junction x="129.54" y="12.7"/>
 </segment>
