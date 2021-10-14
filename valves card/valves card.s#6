@@ -2648,6 +2648,8 @@ BTS3018TC (Vin=0...10V, Vds&amp;lt;=60V, Id=6A + Rds=0.02Ohm @ Vin=5V)&lt;br&gt;
 <part name="Q23" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" value="IRLZ44NSTRLPBF"/>
 <part name="P1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3056,6 +3058,12 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <attribute name="NAME" x="134.62" y="15.24" size="1.778" layer="95"/>
 <attribute name="VALUE" x="124.46" y="7.62" size="1.778" layer="96"/>
 </instance>
+<instance part="GND4" gate="1" x="127" y="55.88" smashed="yes">
+<attribute name="VALUE" x="124.46" y="53.34" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="33.02" y="48.26" smashed="yes">
+<attribute name="VALUE" x="30.48" y="45.72" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3306,6 +3314,18 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <segment>
 <pinref part="GND73" gate="1" pin="GND"/>
 <pinref part="R68" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND2"/>
+<wire x1="99.06" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="127" y1="63.5" x2="127" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="53.34" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="53.34" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="24V" class="1">
