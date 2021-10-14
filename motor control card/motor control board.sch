@@ -1394,9 +1394,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="AREF"/>
+<pinref part="U$3" gate="G$1" pin="GND2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="25.4" y1="190.5" x2="53.34" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="195.58" x2="53.34" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="195.58" x2="53.34" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="24V/12V" class="0">
