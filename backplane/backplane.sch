@@ -1671,7 +1671,7 @@
 <pinref part="JP2" gate="A" pin="18"/>
 </segment>
 </net>
-<net name="EXT_2" class="0">
+<net name="USB1_D+" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="A16"/>
 <pinref part="J1" gate="G$1" pin="A16"/>
@@ -1836,7 +1836,7 @@
 <pinref part="JP2" gate="A" pin="4"/>
 </segment>
 </net>
-<net name="EXT_4" class="0">
+<net name="USB2_D+" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="B16"/>
 <pinref part="J8" gate="G$1" pin="B16"/>
@@ -2030,7 +2030,7 @@
 <label x="-60.96" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXT_5" class="0">
+<net name="USB3_D-" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="C14"/>
 <pinref part="J8" gate="G$1" pin="C14"/>
@@ -2063,7 +2063,7 @@
 <label x="-60.96" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXT_7" class="0">
+<net name="RESET" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="C16"/>
 <pinref part="J8" gate="G$1" pin="C16"/>
@@ -2096,7 +2096,7 @@
 <label x="-60.96" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXT_1" class="0">
+<net name="USB1_D-" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="A15"/>
 <pinref part="J2" gate="G$1" pin="A15"/>
@@ -2228,7 +2228,7 @@
 <pinref part="JP2" gate="A" pin="28"/>
 </segment>
 </net>
-<net name="EXT_3" class="0">
+<net name="USB2_D-" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="B15"/>
 <pinref part="J2" gate="G$1" pin="B15"/>
@@ -2459,7 +2459,7 @@
 <pinref part="JP2" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="EXT_6" class="0">
+<net name="USB3_D+" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="C15"/>
 <pinref part="J2" gate="G$1" pin="C15"/>

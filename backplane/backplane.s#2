@@ -1539,7 +1539,7 @@
 <label x="-71.12" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SS_1" class="0">
+<net name="CS_1" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="A8"/>
 <pinref part="J1" gate="G$1" pin="A8"/>
@@ -1572,7 +1572,7 @@
 <pinref part="JP2" gate="A" pin="30"/>
 </segment>
 </net>
-<net name="SS_3" class="0">
+<net name="CS_3" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="A10"/>
 <pinref part="J1" gate="G$1" pin="A10"/>
@@ -1605,7 +1605,7 @@
 <pinref part="JP2" gate="A" pin="26"/>
 </segment>
 </net>
-<net name="SS_5" class="0">
+<net name="CS_5" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="A12"/>
 <pinref part="J8" gate="G$1" pin="A12"/>
@@ -1638,7 +1638,7 @@
 <pinref part="JP2" gate="A" pin="22"/>
 </segment>
 </net>
-<net name="SS_7" class="0">
+<net name="CS_7" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="A14"/>
 <pinref part="J8" gate="G$1" pin="A14"/>
@@ -1704,7 +1704,7 @@
 <label x="-71.12" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SS_8" class="0">
+<net name="CS_8" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="B8"/>
 <pinref part="J8" gate="G$1" pin="B8"/>
@@ -1737,7 +1737,7 @@
 <pinref part="JP2" gate="A" pin="16"/>
 </segment>
 </net>
-<net name="SS_10" class="0">
+<net name="CS_10" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="B10"/>
 <pinref part="J8" gate="G$1" pin="B10"/>
@@ -1770,7 +1770,7 @@
 <pinref part="JP2" gate="A" pin="12"/>
 </segment>
 </net>
-<net name="SS_12" class="0">
+<net name="CS_12" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="B12"/>
 <pinref part="J8" gate="G$1" pin="B12"/>
@@ -1803,7 +1803,7 @@
 <pinref part="JP2" gate="A" pin="8"/>
 </segment>
 </net>
-<net name="SS_14" class="0">
+<net name="CS_14" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="B14"/>
 <pinref part="J8" gate="G$1" pin="B14"/>
@@ -2129,7 +2129,7 @@
 <label x="-71.12" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SS_6" class="0">
+<net name="CS_6" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="A13"/>
 <pinref part="J2" gate="G$1" pin="A13"/>
@@ -2162,7 +2162,7 @@
 <pinref part="JP2" gate="A" pin="20"/>
 </segment>
 </net>
-<net name="SS_4" class="0">
+<net name="CS_4" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="A11"/>
 <pinref part="J7" gate="G$1" pin="A11"/>
@@ -2195,7 +2195,7 @@
 <pinref part="JP2" gate="A" pin="24"/>
 </segment>
 </net>
-<net name="SS_2" class="0">
+<net name="CS_2" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="A9"/>
 <pinref part="J7" gate="G$1" pin="A9"/>
@@ -2261,7 +2261,7 @@
 <label x="-71.12" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SS_13" class="0">
+<net name="CS_13" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="B13"/>
 <pinref part="J2" gate="G$1" pin="B13"/>
@@ -2294,7 +2294,7 @@
 <pinref part="JP2" gate="A" pin="6"/>
 </segment>
 </net>
-<net name="SS_11" class="0">
+<net name="CS_11" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="B11"/>
 <pinref part="J2" gate="G$1" pin="B11"/>
@@ -2327,7 +2327,7 @@
 <pinref part="JP2" gate="A" pin="10"/>
 </segment>
 </net>
-<net name="SS_9" class="0">
+<net name="CS_9" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="B9"/>
 <pinref part="J2" gate="G$1" pin="B9"/>
@@ -2426,7 +2426,7 @@
 <label x="-71.12" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SS_15" class="0">
+<net name="CS_15" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="C13"/>
 <pinref part="J2" gate="G$1" pin="C13"/>

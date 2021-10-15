@@ -196,7 +196,7 @@ PWR
 <wire x1="121.92" y1="80" x2="121.92" y2="0" width="0.3" layer="26" style="shortdash"/>
 <wire x1="175.7" y1="68.03" x2="175.7" y2="64.03" width="2.54" layer="25"/>
 <text x="130.57" y="0.43" size="1.778" layer="25">PolyVent backplane V1.1
-Public invention - CERN liscence ?</text>
+Public invention - CERN OHL 2.0</text>
 <rectangle x1="157.61" y1="64.89" x2="161.61" y2="81.89" layer="25" rot="R90"/>
 <text x="167.6" y="77.91" size="1.778" layer="25" rot="R180">Serial Number:</text>
 <wire x1="3" y1="6" x2="3" y2="74" width="0.3" layer="25"/>
