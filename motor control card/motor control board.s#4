@@ -1394,9 +1394,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="AREF"/>
+<pinref part="U$3" gate="G$1" pin="GND2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="25.4" y1="190.5" x2="53.34" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="195.58" x2="53.34" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="195.58" x2="53.34" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="24V/12V" class="0">
@@ -1573,7 +1574,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="J1" gate="G$1" pin="44"/>
 </segment>
 </net>
-<net name="SS_1" class="0">
+<net name="CS_1" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="8"/>
 <wire x1="43.18" y1="104.14" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
@@ -1590,7 +1591,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="15"/>
 </segment>
 </net>
-<net name="SS_2" class="0">
+<net name="CS_2" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="9"/>
 <wire x1="43.18" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
@@ -1607,7 +1608,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="14"/>
 </segment>
 </net>
-<net name="SS_3" class="0">
+<net name="CS_3" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="10"/>
 <wire x1="43.18" y1="99.06" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
@@ -1624,7 +1625,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <label x="71.12" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SS_4" class="0">
+<net name="CS_4" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="11"/>
 <wire x1="43.18" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
@@ -1636,7 +1637,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="12"/>
 </segment>
 </net>
-<net name="SS_5" class="0">
+<net name="CS_5" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="12"/>
 <wire x1="43.18" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
@@ -1648,7 +1649,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="11"/>
 </segment>
 </net>
-<net name="SS_6" class="0">
+<net name="CS_6" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="13"/>
 <wire x1="43.18" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
@@ -1660,7 +1661,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="10"/>
 </segment>
 </net>
-<net name="SS_7" class="0">
+<net name="CS_7" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="14"/>
 <wire x1="43.18" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
@@ -1672,7 +1673,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="9"/>
 </segment>
 </net>
-<net name="SS_8" class="0">
+<net name="CS_8" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="24"/>
 <wire x1="43.18" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
@@ -1684,7 +1685,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="8"/>
 </segment>
 </net>
-<net name="SS_9" class="0">
+<net name="CS_9" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="25"/>
 <wire x1="43.18" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
@@ -1696,7 +1697,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="7"/>
 </segment>
 </net>
-<net name="SS_10" class="0">
+<net name="CS_10" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="26"/>
 <wire x1="43.18" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
@@ -1708,7 +1709,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="6"/>
 </segment>
 </net>
-<net name="SS_11" class="0">
+<net name="CS_11" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="27"/>
 <wire x1="43.18" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
@@ -1720,7 +1721,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="5"/>
 </segment>
 </net>
-<net name="SS_12" class="0">
+<net name="CS_12" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="28"/>
 <wire x1="43.18" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
@@ -1732,7 +1733,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
 </net>
-<net name="SS_13" class="0">
+<net name="CS_13" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="29"/>
 <wire x1="43.18" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
@@ -1744,7 +1745,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="3"/>
 </segment>
 </net>
-<net name="SS_14" class="0">
+<net name="CS_14" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="30"/>
 <wire x1="43.18" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
@@ -1756,7 +1757,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="SS_15" class="0">
+<net name="CS_15" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="45"/>
 <wire x1="43.18" y1="10.16" x2="30.48" y2="10.16" width="0.1524" layer="91"/>

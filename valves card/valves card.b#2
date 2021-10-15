@@ -190,6 +190,11 @@ V4
 V3
 V2
 V1</text>
+<rectangle x1="82.61" y1="66.89" x2="86.61" y2="83.89" layer="25" rot="R90"/>
+<text x="92.6" y="79.91" size="1.778" layer="25" rot="R180">Serial Number:</text>
+<text x="37.57" y="73.43" size="1.778" layer="25">PolyVent Motor Card V2.1
+Public invention - CERN OHL 2.0</text>
+<text x="22" y="53" size="1.778" layer="25" rot="R90">MICRO 1</text>
 </plain>
 <libraries>
 <library name="eagle-ltspice" urn="urn:adsk.eagle:library:217">

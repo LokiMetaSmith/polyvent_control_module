@@ -174,6 +174,8 @@
 <hole x="2.84" y="74.36" drill="2.25"/>
 <hole x="97.16" y="74.36" drill="2.25"/>
 <hole x="97.16" y="5.64" drill="2.25"/>
+<text x="21" y="42" size="0.6" layer="25">CS_default_jumper
+    default: CS_4</text>
 </plain>
 <libraries>
 <library name="eagle-ltspice" urn="urn:adsk.eagle:library:217">
@@ -813,17 +815,17 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="DPAK" x="19" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="19" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J2" library="TBP02R1-381-14BE" package="CUI_TBP02R1-381-14BE" value="TBP02R1-381-14BE" x="91" y="64.765" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="91" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tbp02r1-381-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="91" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="2~24 Poles, Pluggable,Receptacle, Horizontal, 3.81 Pitch, Terminal Block Connector" x="91" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="CUI Devices" x="91" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="TBP02R1-381-14BE" x="91" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="87.6" y="15.765" size="1.778" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="None" x="91" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="91" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBP02R1-381-14BE/?ref=eda" x="91" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="87.55" y="68.065" size="1.778" layer="27" rot="R270"/>
+<element name="J2" library="TBP02R1-381-14BE" package="CUI_TBP02R1-381-14BE" value="TBP02R1-381-14BE" x="95" y="64.765" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="In Stock" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tbp02r1-381-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="2~24 Poles, Pluggable,Receptacle, Horizontal, 3.81 Pitch, Terminal Block Connector" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="CUI Devices" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TBP02R1-381-14BE" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="91.6" y="15.765" size="1.778" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBP02R1-381-14BE/?ref=eda" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="91.55" y="68.065" size="1.778" layer="27" rot="R270"/>
 </element>
 <element name="U4" library="EL817C" package="DIP762W25P254L650H453Q4B" value="OR-815" x="33.5" y="11.8" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Bad" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1167,14 +1169,10 @@ design rules under a new name.</description>
 <attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="79" y="65" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="P1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="26.3" y="40.3" smashed="yes">
-<attribute name="NAME" x="25.3538" y="41.7288" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="64" x="26.3" y="40.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="25.03" y="37.125" size="1.27" layer="27"/>
 </element>
-<element name="SJ1" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="23" y="40" locked="yes" smashed="yes">
-<attribute name="NAME" x="22.0475" y="41.27" locked="yes" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="22.0475" y="38.349" locked="yes" size="0.4064" layer="27"/>
-</element>
+<element name="SJ1" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="23.9" y="40.3" smashed="yes" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1453,14 +1451,10 @@ design rules under a new name.</description>
 <wire x1="11.937375" y1="36" x2="13" y2="36" width="0.3048" layer="16"/>
 <wire x1="11.118575" y1="35.1812" x2="11.937375" y2="36" width="0.3048" layer="16"/>
 <wire x1="7.701425" y1="35.1812" x2="11.118575" y2="35.1812" width="0.3048" layer="16"/>
-<wire x1="13" y1="36" x2="17" y2="40" width="0.3048" layer="1"/>
-<wire x1="17" y1="40" x2="17.27" y2="40.27" width="0.3048" layer="1"/>
+<wire x1="13" y1="36" x2="17.3" y2="40.3" width="0.3048" layer="1"/>
 <wire x1="6.6588" y1="36.3412" x2="7.0812" y2="35.9188" width="0.3048" layer="16"/>
 <contactref element="SJ1" pad="2"/>
-<wire x1="23.508" y1="40" x2="23.508" y2="40.492" width="0.3048" layer="1"/>
-<wire x1="23.508" y1="40.492" x2="23" y2="41" width="0.3048" layer="1"/>
-<wire x1="23" y1="41" x2="18" y2="41" width="0.3048" layer="1"/>
-<wire x1="18" y1="41" x2="17.27" y2="40.27" width="0.3048" layer="1"/>
+<wire x1="23.392" y1="40.3" x2="17.3" y2="40.3" width="0.3048" layer="1"/>
 </signal>
 <signal name="SS_5">
 <contactref element="J1" pad="12"/>
@@ -1660,7 +1654,7 @@ design rules under a new name.</description>
 <wire x1="29" y1="25" x2="26.7" y2="22.7" width="2.54" layer="1"/>
 <wire x1="29.2216" y1="5.2784" x2="85.78476875" y2="5.2784" width="2.54" layer="1"/>
 <contactref element="J2" pad="13"/>
-<wire x1="91" y1="19.045" x2="90.81349375" y2="19.045" width="2.54" layer="1"/>
+<wire x1="95" y1="19.045" x2="90.81349375" y2="19.045" width="2.54" layer="1"/>
 <wire x1="90.81349375" y1="19.045" x2="88.2276" y2="16.45910625" width="2.54" layer="1"/>
 <wire x1="85.78476875" y1="5.2784" x2="88.2276" y2="7.72123125" width="2.54" layer="1"/>
 <wire x1="88.2276" y1="7.72123125" x2="88.2276" y2="16.45910625" width="2.54" layer="1"/>
@@ -1674,16 +1668,16 @@ design rules under a new name.</description>
 <via x="56" y="21" extent="1-16" drill="0.35"/>
 <wire x1="56" y1="21" x2="53.025553125" y2="23.974446875" width="2.54" layer="1"/>
 <wire x1="53.025553125" y1="23.974446875" x2="48.873" y2="25.405" width="2.54" layer="1"/>
-<wire x1="91" y1="22.855" x2="90.145" y2="22" width="2.54" layer="1"/>
+<wire x1="95" y1="22.855" x2="94.145" y2="22" width="2.54" layer="1"/>
 <wire x1="89.70763125" y1="22" x2="87.41523125" y2="19.7076" width="2.54" layer="1"/>
 <wire x1="87.41523125" y1="19.7076" x2="86.9076" y2="19.7076" width="2.54" layer="1"/>
 <wire x1="86.9076" y1="19.7076" x2="86.5" y2="19.3" width="2.54" layer="1"/>
-<wire x1="90.145" y1="22" x2="89.70763125" y2="22" width="2.54" layer="1"/>
+<wire x1="94.145" y1="22" x2="89.70763125" y2="22" width="2.54" layer="1"/>
 </signal>
 <signal name="DRAIN4">
 <contactref element="Q7" pad="2"/>
 <contactref element="J2" pad="11"/>
-<wire x1="91" y1="26.665" x2="90.265" y2="26.665" width="2.54" layer="1"/>
+<wire x1="95" y1="26.665" x2="90.265" y2="26.665" width="2.54" layer="1"/>
 <wire x1="90.265" y1="26.665" x2="86" y2="22.4" width="2.54" layer="1"/>
 <via x="86" y="22.4" extent="1-16" drill="0.35"/>
 <wire x1="86" y1="22.4" x2="71.6" y2="22.4" width="2.54" layer="16"/>
@@ -1701,7 +1695,7 @@ design rules under a new name.</description>
 <wire x1="78.873" y1="25.405" x2="85.208503125" y2="30.4536" width="2.54" layer="1"/>
 <wire x1="85.208503125" y1="30.4536" x2="85.553175" y2="30.4536" width="2.54" layer="1"/>
 <wire x1="85.553175" y1="30.4536" x2="85.574575" y2="30.475" width="2.54" layer="1"/>
-<wire x1="85.574575" y1="30.475" x2="91" y2="30.475" width="2.54" layer="1"/>
+<wire x1="85.574575" y1="30.475" x2="95" y2="30.475" width="2.54" layer="1"/>
 </signal>
 <signal name="DRAIN6">
 <contactref element="Q11" pad="2"/>
@@ -1711,7 +1705,7 @@ design rules under a new name.</description>
 <wire x1="46.983525" y1="30.3" x2="78.5" y2="30.3" width="2.54" layer="1"/>
 <via x="78.5" y="30.3" extent="1-16" drill="0.35"/>
 <wire x1="78.5" y1="30.3" x2="79.6536" y2="31.4536" width="2.54" layer="16"/>
-<wire x1="88.384575" y1="34.285" x2="91" y2="34.285" width="2.54" layer="16"/>
+<wire x1="88.384575" y1="34.285" x2="95" y2="34.285" width="2.54" layer="16"/>
 <wire x1="79.6536" y1="31.4536" x2="85.553175" y2="31.4536" width="2.54" layer="16"/>
 <wire x1="85.553175" y1="31.4536" x2="88.384575" y2="34.285" width="2.54" layer="16"/>
 <wire x1="42.74315" y1="47.25685" x2="36.873" y2="48.405" width="2.54" layer="1"/>
@@ -1726,13 +1720,13 @@ design rules under a new name.</description>
 <via x="58" y="47" extent="1-16" drill="0.35"/>
 <wire x1="58" y1="47" x2="66.8536" y2="38.1464" width="2.54" layer="16"/>
 <wire x1="85.170075" y1="38.1464" x2="85.221475" y2="38.095" width="2.54" layer="16"/>
-<wire x1="85.221475" y1="38.095" x2="91" y2="38.095" width="2.54" layer="16"/>
+<wire x1="85.221475" y1="38.095" x2="95" y2="38.095" width="2.54" layer="16"/>
 <wire x1="66.8536" y1="38.1464" x2="85.170075" y2="38.1464" width="2.54" layer="16"/>
 </signal>
 <signal name="DRAIN8">
 <contactref element="Q15" pad="2"/>
 <contactref element="J2" pad="7"/>
-<wire x1="91" y1="41.905" x2="88.095" y2="41.905" width="2.54" layer="1"/>
+<wire x1="95" y1="41.905" x2="88.095" y2="41.905" width="2.54" layer="1"/>
 <wire x1="88.095" y1="41.905" x2="88" y2="42" width="2.54" layer="1"/>
 <via x="88" y="42" extent="1-16" drill="0.35"/>
 <wire x1="88" y1="42" x2="77" y2="42" width="2.54" layer="16"/>
@@ -1745,7 +1739,7 @@ design rules under a new name.</description>
 <contactref element="Q17" pad="2"/>
 <contactref element="J2" pad="6"/>
 <wire x1="80.873" y1="48.405" x2="82.995840625" y2="45.715" width="2.54" layer="1"/>
-<wire x1="82.995840625" y1="45.715" x2="91" y2="45.715" width="2.54" layer="1"/>
+<wire x1="82.995840625" y1="45.715" x2="95" y2="45.715" width="2.54" layer="1"/>
 </signal>
 <signal name="DRAIN10">
 <contactref element="Q19" pad="2"/>
@@ -1757,14 +1751,14 @@ design rules under a new name.</description>
 <wire x1="57" y1="62.561575" x2="57" y2="52" width="2.54" layer="1"/>
 <wire x1="57" y1="52" x2="72" y2="52" width="2.54" layer="16"/>
 <wire x1="72" y1="52" x2="75" y2="49" width="2.54" layer="16"/>
-<wire x1="75" y1="49" x2="90.475" y2="49" width="2.54" layer="16"/>
-<wire x1="90.475" y1="49" x2="91" y2="49.525" width="2.54" layer="16"/>
+<wire x1="75" y1="49" x2="94.475" y2="49" width="2.54" layer="16"/>
+<wire x1="94.475" y1="49" x2="95" y2="49.525" width="2.54" layer="16"/>
 </signal>
 <signal name="DRAIN12">
 <contactref element="Q23" pad="2"/>
 <contactref element="J2" pad="3"/>
 <wire x1="78.873" y1="69.405" x2="81.847371875" y2="65.8224" width="2.54" layer="1"/>
-<wire x1="91" y1="57.145" x2="90.31349375" y2="57.145" width="2.54" layer="1"/>
+<wire x1="95" y1="57.145" x2="90.31349375" y2="57.145" width="2.54" layer="1"/>
 <wire x1="90.31349375" y1="57.145" x2="87.5276" y2="59.93089375" width="2.54" layer="1"/>
 <wire x1="81.847371875" y1="65.8224" x2="83.439175" y2="65.8224" width="2.54" layer="1"/>
 <wire x1="83.439175" y1="65.8224" x2="87.5276" y2="61.733975" width="2.54" layer="1"/>
@@ -1783,8 +1777,8 @@ design rules under a new name.</description>
 <wire x1="75.550075" y1="59.1464" x2="78" y2="56.696475" width="2.54" layer="16"/>
 <wire x1="78" y1="56.696475" x2="78" y2="54" width="2.54" layer="16"/>
 <wire x1="78" y1="54" x2="80.3076" y2="51.6924" width="2.54" layer="16"/>
-<wire x1="89.3574" y1="51.6924" x2="91" y2="53.335" width="2.54" layer="16"/>
-<wire x1="80.3076" y1="51.6924" x2="89.3574" y2="51.6924" width="2.54" layer="16"/>
+<wire x1="93.3574" y1="51.6924" x2="95" y2="53.335" width="2.54" layer="16"/>
+<wire x1="80.3076" y1="51.6924" x2="93.3574" y2="51.6924" width="2.54" layer="16"/>
 </signal>
 <signal name="DRAIN1">
 <contactref element="Q1" pad="2"/>
@@ -1798,8 +1792,8 @@ design rules under a new name.</description>
 <wire x1="13.714" y1="2.286" x2="87" y2="2.286" width="2.54" layer="1"/>
 <contactref element="J2" pad="14"/>
 <wire x1="87" y1="2.286" x2="91.22" y2="6.506" width="2.54" layer="1"/>
-<wire x1="91.22" y1="6.506" x2="91.22" y2="15.015" width="2.54" layer="1"/>
-<wire x1="91.22" y1="15.015" x2="91" y2="15.235" width="2.54" layer="1"/>
+<wire x1="91.22" y1="6.506" x2="91.22" y2="11.455" width="2.54" layer="1"/>
+<wire x1="91.22" y1="11.455" x2="95" y2="15.235" width="2.54" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R7" pad="2"/>
@@ -2349,12 +2343,9 @@ design rules under a new name.</description>
 <contactref element="SJ1" pad="1"/>
 <contactref element="U$1" pad="12@JP2"/>
 <contactref element="P1" pad="1"/>
-<wire x1="22.492" y1="40" x2="22.492" y2="39.208" width="0.3048" layer="1"/>
-<wire x1="22.492" y1="39.208" x2="22.7" y2="39" width="0.3048" layer="1"/>
-<wire x1="22.7" y1="39" x2="25" y2="39" width="0.3048" layer="1"/>
-<wire x1="25" y1="39" x2="26.3" y2="40.3" width="0.3048" layer="1"/>
 <wire x1="26.3" y1="40.3" x2="29.48" y2="40.3" width="0.3048" layer="1"/>
 <wire x1="29.48" y1="40.3" x2="29.51" y2="40.27" width="0.3048" layer="1"/>
+<wire x1="26.3" y1="40.3" x2="24.408" y2="40.3" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -2370,6 +2361,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

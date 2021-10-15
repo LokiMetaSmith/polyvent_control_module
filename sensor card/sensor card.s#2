@@ -1926,7 +1926,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="124.46" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SS_1" class="0">
+<net name="CS_1" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="8"/>
 <wire x1="35.56" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
@@ -1938,7 +1938,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="15"/>
 </segment>
 </net>
-<net name="SS_2" class="0">
+<net name="CS_2" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="9"/>
 <wire x1="35.56" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
@@ -1950,7 +1950,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="14"/>
 </segment>
 </net>
-<net name="SS_3" class="0">
+<net name="CS_3" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="10"/>
 <wire x1="35.56" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
@@ -1962,7 +1962,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="13"/>
 </segment>
 </net>
-<net name="SS_4" class="0">
+<net name="CS_4" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="11"/>
 <wire x1="35.56" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
@@ -1974,7 +1974,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="12"/>
 </segment>
 </net>
-<net name="SS_5" class="0">
+<net name="CS_5" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="12"/>
 <wire x1="35.56" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
@@ -1991,7 +1991,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="11"/>
 </segment>
 </net>
-<net name="SS_6" class="0">
+<net name="CS_6" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="13"/>
 <wire x1="35.56" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
@@ -2008,7 +2008,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="10"/>
 </segment>
 </net>
-<net name="SS_7" class="0">
+<net name="CS_7" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="14"/>
 <wire x1="35.56" y1="73.66" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
@@ -2025,7 +2025,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="9"/>
 </segment>
 </net>
-<net name="SS_8" class="0">
+<net name="CS_8" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="24"/>
 <wire x1="35.56" y1="48.26" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
@@ -2042,7 +2042,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="8"/>
 </segment>
 </net>
-<net name="SS_9" class="0">
+<net name="CS_9" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="25"/>
 <wire x1="35.56" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
@@ -2059,7 +2059,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="7"/>
 </segment>
 </net>
-<net name="SS_10" class="0">
+<net name="CS_10" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="26"/>
 <wire x1="35.56" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
@@ -2071,7 +2071,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="6"/>
 </segment>
 </net>
-<net name="SS_11" class="0">
+<net name="CS_11" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="27"/>
 <wire x1="35.56" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
@@ -2083,7 +2083,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="5"/>
 </segment>
 </net>
-<net name="SS_12" class="0">
+<net name="CS_12" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="28"/>
 <wire x1="35.56" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
@@ -2095,7 +2095,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="4"/>
 </segment>
 </net>
-<net name="SS_13" class="0">
+<net name="CS_13" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="29"/>
 <wire x1="35.56" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
@@ -2107,7 +2107,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="3"/>
 </segment>
 </net>
-<net name="SS_14" class="0">
+<net name="CS_14" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="30"/>
 <wire x1="35.56" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
@@ -2119,7 +2119,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="SS_15" class="0">
+<net name="CS_15" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="45"/>
 <wire x1="35.56" y1="-5.08" x2="22.86" y2="-5.08" width="0.1524" layer="91"/>

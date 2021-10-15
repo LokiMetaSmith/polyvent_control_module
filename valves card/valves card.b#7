@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -176,6 +176,20 @@
 <hole x="97.16" y="5.64" drill="2.25"/>
 <text x="21" y="42" size="0.6" layer="25">CS_default_jumper
     default: CS_4</text>
+<text x="93.2" y="65.6" size="1.95" layer="25" distance="95" align="top-right">PWR
+PWR
+V12
+V11
+V10
+V9
+V8
+V7
+V6
+V5
+V4
+V3
+V2
+V1</text>
 </plain>
 <libraries>
 <library name="eagle-ltspice" urn="urn:adsk.eagle:library:217">
@@ -821,11 +835,10 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="2~24 Poles, Pluggable,Receptacle, Horizontal, 3.81 Pitch, Terminal Block Connector" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="CUI Devices" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="TBP02R1-381-14BE" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="91.6" y="15.765" size="1.778" layer="25" rot="R270"/>
+<attribute name="NAME" x="93.7" y="10.465" size="1.778" layer="25"/>
 <attribute name="PACKAGE" value="None" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBP02R1-381-14BE/?ref=eda" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="91.55" y="68.065" size="1.778" layer="27" rot="R270"/>
 </element>
 <element name="U4" library="EL817C" package="DIP762W25P254L650H453Q4B" value="OR-815" x="33.5" y="11.8" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Bad" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>

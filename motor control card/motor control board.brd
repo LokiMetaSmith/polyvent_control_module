@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -622,6 +622,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="POWER" width="0" drill="0">
+<clearance class="1" value="0.508"/>
+</class>
 <class number="2" name="GND" width="0.3048" drill="0">
 <clearance class="0" value="0.3048"/>
 <clearance class="1" value="0.3048"/>
@@ -885,6 +888,14 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="95" y="66.86" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBP02R1-381-07BE/?ref=eda" x="95" y="66.86" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="SJ4" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="-11" y="3" smashed="yes">
+<attribute name="NAME" x="-11.9525" y="4.27" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="-11.9525" y="1.349" size="0.4064" layer="27"/>
+</element>
+<element name="SJ5" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="-14" y="3" smashed="yes">
+<attribute name="NAME" x="-14.9525" y="4.27" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="-14.9525" y="1.349" size="0.4064" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="2">
@@ -987,13 +998,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="5V">
 <contactref element="J1" pad="39"/>
-<contactref element="J1" pad="23"/>
-<contactref element="J1" pad="7"/>
-<wire x1="10.68" y1="36.24" x2="5.6" y2="36.24" width="0.508" layer="16"/>
-<wire x1="10.68" y1="36.24" x2="8.14" y2="36.24" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="38"/>
+<wire x1="10.68" y1="33.7" x2="10.68" y2="36.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
-<contactref element="J1" pad="38"/>
 <contactref element="U$1" pad="IOREF"/>
 <contactref element="U$1" pad="SLEEP"/>
 <contactref element="U$3" pad="4@JP2"/>
@@ -1001,9 +1009,7 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="SLEEP"/>
 <contactref element="J2" pad="2"/>
 <contactref element="J3" pad="2"/>
-<wire x1="10.68" y1="33.7" x2="14.3" y2="33.7" width="1.5" layer="1"/>
-<wire x1="14.3" y1="33.7" x2="18.5" y2="29.5" width="1.5" layer="1"/>
-<wire x1="18.5" y1="29.5" x2="18.5" y2="20.6" width="1.5" layer="1"/>
+<wire x1="18.5" y1="20.6" x2="18.5" y2="29.5" width="1.5" layer="1"/>
 <wire x1="95" y1="31.19" x2="89.19" y2="37" width="0.508" layer="1"/>
 <wire x1="52.25" y1="48.3" x2="54.5" y2="48.3" width="1.5" layer="1"/>
 <wire x1="54.5" y1="48.3" x2="54.8" y2="48" width="1.5" layer="1"/>
@@ -1039,6 +1045,22 @@ design rules under a new name.</description>
 <wire x1="48.1952" y1="64.57418125" x2="47.21101875" y2="63.59" width="1.5" layer="16"/>
 <wire x1="51.5124" y1="67.8824" x2="51.330025" y2="67.8824" width="1.5" layer="16"/>
 <wire x1="51.330025" y1="67.8824" x2="48.1952" y2="64.747575" width="1.5" layer="16"/>
+<contactref element="J1" pad="7"/>
+<contactref element="J1" pad="23"/>
+<wire x1="12.5" y1="35.5" x2="18.5" y2="29.5" width="1.5" layer="1"/>
+<wire x1="8.14" y1="36.24" x2="5.6" y2="36.24" width="1.5" layer="1"/>
+<wire x1="11.9" y1="36.1" x2="12.5" y2="35.5" width="0.6" layer="1"/>
+<wire x1="10.1464" y1="37.4464" x2="11.1797125" y2="37.4464" width="0.6" layer="1"/>
+<wire x1="10.1802875" y1="35.0336" x2="11.1797125" y2="35.0336" width="0.6" layer="1"/>
+<wire x1="11.47305625" y1="35.32694375" x2="11.1797125" y2="35.0336" width="0.6" layer="1"/>
+<wire x1="8.14" y1="36.24" x2="8.9738875" y2="36.24" width="1.5" layer="1"/>
+<wire x1="8.9738875" y1="36.24" x2="10.1802875" y2="35.0336" width="0.6" layer="1"/>
+<wire x1="12.5" y1="35.5" x2="12.32694375" y2="35.32694375" width="0.6" layer="1"/>
+<wire x1="12.32694375" y1="35.32694375" x2="11.47305625" y2="35.32694375" width="0.6" layer="1"/>
+<wire x1="10.1464" y1="37.4464" x2="8.9738875" y2="36.2738875" width="0.6" layer="1"/>
+<wire x1="8.9738875" y1="36.2738875" x2="8.9738875" y2="36.24" width="0.6" layer="1"/>
+<wire x1="11.9" y1="36.7261125" x2="11.9" y2="36.1" width="0.6" layer="1"/>
+<wire x1="11.1797125" y1="37.4464" x2="11.9" y2="36.7261125" width="0.6" layer="1"/>
 </signal>
 <signal name="SCK">
 <contactref element="J1" pad="40"/>
@@ -1333,25 +1355,31 @@ design rules under a new name.</description>
 <wire x1="22" y1="57.05436875" x2="23.9304" y2="55.12396875" width="0.508" layer="1"/>
 <wire x1="23.9304" y1="55.12396875" x2="23.9304" y2="51.61603125" width="0.508" layer="1"/>
 </signal>
-<signal name="EXT_1">
+<signal name="USB1_D-">
 <contactref element="J1" pad="15"/>
 </signal>
-<signal name="EXT_3">
+<signal name="USB2_D-">
 <contactref element="J1" pad="31"/>
 </signal>
-<signal name="EXT_5">
+<signal name="USB3_D-">
 <contactref element="J1" pad="46"/>
 </signal>
-<signal name="EXT_7">
+<signal name="RESET">
 <contactref element="J1" pad="48"/>
+<contactref element="U$3" pad="10@JP1"/>
+<contactref element="SJ5" pad="1"/>
+<contactref element="SJ4" pad="1"/>
+<wire x1="10.68" y1="59.1" x2="30.27" y2="66.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.508" y1="3" x2="10.68" y2="59.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.508" y1="3" x2="-11.508" y2="3" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="EXT_6">
+<signal name="USB3_D+">
 <contactref element="J1" pad="47"/>
 </signal>
-<signal name="EXT_4">
+<signal name="USB2_D+">
 <contactref element="J1" pad="32"/>
 </signal>
-<signal name="EXT_2">
+<signal name="USB1_D+">
 <contactref element="J1" pad="16"/>
 </signal>
 <signal name="SS">
@@ -1666,6 +1694,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="AREF">
 <contactref element="U$3" pad="3@JP2"/>
+</signal>
+<signal name="N$5">
+<contactref element="U$2" pad="RESET"/>
+<contactref element="SJ4" pad="2"/>
+<wire x1="-10.492" y1="3" x2="52.25" y2="37.16" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="U$1" pad="RESET"/>
+<contactref element="SJ5" pad="2"/>
+<wire x1="-13.492" y1="3" x2="52.25" y2="71.16" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

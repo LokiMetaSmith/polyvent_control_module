@@ -1424,6 +1424,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="POWER" width="0" drill="0">
+<clearance class="1" value="0.508"/>
+</class>
 </classes>
 <parts>
 <part name="D1" library="din41612_48_pin_board" deviceset="09231486921" device=""/>
@@ -1733,16 +1736,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="30.48" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="23"/>
-<wire x1="35.56" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
-<label x="30.48" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="D1" gate="G$1" pin="7"/>
-<wire x1="35.56" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
-<label x="22.86" y="91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="127" y1="68.58" x2="127" y2="91.44" width="0.1524" layer="91"/>
@@ -1752,13 +1745,13 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="127" y="91.44"/>
 <label x="129.54" y="91.44" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="3.3V" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="38"/>
 <wire x1="35.56" y1="12.7" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
 <label x="30.48" y="12.7" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="3.3V" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="DVCC"/>
 <wire x1="175.26" y1="30.48" x2="172.72" y2="30.48" width="0.1524" layer="91"/>
@@ -1793,6 +1786,16 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="86.36" y="-25.4" size="1.778" layer="95"/>
 <wire x1="96.52" y1="-25.4" x2="86.36" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="96.52" y="-25.4"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="7"/>
+<wire x1="35.56" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
+<label x="22.86" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="23"/>
+<wire x1="35.56" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
+<label x="30.48" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -2109,55 +2112,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="JP2" gate="A" pin="1"/>
 </segment>
 </net>
-<net name="EXT_1" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="15"/>
-<wire x1="35.56" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
-<label x="22.86" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT_3" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="31"/>
-<wire x1="35.56" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
-<label x="22.86" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT_5" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="46"/>
-<wire x1="35.56" y1="-7.62" x2="22.86" y2="-7.62" width="0.1524" layer="91"/>
-<label x="22.86" y="-7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT_7" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="48"/>
-<wire x1="35.56" y1="-12.7" x2="22.86" y2="-12.7" width="0.1524" layer="91"/>
-<label x="22.86" y="-12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT_6" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="47"/>
-<wire x1="22.86" y1="-10.16" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
-<label x="22.86" y="-10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT_4" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="32"/>
-<wire x1="22.86" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
-<label x="22.86" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT_2" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="16"/>
-<wire x1="22.86" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
-<label x="22.86" y="68.58" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="OXYGEN1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="CH1"/>
@@ -2261,6 +2215,55 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="180.34" y1="-2.54" x2="190.5" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="MCLKIN"/>
 <wire x1="190.5" y1="-2.54" x2="190.5" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB1_D+" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="16"/>
+<wire x1="22.86" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
+<label x="22.86" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB2_D+" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="32"/>
+<wire x1="22.86" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
+<label x="22.86" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB3_D-" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="46"/>
+<wire x1="35.56" y1="-7.62" x2="22.86" y2="-7.62" width="0.1524" layer="91"/>
+<label x="22.86" y="-7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RESET" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="48"/>
+<wire x1="35.56" y1="-12.7" x2="22.86" y2="-12.7" width="0.1524" layer="91"/>
+<label x="22.86" y="-12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB1_D-" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="15"/>
+<wire x1="35.56" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
+<label x="22.86" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB2_D-" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="31"/>
+<wire x1="35.56" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
+<label x="22.86" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB3_D+" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="47"/>
+<wire x1="22.86" y1="-10.16" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
+<label x="22.86" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
