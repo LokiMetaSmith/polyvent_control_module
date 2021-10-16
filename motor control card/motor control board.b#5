@@ -162,10 +162,10 @@
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<hole x="2.84" y="5.64" drill="2.25"/>
-<hole x="2.84" y="74.36" drill="2.25"/>
-<hole x="97.16" y="74.36" drill="2.25"/>
-<hole x="97.16" y="5.64" drill="2.25"/>
+<hole x="2.84" y="5.64" drill="3.4"/>
+<hole x="2.84" y="74.36" drill="3.4"/>
+<hole x="97.16" y="74.36" drill="3.4"/>
+<hole x="97.16" y="5.64" drill="3.4"/>
 <text x="20" y="18.2" size="1.7" layer="25" align="bottom-right">CS_15
 CS_14
 CS_13

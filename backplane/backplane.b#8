@@ -195,7 +195,7 @@ PWR
 <wire x1="81.28" y1="80" x2="81.28" y2="0" width="0.3" layer="26" style="shortdash"/>
 <wire x1="121.92" y1="80" x2="121.92" y2="0" width="0.3" layer="26" style="shortdash"/>
 <wire x1="175.7" y1="68.03" x2="175.7" y2="64.03" width="2.54" layer="25"/>
-<text x="169" y="13" size="1.778" layer="25" rot="R90">PolyVent backplane V1.1
+<text x="176" y="13" size="1.778" layer="25" rot="R90">PolyVent backplane V1.1
 Main contributers:
 Nathaniel Bechard
 Public Invention</text>

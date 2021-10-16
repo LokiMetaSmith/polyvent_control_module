@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -64,6 +64,7 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
@@ -95,7 +96,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -105,9 +109,12 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -166,6 +173,11 @@
 <hole x="2.84" y="74.36" drill="3.4"/>
 <hole x="97.16" y="74.36" drill="3.4"/>
 <hole x="97.16" y="5.64" drill="3.4"/>
+<rectangle x1="41.61" y1="13.89" x2="45.61" y2="30.89" layer="25" rot="R90"/>
+<text x="51.6" y="26.91" size="1.778" layer="25" rot="R180">Serial Number:</text>
+<text x="29.57" y="13.43" size="1.778" layer="25">PolyVent Main Board V2.1
+Public invention - CERN OHL 2.0</text>
+<text x="75" y="11.4" size="1" layer="25" rot="R90">RESET button</text>
 </plain>
 <libraries>
 <library name="din41612_48_pin_board">
@@ -1629,18 +1641,16 @@ design rules under a new name.</description>
 <contactref element="SV3" pad="23"/>
 <wire x1="5.6" y1="54.02" x2="6.4271" y2="54.02" width="0.6096" layer="16"/>
 <wire x1="6.4271" y1="54.02" x2="7.7559" y2="55.3488" width="0.6096" layer="16"/>
-<wire x1="43.02166875" y1="76.2682" x2="44.28986875" y2="75" width="0.6096" layer="16"/>
-<wire x1="39.38186875" y1="75" x2="40.65006875" y2="76.2682" width="0.6096" layer="16"/>
+<wire x1="43.02166875" y1="76.2682" x2="44.68986875" y2="74.6" width="0.6096" layer="16"/>
+<wire x1="38.98186875" y1="74.6" x2="40.65006875" y2="76.2682" width="0.6096" layer="16"/>
 <wire x1="40.65006875" y1="76.2682" x2="43.02166875" y2="76.2682" width="0.6096" layer="16"/>
-<wire x1="71" y1="75" x2="72.8354" y2="76.8354" width="0.6096" layer="16"/>
-<wire x1="77.64" y1="74.36" x2="77.64" y2="69.7" width="0.6096" layer="16"/>
-<wire x1="44.28986875" y1="75" x2="71" y2="75" width="0.6096" layer="16"/>
-<wire x1="75.1646" y1="76.8354" x2="77.64" y2="74.36" width="0.6096" layer="16"/>
-<wire x1="24.8671" y1="75" x2="39.38186875" y2="75" width="0.6096" layer="16"/>
-<wire x1="9.4688" y1="59.6017" x2="24.8671" y2="75" width="0.6096" layer="16"/>
+<wire x1="71.4" y1="74.6" x2="73.6354" y2="76.8354" width="0.6096" layer="16"/>
+<wire x1="77.64" y1="73.56" x2="77.64" y2="69.7" width="0.6096" layer="16"/>
+<wire x1="44.68986875" y1="74.6" x2="71.4" y2="74.6" width="0.6096" layer="16"/>
+<wire x1="74.3646" y1="76.8354" x2="77.64" y2="73.56" width="0.6096" layer="16"/>
+<wire x1="30.5" y1="74.6" x2="38.98186875" y2="74.6" width="0.6096" layer="16"/>
 <wire x1="7.7559" y1="55.3488" x2="8.6417" y2="55.3488" width="0.6096" layer="16"/>
 <wire x1="8.6417" y1="55.3488" x2="9.4688" y2="56.1759" width="0.6096" layer="16"/>
-<wire x1="9.4688" y1="56.1759" x2="9.4688" y2="59.6017" width="0.6096" layer="16"/>
 <via x="88" y="37.6" extent="1-16" drill="0.35"/>
 <wire x1="88" y1="37.6" x2="83.6" y2="42" width="0.6096" layer="1"/>
 <wire x1="83.6" y1="42" x2="82" y2="42" width="0.6096" layer="1"/>
@@ -1665,7 +1675,7 @@ design rules under a new name.</description>
 <wire x1="77.8354" y1="46.1646" x2="78.9428" y2="45.0572" width="0.6096" layer="1"/>
 <contactref element="JP1" pad="7"/>
 <wire x1="77.64" y1="69.7" x2="77.64" y2="67.16" width="0.6096" layer="1"/>
-<wire x1="72.8354" y1="76.8354" x2="75.1646" y2="76.8354" width="0.6096" layer="16"/>
+<wire x1="73.6354" y1="76.8354" x2="74.3646" y2="76.8354" width="0.6096" layer="16"/>
 <wire x1="77.64" y1="47.8214375" x2="77.64" y2="48.36" width="0.6096" layer="16"/>
 <wire x1="77.64" y1="48.36" x2="72" y2="54" width="0.6096" layer="16"/>
 <via x="72" y="54" extent="1-16" drill="0.35"/>
@@ -1674,6 +1684,12 @@ design rules under a new name.</description>
 <via x="78" y="56" extent="1-16" drill="0.35"/>
 <wire x1="78" y1="56" x2="77.64" y2="56.36" width="0.6096" layer="16"/>
 <wire x1="77.64" y1="56.36" x2="77.64" y2="67.16" width="0.6096" layer="16"/>
+<wire x1="15.2" y1="59.3" x2="30.5" y2="74.6" width="0.6096" layer="16"/>
+<wire x1="12.5929" y1="59.3" x2="15.2" y2="59.3" width="0.6096" layer="16"/>
+<wire x1="9.4688" y1="56.1759" x2="9.4688" y2="57.0617" width="0.6096" layer="16"/>
+<wire x1="9.4688" y1="57.0617" x2="10.1783" y2="57.7712" width="0.6096" layer="16"/>
+<wire x1="10.1783" y1="57.7712" x2="11.0641" y2="57.7712" width="0.6096" layer="16"/>
+<wire x1="11.0641" y1="57.7712" x2="12.5929" y2="59.3" width="0.6096" layer="16"/>
 </signal>
 <signal name="USB1_D+">
 <contactref element="J1" pad="16"/>
@@ -3012,6 +3028,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

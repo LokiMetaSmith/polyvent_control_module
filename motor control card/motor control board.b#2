@@ -226,6 +226,11 @@ AOUT1</text>
 <text x="82.6" y="8.91" size="1.778" layer="25" rot="R180">Serial Number:</text>
 <text x="27.57" y="2.43" size="1.778" layer="25">PolyVent Motor Card V2.1
 Public invention - CERN OHL 2.0</text>
+<text x="15.3" y="70.4" size="0.8" layer="25" distance="230" align="top-right">D+x
+D-x
+GND
+5V</text>
+<text x="16.3" y="71.3" size="0.8" layer="25">P1       P2       P3</text>
 </plain>
 <libraries>
 <library name="SparkFun-SAMD21-Mini-Breakout">
