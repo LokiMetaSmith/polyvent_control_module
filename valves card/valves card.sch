@@ -3706,6 +3706,12 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <wire x1="99.06" y1="96.52" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
+<segment>
+<wire x1="35.56" y1="53.34" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="M2" gate="G$1" pin="GND"/>
+<wire x1="53.34" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="24V/12V" class="0">
 <segment>
@@ -4788,14 +4794,6 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="JP4" gate="A" pin="4"/>
 <wire x1="88.9" y1="91.44" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
 <label x="88.9" y="76.2" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<wire x1="53.34" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="53.34" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="M2" gate="G$1" pin="GND"/>
 </segment>
 </net>
 </nets>

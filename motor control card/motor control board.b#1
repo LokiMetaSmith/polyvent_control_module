@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -232,7 +232,6 @@ D-x
 GND
 5V</text>
 <text x="16.3" y="71.3" size="0.8" layer="25">P1       P2       P3</text>
-<text x="14" y="73" size="1.778" layer="25">USB ports</text>
 </plain>
 <libraries>
 <library name="SparkFun-SAMD21-Mini-Breakout">

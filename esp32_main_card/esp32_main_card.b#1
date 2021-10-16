@@ -175,7 +175,7 @@
 <hole x="97.16" y="5.64" drill="3.4"/>
 <rectangle x1="41.61" y1="13.89" x2="45.61" y2="30.89" layer="25" rot="R90"/>
 <text x="51.6" y="26.91" size="1.778" layer="25" rot="R180">Serial Number:</text>
-<text x="29.67" y="11.93" size="1.778" layer="25">PolyVent Main Board V2
+<text x="29.67" y="11.93" size="1.778" layer="25">PolyVent Main Board V2.1
 Public invention - Nathaniel Bechard
 Liscenced under: CERN OHL 2.0</text>
 <text x="75" y="11.4" size="1" layer="25" rot="R90">RESET button</text>
