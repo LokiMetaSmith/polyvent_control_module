@@ -1,3 +1,0 @@
-Connector for motors: TBP02R1-381-07BE
-Plug for motors: TBP02P1-381-07BE
-
