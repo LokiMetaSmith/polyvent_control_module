@@ -187,8 +187,8 @@ CS_3
 CS_2
 CS_1
 </text>
-<hole x="25.27" y="13.75" drill="0.8" grouprefs="22_PADS PAD"/>
-<rectangle x1="24.27" y1="12.75" x2="26.27" y2="14.75" layer="17" grouprefs="22_PADS PAD"/>
+<hole x="25.27" y="13.75" drill="0.8" grouprefs="PAD 22_PADS"/>
+<rectangle x1="24.27" y1="12.75" x2="26.27" y2="14.75" layer="17" grouprefs="PAD 22_PADS"/>
 <hole x="27.81" y="13.75" drill="0.8" grouprefs="22_PADS"/>
 <hole x="30.35" y="13.75" drill="0.8" grouprefs="22_PADS"/>
 <hole x="32.89" y="13.75" drill="0.8" grouprefs="22_PADS"/>
