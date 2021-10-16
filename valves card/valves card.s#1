@@ -2747,7 +2747,6 @@ BTS3018TC (Vin=0...10V, Vds&amp;lt;=60V, Id=6A + Rds=0.02Ohm @ Vin=5V)&lt;br&gt;
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="M1" library="SparkFun-SAMD21-Mini-Breakout" deviceset="SAM_D21_MINI_BREAKOUT" device=""/>
 <part name="T1" library="BUK9214-30A,118" deviceset="BUK9214-30A-118" device="-DPAK" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF"/>
 <part name="J1" library="TBP02R1-381-14BE" deviceset="TBP02R1-381-14BE" device=""/>
 <part name="U3" library="EL817C" deviceset="EL817C" device="" value="EL817(D)-ND">
@@ -2851,6 +2850,7 @@ BTS3018TC (Vin=0...10V, Vds&amp;lt;=60V, Id=6A + Rds=0.02Ohm @ Vin=5V)&lt;br&gt;
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="M2" library="SparkFun-SAMD21-Mini-Breakout" deviceset="SAM_D21_MINI_BREAKOUT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2926,7 +2926,6 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <instance part="GND14" gate="1" x="261.62" y="-17.78" smashed="yes">
 <attribute name="VALUE" x="259.08" y="-20.32" size="1.778" layer="96"/>
 </instance>
-<instance part="M1" gate="G$1" x="76.2" y="35.56" smashed="yes"/>
 <instance part="T1" gate="T" x="254" y="55.88" smashed="yes">
 <attribute name="NAME" x="251.46" y="56.642" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -3280,6 +3279,7 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <instance part="GND7" gate="1" x="99.06" y="91.44" smashed="yes">
 <attribute name="VALUE" x="96.52" y="88.9" size="1.778" layer="96"/>
 </instance>
+<instance part="M2" gate="G$1" x="76.2" y="35.56" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -3485,16 +3485,10 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="R32" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="GND2"/>
 <wire x1="99.06" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="127" y1="63.5" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="M1" gate="G$1" pin="GND"/>
-<wire x1="53.34" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="53.34" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="M2" gate="G$1" pin="GND2"/>
 </segment>
 <segment>
 <wire x1="12.7" y1="127" x2="15.24" y2="127" width="0.1524" layer="91"/>
@@ -3617,9 +3611,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="M1" gate="G$1" pin="VCC"/>
 <wire x1="99.06" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
 <label x="109.22" y="53.34" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="12.7" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
@@ -3638,9 +3632,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="M1" gate="G$1" pin="13"/>
 <wire x1="99.06" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
 <label x="109.22" y="27.94" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="13"/>
 </segment>
 <segment>
 <wire x1="12.7" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
@@ -3652,9 +3646,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="M1" gate="G$1" pin="12"/>
 <wire x1="99.06" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
 <label x="109.22" y="22.86" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="12"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
@@ -3666,9 +3660,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="M1" gate="G$1" pin="11"/>
 <wire x1="99.06" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
 <label x="109.22" y="17.78" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="11"/>
 </segment>
 <segment>
 <wire x1="12.7" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
@@ -3782,9 +3776,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="185.42" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
 <label x="40.64" y="48.26" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DRAIN2" class="0">
@@ -3961,9 +3955,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="279.4" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
 <label x="40.64" y="43.18" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -3998,9 +3992,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="363.22" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="4"/>
 <wire x1="53.34" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
 <label x="40.64" y="38.1" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -4035,9 +4029,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="185.42" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="5"/>
 <wire x1="53.34" y1="33.02" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
 <label x="40.64" y="33.02" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -4072,9 +4066,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="276.86" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="6"/>
 <wire x1="53.34" y1="27.94" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 <label x="40.64" y="27.94" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -4109,9 +4103,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="363.22" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="7"/>
 <wire x1="53.34" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
 <label x="40.64" y="22.86" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -4146,9 +4140,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="185.42" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="8"/>
 <wire x1="53.34" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
 <label x="40.64" y="17.78" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="N$51" class="0">
@@ -4183,9 +4177,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="276.86" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="9"/>
 <wire x1="53.34" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
 <label x="40.64" y="12.7" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -4220,9 +4214,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="365.76" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="A0"/>
 <wire x1="99.06" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
 <label x="109.22" y="33.02" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="A0"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -4257,9 +4251,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="185.42" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="A1"/>
 <wire x1="121.92" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
 <label x="109.22" y="38.1" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="N$69" class="0">
@@ -4294,9 +4288,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="276.86" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="A2"/>
 <wire x1="99.06" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
 <label x="109.22" y="43.18" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="N$75" class="0">
@@ -4331,20 +4325,20 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <label x="363.22" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="A3"/>
 <wire x1="121.92" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <label x="109.22" y="48.26" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="A3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="SJ1" gate="1" pin="1"/>
-<pinref part="M1" gate="G$1" pin="10"/>
 <wire x1="132.08" y1="12.7" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="20.32" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
 <junction x="129.54" y="12.7"/>
+<pinref part="M2" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="CS_1" class="0">
@@ -4513,9 +4507,9 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="J2" gate="G$1" pin="48"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="/RST"/>
 <wire x1="53.34" y1="58.42" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
 <label x="38.1" y="58.42" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="/RST"/>
 </segment>
 </net>
 <net name="USB1_D-" class="0">
@@ -4630,6 +4624,14 @@ deltaT = 5.456 C, no need for a heatsink, these will barely heat up
 <pinref part="JP4" gate="A" pin="4"/>
 <wire x1="88.9" y1="91.44" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
 <label x="88.9" y="76.2" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="53.34" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="53.34" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="M2" gate="G$1" pin="GND"/>
 </segment>
 </net>
 </nets>
