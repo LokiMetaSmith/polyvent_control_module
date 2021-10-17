@@ -156,7 +156,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SAM_D21_MINI_BREAKOUT" prefix="M">
+<deviceset name="SAM_D21_MINI_BREAKOUT" prefix="M1" uservalue="yes">
 <description>SPARKFUN-SAMD21-MINI-BREAKOUT</description>
 <gates>
 <gate name="G$1" symbol="SPARKFUN-SAMD21-MINI-BREAKOUT" x="0" y="-35.56"/>
