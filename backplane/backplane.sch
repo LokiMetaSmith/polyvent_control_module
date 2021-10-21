@@ -1047,7 +1047,7 @@
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="A3"/>
 <pinref part="J8" gate="G$1" pin="A3"/>
