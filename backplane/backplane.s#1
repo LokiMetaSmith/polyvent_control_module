@@ -1304,7 +1304,7 @@
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="24V/12V" class="0">
+<net name="24V/12V" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="A5"/>
 <pinref part="J8" gate="G$1" pin="A5"/>
