@@ -206,14 +206,14 @@ and reconfigured)</text>
 Motor_1
 Micro_1
 </text>
-<text x="93.4" y="35.7" size="1.5" layer="25" distance="155" align="top-right">SW
+<text x="93.4" y="35.7" size="1.5" layer="25" distance="155" align="top-right">SW1
 3.3V
 GND
 BOUT2
 BOUT1
 AOUT2
 AOUT1</text>
-<text x="93.4" y="67.7" size="1.5" layer="25" distance="155" align="top-right">SW
+<text x="93.4" y="67.7" size="1.5" layer="25" distance="155" align="top-right">SW1
 3.3V
 GND
 BOUT2
