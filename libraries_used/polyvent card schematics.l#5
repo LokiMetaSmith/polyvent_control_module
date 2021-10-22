@@ -160,6 +160,19 @@ built in fuse and switch</text>
 <circle x="40.64" y="20.32" radius="5.6796125" width="0.254" layer="94"/>
 <text x="15.24" y="22.86" size="3.556" layer="94">PSU</text>
 </symbol>
+<symbol name="BLANK_CARD">
+<pin name="P$1" x="-5.08" y="0" length="middle"/>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="45.72" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-17.78" x2="45.72" y2="17.78" width="0.254" layer="94"/>
+<wire x1="45.72" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<text x="7.62" y="-15.24" size="1.778" layer="94" rot="R90">din41612_48pin_connector</text>
+<wire x1="10.16" y1="17.78" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<text x="14.986" y="-2.286" size="1.778" layer="94">PolyVent blank card
+slots into the backplane</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BACKPLANE">
@@ -205,6 +218,53 @@ built in fuse and switch</text>
 </devices>
 </deviceset>
 <deviceset name="BLANK_CARD">
+<gates>
+<gate name="G$1" symbol="BLANK_CARD" x="0" y="17.78"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOTOR_CARD">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VALVES_CARD">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SENSOR_CARD">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAIN_CARD">
 <gates>
 </gates>
 <devices>
