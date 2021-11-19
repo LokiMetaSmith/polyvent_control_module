@@ -5179,9 +5179,9 @@ used to troubleshoot the system</text>
 <label x="12.7" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="5"/>
-<wire x1="12.7" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
-<label x="12.7" y="33.02" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="33.02" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
+<label x="-17.78" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_8" class="0">
@@ -5267,9 +5267,9 @@ used to troubleshoot the system</text>
 <pinref part="J1" gate="G$1" pin="32"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="6"/>
-<wire x1="12.7" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
-<label x="12.7" y="30.48" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="30.48" x2="-15.24" y2="30.48" width="0.1524" layer="91"/>
+<label x="-17.78" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -5356,9 +5356,9 @@ used to troubleshoot the system</text>
 <pinref part="J1" gate="G$1" pin="46"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="4"/>
-<wire x1="-7.62" y1="25.4" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
-<label x="-17.78" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="7"/>
+<wire x1="12.7" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<label x="12.7" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -5404,9 +5404,9 @@ used to troubleshoot the system</text>
 <label x="12.7" y="-25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="33.02" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
-<label x="-17.78" y="33.02" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="3"/>
+<wire x1="-7.62" y1="27.94" x2="-15.24" y2="27.94" width="0.1524" layer="91"/>
+<label x="-17.78" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_6" class="0">
@@ -5481,9 +5481,9 @@ used to troubleshoot the system</text>
 <pinref part="J1" gate="G$1" pin="31"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="-7.62" y1="30.48" x2="-15.24" y2="30.48" width="0.1524" layer="91"/>
-<label x="-17.78" y="30.48" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="4"/>
+<wire x1="-7.62" y1="25.4" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
+<label x="-17.78" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_13" class="0">
@@ -5613,9 +5613,9 @@ used to troubleshoot the system</text>
 <pinref part="J1" gate="G$1" pin="47"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="8"/>
-<wire x1="12.7" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
-<label x="12.7" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="5"/>
+<wire x1="12.7" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
+<label x="12.7" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5655,28 +5655,28 @@ used to troubleshoot the system</text>
 </net>
 <net name="USB0_D-_IN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="3"/>
-<wire x1="-7.62" y1="27.94" x2="-20.32" y2="27.94" width="0.1524" layer="91"/>
-<label x="-20.32" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="D-"/>
 <wire x1="-48.26" y1="33.02" x2="-68.58" y2="33.02" width="0.1524" layer="91"/>
 <label x="-63.5" y="33.02" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="4"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="8"/>
+<wire x1="12.7" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<label x="12.7" y="25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="USB0_D+_IN" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="7"/>
-<wire x1="12.7" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
-<label x="12.7" y="27.94" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="D+"/>
 <wire x1="-48.26" y1="30.48" x2="-68.58" y2="30.48" width="0.1524" layer="91"/>
 <label x="-63.5" y="30.48" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="3"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="6"/>
+<wire x1="12.7" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
+<label x="12.7" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5713,7 +5713,6 @@ used to troubleshoot the system</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="202,1,-33.02,96.52,U3,EN,,,,"/>
 <approved hash="202,1,-33.02,93.98,U3,SENSOR_VP,,,,"/>
 <approved hash="202,1,-33.02,91.44,U3,SENSOR_VN,,,,"/>
 </errors>
