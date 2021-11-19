@@ -4810,7 +4810,6 @@ Source: www.kingbright.com</description>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X17" device="" package3d_urn="urn:adsk.eagle:package:22490/2"/>
 <part name="S1" library="FSMRA4JH04" deviceset="FSMRA4JH04" device=""/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="1 nf"/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" package3d_urn="urn:adsk.eagle:package:30824479/1" value="470"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1">
 <attribute name="COLOR" value="green"/>
@@ -4883,10 +4882,6 @@ used to troubleshoot the system</text>
 <instance part="C1" gate="G$1" x="-71.12" y="-7.62" smashed="yes">
 <attribute name="NAME" x="-69.596" y="-4.699" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-69.596" y="-9.779" size="1.778" layer="96"/>
-</instance>
-<instance part="R1" gate="G$1" x="-76.2" y="-2.54" smashed="yes">
-<attribute name="NAME" x="-80.01" y="-1.0414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-80.01" y="-5.842" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="-71.12" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="-73.66" y="-17.78" size="1.778" layer="96"/>
@@ -5385,9 +5380,14 @@ used to troubleshoot the system</text>
 <label x="12.7" y="-30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-81.28" y1="-2.54" x2="-88.9" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-88.9" y="-2.54" size="1.778" layer="95"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="-66.04" y1="-2.54" x2="-71.12" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="COM"/>
+<wire x1="-63.5" y1="-5.08" x2="-66.04" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-5.08" x2="-66.04" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="-2.54" x2="-71.12" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-71.12" y="-2.54"/>
 </segment>
 </net>
 <net name="USB1_D-" class="0">
@@ -5695,17 +5695,6 @@ used to troubleshoot the system</text>
 <wire x1="7.62" y1="99.06" x2="-10.16" y2="99.06" width="0.1524" layer="91"/>
 <junction x="7.62" y="99.06"/>
 <pinref part="JP1" gate="G$1" pin="17"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="-2.54" x2="-71.12" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="COM"/>
-<wire x1="-63.5" y1="-5.08" x2="-66.04" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-5.08" x2="-66.04" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<junction x="-71.12" y="-2.54"/>
 </segment>
 </net>
 <net name="N$9" class="0">

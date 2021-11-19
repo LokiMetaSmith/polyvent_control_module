@@ -554,6 +554,10 @@ port USB</text>
 <wire x1="-135.89" y1="-16.51" x2="-135.89" y2="-15.24" width="0.2286" layer="94"/>
 <wire x1="-135.89" y1="-15.24" x2="-134.62" y2="-15.24" width="0.2286" layer="94"/>
 <wire x1="-135.89" y1="-15.24" x2="-128.27" y2="-20.32" width="0.2286" layer="94"/>
+<text x="-147.32" y="-29.21" size="2.54" layer="94">Patient Inflating Valve</text>
+<text x="-152.4" y="-8.89" size="2.54" layer="94">Respiration Valve (Proportional)</text>
+<text x="-144.78" y="11.43" size="2.54" layer="94">Oxygen Input Valve</text>
+<text x="-139.7" y="31.75" size="2.54" layer="94">Air Input Valve</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-2.54" y="22.86" smashed="yes" rot="R180"/>

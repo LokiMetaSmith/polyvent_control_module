@@ -164,6 +164,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTJjODE0" projecturn="a.cGVyc29uYWw6dWUyYWFmMDMwIzIwMjAwODE1MzIzNjg3MzAx" f3durn="urn:adsk.wipprod:dm.lineage:MBjCJ3ZTQh-woY29vzdSqA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="dd28b56f-bde6-48a5-8226-f18c79e5ae6c" lastsyncedrevisionid="dd28b56f-bde6-48a5-8226-f18c79e5ae6c" lastboardhashguid="dedc9102-e237-7193-7661-bd02f836a8b0" lastpushedtime="2021-11-11T16:50:43Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
@@ -1321,10 +1322,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="76.238" y="16.8255" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="75.984" y="14.603" size="0.4064" layer="27"/>
 </element>
-<element name="R1" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="470" x="77" y="13" smashed="yes">
-<attribute name="NAME" x="76.238" y="13.8255" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="75.984" y="11.603" size="0.4064" layer="27"/>
-</element>
 <element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="86.9" y="28.7" smashed="yes" rot="R90">
 <attribute name="COLOR" value="green" x="86.9" y="28.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="86.519" y="30.605" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -2238,7 +2235,6 @@ design rules under a new name.</description>
 <wire x1="75.2757625" y1="24.5428" x2="86.5805625" y2="24.5428" width="0.6096" layer="1"/>
 <wire x1="90.7608" y1="21.2392" x2="94.6750125" y2="21.2392" width="0.6096" layer="1"/>
 <wire x1="94.6750125" y1="21.2392" x2="96" y2="19.9142125" width="0.6096" layer="1"/>
-<wire x1="94.76" y1="9.76" x2="94.27" y2="9.76" width="0.6096" layer="1"/>
 <wire x1="88.3460375" y1="24.6162" x2="89.8354" y2="23.1268375" width="0.6096" layer="1"/>
 <wire x1="89.8354" y1="22.1646" x2="90.7608" y2="21.2392" width="0.6096" layer="1"/>
 <wire x1="89.8354" y1="23.1268375" x2="89.8354" y2="22.1646" width="0.6096" layer="1"/>
@@ -2264,16 +2260,19 @@ design rules under a new name.</description>
 <wire x1="94.831190625" y1="16.003021875" x2="94.7750125" y2="16.0592" width="0.6096" layer="1"/>
 <wire x1="94.7750125" y1="16.0592" x2="93.7649875" y2="16.0592" width="0.6096" layer="1"/>
 <wire x1="93.7649875" y1="16.0592" x2="93.0508" y2="15.3450125" width="0.6096" layer="1"/>
-<wire x1="93.0508" y1="14.3349875" x2="93.0508" y2="15.3450125" width="0.6096" layer="1"/>
-<wire x1="94.7750125" y1="13.5192" x2="93.8665875" y2="13.5192" width="0.6096" layer="1"/>
-<wire x1="96" y1="11" x2="96" y2="12.2942125" width="0.6096" layer="1"/>
-<wire x1="96" y1="12.2942125" x2="94.7750125" y2="13.5192" width="0.6096" layer="1"/>
-<wire x1="93.8665875" y1="13.5192" x2="93.0508" y2="14.3349875" width="0.6096" layer="1"/>
-<contactref element="R1" pad="1"/>
-<wire x1="76.1" y1="13" x2="81.1" y2="8" width="0.6096" layer="1"/>
-<wire x1="81.1" y1="8" x2="93" y2="8" width="0.6096" layer="1"/>
-<wire x1="93" y1="8" x2="94.76" y2="9.76" width="0.6096" layer="1"/>
-<wire x1="94.76" y1="9.76" x2="96" y2="11" width="0.6096" layer="1"/>
+<contactref element="C1" pad="1"/>
+<contactref element="S1" pad="1"/>
+<wire x1="76.1" y1="14.8" x2="76.1" y2="16" width="0.6096" layer="1"/>
+<wire x1="84.2" y1="12.5" x2="89.8057875" y2="12.5" width="0.6096" layer="1"/>
+<wire x1="92.9492" y1="11.0808" x2="93.0508" y2="10.9792" width="0.6096" layer="1"/>
+<wire x1="94.015" y1="10.015" x2="94.27" y2="9.76" width="0.6096" layer="1"/>
+<wire x1="89.8057875" y1="12.5" x2="91.2249875" y2="11.0808" width="0.6096" layer="1"/>
+<wire x1="91.2249875" y1="11.0808" x2="92.9492" y2="11.0808" width="0.6096" layer="1"/>
+<wire x1="84.2" y1="12.5" x2="83.7" y2="13" width="0.6096" layer="1"/>
+<wire x1="77.9" y1="13" x2="76.1" y2="14.8" width="0.6096" layer="1"/>
+<wire x1="83.7" y1="13" x2="77.9" y2="13" width="0.6096" layer="1"/>
+<wire x1="93.0508" y1="10.9792" x2="94.015" y2="10.015" width="0.6096" layer="1"/>
+<wire x1="93.0508" y1="15.3450125" x2="93.0508" y2="10.9792" width="0.6096" layer="1"/>
 </signal>
 <signal name="USB1_D-">
 <contactref element="J1" pad="15"/>
@@ -2462,10 +2461,8 @@ design rules under a new name.</description>
 <wire x1="86.6539625" y1="55.1646" x2="86.1646" y2="55.6539625" width="0.6096" layer="1"/>
 <wire x1="86.1646" y1="55.6539625" x2="86.1646" y2="55.81303125" width="0.6096" layer="1"/>
 <wire x1="86.1646" y1="55.81303125" x2="75.9287375" y2="66.04889375" width="0.6096" layer="1"/>
-<wire x1="91.30436875" y1="50.618" x2="90.87025625" y2="50.618" width="0.6096" layer="1"/>
-<wire x1="90.87025625" y1="50.618" x2="88.936" y2="52.55225625" width="0.6096" layer="1"/>
-<wire x1="88.936" y1="52.55225625" x2="88.936" y2="52.94163125" width="0.6096" layer="1"/>
-<wire x1="88.936" y1="52.94163125" x2="86.71303125" y2="55.1646" width="0.6096" layer="1"/>
+<wire x1="91.30436875" y1="50.618" x2="91.25963125" y2="50.618" width="0.6096" layer="1"/>
+<wire x1="91.25963125" y1="50.618" x2="86.71303125" y2="55.1646" width="0.6096" layer="1"/>
 <wire x1="86.71303125" y1="55.1646" x2="86.6539625" y2="55.1646" width="0.6096" layer="1"/>
 <wire x1="16.0454" y1="49.6454" x2="17.8026" y2="51.4026" width="0.6096" layer="1"/>
 <wire x1="17.8026" y1="51.4026" x2="18.66166875" y2="51.4026" width="0.6096" layer="1"/>
@@ -2957,15 +2954,6 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="17"/>
 <wire x1="52.24" y1="69.7" x2="52.24" y2="67.16" width="0.6096" layer="1"/>
 </signal>
-<signal name="N$8">
-<contactref element="C1" pad="1"/>
-<contactref element="S1" pad="1"/>
-<contactref element="R1" pad="2"/>
-<wire x1="77.9" y1="13" x2="83.7" y2="13" width="0.6096" layer="1"/>
-<wire x1="83.7" y1="13" x2="84.2" y2="12.5" width="0.6096" layer="1"/>
-<wire x1="76.1" y1="16" x2="76.1" y2="14.8" width="0.6096" layer="1"/>
-<wire x1="76.1" y1="14.8" x2="77.9" y2="13" width="0.6096" layer="1"/>
-</signal>
 <signal name="N$9">
 <contactref element="LED1" pad="K"/>
 <contactref element="R2" pad="2"/>
@@ -3038,6 +3026,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
