@@ -1631,6 +1631,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 </packages>
 <symbols>
+<symbol name="VREF1">
+<description>&lt;h3&gt;Voltage Reference Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="VREF1" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+<symbol name="VREF2">
+<description>&lt;h3&gt;Voltage Reference Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="VREF2" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 <symbol name="DGND">
 <description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
@@ -1639,6 +1653,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="VREF1" prefix="SUPPLY">
+<gates>
+<gate name="G$1" symbol="VREF1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREF2" prefix="SUPPLY">
+<gates>
+<gate name="G$1" symbol="VREF2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="GND" prefix="GND">
 <description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
 &lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
@@ -1965,6 +2003,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R5" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="100PF" device="-0603-50V-5%" value="100pF"/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VREF1" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VREF2" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -2130,6 +2170,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND11" gate="1" x="182.88" y="58.42" smashed="yes">
 <attribute name="VALUE" x="180.34" y="55.88" size="1.778" layer="96"/>
 </instance>
+<instance part="SUPPLY1" gate="G$1" x="175.26" y="99.06" smashed="yes">
+<attribute name="VALUE" x="175.26" y="101.854" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="223.52" y="99.06" smashed="yes">
+<attribute name="VALUE" x="223.52" y="101.854" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 <instance part="GND12" gate="1" x="218.44" y="58.42" smashed="yes">
 <attribute name="VALUE" x="215.9" y="55.88" size="1.778" layer="96"/>
 </instance>
@@ -2294,18 +2340,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="35.56" y1="12.7" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
 <label x="30.48" y="12.7" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="96.52" x2="238.76" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="96.52" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="93.98" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="96.52" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="93.98" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
-<junction x="228.6" y="96.52"/>
-<label x="220.98" y="96.52" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -2352,19 +2386,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="D1" gate="G$1" pin="23"/>
 <wire x1="35.56" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <label x="30.48" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="VREF1"/>
-<wire x1="185.42" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="78.74" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="93.98" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="96.52" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
-<junction x="177.8" y="96.52"/>
-<label x="172.72" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -2833,6 +2854,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="22.86" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="VREF2" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="96.52" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="96.52" x2="238.76" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="96.52" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VREF2"/>
+<wire x1="223.52" y1="99.06" x2="223.52" y2="96.52" width="0.1524" layer="91"/>
+<junction x="223.52" y="96.52"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="93.98" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="96.52" x2="223.52" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="93.98" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
+<junction x="228.6" y="96.52"/>
+</segment>
+</net>
 <net name="SDA_5V" class="0">
 <segment>
 <wire x1="215.9" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
@@ -2850,6 +2888,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="246.38" y1="78.74" x2="246.38" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="73.66" x2="246.38" y2="73.66" width="0.1524" layer="91"/>
 <label x="251.46" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VREF1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VREF1"/>
+<wire x1="185.42" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="78.74" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="93.98" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="96.52" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
+<junction x="177.8" y="96.52"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VREF1"/>
+<wire x1="175.26" y1="99.06" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
+<junction x="175.26" y="96.52"/>
 </segment>
 </net>
 <net name="VREF2_IN" class="0">
