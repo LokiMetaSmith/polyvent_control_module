@@ -6726,8 +6726,8 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="24.7" y1="18.3" x2="24.7" y2="2.4" width="1.5" layer="29"/>
 <wire x1="24.7" y1="2.4" x2="22.3" y2="0" width="1.5" layer="29" curve="-90"/>
 <wire x1="22.3" y1="0" x2="2.4" y2="0" width="1.5" layer="29"/>
-<circle x="0" y="17.65" radius="0.65" width="0.001" layer="20"/>
-<circle x="24.7" y="4.65" radius="0.65" width="0.001" layer="20"/>
+<hole x="0" y="17.65" drill="1.3"/>
+<hole x="24.7" y="4.65" drill="1.3"/>
 </package>
 </packages>
 <symbols>
