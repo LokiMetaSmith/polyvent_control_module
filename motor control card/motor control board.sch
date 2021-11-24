@@ -226,17 +226,6 @@
 <pad name="10@JP2" x="16.51" y="6.35" drill="1.016" diameter="1.8796"/>
 <pad name="11@JP2" x="16.51" y="3.81" drill="1.016" diameter="1.8796"/>
 <pad name="12@JP2" x="16.51" y="1.27" drill="1.016" diameter="1.8796"/>
-<wire x1="12.79" y1="33.392" x2="4.99" y2="33.392" width="0.127" layer="49"/>
-<wire x1="12.79" y1="28.392" x2="4.99" y2="28.392" width="0.127" layer="49"/>
-<wire x1="12.79" y1="28.392" x2="12.79" y2="33.392" width="0.127" layer="49"/>
-<wire x1="4.99" y1="28.392" x2="4.99" y2="33.392" width="0.127" layer="49"/>
-<wire x1="12.88288125" y1="28.133040625" x2="12.88288125" y2="29.115" width="0.3048" layer="21"/>
-<wire x1="12.88288125" y1="29.115" x2="12.89" y2="29.115" width="0.3048" layer="21"/>
-<wire x1="12.89" y1="28.115" x2="11.89" y2="28.115" width="0.3048" layer="21"/>
-<wire x1="4.89" y1="29.115" x2="4.89" y2="28.115" width="0.3048" layer="21"/>
-<wire x1="4.89" y1="28.115" x2="5.89" y2="28.115" width="0.3048" layer="21"/>
-<wire x1="12.89" y1="32.115" x2="12.89" y2="33.115" width="0.3048" layer="21"/>
-<wire x1="4.89" y1="32.115" x2="4.89" y2="33.115" width="0.3048" layer="21"/>
 <pad name="1@JP4" x="13.589" y="17.907" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="2@JP4" x="13.589" y="20.447" drill="1.016" diameter="1.8796" rot="R180"/>
 <wire x1="10.99" y1="-0.003" x2="6.79" y2="-0.003" width="0.127" layer="51"/>
@@ -245,6 +234,7 @@
 <wire x1="0" y1="33.02" x2="17.78" y2="33.02" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<text x="3.556" y="0.381" size="1.27" layer="21">usb other side</text>
 </package>
 </packages>
 <symbols>
@@ -283,7 +273,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SAM_D21_MINI_BREAKOUT" uservalue="yes">
+<deviceset name="SAM_D21_MINI_BREAKOUT" prefix="M">
 <description>SPARKFUN-SAMD21-MINI-BREAKOUT</description>
 <gates>
 <gate name="G$1" symbol="SPARKFUN-SAMD21-MINI-BREAKOUT" x="0" y="-35.56"/>
@@ -320,8 +310,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-13664/5766914?s=N4IgTCBcDaIM4EMC2ATMBGABEglgOx0wCMAnAUwQGsB7AVwBcQBdAXyA" constant="no"/>
-<attribute name="PURCHASE_URL_SPARKFUN" value="https://www.sparkfun.com/products/13664" constant="no"/>
+<attribute name="MANUFACTURER-PART-NUMBE" value="SparkFun SAMD21 mini breakout, SLW-112-01-G-S  &lt; buy two of these" constant="no"/>
+<attribute name="PACKAGE" value="None" constant="no"/>
+<attribute name="SIMILAR-COMPONENTS" value="None, https://www.adafruit.com/product/3008" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -968,7 +959,21 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SJ_2S">
+<package name="SJ_2S-TRACE" urn="urn:adsk.eagle:footprint:30824447/1">
+<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
+<wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.0795" y1="0.762" x2="-0.8255" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.0795" y1="-0.762" x2="-0.8255" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.8255" y1="-1.016" x2="1.0795" y2="-0.762" width="0.2032" layer="21" curve="90"/>
+<wire x1="-0.8255" y1="1.016" x2="0.8255" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SJ_2S" urn="urn:adsk.eagle:footprint:30824426/1">
 <description>Small solder jumper with big paste layer so it will short during reflow.</description>
 <wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.1524" layer="21"/>
 <wire x1="0.8" y1="1" x2="1.1" y2="0.75" width="0.1524" layer="21" curve="-90"/>
@@ -984,21 +989,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-0.9498" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.2192" y1="-1.143" x2="1.2192" y2="1.143" layer="31"/>
 </package>
-<package name="SJ_2S-TRACE">
-<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
-<wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.0795" y1="0.762" x2="-0.8255" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.0795" y1="-0.762" x2="-0.8255" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8255" y1="-1.016" x2="1.0795" y2="-0.762" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8255" y1="1.016" x2="0.8255" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
-<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SJ_2S-NOTRACE">
+<package name="SJ_2S-NOTRACE" urn="urn:adsk.eagle:footprint:30824448/1">
 <wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
 <wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90.076445"/>
 <wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90.03821"/>
@@ -1011,7 +1002,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" layer="31"/>
 </package>
-<package name="SJ_2S-NO">
+<package name="SJ_2S-NO" urn="urn:adsk.eagle:footprint:30824428/1">
 <description>Small solder jumper with no paste layer so it will open after reflow.</description>
 <wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
 <wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90"/>
@@ -1025,8 +1016,33 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="SJ_2S-TRACE" urn="urn:adsk.eagle:package:30824525/1" type="box">
+<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
+<packageinstances>
+<packageinstance name="SJ_2S-TRACE"/>
+</packageinstances>
+</package3d>
+<package3d name="SJ_2S" urn="urn:adsk.eagle:package:30824504/1" type="box">
+<description>Small solder jumper with big paste layer so it will short during reflow.</description>
+<packageinstances>
+<packageinstance name="SJ_2S"/>
+</packageinstances>
+</package3d>
+<package3d name="SJ_2S-NOTRACE" urn="urn:adsk.eagle:package:30824526/1" type="box">
+<packageinstances>
+<packageinstance name="SJ_2S-NOTRACE"/>
+</packageinstances>
+</package3d>
+<package3d name="SJ_2S-NO" urn="urn:adsk.eagle:package:30824506/1" type="box">
+<description>Small solder jumper with no paste layer so it will open after reflow.</description>
+<packageinstances>
+<packageinstance name="SJ_2S-NO"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="SJ">
+<symbol name="SJ" urn="urn:adsk.eagle:symbol:30824380/1">
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
@@ -1038,7 +1054,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SOLDERJUMPER" prefix="SJ">
+<deviceset name="SOLDERJUMPER" urn="urn:adsk.eagle:component:30824538/1" prefix="SJ">
 <description>&lt;b&gt;Solder Jumper&lt;/b&gt;
 Standard SMD solder jumper. Used to automate production. Two varients : Normally Open and Normally Closed are the same, but have different paste layers. NC will have a large amount of paste and should jumper during reflow.</description>
 <gates>
@@ -1050,6 +1066,9 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30824504/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1059,6 +1078,9 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30824525/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1068,6 +1090,9 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30824526/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1077,6 +1102,9 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30824506/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1087,7 +1115,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </library>
 <library name="din41612_48_pin_board">
 <packages>
-<package name="HARTING_09231486921">
+<package name="HARTING_09231486921" urn="urn:adsk.eagle:footprint:31078160/1">
 <wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="51"/>
 <wire x1="-45.73" y1="0" x2="7.63" y2="0" width="0.127" layer="51"/>
 <wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
@@ -1160,8 +1188,15 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <pad name="48" x="-38.1" y="5.08" drill="1" diameter="1.35"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="HARTING_09231486921" urn="urn:adsk.eagle:package:31078162/1" type="box">
+<packageinstances>
+<packageinstance name="HARTING_09231486921"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="09231486921">
+<symbol name="09231486921" urn="urn:adsk.eagle:symbol:31078161/1">
 <wire x1="-5.08" y1="-60.96" x2="-5.08" y2="63.5" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="63.5" x2="5.08" y2="63.5" width="0.254" layer="94"/>
 <wire x1="5.08" y1="63.5" x2="5.08" y2="-60.96" width="0.254" layer="94"/>
@@ -1219,7 +1254,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="09231486921" prefix="J">
+<deviceset name="09231486921" urn="urn:adsk.eagle:component:31078163/1" locally_modified="yes" prefix="J">
 <description> &lt;a href="https://pricing.snapeda.com/parts/8-1393644-0/TE%20Connectivity/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="09231486921" x="0" y="0"/>
@@ -1276,17 +1311,14 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31078162/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="COMMENT" value="09231486921"/>
-<attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray "/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant"/>
-<attribute name="MF" value="HARTING"/>
-<attribute name="MP" value="09231486921"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="09231486921"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="6$" constant="no"/>
-<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/harting/09231486921/3180439"/>
+<attribute name="SIMILAR-COMPONENTS" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1417,7 +1449,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </class>
 </classes>
 <parts>
-<part name="J1" library="din41612_48_pin_board" deviceset="09231486921" device=""/>
+<part name="J1" library="din41612_48_pin_board" deviceset="09231486921" device="" package3d_urn="urn:adsk.eagle:package:31078162/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1429,17 +1461,17 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="P1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
-<part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" package3d_urn="urn:adsk.eagle:package:30824525/1"/>
+<part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" package3d_urn="urn:adsk.eagle:package:30824525/1"/>
 <part name="P3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
-<part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" package3d_urn="urn:adsk.eagle:package:30824525/1"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X15" device="" package3d_urn="urn:adsk.eagle:package:22424/2"/>
 <part name="J3" library="TBP02R1-381-07BE" deviceset="TBP02R1-381-07BE" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SJ4" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ5" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ4" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" package3d_urn="urn:adsk.eagle:package:30824525/1"/>
+<part name="SJ5" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" package3d_urn="urn:adsk.eagle:package:30824525/1"/>
 <part name="U$4" library="SparkFun-SAMD21-Mini-Breakout" deviceset="SAM_D21_MINI_BREAKOUT" device=""/>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>

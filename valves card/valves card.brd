@@ -174,7 +174,7 @@
 <hole x="2.84" y="74.36" drill="3.4"/>
 <hole x="97.16" y="74.36" drill="3.4"/>
 <hole x="97.16" y="5.64" drill="3.4"/>
-<text x="19.52" y="44.16" size="0.6" layer="25">CS_default_jumper
+<text x="16.28" y="44.25" size="1" layer="25">CS_default_jumper
     default: CS_4</text>
 <text x="93.2" y="65.6" size="1.95" layer="25" distance="95" align="top-right">PWR
 PWR
@@ -202,104 +202,10 @@ P3</text>
 <text x="34.41" y="71.52" size="1.778" layer="25">PolyVent Valves Board V2.1
 Public invention - Nathaniel Bechard
 Liscenced under: CERN OHL 2.0</text>
+<wire x1="22.08" y1="42.82" x2="24.08" y2="42.82" width="0.508" layer="21"/>
+<text x="20.04" y="39.85" size="1" layer="25" distance="60">12V JMP</text>
 </plain>
 <libraries>
-<library name="eagle-ltspice" urn="urn:adsk.eagle:library:217">
-<description>Default symbols for import LTspice schematics&lt;p&gt;
-2012-10-29 alf@cadsoft.de&lt;br&gt;</description>
-<packages>
-<package name="R0805" urn="urn:adsk.eagle:footprint:13236/1" library_version="1">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="C1206" urn="urn:adsk.eagle:footprint:13201/1" library_version="3">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="C0805" urn="urn:adsk.eagle:footprint:13199/1" library_version="3">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
-<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
-<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="R0805" urn="urn:adsk.eagle:package:13300/1" type="box" library_version="1">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0805"/>
-</packageinstances>
-</package3d>
-<package3d name="C1206" urn="urn:adsk.eagle:package:13279/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1206"/>
-</packageinstances>
-</package3d>
-<package3d name="C0805" urn="urn:adsk.eagle:package:13265/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0805"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="EL817C">
-<packages>
-<package name="DIP762W25P254L650H453Q4B">
-<wire x1="-3.25" y1="2.3" x2="3.25" y2="2.3" width="0.127" layer="21"/>
-<wire x1="3.25" y1="2.3" x2="3.25" y2="-2.3" width="0.127" layer="51"/>
-<wire x1="3.25" y1="-2.3" x2="-3.25" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="-3.25" y1="-2.3" x2="-3.25" y2="2.3" width="0.127" layer="51"/>
-<circle x="-2.55" y="1.7" radius="0.254" width="0.127" layer="51"/>
-<wire x1="-5" y1="2.5" x2="5" y2="2.5" width="0.127" layer="39"/>
-<wire x1="5" y1="2.5" x2="5" y2="-2.5" width="0.127" layer="39"/>
-<wire x1="5" y1="-2.5" x2="-5" y2="-2.5" width="0.127" layer="39"/>
-<wire x1="-5" y1="-2.5" x2="-5" y2="2.5" width="0.127" layer="39"/>
-<circle x="-4.75" y="2.25" radius="0.127" width="0" layer="21"/>
-<text x="-5.104659375" y="2.60236875" size="1.271159375" layer="25">&gt;NAME</text>
-<text x="-5.10803125" y="-3.906140625" size="1.272" layer="27">&gt;VALUE</text>
-<pad name="1" x="-3.81" y="1.27" drill="0.8" shape="square"/>
-<pad name="4" x="3.81" y="1.27" drill="0.8"/>
-<pad name="2" x="-3.81" y="-1.27" drill="0.8"/>
-<pad name="3" x="3.81" y="-1.27" drill="0.8"/>
-</package>
-</packages>
-</library>
 <library name="LM2937IMP-10">
 <packages>
 <package name="SOT230P700X180-4N">
@@ -362,17 +268,6 @@ Liscenced under: CERN OHL 2.0</text>
 <pad name="10@JP2" x="16.51" y="6.35" drill="1.016" diameter="1.8796"/>
 <pad name="11@JP2" x="16.51" y="3.81" drill="1.016" diameter="1.8796"/>
 <pad name="12@JP2" x="16.51" y="1.27" drill="1.016" diameter="1.8796"/>
-<wire x1="12.79" y1="33.392" x2="4.99" y2="33.392" width="0.127" layer="49"/>
-<wire x1="12.79" y1="28.392" x2="4.99" y2="28.392" width="0.127" layer="49"/>
-<wire x1="12.79" y1="28.392" x2="12.79" y2="33.392" width="0.127" layer="49"/>
-<wire x1="4.99" y1="28.392" x2="4.99" y2="33.392" width="0.127" layer="49"/>
-<wire x1="12.88288125" y1="28.133040625" x2="12.88288125" y2="29.115" width="0.3048" layer="21"/>
-<wire x1="12.88288125" y1="29.115" x2="12.89" y2="29.115" width="0.3048" layer="21"/>
-<wire x1="12.89" y1="28.115" x2="11.89" y2="28.115" width="0.3048" layer="21"/>
-<wire x1="4.89" y1="29.115" x2="4.89" y2="28.115" width="0.3048" layer="21"/>
-<wire x1="4.89" y1="28.115" x2="5.89" y2="28.115" width="0.3048" layer="21"/>
-<wire x1="12.89" y1="32.115" x2="12.89" y2="33.115" width="0.3048" layer="21"/>
-<wire x1="4.89" y1="32.115" x2="4.89" y2="33.115" width="0.3048" layer="21"/>
 <pad name="1@JP4" x="13.589" y="17.907" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="2@JP4" x="13.589" y="20.447" drill="1.016" diameter="1.8796" rot="R180"/>
 <wire x1="10.99" y1="-0.003" x2="6.79" y2="-0.003" width="0.127" layer="51"/>
@@ -381,6 +276,7 @@ Liscenced under: CERN OHL 2.0</text>
 <wire x1="0" y1="33.02" x2="17.78" y2="33.02" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<text x="3.556" y="0.381" size="1.27" layer="21">usb other side</text>
 </package>
 </packages>
 </library>
@@ -532,6 +428,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="0805" urn="urn:adsk.eagle:footprint:30824371/1">
+<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
+<wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SJ_2S-TRACE" urn="urn:adsk.eagle:package:30824525/1" type="box">
@@ -544,6 +448,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <description>Small solder jumper with no paste layer so it will open after reflow.</description>
 <packageinstances>
 <packageinstance name="SJ_2S-NO"/>
+</packageinstances>
+</package3d>
+<package3d name="0805" urn="urn:adsk.eagle:package:30824479/1" type="box">
+<packageinstances>
+<packageinstance name="0805"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -664,6 +573,28 @@ We've spent an enormous amount of time creating and checking these footprints an
 </packageinstances>
 </package3d>
 </packages3d>
+</library>
+<library name="EL817(D)">
+<packages>
+<package name="DIP4">
+<wire x1="-3.25" y1="2.3" x2="3.25" y2="2.3" width="0.127" layer="21"/>
+<wire x1="3.25" y1="2.3" x2="3.25" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="3.25" y1="-2.3" x2="-3.25" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="-2.3" x2="-3.25" y2="2.3" width="0.127" layer="51"/>
+<circle x="-2.55" y="1.7" radius="0.254" width="0.127" layer="51"/>
+<wire x1="-5" y1="2.5" x2="5" y2="2.5" width="0.127" layer="39"/>
+<wire x1="5" y1="2.5" x2="5" y2="-2.5" width="0.127" layer="39"/>
+<wire x1="5" y1="-2.5" x2="-5" y2="-2.5" width="0.127" layer="39"/>
+<wire x1="-5" y1="-2.5" x2="-5" y2="2.5" width="0.127" layer="39"/>
+<circle x="-4.75" y="2.25" radius="0.127" width="0" layer="21"/>
+<text x="-5.104659375" y="2.60236875" size="1.271159375" layer="25">&gt;NAME</text>
+<text x="-5.10803125" y="-3.906140625" size="1.272" layer="27">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="1.27" drill="0.8" shape="square"/>
+<pad name="4" x="3.81" y="1.27" drill="0.8"/>
+<pad name="2" x="-3.81" y="-1.27" drill="0.8"/>
+<pad name="3" x="3.81" y="-1.27" drill="0.8"/>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -862,421 +793,407 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="J2" library="din41612_48_pin_board" package="HARTING_09231486921" package3d_urn="urn:adsk.eagle:package:31078162/1" value="09231486921" x="5.6" y="20.95" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COMMENT" value="09231486921" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray " x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="HARTING" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="09231486921" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="09231486921" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.605" y="67.68" size="1.27" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="6$" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/harting/09231486921/3180439" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-8.59" y="67.68" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U2" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="18.5" y="11.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="53.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="BEST_I_COULD_FIND" value="EL817(D)-ND" x="18.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="53.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="53.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="OR-815" x="53.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U2" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="18.5" y="11.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="18.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="23.604659375" y="9.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="53.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="53.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="53.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="18.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="19.50803125" y="9.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="14.5" y="16.4" smashed="yes" rot="R90">
+<element name="R2" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="14.5" y="16.4" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="14.5" y="16.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.23" y="15.765" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="19.5" y="-72.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="19.5" y="-72.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="14.5" y="16.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="14.5" y="16.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="19" y="15.5" smashed="yes" rot="R180">
+<element name="R1" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="19" y="15.5" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="19" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20.135" y="17.93" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="132" y="41.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="132" y="41.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="19" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="19" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="24.1" y="16.6" smashed="yes" rot="R270">
+<element name="R6" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="24.1" y="16.6" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="24.1" y="16.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="21.77" y="17.035" size="1.27" layer="25" rot="R270"/>
-<attribute name="SPICEMODEL" value="NONE" x="-22.9" y="135.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-22.9" y="135.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="0805" x="24.1" y="16.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="24.1" y="16.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U1" library="LM2937IMP-10" package="SOT230P700X180-4N" value="LM2937IMP-12" x="27" y="34" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Bad" x="123" y="-73" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" 500-mA, 26-V, high-PSRR, low-dropout voltage regulator 4-SOT-223 -40 to 85 " x="123" y="-73" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Texas Instruments" x="123" y="-73" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="LM2937IMP-10" x="123" y="-73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="LM2937IMP-12" x="27" y="34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="23.381" y="33.1" size="1.27" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="SOT-223-4 Texas Instruments" x="123" y="-73" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="123" y="-73" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM2937IMP-10/?ref=eda" x="123" y="-73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="27" y="34" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="C1206" package3d_urn="urn:adsk.eagle:package:13279/1" value="10Uf" x="21" y="36.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.83" y="34.93" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="80" y="-14.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="80" y="-14.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C2" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10Uf, 50V" x="21" y="36.2" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="21" y="36.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="20.24" y="33.85" size="1.27" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="0805" x="21" y="36.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Other generic 0805 capacitors" x="21" y="36.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="C0805" package3d_urn="urn:adsk.eagle:package:13265/1" value="0.1Uf" x="25.54" y="27.43" smashed="yes">
+<element name="C1" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="0.1Uf, 50V" x="25.54" y="27.43" smashed="yes">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="25.54" y="27.43" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="24.27" y="25.1" size="1.27" layer="25"/>
-<attribute name="SPICEMODEL" value="NONE" x="-18.46" y="-38.57" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-18.46" y="-38.57" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="0805" x="25.54" y="27.43" size="1.778" layer="27" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Other generic 0805 capacitors" x="25.54" y="27.43" size="1.778" layer="27" display="off"/>
 </element>
 <element name="T1" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="19" y="21" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="19" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="22.8" y="24.3" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="19" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="19" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="19" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J1" library="TBP02R1-381-14BE" package="CUI_TBP02R1-381-14BE" value="TBP02R1-381-14BE" x="95" y="64.765" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tbp02r1-381-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="2~24 Poles, Pluggable,Receptacle, Horizontal, 3.81 Pitch, Terminal Block Connector" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="CUI Devices" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="TBP02R1-381-14BE" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="TBP02R1-381-14BE" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="93.7" y="10.465" size="1.778" layer="25"/>
 <attribute name="PACKAGE" value="None" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBP02R1-381-14BE/?ref=eda" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U3" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="33.5" y="11.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="OR-815" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U3" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="33.5" y="11.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="33.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="38.604659375" y="9.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="68.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="33.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="34.50803125" y="9.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="29.3" y="16.7" smashed="yes" rot="R90">
+<element name="R4" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="29.3" y="16.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="29.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.03" y="16.065" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="34.3" y="-72.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="34.3" y="-72.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="29.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="29.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="34" y="15.5" smashed="yes" rot="R180">
+<element name="R3" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="34" y="15.5" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="34" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.135" y="17.93" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="147" y="41.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="147" y="41.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="34" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="34" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="39.6" y="15.9" smashed="yes" rot="R180">
+<element name="R8" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="39.6" y="15.9" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="39.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.035" y="18.23" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="158.6" y="62.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="158.6" y="62.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="39.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="39.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T2" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="34" y="21" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="34" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.8" y="24.3" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="34" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="34" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="34" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U4" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="48.5" y="11.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="83.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="83.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="83.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="83.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U4" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="48.5" y="11.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="48.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="53.604659375" y="9.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="83.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="83.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="83.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="48.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="49.50803125" y="9.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="44.3" y="16.7" smashed="yes" rot="R90">
+<element name="R7" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="44.3" y="16.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="44.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="43.03" y="16.065" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="49.3" y="-72.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="49.3" y="-72.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="44.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="44.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="49" y="15.5" smashed="yes" rot="R180">
+<element name="R5" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="49" y="15.5" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="49" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="50.135" y="17.93" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="162" y="41.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="162" y="41.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="49" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="49" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="54.6" y="15.9" smashed="yes" rot="R180">
+<element name="R9" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="54.6" y="15.9" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="54.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="55.035" y="18.23" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="173.6" y="62.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="173.6" y="62.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="54.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="54.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T3" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="49" y="21" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="49" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="52.8" y="24.3" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="49" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="49" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="49" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U5" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="63.5" y="11.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="98.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="98.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="98.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="98.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U5" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="63.5" y="11.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="63.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="68.604659375" y="9.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="98.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="98.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="98.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="63.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="64.50803125" y="9.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R11" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="59.3" y="16.7" smashed="yes" rot="R90">
+<element name="R11" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="59.3" y="16.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="59.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="58.03" y="16.065" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="64.3" y="-72.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="64.3" y="-72.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="59.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="59.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="64" y="15.5" smashed="yes" rot="R180">
+<element name="R10" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="64" y="15.5" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="64" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="65.135" y="17.93" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="177" y="41.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="177" y="41.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="64" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="64" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="69.6" y="15.9" smashed="yes" rot="R180">
+<element name="R15" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="69.6" y="15.9" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="69.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="70.035" y="18.23" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="188.6" y="62.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="188.6" y="62.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="69.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="69.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T4" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="64" y="21" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="64" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="67.8" y="24.3" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="64" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="64" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="64" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U6" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="78.5" y="11.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="113.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="113.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="113.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="113.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U6" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="78.5" y="11.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="78.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="83.604659375" y="9.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="113.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="113.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="113.5" y="47.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="78.5" y="11.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="79.50803125" y="9.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R13" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="74.3" y="16.7" smashed="yes" rot="R90">
+<element name="R13" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="74.3" y="16.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="74.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="73.03" y="16.065" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="79.3" y="-72.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="79.3" y="-72.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="74.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="74.3" y="16.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R12" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="79" y="15.5" smashed="yes" rot="R180">
+<element name="R12" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="79" y="15.5" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="79" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="80.135" y="17.93" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="192" y="41.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="192" y="41.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="79" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="79" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R17" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="84.6" y="15.9" smashed="yes" rot="R180">
+<element name="R17" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="84.6" y="15.9" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="84.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="85.035" y="18.23" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="203.6" y="62.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="203.6" y="62.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="84.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="84.6" y="15.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T5" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="79" y="21" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="79" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="82.8" y="24.3" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="79" y="21" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="79" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="79" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U7" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="36.5" y="34.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="71.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="71.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="71.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="71.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U7" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="36.5" y="34.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="36.5" y="34.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="41.604659375" y="32.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="71.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="71.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="71.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="36.5" y="34.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="37.50803125" y="32.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R16" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="32.3" y="39.7" smashed="yes" rot="R90">
+<element name="R16" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="32.3" y="39.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="32.3" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.13" y="42.265" size="1" layer="25"/>
-<attribute name="SPICEMODEL" value="NONE" x="37.3" y="-49.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="37.3" y="-49.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="32.3" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="32.3" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R14" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="37" y="38.5" smashed="yes" rot="R180">
+<element name="R14" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="37" y="38.5" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="37" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="38.535" y="40.93" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="150" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="150" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="37" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="37" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R18" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="41.8" y="39.4" smashed="yes" rot="R270">
+<element name="R18" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="41.8" y="39.4" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="41.8" y="39.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="39.67" y="40.335" size="1.27" layer="25" rot="R270"/>
-<attribute name="SPICEMODEL" value="NONE" x="-5.2" y="158.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-5.2" y="158.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="0805" x="41.8" y="39.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="41.8" y="39.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="T6" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="37" y="44" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="37" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="40.8" y="47.3" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="37" y="44" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="37" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="37" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U8" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="50.5" y="34.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="85.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="85.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="85.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="85.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U8" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="50.5" y="34.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="50.5" y="34.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="55.604659375" y="32.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="85.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="85.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="85.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="50.5" y="34.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="51.50803125" y="32.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R20" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="46.8" y="39.5" smashed="yes" rot="R90">
+<element name="R20" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="46.8" y="39.5" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="46.8" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="45.53" y="38.865" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="51.8" y="-49.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="51.8" y="-49.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="46.8" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="46.8" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R19" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="51" y="38.5" smashed="yes" rot="R180">
+<element name="R19" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="51" y="38.5" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="51" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="52.535" y="40.93" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="164" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="164" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="51" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="51" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R24" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="56.6" y="38.9" smashed="yes" rot="R180">
+<element name="R24" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="56.6" y="38.9" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="56.6" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="57.035" y="41.23" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="175.6" y="85.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="175.6" y="85.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="56.6" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="56.6" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T7" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="51" y="44" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="51" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="54.8" y="47.3" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="51" y="44" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="51" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="51" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U9" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="65.5" y="34.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="100.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="100.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="100.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="100.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U9" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="65.5" y="34.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="65.5" y="34.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="70.604659375" y="32.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="100.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="100.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="100.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="65.5" y="34.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="66.50803125" y="32.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R22" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="61.3" y="39.7" smashed="yes" rot="R90">
+<element name="R22" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="61.3" y="39.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="61.3" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="60.03" y="39.065" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="66.3" y="-49.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="66.3" y="-49.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="61.3" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="61.3" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R21" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="66" y="38.5" smashed="yes" rot="R180">
+<element name="R21" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="66" y="38.5" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="66" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="67.535" y="40.93" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="179" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="179" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="66" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="66" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R26" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="71.6" y="38.9" smashed="yes" rot="R180">
+<element name="R26" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="71.6" y="38.9" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="71.6" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="72.035" y="41.23" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="190.6" y="85.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="190.6" y="85.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="71.6" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="71.6" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T8" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="66" y="44" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="66" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="69.8" y="47.3" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="66" y="44" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="66" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="66" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U10" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="80.5" y="34.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="115.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="115.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="115.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="115.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U10" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="80.5" y="34.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="80.5" y="34.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="85.604659375" y="32.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="115.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="115.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="115.5" y="70.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="80.5" y="34.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="81.50803125" y="32.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R25" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="76.3" y="39.7" smashed="yes" rot="R90">
+<element name="R25" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="76.3" y="39.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="76.3" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="75.03" y="39.065" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="81.3" y="-49.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="81.3" y="-49.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="76.3" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="76.3" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R23" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="81" y="38.5" smashed="yes" rot="R180">
+<element name="R23" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="81" y="38.5" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="81" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="82.535" y="40.93" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="194" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="194" y="64.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="81" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="81" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R27" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="86.6" y="38.9" smashed="yes" rot="R180">
+<element name="R27" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="86.6" y="38.9" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="86.6" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="87.035" y="41.23" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="205.6" y="85.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="205.6" y="85.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="86.6" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="86.6" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T9" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="81" y="44" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="81" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="84.8" y="47.3" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="81" y="44" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="81" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="81" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U11" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="48.5" y="55.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="83.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="83.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="83.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="83.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U11" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="48.5" y="55.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="48.5" y="55.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="53.604659375" y="53.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="83.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="83.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="83.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="48.5" y="55.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="49.50803125" y="53.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R29" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="44.3" y="60.7" smashed="yes" rot="R90">
+<element name="R29" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="44.3" y="60.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="44.3" y="60.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="43.37" y="62.905" size="0.8" layer="25"/>
-<attribute name="SPICEMODEL" value="NONE" x="49.3" y="-28.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="49.3" y="-28.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="44.3" y="60.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="44.3" y="60.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R28" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="48.97" y="59.25" smashed="yes" rot="R180">
+<element name="R28" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="48.97" y="59.25" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="48.97" y="59.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="50.605" y="61.68" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="161.97" y="85.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="161.97" y="85.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="48.97" y="59.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="48.97" y="59.25" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R33" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="54.3" y="60.9" smashed="yes" rot="R270">
+<element name="R33" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="54.3" y="60.9" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="54.3" y="60.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="51.87" y="61.835" size="1.27" layer="25" rot="R270"/>
-<attribute name="SPICEMODEL" value="NONE" x="7.3" y="179.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="7.3" y="179.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="0805" x="54.3" y="60.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="54.3" y="60.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="T10" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="49.13" y="63.88" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="49.13" y="63.88" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="52.93" y="68.18" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="49.13" y="63.88" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="49.13" y="63.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="49.13" y="63.88" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U12" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="63.5" y="55.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="98.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="98.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="98.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="98.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U12" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="63.5" y="55.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="63.5" y="55.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="68.604659375" y="53.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="98.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="98.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="98.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="63.5" y="55.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="64.50803125" y="53.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R31" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="59.3" y="60.7" smashed="yes" rot="R90">
+<element name="R31" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="59.3" y="60.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="59.3" y="60.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="58.03" y="60.065" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="64.3" y="-28.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="64.3" y="-28.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="59.3" y="60.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="59.3" y="60.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R30" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="64.24" y="59.26" smashed="yes" rot="R180">
+<element name="R30" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="64.24" y="59.26" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="64.24" y="59.26" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="65.775" y="61.69" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="177.24" y="85.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="177.24" y="85.26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="64.24" y="59.26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="64.24" y="59.26" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R35" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="69.6" y="59.9" smashed="yes" rot="R180">
+<element name="R35" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="69.6" y="59.9" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="69.6" y="59.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="70.035" y="62.23" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="188.6" y="106.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="188.6" y="106.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="69.6" y="59.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="69.6" y="59.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T11" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="64.29" y="63.81" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="64.29" y="63.81" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="68.09" y="68.11" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="64.29" y="63.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="64.29" y="63.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="64.29" y="63.81" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U13" library="EL817C" package="DIP762W25P254L650H453Q4B" value="EL817(D)-ND" x="78.5" y="55.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Bad" x="113.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP " x="113.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Everlight" x="113.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EL817(C)" x="113.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U13" library="EL817(D)" package="DIP4" value="EL817(D)-ND" x="78.5" y="55.8" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="EL817(D)" x="78.5" y="55.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="83.604659375" y="53.19763125" size="1.271159375" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="DIP-4 Everlight" x="113.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="113.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="dip4" x="113.5" y="91.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="OR-815, " x="78.5" y="55.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="79.50803125" y="53.106140625" size="1.272" layer="27" rot="R180"/>
 </element>
-<element name="R34" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="600" x="74.3" y="60.7" smashed="yes" rot="R90">
+<element name="R34" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="600" x="74.3" y="60.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="74.3" y="60.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="73.03" y="60.065" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEMODEL" value="NONE" x="79.3" y="-28.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="79.3" y="-28.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="74.3" y="60.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="74.3" y="60.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R32" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k" x="79" y="59.5" smashed="yes" rot="R180">
+<element name="R32" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="10k" x="79" y="59.5" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="79" y="59.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="80.535" y="61.93" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEMODEL" value="NONE" x="192" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="192" y="85.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="0805" x="79" y="59.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="79" y="59.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R36" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="R0805" package3d_urn="urn:adsk.eagle:package:13300/1" value="100" x="84.3" y="60.6" smashed="yes" rot="R270">
+<element name="R36" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100" x="84.3" y="60.6" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="84.3" y="60.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="81.97" y="61.035" size="1.27" layer="25" rot="R270"/>
-<attribute name="SPICEMODEL" value="NONE" x="37.3" y="179.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="37.3" y="179.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="0805" x="84.3" y="60.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="84.3" y="60.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="T12" library="BUK9214-30A,118" package="DPAK_TO252" package3d_urn="urn:adsk.eagle:package:30824558/1" value="IRLZ44NSTRLPBF" x="79" y="65" smashed="yes" rot="R270">
 <attribute name="DEVICE" value="BUK9214-30A,118" x="79" y="65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="82.8" y="69.3" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PACKAGE" value="DPAK" x="79" y="65" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/nexperia-usa-inc/BUK9214-30A-118/2119460" x="79" y="65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="79" y="65" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="25.3" y="42.59" smashed="yes">
 <attribute name="POPULARITY" value="64" x="25.3" y="42.59" size="1.778" layer="27" display="off"/>
@@ -1296,12 +1213,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="43.675" y="59.02" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="M2" library="SparkFun-SAMD21-Mini-Breakout" package="JP1_SPARKFUN-SAMD21-MINI-BREAKOUT-V10" value="SAM_D21_MINI_BREAKOUT" x="30.82" y="69.45" smashed="yes" rot="R180">
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-13664/5766914?s=N4IgTCBcDaIM4EMC2ATMBGABEglgOx0wCMAnAUwQGsB7AVwBcQBdAXyA" x="30.82" y="69.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE_URL_SPARKFUN" value="https://www.sparkfun.com/products/13664" x="30.82" y="69.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBE" value="SparkFun SAMD21 mini breakout, SLW-112-01-G-S  &lt; buy two of these" x="30.82" y="69.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="None" x="30.82" y="69.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="None, https://www.adafruit.com/product/3008" x="30.82" y="69.45" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="12V_VALVES_JUMPER" library="SparkFun-Passives" package="SJ_2S-NO" package3d_urn="urn:adsk.eagle:package:30824506/1" value="" x="23.67" y="39.25" smashed="yes">
-<attribute name="NAME" x="19.662" y="40.46" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="22.762" y="37.599" size="0.4064" layer="27"/>
+<element name="12V_VALVES_JUMPER" library="SparkFun-Passives" package="SJ_2S-NO" package3d_urn="urn:adsk.eagle:package:30824506/1" value="" x="23.08" y="38.6" smashed="yes">
+<attribute name="VALUE" x="22.172" y="36.949" size="0.4064" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -1313,9 +1230,9 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="U1" pad="4"/>
 <contactref element="T1" pad="3"/>
-<wire x1="22.31" y1="13.14" x2="19.95" y2="15.5" width="1.5" layer="1"/>
+<wire x1="22.31" y1="13.14" x2="19.9" y2="15.5" width="1.5" layer="1"/>
 <wire x1="22.31" y1="13.14" x2="22.31" y2="13.07" width="1.8" layer="1"/>
-<wire x1="19.95" y1="15.5" x2="21.25103125" y2="16.80103125" width="1.5" layer="1"/>
+<wire x1="19.9" y1="15.5" x2="21.25103125" y2="16.80103125" width="1.5" layer="1"/>
 <wire x1="21.25103125" y1="16.80103125" x2="21.153" y2="18.705" width="1.5" layer="1"/>
 <contactref element="U3" pad="2"/>
 <contactref element="T2" pad="3"/>
@@ -1350,55 +1267,56 @@ design rules under a new name.</description>
 <contactref element="R28" pad="1"/>
 <contactref element="R30" pad="1"/>
 <contactref element="R32" pad="1"/>
-<wire x1="26.49" y1="27.43" x2="27" y2="27.94" width="1.27" layer="1"/>
+<wire x1="26.44" y1="27.43" x2="27" y2="27.94" width="1.27" layer="1"/>
 <wire x1="27" y1="27.94" x2="27" y2="29" width="1.8" layer="1"/>
 <wire x1="27" y1="29" x2="27" y2="31.1" width="1.8" layer="1"/>
 <wire x1="27" y1="36.9" x2="26.9" y2="36.8" width="1.8" layer="1"/>
-<wire x1="26.9" y1="36.8" x2="21.8" y2="36.8" width="1.8" layer="1"/>
-<wire x1="21.8" y1="36.8" x2="21" y2="37.6" width="1.8" layer="1"/>
+<wire x1="26.9" y1="36.8" x2="22.35" y2="36.8" width="1.8" layer="1"/>
+<wire x1="22.35" y1="36.8" x2="21.55" y2="37.1" width="1.5" layer="1"/>
+<wire x1="21.55" y1="37.1" x2="21" y2="37.1" width="1.5" layer="1"/>
 <wire x1="36.153" y1="18.705" x2="36.25103125" y2="16.80103125" width="1.6" layer="1"/>
-<wire x1="36.25103125" y1="16.80103125" x2="34.95" y2="15.5" width="1.6" layer="1"/>
-<wire x1="34.95" y1="15.5" x2="37.31" y2="13.14" width="1.6" layer="1"/>
+<wire x1="36.25103125" y1="16.80103125" x2="34.9" y2="15.5" width="1.6" layer="1"/>
+<wire x1="34.9" y1="15.5" x2="37.31" y2="13.14" width="1.6" layer="1"/>
 <wire x1="37.31" y1="13.14" x2="37.31" y2="13.07" width="1.6" layer="1"/>
 <wire x1="51.153" y1="18.705" x2="51.25103125" y2="16.80103125" width="1.6" layer="1"/>
-<wire x1="51.25103125" y1="16.80103125" x2="49.95" y2="15.5" width="1.6" layer="1"/>
-<wire x1="52.31" y1="13.14" x2="49.95" y2="15.5" width="1.6" layer="1"/>
+<wire x1="51.25103125" y1="16.80103125" x2="49.9" y2="15.5" width="1.6" layer="1"/>
+<wire x1="52.31" y1="13.14" x2="49.9" y2="15.5" width="1.6" layer="1"/>
 <wire x1="52.31" y1="13.14" x2="52.31" y2="13.07" width="1.6" layer="1"/>
 <wire x1="66.153" y1="18.705" x2="66.25103125" y2="16.80103125" width="1.6" layer="1"/>
-<wire x1="66.25103125" y1="16.80103125" x2="64.95" y2="15.5" width="1.6" layer="1"/>
-<wire x1="64.95" y1="15.5" x2="67.31" y2="13.14" width="1.6" layer="1"/>
+<wire x1="66.25103125" y1="16.80103125" x2="64.9" y2="15.5" width="1.6" layer="1"/>
+<wire x1="64.9" y1="15.5" x2="67.31" y2="13.14" width="1.6" layer="1"/>
 <wire x1="67.31" y1="13.14" x2="67.31" y2="13.07" width="1.6" layer="1"/>
 <wire x1="81.153" y1="18.705" x2="81.25103125" y2="16.80103125" width="1.6" layer="1"/>
-<wire x1="81.25103125" y1="16.80103125" x2="79.95" y2="15.5" width="1.6" layer="1"/>
-<wire x1="79.95" y1="15.5" x2="82.31" y2="13.14" width="1.6" layer="1"/>
+<wire x1="81.25103125" y1="16.80103125" x2="79.9" y2="15.5" width="1.6" layer="1"/>
+<wire x1="79.9" y1="15.5" x2="82.31" y2="13.14" width="1.6" layer="1"/>
 <wire x1="82.31" y1="13.14" x2="82.31" y2="13.07" width="1.6" layer="1"/>
 <wire x1="83.153" y1="41.705" x2="83.25103125" y2="39.80103125" width="1.6" layer="1"/>
-<wire x1="83.25103125" y1="39.80103125" x2="81.95" y2="38.5" width="1.6" layer="1"/>
-<wire x1="84.31" y1="36.14" x2="81.95" y2="38.5" width="1.6" layer="1"/>
+<wire x1="83.25103125" y1="39.80103125" x2="81.9" y2="38.5" width="1.6" layer="1"/>
+<wire x1="84.31" y1="36.14" x2="81.9" y2="38.5" width="1.6" layer="1"/>
 <wire x1="84.31" y1="36.14" x2="84.31" y2="36.07" width="1.6" layer="1"/>
 <wire x1="69.31" y1="36.07" x2="66.95" y2="38.43" width="1.6" layer="1"/>
-<wire x1="66.95" y1="38.43" x2="66.95" y2="38.5" width="1.6" layer="1"/>
-<wire x1="66.95" y1="38.5" x2="66.95" y2="39.55" width="1.6" layer="1"/>
+<wire x1="66.95" y1="38.43" x2="66.9" y2="38.5" width="1.6" layer="1"/>
+<wire x1="66.9" y1="38.5" x2="66.95" y2="39.55" width="1.6" layer="1"/>
 <wire x1="66.95" y1="39.55" x2="68.153" y2="41.705" width="1.6" layer="1"/>
 <wire x1="53.153" y1="41.705" x2="53.25103125" y2="39.80103125" width="1.6" layer="1"/>
-<wire x1="53.25103125" y1="39.80103125" x2="51.95" y2="38.5" width="1.6" layer="1"/>
-<wire x1="51.95" y1="38.5" x2="54.31" y2="36.14" width="1.6" layer="1"/>
+<wire x1="53.25103125" y1="39.80103125" x2="51.9" y2="38.5" width="1.6" layer="1"/>
+<wire x1="51.9" y1="38.5" x2="54.31" y2="36.14" width="1.6" layer="1"/>
 <wire x1="54.31" y1="36.14" x2="54.31" y2="36.07" width="1.6" layer="1"/>
 <wire x1="39.153" y1="41.705" x2="39.25103125" y2="39.80103125" width="1.6" layer="1"/>
-<wire x1="39.25103125" y1="39.80103125" x2="37.95" y2="38.5" width="1.6" layer="1"/>
-<wire x1="37.95" y1="38.5" x2="40.31" y2="36.14" width="1.6" layer="1"/>
+<wire x1="39.25103125" y1="39.80103125" x2="37.9" y2="38.5" width="1.6" layer="1"/>
+<wire x1="37.9" y1="38.5" x2="40.31" y2="36.14" width="1.6" layer="1"/>
 <wire x1="40.31" y1="36.14" x2="40.31" y2="36.07" width="1.6" layer="1"/>
 <wire x1="81.153" y1="62.705" x2="81.25103125" y2="60.80103125" width="1.6" layer="1"/>
-<wire x1="81.25103125" y1="60.80103125" x2="79.95" y2="59.5" width="1.6" layer="1"/>
-<wire x1="79.95" y1="59.5" x2="82.31" y2="57.14" width="1.6" layer="1"/>
+<wire x1="81.25103125" y1="60.80103125" x2="79.9" y2="59.5" width="1.6" layer="1"/>
+<wire x1="79.9" y1="59.5" x2="82.31" y2="57.14" width="1.6" layer="1"/>
 <wire x1="82.31" y1="57.14" x2="82.31" y2="57.07" width="1.6" layer="1"/>
 <wire x1="66.443" y1="61.515" x2="66.4920625" y2="60.5620625" width="1.6" layer="1"/>
-<wire x1="66.4920625" y1="60.5620625" x2="65.19" y2="59.26" width="1.6" layer="1"/>
-<wire x1="65.19" y1="59.26" x2="67.31" y2="57.14" width="1.6" layer="1"/>
+<wire x1="66.4920625" y1="60.5620625" x2="65.14" y2="59.26" width="1.6" layer="1"/>
+<wire x1="65.14" y1="59.26" x2="67.31" y2="57.14" width="1.6" layer="1"/>
 <wire x1="67.31" y1="57.14" x2="67.31" y2="57.07" width="1.6" layer="1"/>
 <wire x1="51.283" y1="61.585" x2="51.33059375" y2="60.66059375" width="1.6" layer="1"/>
-<wire x1="51.33059375" y1="60.66059375" x2="49.92" y2="59.25" width="1.6" layer="1"/>
-<wire x1="49.92" y1="59.25" x2="50.13" y2="59.25" width="1.6" layer="1"/>
+<wire x1="51.33059375" y1="60.66059375" x2="49.87" y2="59.25" width="1.6" layer="1"/>
+<wire x1="49.87" y1="59.25" x2="50.13" y2="59.25" width="1.6" layer="1"/>
 <wire x1="50.13" y1="59.25" x2="52.31" y2="57.07" width="1.6" layer="1"/>
 <polygon width="0.1524" layer="16" thermals="no">
 <vertex x="0.10035" y="28.7"/>
@@ -1449,17 +1367,19 @@ design rules under a new name.</description>
 <wire x1="15.0466" y1="42.0434" x2="15.057" y2="42.0434" width="0.508" layer="16"/>
 <wire x1="15.057" y1="42.0434" x2="16" y2="41.1004" width="0.508" layer="16"/>
 <wire x1="16" y1="41.1004" x2="16" y2="38" width="0.508" layer="16"/>
-<wire x1="16" y1="38" x2="20.6" y2="38" width="0.508" layer="1"/>
-<wire x1="20.6" y1="38" x2="21" y2="37.6" width="0.508" layer="1"/>
+<wire x1="18" y1="37.1" x2="21" y2="37.1" width="0.508" layer="1"/>
 <contactref element="M2" pad="9@JP1"/>
 <wire x1="29.55" y1="47.86" x2="30.7932" y2="46.6168" width="0.4064" layer="16"/>
 <wire x1="30.7932" y1="46.6168" x2="30.7932" y2="45.9568" width="0.4064" layer="16"/>
 <wire x1="30.7932" y1="45.9568" x2="32.04" y2="44.71" width="0.4064" layer="16"/>
+<wire x1="16" y1="38" x2="16.3396" y2="37.6604" width="0.508" layer="1"/>
+<wire x1="17.4396" y1="37.6604" x2="18" y2="37.1" width="0.508" layer="1"/>
+<wire x1="16.3396" y1="37.6604" x2="17.4396" y2="37.6604" width="0.508" layer="1"/>
 </signal>
 <signal name="24V/12V">
 <contactref element="U1" pad="1"/>
 <contactref element="C1" pad="1"/>
-<wire x1="24.59" y1="27.43" x2="24.59" y2="31.21" width="1.27" layer="1"/>
+<wire x1="24.64" y1="27.43" x2="24.59" y2="31.21" width="1.27" layer="1"/>
 <wire x1="24.75" y1="31.05" x2="24.7" y2="31.1" width="1.8" layer="1"/>
 <via x="15" y="34" extent="1-16" drill="0.35"/>
 <via x="17" y="34" extent="1-16" drill="0.35"/>
@@ -1517,8 +1437,8 @@ design rules under a new name.</description>
 <via x="15" y="38" extent="1-16" drill="0.35"/>
 <wire x1="15.2154" y1="38.32499375" x2="15.2154" y2="38.2154" width="0.508" layer="1"/>
 <wire x1="15.2154" y1="38.2154" x2="15" y2="38" width="0.508" layer="1"/>
-<wire x1="23.22" y1="39.25" x2="22.8764" y2="38.9064" width="0.508" layer="1"/>
-<wire x1="22.8764" y1="38.9064" x2="15.79680625" y2="38.9064" width="0.508" layer="1"/>
+<wire x1="22.63" y1="38.6" x2="22.3236" y2="38.9064" width="0.508" layer="1"/>
+<wire x1="22.3236" y1="38.9064" x2="15.79680625" y2="38.9064" width="0.508" layer="1"/>
 <wire x1="15.79680625" y1="38.9064" x2="15.2154" y2="38.32499375" width="0.508" layer="1"/>
 <wire x1="15" y1="38" x2="15" y2="34" width="0.508" layer="16"/>
 </signal>
@@ -1540,14 +1460,18 @@ design rules under a new name.</description>
 <wire x1="13.32499375" y1="35.2154" x2="11.64645625" y2="35.2154" width="0.508" layer="1"/>
 <wire x1="8.14" y1="36.19" x2="5.6" y2="36.19" width="0.508" layer="1"/>
 <contactref element="M2" pad="4@JP2"/>
-<wire x1="25" y1="44.84" x2="25" y2="46.27" width="0.508" layer="16"/>
-<via x="25" y="46.27" extent="1-16" drill="0.35"/>
-<wire x1="25" y1="46.27" x2="15.68" y2="46.27" width="0.508" layer="1"/>
+<wire x1="24.97" y1="44.87" x2="24.97" y2="48.03" width="0.508" layer="16"/>
+<via x="24.97" y="48.03" extent="1-16" drill="0.35"/>
 <via x="15.68" y="46.27" extent="1-16" drill="0.35"/>
 <wire x1="15.68" y1="46.27" x2="15.26381875" y2="46.27" width="0.508" layer="16"/>
 <wire x1="15.26381875" y1="46.27" x2="14.31" y2="47.22381875" width="0.508" layer="16"/>
 <wire x1="14.31" y1="47.22381875" x2="14.31" y2="47.86" width="0.508" layer="16"/>
-<wire x1="26.4684" y1="43.3716" x2="25" y2="44.84" width="0.508" layer="16"/>
+<wire x1="26.4684" y1="43.3716" x2="24.97" y2="44.87" width="0.508" layer="16"/>
+<wire x1="15.68" y1="46.27" x2="16.1524" y2="46.7424" width="0.508" layer="1"/>
+<wire x1="16.1524" y1="46.7424" x2="18.16738125" y2="46.7424" width="0.508" layer="1"/>
+<wire x1="23.5588" y1="49.4412" x2="24.97" y2="48.03" width="0.508" layer="1"/>
+<wire x1="18.16738125" y1="46.7424" x2="20.86618125" y2="49.4412" width="0.508" layer="1"/>
+<wire x1="20.86618125" y1="49.4412" x2="23.5588" y2="49.4412" width="0.508" layer="1"/>
 </signal>
 <signal name="SCK">
 <wire x1="12" y1="40.1" x2="12" y2="44" width="0.3048" layer="1"/>
@@ -1650,9 +1574,11 @@ design rules under a new name.</description>
 <contactref element="U11" pad="4"/>
 <contactref element="U12" pad="4"/>
 <contactref element="U13" pad="4"/>
-<wire x1="21" y1="34.8" x2="24.91168125" y2="34.8" width="1.8" layer="1"/>
+<wire x1="21" y1="35.3" x2="21.53" y2="34.77" width="1.5" layer="1"/>
+<wire x1="21.53" y1="34.88736875" x2="21.53" y2="34.77" width="1.8" layer="1"/>
+<wire x1="25.3071125" y1="34.40456875" x2="21.53" y2="34.88736875" width="1.8" layer="1"/>
 <wire x1="28.9524" y1="31.4476" x2="29.3" y2="31.1" width="1.8" layer="1"/>
-<wire x1="24.91168125" y1="34.8" x2="26.23428125" y2="33.4774" width="1.8" layer="1"/>
+<wire x1="25.3071125" y1="34.40456875" x2="26.23428125" y2="33.4774" width="1.8" layer="1"/>
 <wire x1="26.23428125" y1="33.4774" x2="28.66091875" y2="33.4774" width="1.8" layer="1"/>
 <wire x1="28.66091875" y1="33.4774" x2="29.0524" y2="33.08591875" width="1.8" layer="1"/>
 <wire x1="29.0524" y1="33.08591875" x2="29.0524" y2="31.4476" width="1.8" layer="1"/>
@@ -1723,8 +1649,8 @@ design rules under a new name.</description>
 <wire x1="44.69" y1="54.53" x2="44.69" y2="35.84" width="0.508" layer="16"/>
 <wire x1="44.69" y1="35.84" x2="47" y2="33.53" width="0.508" layer="16"/>
 <contactref element="12V_VALVES_JUMPER" pad="2"/>
-<wire x1="24.12" y1="39.25" x2="24.9886" y2="38.3814" width="0.508" layer="1"/>
-<wire x1="24.9886" y1="38.3814" x2="30.0913625" y2="38.3814" width="0.508" layer="1"/>
+<wire x1="23.53" y1="38.6" x2="23.7486" y2="38.3814" width="0.508" layer="1"/>
+<wire x1="23.7486" y1="38.3814" x2="30.0913625" y2="38.3814" width="0.508" layer="1"/>
 <wire x1="30.0913625" y1="38.3814" x2="31.0414" y2="37.4313625" width="0.508" layer="1"/>
 <wire x1="31.0414" y1="37.4313625" x2="31.0414" y2="35.1786" width="0.508" layer="1"/>
 <wire x1="31.0414" y1="35.1786" x2="32.69" y2="33.53" width="0.508" layer="1"/>
@@ -1733,27 +1659,27 @@ design rules under a new name.</description>
 <contactref element="R2" pad="2"/>
 <contactref element="R1" pad="2"/>
 <contactref element="T1" pad="1"/>
-<wire x1="14.5" y1="17.35" x2="15.7627375" y2="17.35" width="1.5" layer="1"/>
+<wire x1="14.5" y1="17.3" x2="15.7627375" y2="17.35" width="1.5" layer="1"/>
 <wire x1="15.7627375" y1="17.35" x2="16.593" y2="18.705" width="1.5" layer="1"/>
 <wire x1="16.593" y1="18.705" x2="17.9976" y2="16.6024" width="1.5" layer="1"/>
 <wire x1="17.9976" y1="15.5" x2="17.9976" y2="16.6024" width="1.5" layer="1"/>
-<wire x1="18.05" y1="15.5" x2="17.9976" y2="15.5" width="1.016" layer="1"/>
+<wire x1="18.1" y1="15.5" x2="17.9976" y2="15.5" width="1.016" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="U2" pad="3"/>
 <contactref element="R2" pad="1"/>
-<wire x1="14.5" y1="15.45" x2="14.5" y2="13.26" width="1.5" layer="1"/>
+<wire x1="14.5" y1="15.5" x2="14.5" y2="13.26" width="1.5" layer="1"/>
 <wire x1="14.5" y1="13.26" x2="14.69" y2="13.07" width="1.5" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R6" pad="2"/>
 <contactref element="U2" pad="1"/>
 <wire x1="22.31" y1="10.53" x2="24.1" y2="12.32" width="1.27" layer="1"/>
-<wire x1="24.1" y1="12.32" x2="24.1" y2="15.65" width="1.27" layer="1"/>
+<wire x1="24.1" y1="12.32" x2="24.1" y2="15.7" width="1.27" layer="1"/>
 </signal>
 <signal name="SOL1">
 <contactref element="R6" pad="1"/>
-<wire x1="24.1" y1="17.55" x2="23.2" y2="18.45" width="0.4064" layer="1"/>
+<wire x1="24.1" y1="17.5" x2="23.2" y2="18.45" width="0.4064" layer="1"/>
 <wire x1="23.2" y1="18.45" x2="23.2" y2="28" width="0.4064" layer="1"/>
 <wire x1="23.75" y1="30.75" x2="27.5" y2="34.5" width="0.4064" layer="16"/>
 <wire x1="27.5" y1="48" x2="27.5" y2="48.5" width="0.4064" layer="16"/>
@@ -1930,23 +1856,23 @@ design rules under a new name.</description>
 <signal name="N$15">
 <contactref element="R4" pad="2"/>
 <contactref element="R3" pad="2"/>
-<wire x1="33.05" y1="15.5" x2="33.05" y2="16.55" width="1.6" layer="1"/>
+<wire x1="33.1" y1="15.5" x2="33.05" y2="16.55" width="1.6" layer="1"/>
 <contactref element="T2" pad="1"/>
 <wire x1="31.95" y1="17.65" x2="33.05" y2="16.55" width="1.6" layer="1"/>
-<wire x1="29.3" y1="17.65" x2="31.95" y2="17.65" width="1.6" layer="1"/>
+<wire x1="29.3" y1="17.6" x2="31.95" y2="17.65" width="1.6" layer="1"/>
 <wire x1="31.593" y1="18.705" x2="30.538" y2="17.65" width="1.6" layer="1"/>
-<wire x1="30.538" y1="17.65" x2="29.3" y2="17.65" width="1.6" layer="1"/>
+<wire x1="30.538" y1="17.65" x2="29.3" y2="17.6" width="1.6" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="U3" pad="3"/>
 <contactref element="R4" pad="1"/>
-<wire x1="29.3" y1="15.75" x2="29.3" y2="13.46" width="1.6" layer="1"/>
+<wire x1="29.3" y1="15.8" x2="29.3" y2="13.46" width="1.6" layer="1"/>
 <wire x1="29.3" y1="13.46" x2="29.69" y2="13.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R8" pad="2"/>
 <contactref element="U3" pad="1"/>
-<wire x1="38.65" y1="15.9" x2="38.65" y2="14.27826875" width="1.6" layer="1"/>
+<wire x1="38.7" y1="15.9" x2="38.65" y2="14.27826875" width="1.6" layer="1"/>
 <wire x1="38.65" y1="14.27826875" x2="39.0624" y2="13.86586875" width="1.6" layer="1"/>
 <wire x1="39.0624" y1="13.86586875" x2="39.0624" y2="12.2824" width="1.6" layer="1"/>
 <wire x1="39.0624" y1="12.2824" x2="37.31" y2="10.53" width="1.6" layer="1"/>
@@ -1954,7 +1880,7 @@ design rules under a new name.</description>
 <signal name="SOL2">
 <contactref element="R8" pad="1"/>
 <via x="29" y="21" extent="1-16" drill="0.35"/>
-<wire x1="40.55" y1="15.9" x2="39.6556" y2="16.7944" width="0.4064" layer="1"/>
+<wire x1="40.5" y1="15.9" x2="39.6556" y2="16.7944" width="0.4064" layer="1"/>
 <wire x1="39.6556" y1="16.7944" x2="39.6556" y2="18.34729375" width="0.4064" layer="1"/>
 <wire x1="39.6556" y1="18.34729375" x2="37.00289375" y2="21" width="0.4064" layer="1"/>
 <wire x1="37.00289375" y1="21" x2="29" y2="21" width="0.4064" layer="1"/>
@@ -2003,20 +1929,20 @@ design rules under a new name.</description>
 <contactref element="R5" pad="2"/>
 <contactref element="T3" pad="1"/>
 <wire x1="46.593" y1="18.705" x2="46.006203125" y2="17.65" width="1.6" layer="1"/>
-<wire x1="46.006203125" y1="17.65" x2="44.3" y2="17.65" width="1.6" layer="1"/>
+<wire x1="46.006203125" y1="17.65" x2="44.3" y2="17.6" width="1.6" layer="1"/>
 <wire x1="46.593" y1="18.705" x2="48.05" y2="16.55" width="1.6" layer="1"/>
-<wire x1="48.05" y1="16.55" x2="48.05" y2="15.5" width="1.6" layer="1"/>
+<wire x1="48.05" y1="16.55" x2="48.1" y2="15.5" width="1.6" layer="1"/>
 </signal>
 <signal name="N$22">
 <contactref element="U4" pad="3"/>
 <contactref element="R7" pad="1"/>
-<wire x1="44.3" y1="15.75" x2="44.3" y2="13.46" width="1.6" layer="1"/>
+<wire x1="44.3" y1="15.8" x2="44.3" y2="13.46" width="1.6" layer="1"/>
 <wire x1="44.3" y1="13.46" x2="44.69" y2="13.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$23">
 <contactref element="R9" pad="2"/>
 <contactref element="U4" pad="1"/>
-<wire x1="53.65" y1="15.9" x2="53.65" y2="14.27826875" width="1.6" layer="1"/>
+<wire x1="53.7" y1="15.9" x2="53.65" y2="14.27826875" width="1.6" layer="1"/>
 <wire x1="53.65" y1="14.27826875" x2="54.0624" y2="13.86586875" width="1.6" layer="1"/>
 <wire x1="54.0624" y1="13.86586875" x2="54.0624" y2="12.2824" width="1.6" layer="1"/>
 <wire x1="54.0624" y1="12.2824" x2="52.31" y2="10.53" width="1.6" layer="1"/>
@@ -2024,7 +1950,7 @@ design rules under a new name.</description>
 <signal name="SOL3">
 <contactref element="R9" pad="1"/>
 <via x="40" y="28" extent="1-16" drill="0.35"/>
-<wire x1="55.55" y1="15.9" x2="54.6556" y2="16.7944" width="0.4064" layer="1"/>
+<wire x1="55.5" y1="15.9" x2="54.6556" y2="16.7944" width="0.4064" layer="1"/>
 <wire x1="45.50270625" y1="21.7944" x2="44.2944" y2="23.00270625" width="0.4064" layer="1"/>
 <wire x1="44.2944" y1="23.00270625" x2="44.2944" y2="23.7056" width="0.4064" layer="1"/>
 <wire x1="44.2944" y1="23.7056" x2="40" y2="28" width="0.4064" layer="1"/>
@@ -2065,20 +1991,20 @@ design rules under a new name.</description>
 <contactref element="R10" pad="2"/>
 <contactref element="T4" pad="1"/>
 <wire x1="61.593" y1="18.705" x2="63.05" y2="16.55" width="1.6" layer="1"/>
-<wire x1="63.05" y1="16.55" x2="63.05" y2="15.5" width="1.6" layer="1"/>
+<wire x1="63.05" y1="16.55" x2="63.1" y2="15.5" width="1.6" layer="1"/>
 <wire x1="61.593" y1="18.705" x2="61.006203125" y2="17.65" width="1.6" layer="1"/>
-<wire x1="61.006203125" y1="17.65" x2="59.3" y2="17.65" width="1.6" layer="1"/>
+<wire x1="61.006203125" y1="17.65" x2="59.3" y2="17.6" width="1.6" layer="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="U5" pad="3"/>
 <contactref element="R11" pad="1"/>
-<wire x1="59.3" y1="15.75" x2="59.3" y2="13.46" width="1.6" layer="1"/>
+<wire x1="59.3" y1="15.8" x2="59.3" y2="13.46" width="1.6" layer="1"/>
 <wire x1="59.3" y1="13.46" x2="59.69" y2="13.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$29">
 <contactref element="R15" pad="2"/>
 <contactref element="U5" pad="1"/>
-<wire x1="68.65" y1="15.9" x2="68.65" y2="14.27826875" width="1.6" layer="1"/>
+<wire x1="68.7" y1="15.9" x2="68.65" y2="14.27826875" width="1.6" layer="1"/>
 <wire x1="68.65" y1="14.27826875" x2="69.0624" y2="13.86586875" width="1.6" layer="1"/>
 <wire x1="69.0624" y1="13.86586875" x2="69.0624" y2="12.2824" width="1.6" layer="1"/>
 <wire x1="69.0624" y1="12.2824" x2="67.31" y2="10.53" width="1.6" layer="1"/>
@@ -2092,7 +2018,7 @@ design rules under a new name.</description>
 <wire x1="68.2688" y1="11.2688" x2="71" y2="14" width="0.3048" layer="16"/>
 <wire x1="65.51905" y1="7" x2="68.2688" y2="9.74975" width="0.3048" layer="16"/>
 <wire x1="71" y1="14" x2="70.55" y2="14.45" width="0.3048" layer="1"/>
-<wire x1="70.55" y1="14.45" x2="70.55" y2="15.9" width="0.3048" layer="1"/>
+<wire x1="70.55" y1="14.45" x2="70.5" y2="15.9" width="0.3048" layer="1"/>
 <wire x1="65.51905" y1="7" x2="15.61226875" y2="7" width="0.3048" layer="16"/>
 <contactref element="M2" pad="5@JP1"/>
 <via x="15.99470625" y="53.31706875" extent="1-16" drill="0.35"/>
@@ -2137,20 +2063,20 @@ design rules under a new name.</description>
 <contactref element="R12" pad="2"/>
 <contactref element="T5" pad="1"/>
 <wire x1="76.593" y1="18.705" x2="76.006203125" y2="17.65" width="1.6" layer="1"/>
-<wire x1="76.006203125" y1="17.65" x2="74.3" y2="17.65" width="1.6" layer="1"/>
+<wire x1="76.006203125" y1="17.65" x2="74.3" y2="17.6" width="1.6" layer="1"/>
 <wire x1="76.593" y1="18.705" x2="78.05" y2="16.55" width="1.6" layer="1"/>
-<wire x1="78.05" y1="16.55" x2="78.05" y2="15.5" width="1.6" layer="1"/>
+<wire x1="78.05" y1="16.55" x2="78.1" y2="15.5" width="1.6" layer="1"/>
 </signal>
 <signal name="N$34">
 <contactref element="U6" pad="3"/>
 <contactref element="R13" pad="1"/>
-<wire x1="74.3" y1="15.75" x2="74.3" y2="13.46" width="1.6" layer="1"/>
+<wire x1="74.3" y1="15.8" x2="74.3" y2="13.46" width="1.6" layer="1"/>
 <wire x1="74.3" y1="13.46" x2="74.69" y2="13.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$35">
 <contactref element="R17" pad="2"/>
 <contactref element="U6" pad="1"/>
-<wire x1="83.65" y1="15.9" x2="83.65" y2="14.27826875" width="1.6" layer="1"/>
+<wire x1="83.7" y1="15.9" x2="83.65" y2="14.27826875" width="1.6" layer="1"/>
 <wire x1="83.65" y1="14.27826875" x2="84.0624" y2="13.86586875" width="1.6" layer="1"/>
 <wire x1="84.0624" y1="13.86586875" x2="84.0624" y2="12.2824" width="1.6" layer="1"/>
 <wire x1="84.0624" y1="12.2824" x2="82.31" y2="10.53" width="1.6" layer="1"/>
@@ -2158,7 +2084,7 @@ design rules under a new name.</description>
 <signal name="SOL5">
 <contactref element="R17" pad="1"/>
 <via x="42" y="7.683" extent="1-16" drill="0.35"/>
-<wire x1="85.55" y1="15.9" x2="85.1672" y2="15.5172" width="0.3048" layer="1"/>
+<wire x1="85.5" y1="15.9" x2="85.1672" y2="15.5172" width="0.3048" layer="1"/>
 <wire x1="85.1672" y1="15.5172" x2="85.1672" y2="11.64815" width="0.3048" layer="1"/>
 <wire x1="85.1672" y1="11.64815" x2="81.20205" y2="7.683" width="0.3048" layer="1"/>
 <wire x1="81.20205" y1="7.683" x2="42" y2="7.683" width="0.3048" layer="1"/>
@@ -2195,20 +2121,20 @@ design rules under a new name.</description>
 <contactref element="R14" pad="2"/>
 <contactref element="T6" pad="1"/>
 <wire x1="34.593" y1="41.705" x2="34.006203125" y2="40.65" width="1.6" layer="1"/>
-<wire x1="34.006203125" y1="40.65" x2="32.3" y2="40.65" width="1.6" layer="1"/>
+<wire x1="34.006203125" y1="40.65" x2="32.3" y2="40.6" width="1.6" layer="1"/>
 <wire x1="34.593" y1="41.705" x2="36.05" y2="39.55" width="1.6" layer="1"/>
-<wire x1="36.05" y1="39.55" x2="36.05" y2="38.5" width="1.6" layer="1"/>
+<wire x1="36.05" y1="39.55" x2="36.1" y2="38.5" width="1.6" layer="1"/>
 </signal>
 <signal name="N$40">
 <contactref element="U7" pad="3"/>
 <contactref element="R16" pad="1"/>
-<wire x1="32.3" y1="38.75" x2="32.3" y2="36.46" width="1.6" layer="1"/>
+<wire x1="32.3" y1="38.8" x2="32.3" y2="36.46" width="1.6" layer="1"/>
 <wire x1="32.3" y1="36.46" x2="32.69" y2="36.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$41">
 <contactref element="R18" pad="2"/>
 <contactref element="U7" pad="1"/>
-<wire x1="41.8" y1="38.45" x2="41.8" y2="37.12826875" width="1.6" layer="1"/>
+<wire x1="41.8" y1="38.5" x2="41.8" y2="37.12826875" width="1.6" layer="1"/>
 <wire x1="41.8" y1="37.12826875" x2="42.0624" y2="36.86586875" width="1.6" layer="1"/>
 <wire x1="42.0624" y1="36.86586875" x2="42.0624" y2="35.2824" width="1.6" layer="1"/>
 <wire x1="42.0624" y1="35.2824" x2="40.31" y2="33.53" width="1.6" layer="1"/>
@@ -2216,7 +2142,7 @@ design rules under a new name.</description>
 <signal name="SOL6">
 <contactref element="R18" pad="1"/>
 <wire x1="40.4048" y1="43.52625" x2="40.22625" y2="43.7048" width="0.3048" layer="1"/>
-<wire x1="41.8" y1="40.35" x2="40.4048" y2="41.7452" width="0.3048" layer="1"/>
+<wire x1="41.8" y1="40.3" x2="40.4048" y2="41.7452" width="0.3048" layer="1"/>
 <wire x1="40.4048" y1="41.7452" x2="40.4048" y2="43.52625" width="0.3048" layer="1"/>
 <wire x1="40.22625" y1="43.7048" x2="34.2952" y2="43.7048" width="0.3048" layer="1"/>
 <wire x1="32.683" y1="45.317" x2="32.683" y2="46.47713125" width="0.3048" layer="1"/>
@@ -2255,27 +2181,27 @@ design rules under a new name.</description>
 <contactref element="R19" pad="2"/>
 <contactref element="T7" pad="1"/>
 <wire x1="48.593" y1="41.705" x2="48.6610625" y2="39.8889375" width="1.6" layer="1"/>
-<wire x1="48.6610625" y1="39.8889375" x2="50.05" y2="38.5" width="1.6" layer="1"/>
+<wire x1="48.6610625" y1="39.8889375" x2="50.1" y2="38.5" width="1.6" layer="1"/>
 <wire x1="48.593" y1="41.705" x2="47.845565625" y2="40.45" width="1.6" layer="1"/>
-<wire x1="47.845565625" y1="40.45" x2="46.8" y2="40.45" width="1.6" layer="1"/>
+<wire x1="47.845565625" y1="40.45" x2="46.8" y2="40.4" width="1.6" layer="1"/>
 </signal>
 <signal name="N$46">
 <contactref element="U8" pad="3"/>
 <contactref element="R20" pad="1"/>
-<wire x1="46.8" y1="38.55" x2="46.8" y2="36.18" width="1.6" layer="1"/>
+<wire x1="46.8" y1="38.6" x2="46.8" y2="36.18" width="1.6" layer="1"/>
 <wire x1="46.8" y1="36.18" x2="46.69" y2="36.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$47">
 <contactref element="R24" pad="2"/>
 <contactref element="U8" pad="1"/>
-<wire x1="55.65" y1="38.9" x2="55.65" y2="37.27826875" width="1.6" layer="1"/>
+<wire x1="55.7" y1="38.9" x2="55.65" y2="37.27826875" width="1.6" layer="1"/>
 <wire x1="55.65" y1="37.27826875" x2="56.0624" y2="36.86586875" width="1.6" layer="1"/>
 <wire x1="56.0624" y1="36.86586875" x2="56.0624" y2="35.2824" width="1.6" layer="1"/>
 <wire x1="56.0624" y1="35.2824" x2="54.31" y2="33.53" width="1.6" layer="1"/>
 </signal>
 <signal name="SOL7">
 <contactref element="R24" pad="1"/>
-<wire x1="57.55" y1="38.9" x2="54.4048" y2="42.0452" width="0.3048" layer="1"/>
+<wire x1="57.5" y1="38.9" x2="54.4048" y2="42.0452" width="0.3048" layer="1"/>
 <wire x1="47.52375" y1="44.8452" x2="47.3452" y2="45.02375" width="0.3048" layer="1"/>
 <wire x1="54.4048" y1="42.0452" x2="54.4048" y2="43.52625" width="0.3048" layer="1"/>
 <wire x1="47.3452" y1="45.02375" x2="47.3452" y2="45.28585" width="0.3048" layer="1"/>
@@ -2322,27 +2248,27 @@ design rules under a new name.</description>
 <contactref element="R21" pad="2"/>
 <contactref element="T8" pad="1"/>
 <wire x1="63.593" y1="41.705" x2="65.05" y2="39.55" width="1.6" layer="1"/>
-<wire x1="65.05" y1="39.55" x2="65.05" y2="38.5" width="1.6" layer="1"/>
+<wire x1="65.05" y1="39.55" x2="65.1" y2="38.5" width="1.6" layer="1"/>
 <wire x1="63.593" y1="41.705" x2="63.006203125" y2="40.65" width="1.6" layer="1"/>
-<wire x1="63.006203125" y1="40.65" x2="61.3" y2="40.65" width="1.6" layer="1"/>
+<wire x1="63.006203125" y1="40.65" x2="61.3" y2="40.6" width="1.6" layer="1"/>
 </signal>
 <signal name="N$52">
 <contactref element="U9" pad="3"/>
 <contactref element="R22" pad="1"/>
-<wire x1="61.3" y1="38.75" x2="61.69" y2="38.36" width="1.6" layer="1"/>
+<wire x1="61.3" y1="38.8" x2="61.69" y2="38.36" width="1.6" layer="1"/>
 <wire x1="61.69" y1="38.36" x2="61.69" y2="36.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$53">
 <contactref element="R26" pad="2"/>
 <contactref element="U9" pad="1"/>
-<wire x1="70.65" y1="38.9" x2="70.65" y2="37.20826875" width="1.6" layer="1"/>
+<wire x1="70.7" y1="38.9" x2="70.65" y2="37.20826875" width="1.6" layer="1"/>
 <wire x1="70.65" y1="37.20826875" x2="71.0624" y2="36.79586875" width="1.6" layer="1"/>
 <wire x1="71.0624" y1="36.79586875" x2="71.0624" y2="35.2824" width="1.6" layer="1"/>
 <wire x1="71.0624" y1="35.2824" x2="69.31" y2="33.53" width="1.6" layer="1"/>
 </signal>
 <signal name="SOL8">
 <contactref element="R26" pad="1"/>
-<wire x1="72.55" y1="38.9" x2="71" y2="40.45" width="0.3048" layer="1"/>
+<wire x1="72.5" y1="38.9" x2="71" y2="40.45" width="0.3048" layer="1"/>
 <wire x1="71" y1="40.45" x2="71" y2="42" width="0.3048" layer="1"/>
 <wire x1="71" y1="42" x2="69" y2="44" width="0.3048" layer="1"/>
 <wire x1="69" y1="44" x2="57" y2="44" width="0.3048" layer="1"/>
@@ -2386,20 +2312,20 @@ design rules under a new name.</description>
 <contactref element="R23" pad="2"/>
 <contactref element="T9" pad="1"/>
 <wire x1="78.593" y1="41.705" x2="80.05" y2="39.55" width="1.6" layer="1"/>
-<wire x1="80.05" y1="39.55" x2="80.05" y2="38.5" width="1.6" layer="1"/>
+<wire x1="80.05" y1="39.55" x2="80.1" y2="38.5" width="1.6" layer="1"/>
 <wire x1="78.593" y1="41.705" x2="78.006203125" y2="40.65" width="1.6" layer="1"/>
-<wire x1="78.006203125" y1="40.65" x2="76.3" y2="40.65" width="1.6" layer="1"/>
+<wire x1="78.006203125" y1="40.65" x2="76.3" y2="40.6" width="1.6" layer="1"/>
 </signal>
 <signal name="N$58">
 <contactref element="U10" pad="3"/>
 <contactref element="R25" pad="1"/>
-<wire x1="76.3" y1="38.75" x2="76.3" y2="36.46" width="1.6" layer="1"/>
+<wire x1="76.3" y1="38.8" x2="76.3" y2="36.46" width="1.6" layer="1"/>
 <wire x1="76.3" y1="36.46" x2="76.69" y2="36.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$59">
 <contactref element="R27" pad="2"/>
 <contactref element="U10" pad="1"/>
-<wire x1="85.65" y1="38.9" x2="85.65" y2="37.27826875" width="1.6" layer="1"/>
+<wire x1="85.7" y1="38.9" x2="85.65" y2="37.27826875" width="1.6" layer="1"/>
 <wire x1="85.65" y1="37.27826875" x2="86.0624" y2="36.86586875" width="1.6" layer="1"/>
 <wire x1="86.0624" y1="36.86586875" x2="86.0624" y2="35.2824" width="1.6" layer="1"/>
 <wire x1="86.0624" y1="35.2824" x2="84.31" y2="33.53" width="1.6" layer="1"/>
@@ -2407,7 +2333,7 @@ design rules under a new name.</description>
 <signal name="SOL9">
 <contactref element="R27" pad="1"/>
 <via x="61" y="50.1994" extent="1-16" drill="0.35"/>
-<wire x1="87.55" y1="38.9" x2="84.4048" y2="42.0452" width="0.3048" layer="1"/>
+<wire x1="87.5" y1="38.9" x2="84.4048" y2="42.0452" width="0.3048" layer="1"/>
 <wire x1="84.4048" y1="43.52625" x2="84.22625" y2="43.7048" width="0.3048" layer="1"/>
 <wire x1="69.47625" y1="52.1548" x2="62.52375" y2="52.1548" width="0.3048" layer="1"/>
 <wire x1="62.52375" y1="52.1548" x2="62.3452" y2="51.97625" width="0.3048" layer="1"/>
@@ -2453,20 +2379,20 @@ design rules under a new name.</description>
 <contactref element="R28" pad="2"/>
 <contactref element="T10" pad="1"/>
 <wire x1="46.723" y1="61.585" x2="48.02" y2="59.66665" width="1.6" layer="1"/>
-<wire x1="48.02" y1="59.66665" x2="48.02" y2="59.25" width="1.6" layer="1"/>
-<wire x1="44.3" y1="61.65" x2="46.63878125" y2="61.65" width="1.6" layer="1"/>
+<wire x1="48.02" y1="59.66665" x2="48.07" y2="59.25" width="1.6" layer="1"/>
+<wire x1="44.3" y1="61.6" x2="46.63878125" y2="61.65" width="1.6" layer="1"/>
 <wire x1="46.723" y1="61.585" x2="46.63878125" y2="61.65" width="1.6" layer="1"/>
 </signal>
 <signal name="N$64">
 <contactref element="U11" pad="3"/>
 <contactref element="R29" pad="1"/>
-<wire x1="44.3" y1="59.75" x2="44.69" y2="59.36" width="1.6" layer="1"/>
+<wire x1="44.3" y1="59.8" x2="44.69" y2="59.36" width="1.6" layer="1"/>
 <wire x1="44.69" y1="59.36" x2="44.69" y2="57.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$65">
 <contactref element="R33" pad="2"/>
 <contactref element="U11" pad="1"/>
-<wire x1="54.3" y1="59.95" x2="54.3" y2="56.52" width="1.6" layer="1"/>
+<wire x1="54.3" y1="60" x2="54.3" y2="56.52" width="1.6" layer="1"/>
 <wire x1="54.3" y1="56.52" x2="52.31" y2="54.53" width="1.6" layer="1"/>
 </signal>
 <signal name="SOL10">
@@ -2487,7 +2413,7 @@ design rules under a new name.</description>
 <wire x1="55.4048" y1="56.062375" x2="55.4048" y2="60.67625" width="0.3048" layer="1"/>
 <wire x1="55.4048" y1="60.67625" x2="55.17625" y2="60.9048" width="0.3048" layer="1"/>
 <wire x1="54" y1="62" x2="54.15" y2="62" width="0.3048" layer="1"/>
-<wire x1="54.15" y1="62" x2="54.3" y2="61.85" width="0.3048" layer="1"/>
+<wire x1="54.15" y1="62" x2="54.3" y2="61.8" width="0.3048" layer="1"/>
 <contactref element="M2" pad="7@JP2"/>
 <wire x1="23.48" y1="55.48" x2="27" y2="59" width="0.3048" layer="1"/>
 <via x="31.37" y="56.7446" extent="1-16" drill="0.35"/>
@@ -2507,28 +2433,28 @@ design rules under a new name.</description>
 <contactref element="R31" pad="2"/>
 <contactref element="R30" pad="2"/>
 <contactref element="T11" pad="1"/>
-<wire x1="59.3" y1="61.65" x2="61.7080875" y2="61.65" width="1.6" layer="1"/>
+<wire x1="59.3" y1="61.6" x2="61.7080875" y2="61.65" width="1.6" layer="1"/>
 <wire x1="61.883" y1="61.515" x2="61.7080875" y2="61.65" width="1.6" layer="1"/>
 <wire x1="61.883" y1="61.515" x2="63.290003125" y2="59.433946875" width="1.6" layer="1"/>
-<wire x1="63.290003125" y1="59.433946875" x2="63.29" y2="59.26" width="1.6" layer="1"/>
+<wire x1="63.290003125" y1="59.433946875" x2="63.34" y2="59.26" width="1.6" layer="1"/>
 </signal>
 <signal name="N$70">
 <contactref element="U12" pad="3"/>
 <contactref element="R31" pad="1"/>
-<wire x1="59.3" y1="59.75" x2="59.69" y2="59.36" width="1.6" layer="1"/>
+<wire x1="59.3" y1="59.8" x2="59.69" y2="59.36" width="1.6" layer="1"/>
 <wire x1="59.69" y1="59.36" x2="59.69" y2="57.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$71">
 <contactref element="R35" pad="2"/>
 <contactref element="U12" pad="1"/>
-<wire x1="68.65" y1="59.9" x2="68.65" y2="58.27826875" width="1.6" layer="1"/>
+<wire x1="68.7" y1="59.9" x2="68.65" y2="58.27826875" width="1.6" layer="1"/>
 <wire x1="68.65" y1="58.27826875" x2="69.0624" y2="57.86586875" width="1.6" layer="1"/>
 <wire x1="69.0624" y1="57.86586875" x2="69.0624" y2="56.2824" width="1.6" layer="1"/>
 <wire x1="69.0624" y1="56.2824" x2="67.31" y2="54.53" width="1.6" layer="1"/>
 </signal>
 <signal name="SOL11">
 <contactref element="R35" pad="1"/>
-<wire x1="70.55" y1="59.9" x2="70.55" y2="61.25105" width="0.4064" layer="1"/>
+<wire x1="70.5" y1="59.9" x2="70.55" y2="61.25105" width="0.4064" layer="1"/>
 <wire x1="70.55" y1="61.25105" x2="71.6256" y2="62.32665" width="0.4064" layer="1"/>
 <wire x1="71.6256" y1="62.32665" x2="71.6256" y2="67.6044" width="0.4064" layer="1"/>
 <wire x1="71.6256" y1="67.6044" x2="67.5494" y2="71.6806" width="0.4064" layer="1"/>
@@ -2568,20 +2494,20 @@ design rules under a new name.</description>
 <contactref element="R32" pad="2"/>
 <contactref element="T12" pad="1"/>
 <wire x1="76.593" y1="62.705" x2="76.006203125" y2="61.65" width="1.6" layer="1"/>
-<wire x1="76.006203125" y1="61.65" x2="74.3" y2="61.65" width="1.6" layer="1"/>
+<wire x1="76.006203125" y1="61.65" x2="74.3" y2="61.6" width="1.6" layer="1"/>
 <wire x1="76.593" y1="62.705" x2="78.05" y2="60.55" width="1.6" layer="1"/>
-<wire x1="78.05" y1="60.55" x2="78.05" y2="59.5" width="1.6" layer="1"/>
+<wire x1="78.05" y1="60.55" x2="78.1" y2="59.5" width="1.6" layer="1"/>
 </signal>
 <signal name="N$76">
 <contactref element="U13" pad="3"/>
 <contactref element="R34" pad="1"/>
-<wire x1="74.3" y1="59.75" x2="74.69" y2="59.36" width="1.6" layer="1"/>
+<wire x1="74.3" y1="59.8" x2="74.69" y2="59.36" width="1.6" layer="1"/>
 <wire x1="74.69" y1="59.36" x2="74.69" y2="57.07" width="1.6" layer="1"/>
 </signal>
 <signal name="N$77">
 <contactref element="R36" pad="2"/>
 <contactref element="U13" pad="1"/>
-<wire x1="84.3" y1="59.65" x2="84.3" y2="56.52" width="1.6" layer="1"/>
+<wire x1="84.3" y1="59.7" x2="84.3" y2="56.52" width="1.6" layer="1"/>
 <wire x1="84.3" y1="56.52" x2="82.31" y2="54.53" width="1.6" layer="1"/>
 </signal>
 <signal name="SOL12">
@@ -2591,7 +2517,7 @@ design rules under a new name.</description>
 <via x="83" y="63" extent="1-16" drill="0.35"/>
 <wire x1="83" y1="63" x2="81.3744" y2="64.6256" width="0.4064" layer="16"/>
 <wire x1="83" y1="63" x2="84.3" y2="61.7" width="0.4064" layer="1"/>
-<wire x1="84.3" y1="61.7" x2="84.3" y2="61.55" width="0.4064" layer="1"/>
+<wire x1="84.3" y1="61.7" x2="84.3" y2="61.5" width="0.4064" layer="1"/>
 <wire x1="59.0796" y1="58.0796" x2="65" y2="64" width="0.4064" layer="16"/>
 <wire x1="65" y1="64" x2="65.6256" y2="64.6256" width="0.4064" layer="16"/>
 <wire x1="81.3744" y1="64.6256" x2="75.0256" y2="64.6256" width="0.3048" layer="16"/>
@@ -2644,9 +2570,8 @@ design rules under a new name.</description>
 <wire x1="25.59" y1="42.59" x2="27" y2="44" width="0.3048" layer="1"/>
 <via x="27" y="44" extent="1-16" drill="0.35"/>
 <wire x1="27" y1="44" x2="26" y2="45" width="0.3048" layer="16"/>
-<wire x1="26" y1="45" x2="26" y2="48" width="0.3048" layer="16"/>
-<via x="26" y="48" extent="1-16" drill="0.35"/>
-<wire x1="26" y1="48" x2="26" y2="49" width="0.3048" layer="1"/>
+<wire x1="26" y1="45" x2="26" y2="49" width="0.3048" layer="16"/>
+<via x="26" y="49" extent="1-16" drill="0.35"/>
 <wire x1="26" y1="49" x2="27" y2="50" width="0.3048" layer="1"/>
 <wire x1="27" y1="50" x2="27" y2="51.46" width="0.3048" layer="1"/>
 <wire x1="26.06" y1="52.4" x2="26.06" y2="53.92" width="0.3048" layer="1"/>
@@ -2819,9 +2744,9 @@ design rules under a new name.</description>
 <signal name="RESET">
 <contactref element="J2" pad="48"/>
 <contactref element="M2" pad="10@JP1"/>
-<wire x1="29.55" y1="45.32" x2="27.87" y2="47" width="0.3048" layer="1"/>
+<wire x1="29.55" y1="45.32" x2="27.935" y2="46.935" width="0.3048" layer="1"/>
 <via x="9.71665" y="47.86665" extent="1-16" drill="0.35"/>
-<wire x1="27.87" y1="47" x2="27.8354" y2="47.0346" width="0.3048" layer="1"/>
+<wire x1="27.935" y1="46.935" x2="27.8354" y2="47.0346" width="0.3048" layer="1"/>
 <wire x1="9.71665" y1="47.86665" x2="9.8721" y2="47.7112" width="0.3048" layer="1"/>
 <wire x1="11.8588" y1="47.7112" x2="9.8721" y2="47.7112" width="0.3048" layer="1"/>
 <via x="6.61" y="49.9667" extent="1-16" drill="0.35"/>
@@ -2839,10 +2764,14 @@ design rules under a new name.</description>
 <wire x1="6.92165" y1="56.839025" x2="7.701425" y2="57.6188" width="0.3048" layer="16"/>
 <wire x1="6.61" y1="49.9667" x2="6.92165" y2="50.27835" width="0.3048" layer="1"/>
 <wire x1="6.92165" y1="50.27835" x2="6.92165" y2="52.07835" width="0.3048" layer="1"/>
-<wire x1="14.82553125" y1="46.6154" x2="15.21013125" y2="47" width="0.3048" layer="1"/>
 <wire x1="12.9546" y1="46.6154" x2="14.82553125" y2="46.6154" width="0.3048" layer="1"/>
-<wire x1="15.21013125" y1="47" x2="27.87" y2="47" width="0.3048" layer="1"/>
 <wire x1="11.8588" y1="47.7112" x2="12.9546" y2="46.6154" width="0.3048" layer="1"/>
+<wire x1="14.82553125" y1="46.6154" x2="15.51133125" y2="47.3012" width="0.3048" layer="1"/>
+<wire x1="15.51133125" y1="47.3012" x2="17.9359125" y2="47.3012" width="0.3048" layer="1"/>
+<wire x1="17.9359125" y1="47.3012" x2="20.6347125" y2="50" width="0.3048" layer="1"/>
+<wire x1="20.6347125" y1="50" x2="24" y2="50" width="0.3048" layer="1"/>
+<wire x1="27.065" y1="46.935" x2="27.935" y2="46.935" width="0.3048" layer="1"/>
+<wire x1="24" y1="50" x2="27.065" y2="46.935" width="0.3048" layer="1"/>
 </signal>
 <signal name="USB1_D-">
 <contactref element="J2" pad="15"/>

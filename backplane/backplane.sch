@@ -383,16 +383,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CENTERLINE_PITCH" value="2.54 mm[.1 in]"/>
-<attribute name="COMMENT" value="09232486825"/>
-<attribute name="DESCRIPTION" value=" Conn DIN 41612 RCP 48 POS 2.54mm Solder ST Thru-Hole "/>
-<attribute name="MF" value="HARTING"/>
-<attribute name="MP" value="09232486825"/>
-<attribute name="NUMBER_OF_POSITIONS" value="48"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="09232486825"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="7$"/>
-<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/09232486825/1195-1864-ND/3180447"/>
+<attribute name="SIMILAR-COMPONENTS" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -939,14 +932,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tb009-508-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
-<attribute name="DESCRIPTION" value="2~24 Poles, Screw Type, Horizontal, 5.08 Pitch, 26~12 (AWG), Terminal Block Connector"/>
-<attribute name="MF" value="CUI Devices"/>
-<attribute name="MP" value="TB009-508-05BE"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="TB009-508-05BE"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TB009-508-05BE/?ref=eda"/>
+<attribute name="SIMILAR-COMPONENTS" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -980,7 +968,9 @@
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X15" device="" package3d_urn="urn:adsk.eagle:package:22427/2"/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X15" device="" package3d_urn="urn:adsk.eagle:package:22427/2">
+<attribute name="IGNORE-IN-BOM" value="True"/>
+</part>
 <part name="J10" library="TB009-508-05BE" deviceset="TB009-508-05BE" device=""/>
 </parts>
 <sheets>
@@ -1038,6 +1028,7 @@
 <instance part="JP2" gate="A" x="-45.72" y="60.96" smashed="yes">
 <attribute name="NAME" x="-52.07" y="81.915" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-52.07" y="38.1" size="1.778" layer="96"/>
+<attribute name="IGNORE-IN-BOM" x="-45.72" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J10" gate="G$1" x="-48.26" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="-42.68" y="88.9" size="1.778" layer="95" rot="R180"/>

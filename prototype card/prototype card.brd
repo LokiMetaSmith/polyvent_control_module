@@ -187,8 +187,8 @@ CS_3
 CS_2
 CS_1
 </text>
-<hole x="25.27" y="13.75" drill="0.8" grouprefs="PAD 22_PADS"/>
-<rectangle x1="24.27" y1="12.75" x2="26.27" y2="14.75" layer="17" grouprefs="PAD 22_PADS"/>
+<hole x="25.27" y="13.75" drill="0.8" grouprefs="22_PADS PAD"/>
+<rectangle x1="24.27" y1="12.75" x2="26.27" y2="14.75" layer="17" grouprefs="22_PADS PAD"/>
 <hole x="27.81" y="13.75" drill="0.8" grouprefs="22_PADS"/>
 <hole x="30.35" y="13.75" drill="0.8" grouprefs="22_PADS"/>
 <hole x="32.89" y="13.75" drill="0.8" grouprefs="22_PADS"/>
@@ -1916,7 +1916,7 @@ USB3_D+
 </library>
 <library name="din41612_48_pin_board">
 <packages>
-<package name="HARTING_09231486921">
+<package name="HARTING_09231486921" urn="urn:adsk.eagle:footprint:31078160/1">
 <wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="51"/>
 <wire x1="-45.73" y1="0" x2="7.63" y2="0" width="0.127" layer="51"/>
 <wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
@@ -1989,6 +1989,13 @@ USB3_D+
 <pad name="48" x="-38.1" y="5.08" drill="1" diameter="1.35"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="HARTING_09231486921" urn="urn:adsk.eagle:package:31078162/1" type="box">
+<packageinstances>
+<packageinstance name="HARTING_09231486921"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
@@ -2223,17 +2230,11 @@ design rules under a new name.</description>
 <board_group name="22_PADS"/>
 </groups>
 <elements>
-<element name="J1" library="din41612_48_pin_board" package="HARTING_09231486921" value="09231486921" x="5.6" y="20.95" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COMMENT" value="09231486921" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray " x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="HARTING" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="09231486921" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="J1" library="din41612_48_pin_board" package="HARTING_09231486921" package3d_urn="urn:adsk.eagle:package:31078162/1" value="09231486921" x="5.6" y="20.95" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER-PART-NUMBER" value="09231486921" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="2.605" y="11.68" size="1.27" layer="25"/>
 <attribute name="PACKAGE" value="None" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="6$" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/harting/09231486921/3180439" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-8.59" y="67.68" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X20" package3d_urn="urn:adsk.eagle:package:22441/2" value="" x="21" y="40" smashed="yes" rot="R90">
@@ -2253,14 +2254,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.9" y="2.825" size="1.27" layer="27"/>
 </element>
 <element name="J2" library="TBP02R1-381-14BE" package="CUI_TBP02R1-381-14BE" value="TBP02R1-381-14BE" x="95" y="64.765" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tbp02r1-381-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="2~24 Poles, Pluggable,Receptacle, Horizontal, 3.81 Pitch, Terminal Block Connector" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="CUI Devices" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="TBP02R1-381-14BE" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="TBP02R1-381-14BE" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="None" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBP02R1-381-14BE/?ref=eda" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="95" y="64.765" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" package="1X01_LONGPAD" value="" x="91.28" y="15.25" smashed="yes" rot="R90">
 <attribute name="VALUE" x="93.947" y="13.98" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
@@ -2355,7 +2351,7 @@ design rules under a new name.</description>
 <contactref element="JP5" pad="27"/>
 <contactref element="JP5" pad="28"/>
 <contactref element="JP5" pad="29"/>
-<wire x1="91.83" y1="6" x2="14" y2="6" width="4" layer="1"/>
+<wire x1="91.83" y1="6" x2="14" y2="6" width="3.8" layer="1"/>
 <wire x1="14" y1="6" x2="8.14" y2="11.86" width="5" layer="1"/>
 <wire x1="8.14" y1="11.86" x2="8.14" y2="20.95" width="5" layer="1"/>
 <wire x1="10.68" y1="20.95" x2="8.14" y2="20.95" width="5" layer="1"/>
@@ -2441,8 +2437,7 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="27"/>
 <contactref element="JP2" pad="28"/>
 <contactref element="JP2" pad="29"/>
-<wire x1="91.83" y1="10" x2="87.83" y2="10" width="5" layer="16"/>
-<wire x1="87.83" y1="10" x2="18.17" y2="10" width="4" layer="16"/>
+<wire x1="87.83" y1="10" x2="18.17" y2="10" width="3.8" layer="16"/>
 <wire x1="18.17" y1="10" x2="16.17" y2="12" width="4" layer="16"/>
 <wire x1="16.17" y1="12" x2="15.17" y2="12" width="4.6" layer="16"/>
 <wire x1="15.17" y1="12" x2="15" y2="12.17" width="5" layer="16"/>
@@ -2464,7 +2459,9 @@ design rules under a new name.</description>
 <wire x1="10.68" y1="31.11" x2="10.68" y2="28.57" width="1.6" layer="16"/>
 <wire x1="10.68" y1="28.57" x2="8.14" y2="28.57" width="1.6" layer="16"/>
 <wire x1="8.14" y1="28.57" x2="8.14" y2="31.11" width="1.6" layer="16"/>
-<wire x1="86.75" y1="10" x2="89.29" y2="10" width="0" layer="19" extent="1-1"/>
+<wire x1="86.75" y1="10" x2="89.29" y2="10" width="3.8" layer="16"/>
+<wire x1="89.29" y1="10" x2="91.83" y2="10" width="3.8" layer="16"/>
+<wire x1="87.83" y1="10" x2="86.75" y2="10" width="0" layer="19" extent="16-16"/>
 <wire x1="84.21" y1="10" x2="86.75" y2="10" width="0" layer="19" extent="1-1"/>
 <wire x1="81.67" y1="10" x2="84.21" y2="10" width="0" layer="19" extent="1-1"/>
 <wire x1="79.13" y1="10" x2="81.67" y2="10" width="0" layer="19" extent="1-1"/>
@@ -2490,8 +2487,7 @@ design rules under a new name.</description>
 <wire x1="28.33" y1="10" x2="30.87" y2="10" width="0" layer="19" extent="1-1"/>
 <wire x1="25.79" y1="10" x2="28.33" y2="10" width="0" layer="19" extent="1-1"/>
 <wire x1="23.25" y1="10" x2="25.79" y2="10" width="0" layer="19" extent="1-1"/>
-<wire x1="20.71" y1="10" x2="23.25" y2="10" width="0" layer="19" extent="1-1"/>
-<wire x1="91.83" y1="10" x2="89.29" y2="10" width="0" layer="19" extent="1-1"/>
+<wire x1="20.71" y1="10" x2="18.17" y2="10" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="J1" pad="39"/>

@@ -107,7 +107,7 @@
 <wire x1="0" y1="33.02" x2="17.78" y2="33.02" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
-<text x="3.556" y="0.381" size="1.27" layer="21">usb other side</text>
+<text x="8.128" y="33.401" size="0.635" layer="21">USB</text>
 </package>
 </packages>
 <symbols>

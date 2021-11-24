@@ -1300,14 +1300,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tbp02r1-381-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
-<attribute name="DESCRIPTION" value="2~24 Poles, Pluggable,Receptacle, Horizontal, 3.81 Pitch, Terminal Block Connector"/>
-<attribute name="MF" value="CUI Devices"/>
-<attribute name="MP" value="TBP02R1-381-14BE"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="TBP02R1-381-14BE"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBP02R1-381-14BE/?ref=eda"/>
+<attribute name="SIMILAR-COMPONENTS" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1317,7 +1312,7 @@
 </library>
 <library name="din41612_48_pin_board">
 <packages>
-<package name="HARTING_09231486921">
+<package name="HARTING_09231486921" urn="urn:adsk.eagle:footprint:31078160/1">
 <wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="51"/>
 <wire x1="-45.73" y1="0" x2="7.63" y2="0" width="0.127" layer="51"/>
 <wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
@@ -1390,8 +1385,15 @@
 <pad name="48" x="-38.1" y="5.08" drill="1" diameter="1.35"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="HARTING_09231486921" urn="urn:adsk.eagle:package:31078162/1" type="box">
+<packageinstances>
+<packageinstance name="HARTING_09231486921"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="09231486921">
+<symbol name="09231486921" urn="urn:adsk.eagle:symbol:31078161/1">
 <wire x1="-5.08" y1="-60.96" x2="-5.08" y2="63.5" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="63.5" x2="5.08" y2="63.5" width="0.254" layer="94"/>
 <wire x1="5.08" y1="63.5" x2="5.08" y2="-60.96" width="0.254" layer="94"/>
@@ -1449,7 +1451,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="09231486921" prefix="J">
+<deviceset name="09231486921" urn="urn:adsk.eagle:component:31078163/1" locally_modified="yes" prefix="J">
 <description> &lt;a href="https://pricing.snapeda.com/parts/8-1393644-0/TE%20Connectivity/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="09231486921" x="0" y="0"/>
@@ -1506,17 +1508,14 @@
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31078162/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="COMMENT" value="09231486921"/>
-<attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray "/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant"/>
-<attribute name="MF" value="HARTING"/>
-<attribute name="MP" value="09231486921"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="09231486921"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="6$" constant="no"/>
-<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/harting/09231486921/3180439"/>
+<attribute name="SIMILAR-COMPONENTS" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1923,7 +1922,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </class>
 </classes>
 <parts>
-<part name="J1" library="din41612_48_pin_board" deviceset="09231486921" device=""/>
+<part name="J1" library="din41612_48_pin_board" deviceset="09231486921" device="" package3d_urn="urn:adsk.eagle:package:31078162/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

@@ -264,17 +264,6 @@ GND
 <pad name="10@JP2" x="16.51" y="6.35" drill="1.016" diameter="1.8796"/>
 <pad name="11@JP2" x="16.51" y="3.81" drill="1.016" diameter="1.8796"/>
 <pad name="12@JP2" x="16.51" y="1.27" drill="1.016" diameter="1.8796"/>
-<wire x1="12.79" y1="33.392" x2="4.99" y2="33.392" width="0.127" layer="49"/>
-<wire x1="12.79" y1="28.392" x2="4.99" y2="28.392" width="0.127" layer="49"/>
-<wire x1="12.79" y1="28.392" x2="12.79" y2="33.392" width="0.127" layer="49"/>
-<wire x1="4.99" y1="28.392" x2="4.99" y2="33.392" width="0.127" layer="49"/>
-<wire x1="12.88288125" y1="28.133040625" x2="12.88288125" y2="29.115" width="0.3048" layer="21"/>
-<wire x1="12.88288125" y1="29.115" x2="12.89" y2="29.115" width="0.3048" layer="21"/>
-<wire x1="12.89" y1="28.115" x2="11.89" y2="28.115" width="0.3048" layer="21"/>
-<wire x1="4.89" y1="29.115" x2="4.89" y2="28.115" width="0.3048" layer="21"/>
-<wire x1="4.89" y1="28.115" x2="5.89" y2="28.115" width="0.3048" layer="21"/>
-<wire x1="12.89" y1="32.115" x2="12.89" y2="33.115" width="0.3048" layer="21"/>
-<wire x1="4.89" y1="32.115" x2="4.89" y2="33.115" width="0.3048" layer="21"/>
 <pad name="1@JP4" x="13.589" y="17.907" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="2@JP4" x="13.589" y="20.447" drill="1.016" diameter="1.8796" rot="R180"/>
 <wire x1="10.99" y1="-0.003" x2="6.79" y2="-0.003" width="0.127" layer="51"/>
@@ -283,6 +272,7 @@ GND
 <wire x1="0" y1="33.02" x2="17.78" y2="33.02" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<text x="3.556" y="0.381" size="1.27" layer="21">usb other side</text>
 </package>
 </packages>
 </library>
@@ -547,7 +537,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SJ_2S-TRACE">
+<package name="SJ_2S-TRACE" urn="urn:adsk.eagle:footprint:30824447/1">
 <description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
 <wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
 <wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
@@ -562,10 +552,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="SJ_2S-TRACE" urn="urn:adsk.eagle:package:30824525/1" type="box">
+<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
+<packageinstances>
+<packageinstance name="SJ_2S-TRACE"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="din41612_48_pin_board">
 <packages>
-<package name="HARTING_09231486921">
+<package name="HARTING_09231486921" urn="urn:adsk.eagle:footprint:31078160/1">
 <wire x1="-45.73" y1="-5.54" x2="-45.73" y2="0" width="0.127" layer="51"/>
 <wire x1="-45.73" y1="0" x2="7.63" y2="0" width="0.127" layer="51"/>
 <wire x1="7.63" y1="0" x2="7.63" y2="-5.54" width="0.127" layer="51"/>
@@ -638,6 +636,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pad name="48" x="-38.1" y="5.08" drill="1" diameter="1.35"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="HARTING_09231486921" urn="urn:adsk.eagle:package:31078162/1" type="box">
+<packageinstances>
+<packageinstance name="HARTING_09231486921"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="high_power_stepper_driver_36V4">
 <packages>
@@ -877,17 +882,11 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="din41612_48_pin_board" package="HARTING_09231486921" value="09231486921" x="5.6" y="20.95" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COMMENT" value="09231486921" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" Conn DIN 41612 M 48 POS 2.54mm Solder RA Thru-Hole Tray " x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="EU_ROHS_COMPLIANCE" value="Compliant" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="HARTING" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="09231486921" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="J1" library="din41612_48_pin_board" package="HARTING_09231486921" package3d_urn="urn:adsk.eagle:package:31078162/1" value="09231486921" x="5.6" y="20.95" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER-PART-NUMBER" value="09231486921" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="3.505" y="67.18" size="1.27" layer="25"/>
 <attribute name="PACKAGE" value="None" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="6$" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL-DIGIKEY" value="https://www.digikey.ca/en/products/detail/harting/09231486921/3180439" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="" x="5.6" y="20.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-8.59" y="67.68" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$1" library="high_power_stepper_driver_36V4" package="BREAKOUT_BOARD" value="POLOLU_HIGH-POWER_STEPPER_MOTOR_DRIVER_36V4" x="84" y="75" smashed="yes" rot="R180">
@@ -915,11 +914,11 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="64" x="33.3" y="20.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.03" y="17.625" size="1.27" layer="27"/>
 </element>
-<element name="SJ1" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="30" y="25" smashed="yes">
+<element name="SJ1" library="SparkFun-Passives" package="SJ_2S-TRACE" package3d_urn="urn:adsk.eagle:package:30824525/1" value="SOLDERJUMPERTRACE" x="30" y="25" smashed="yes">
 <attribute name="NAME" x="29.0475" y="26.27" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="29.0475" y="23.349" size="0.4064" layer="27"/>
 </element>
-<element name="SJ2" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="30" y="21" smashed="yes" rot="R180">
+<element name="SJ2" library="SparkFun-Passives" package="SJ_2S-TRACE" package3d_urn="urn:adsk.eagle:package:30824525/1" value="SOLDERJUMPERTRACE" x="30" y="21" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.9525" y="19.73" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="35.4525" y="22.651" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -927,7 +926,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="64" x="33.3" y="29.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.03" y="26.125" size="1.27" layer="27"/>
 </element>
-<element name="SJ3" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="30" y="29" smashed="yes">
+<element name="SJ3" library="SparkFun-Passives" package="SJ_2S-TRACE" package3d_urn="urn:adsk.eagle:package:30824525/1" value="SOLDERJUMPERTRACE" x="30" y="29" smashed="yes">
 <attribute name="NAME" x="29.0475" y="30.27" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="29.0475" y="27.349" size="0.4064" layer="27"/>
 </element>
@@ -947,15 +946,16 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="95" y="66.86" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TBP02R1-381-07BE/?ref=eda" x="95" y="66.86" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="SJ4" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="57" y="34" smashed="yes">
+<element name="SJ4" library="SparkFun-Passives" package="SJ_2S-TRACE" package3d_urn="urn:adsk.eagle:package:30824525/1" value="SOLDERJUMPERTRACE" x="57" y="34" smashed="yes">
 <attribute name="NAME" x="56.0475" y="35.27" size="0.4064" layer="25"/>
 </element>
-<element name="SJ5" library="SparkFun-Passives" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="56" y="69" smashed="yes">
+<element name="SJ5" library="SparkFun-Passives" package="SJ_2S-TRACE" package3d_urn="urn:adsk.eagle:package:30824525/1" value="SOLDERJUMPERTRACE" x="56" y="69" smashed="yes">
 <attribute name="NAME" x="55.0475" y="70.27" size="0.4064" layer="25"/>
 </element>
-<element name="U$4" library="SparkFun-SAMD21-Mini-Breakout" package="JP1_SPARKFUN-SAMD21-MINI-BREAKOUT-V10" value="" x="46.9" y="71.6" smashed="yes" rot="R180">
-<attribute name="PURCHASE_URL_DIGIKEY" value="https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-13664/5766914?s=N4IgTCBcDaIM4EMC2ATMBGABEglgOx0wCMAnAUwQGsB7AVwBcQBdAXyA" x="46.9" y="71.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE_URL_SPARKFUN" value="https://www.sparkfun.com/products/13664" x="46.9" y="71.6" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U$4" library="SparkFun-SAMD21-Mini-Breakout" package="JP1_SPARKFUN-SAMD21-MINI-BREAKOUT-V10" value="SAM_D21_MINI_BREAKOUT" x="46.9" y="71.6" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER-PART-NUMBE" value="SparkFun SAMD21 mini breakout, SLW-112-01-G-S  &lt; buy two of these" x="46.9" y="71.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="None" x="46.9" y="71.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="None, https://www.adafruit.com/product/3008" x="46.9" y="71.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="17" y="66" smashed="yes" rot="R90">
 <attribute name="POPULARITY" value="91" x="17" y="66" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1015,6 +1015,33 @@ design rules under a new name.</description>
 <contactref element="JP5" pad="2"/>
 <contactref element="JP6" pad="2"/>
 <contactref element="JP7" pad="2"/>
+<wire x1="82.73" y1="58.49" x2="95" y2="59.24" width="0" layer="19" extent="1-1"/>
+<wire x1="82.73" y1="55.95" x2="82.73" y2="58.49" width="0" layer="19" extent="1-1"/>
+<wire x1="57" y1="51" x2="82.73" y2="55.95" width="0" layer="19" extent="1-1"/>
+<wire x1="45.63" y1="50.01" x2="52.25" y2="50.84" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="61" x2="52.25" y2="50.84" width="0" layer="19" extent="1-1"/>
+<wire x1="24" y1="64.73" x2="48" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="20.5" y1="64.73" x2="24" y2="64.73" width="0" layer="19" extent="1-1"/>
+<wire x1="17" y1="64.73" x2="20.5" y2="64.73" width="0" layer="19" extent="1-1"/>
+<wire x1="95" y1="28.38" x2="82.73" y2="55.95" width="0" layer="19" extent="1-1"/>
+<wire x1="82.73" y1="24.49" x2="95" y2="28.38" width="0" layer="19" extent="1-1"/>
+<wire x1="82.73" y1="21.95" x2="82.73" y2="24.49" width="0" layer="19" extent="1-1"/>
+<wire x1="52.25" y1="16.84" x2="82.73" y2="21.95" width="0" layer="19" extent="1-1"/>
+<wire x1="42.6" y1="14.8" x2="52.25" y2="16.84" width="0" layer="19" extent="1-1"/>
+<wire x1="42" y1="14" x2="42.6" y2="14.8" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="18.4" x2="40.1" y2="19.3" width="0" layer="19" extent="1-1"/>
+<wire x1="40.9" y1="18.8" x2="40.1" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5" y1="14.8" x2="42" y2="14" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="20.95" x2="40.1" y2="19.3" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="23.49" x2="10.68" y2="20.95" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="26.03" x2="10.68" y2="23.49" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="26.03" x2="10.68" y2="26.03" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="26.03" x2="8.14" y2="26.03" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="28.57" x2="5.6" y2="26.03" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="23.49" x2="10.68" y2="23.49" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="23.49" x2="5.6" y2="26.03" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="20.95" x2="10.68" y2="20.95" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="20.95" x2="5.6" y2="23.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="24V/12V">
 <contactref element="J1" pad="5"/>
@@ -1060,6 +1087,16 @@ design rules under a new name.</description>
 <vertex x="8.5" y="34.5"/>
 <vertex x="5.199996875" y="34.5"/>
 </polygon>
+<wire x1="82.73" y1="50.87" x2="82.73" y2="53.41" width="0" layer="19" extent="1-1"/>
+<wire x1="82.73" y1="19.41" x2="82.73" y2="50.87" width="0" layer="19" extent="1-1"/>
+<wire x1="82.73" y1="16.87" x2="82.73" y2="19.41" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="28.57" x2="82.73" y2="19.41" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="31.11" x2="10.68" y2="28.57" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="31.11" x2="10.68" y2="31.11" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="33.65" x2="8.14" y2="31.11" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="33.65" x2="8.14" y2="33.65" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="31.11" x2="8.14" y2="31.11" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="28.57" x2="10.68" y2="28.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="J1" pad="39"/>

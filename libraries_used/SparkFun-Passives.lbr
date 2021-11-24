@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<eagle version="6.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -2134,7 +2136,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEST-POINT" prefix="TP" urn="urn:adsk.eagle:component:30824534/1">
+<deviceset name="TEST-POINT" urn="urn:adsk.eagle:component:30824534/1" prefix="TP">
 <description>Bare copper test points for troubleshooting or ICT</description>
 <gates>
 <gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
@@ -2175,7 +2177,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 </devices>
 </deviceset>
-<deviceset name="SOLDERJUMPER_2WAY-OLD" prefix="SJ" uservalue="yes" urn="urn:adsk.eagle:component:30824535/1">
+<deviceset name="SOLDERJUMPER_2WAY-OLD" urn="urn:adsk.eagle:component:30824535/1" prefix="SJ" uservalue="yes">
 <description>&lt;b&gt;Solder Jumper&lt;/b&gt;
 2 way solder jumper</description>
 <gates>
@@ -2249,7 +2251,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 </devices>
 </deviceset>
-<deviceset name="SOLDERJUMPER_2WAY" prefix="SJ" uservalue="yes" urn="urn:adsk.eagle:component:30824536/1">
+<deviceset name="SOLDERJUMPER_2WAY" urn="urn:adsk.eagle:component:30824536/1" prefix="SJ" uservalue="yes">
 <description>&lt;b&gt;Solder Jumper&lt;/b&gt;
 2 way solder jumper</description>
 <gates>
@@ -2323,7 +2325,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 </devices>
 </deviceset>
-<deviceset name="RPACK*" prefix="R" uservalue="yes" urn="urn:adsk.eagle:component:30824539/1">
+<deviceset name="RPACK*" urn="urn:adsk.eagle:component:30824539/1" prefix="R" uservalue="yes">
 <description>BOURNS 4600X series thick-film SIP resistor packs&lt;br&gt;
 &lt;br&gt;
 Five resistors bussed to a single pin (denoted by dot).&lt;br&gt;
@@ -2353,7 +2355,7 @@ SFE parts COM-10855 (330), COM-10856 (10K)&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SOLDERJUMPER" prefix="SJ" urn="urn:adsk.eagle:component:30824538/1">
+<deviceset name="SOLDERJUMPER" urn="urn:adsk.eagle:component:30824538/1" prefix="SJ">
 <description>&lt;b&gt;Solder Jumper&lt;/b&gt;
 Standard SMD solder jumper. Used to automate production. Two varients : Normally Open and Normally Closed are the same, but have different paste layers. NC will have a large amount of paste and should jumper during reflow.</description>
 <gates>
@@ -2410,7 +2412,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </device>
 </devices>
 </deviceset>
-<deviceset name="SOLDERJUMPER-OLD" prefix="SJ" urn="urn:adsk.eagle:component:30824537/1">
+<deviceset name="SOLDERJUMPER-OLD" urn="urn:adsk.eagle:component:30824537/1" prefix="SJ">
 <description>&lt;b&gt;Solder Jumper&lt;/b&gt;
 Standard SMD solder jumper. Used to automate production. Two varients : Normally Open and Normally Closed are the same, but have different paste layers. NC will have a large amount of paste and should jumper during reflow.</description>
 <gates>
@@ -2467,7 +2469,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR-ARRAY" prefix="R" uservalue="yes" urn="urn:adsk.eagle:component:30824540/1">
+<deviceset name="RESISTOR-ARRAY" urn="urn:adsk.eagle:component:30824540/1" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Array Chip Resistor&lt;/b&gt;&lt;p&gt;
 Source: RS Component / Phycomp</description>
 <gates>
@@ -2497,7 +2499,7 @@ Source: RS Component / Phycomp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-2-OLD" prefix="JP" uservalue="yes" urn="urn:adsk.eagle:component:30824544/1">
+<deviceset name="JUMPER-2-OLD" urn="urn:adsk.eagle:component:30824544/1" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;Jumper&lt;/b&gt;
 Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <gates>
@@ -2554,7 +2556,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-2" prefix="JP" uservalue="yes" urn="urn:adsk.eagle:component:30824545/1">
+<deviceset name="JUMPER-2" urn="urn:adsk.eagle:component:30824545/1" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;Jumper&lt;/b&gt;
 Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <gates>
@@ -2642,232 +2644,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTOR" prefix="L" uservalue="yes" urn="urn:adsk.eagle:component:30824546/1">
-<description>&lt;b&gt;Inductors&lt;/b&gt;
-Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly between part numbers.</description>
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="H*" package="INDUCTOR-1206">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824489/1"/>
-</package3dinstances>
-<technologies>
-<technology name="1206"/>
-</technologies>
-</device>
-<device name="0603" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824487/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CR54" package="CR54">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824490/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PWR" package="CDRH125">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824491/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0402" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824492/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-B82462G" package="B82462G">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824493/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CR75" package="CR75">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824494/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1210" package="1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824482/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1007" package="1007">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824484/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_" package="COOPER_UP4B">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824495/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-" package="CDRH3D28">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824496/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824479/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CR75_V2" package="CR75_V2">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824497/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="." package="CDRH2D09">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824498/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NPI75" package="NPI75C">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824499/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SRU5028" package="SRU5028">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824500/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SRU1038" package="SRU1038">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824501/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CR54-KIT" package="CR54-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30824502/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JUMPER-3" prefix="JP" urn="urn:adsk.eagle:component:30824543/1">
+<deviceset name="JUMPER-3" urn="urn:adsk.eagle:component:30824543/1" prefix="JP">
 <gates>
 <gate name="G$1" symbol="JUMPER-3" x="-2.54" y="0"/>
 </gates>
@@ -2926,7 +2703,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-3-OLD" prefix="JP" urn="urn:adsk.eagle:component:30824542/1">
+<deviceset name="JUMPER-3-OLD" urn="urn:adsk.eagle:component:30824542/1" prefix="JP">
 <gates>
 <gate name="G$1" symbol="JUMPER-3" x="-2.54" y="0"/>
 </gates>
@@ -2985,7 +2762,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </device>
 </devices>
 </deviceset>
-<deviceset name="FUSE" prefix="F" urn="urn:adsk.eagle:component:30824547/1">
+<deviceset name="FUSE" urn="urn:adsk.eagle:component:30824547/1" prefix="F">
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
@@ -3004,7 +2781,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP_POL" prefix="C" uservalue="yes" urn="urn:adsk.eagle:component:30824549/1">
+<deviceset name="CAP_POL" urn="urn:adsk.eagle:component:30824549/1" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Capacitor Polarized&lt;/b&gt;
 These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in electrolytic and tantalum varieties. Always verify the external diameter of the through hole cap, it varies with capacity, voltage, and manufacturer. The EIA devices should be standard.</description>
 <gates>
@@ -3229,7 +3006,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP_ADJ" prefix="C" urn="urn:adsk.eagle:component:30824550/1">
+<deviceset name="CAP_ADJ" urn="urn:adsk.eagle:component:30824550/1" prefix="C">
 <description>Variable, non-polarized capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP_ADJ" x="0" y="0"/>
@@ -3249,7 +3026,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR" prefix="R" uservalue="yes" urn="urn:adsk.eagle:component:30824541/1">
+<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:30824541/1" locally_modified="yes" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Resistor&lt;/b&gt;
 Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</description>
 <gates>
@@ -3301,7 +3078,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30824479/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0603-RES" package="0603-RES">
@@ -3414,7 +3195,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP" prefix="C" uservalue="yes" urn="urn:adsk.eagle:component:30824551/1">
+<deviceset name="CAP" urn="urn:adsk.eagle:component:30824551/1" locally_modified="yes" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Capacitor&lt;/b&gt;
 Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <gates>
@@ -3454,7 +3235,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30824479/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="SIMILAR-COMPONENTS" value="Other generic 0805 capacitors" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PTH3" package="CAP-PTH-LARGE">
@@ -3583,12 +3368,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </library>
 </drawing>
 <compatibility>
-<note severity="warning" version="8.3">
+<note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
 </note>
-<note severity="warning" version="8.3">
+<note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
