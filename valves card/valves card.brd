@@ -202,7 +202,7 @@ P3</text>
 <text x="34.41" y="71.52" size="1.778" layer="25">PolyVent Valves Board V2.1
 Public invention - Nathaniel Bechard
 Liscenced under: CERN OHL 2.0</text>
-<wire x1="22.08" y1="42.82" x2="24.08" y2="42.82" width="0.508" layer="21"/>
+<wire x1="22.5" y1="42.82" x2="23.8" y2="42.82" width="0.3048" layer="21"/>
 <text x="20.04" y="39.85" size="1" layer="25" distance="60">12V JMP</text>
 </plain>
 <libraries>

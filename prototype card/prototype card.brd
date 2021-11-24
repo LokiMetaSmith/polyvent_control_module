@@ -187,8 +187,8 @@ CS_3
 CS_2
 CS_1
 </text>
-<hole x="25.27" y="13.75" drill="0.8" grouprefs="22_PADS PAD"/>
-<rectangle x1="24.27" y1="12.75" x2="26.27" y2="14.75" layer="17" grouprefs="22_PADS PAD"/>
+<hole x="25.27" y="13.75" drill="0.8" grouprefs="PAD 22_PADS"/>
+<rectangle x1="24.27" y1="12.75" x2="26.27" y2="14.75" layer="17" grouprefs="PAD 22_PADS"/>
 <hole x="27.81" y="13.75" drill="0.8" grouprefs="22_PADS"/>
 <hole x="30.35" y="13.75" drill="0.8" grouprefs="22_PADS"/>
 <hole x="32.89" y="13.75" drill="0.8" grouprefs="22_PADS"/>
@@ -1246,7 +1246,7 @@ CS_1
 <text x="100" y="33" size="2" layer="25" rot="R90">output connector</text>
 <rectangle x1="24" y1="12" x2="87.49" y2="63.4" layer="30"/>
 <rectangle x1="24" y1="12" x2="87.49" y2="63.4" layer="29"/>
-<text x="7" y="77" size="1.778" layer="29">PolyVent prototyping board V1.1 - Public Invention -Liscence: CERN OHL V2.0</text>
+<text x="7" y="77" size="1.778" layer="29">PolyVent prototyping board V1.2 - Public Invention -Liscence: CERN OHL V2.0</text>
 <text x="16.81" y="3.12" size="2" layer="29" distance="0" align="bottom-right">24V/12V
 
 GND

@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -212,12 +212,12 @@ CS_1
 <text x="31.82" y="35.68" size="1.5" layer="25">P_EN2</text>
 <text x="31.82" y="39.43" size="1.4" layer="25">P_EN3</text>
 <text x="31.82" y="43.18" size="1.4" layer="25">P_EN4</text>
-<text x="54.41" y="69.58" size="1.778" layer="25">PolyVent Sensor Board V1
+<text x="54.41" y="69.58" size="1.778" layer="25">PolyVent Sensor Board V1.1
 Public invention - Nathaniel Bechard
 Liscenced under: CERN OHL 2.0</text>
-<rectangle x1="22.26" y1="54.72" x2="26.26" y2="71.72" layer="25" rot="R90"/>
-<text x="32.25" y="67.74" size="1.778" layer="25" rot="R180">Serial Number:</text>
-<text x="28" y="23" size="1.778" layer="25">needs 5V power!</text>
+<rectangle x1="34.26" y1="9.72" x2="38.26" y2="26.72" layer="25" rot="R90"/>
+<text x="44.25" y="22.74" size="1.778" layer="25" rot="R180">Serial Number:</text>
+<text x="9.16" y="62.77" size="1.778" layer="25">needs 5V &amp; 3.3V power!</text>
 </plain>
 <libraries>
 <library name="SCCDRRV100MDSA3">
