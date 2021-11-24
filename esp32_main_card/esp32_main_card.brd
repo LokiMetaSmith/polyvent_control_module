@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -1280,7 +1280,7 @@ design rules under a new name.</description>
 <element name="J2" library="USB3090-XX-X_REVE" package="GCT_USB3090-XX-X_REVE" value="USB3090-XX-X_REVE" x="98.6" y="63.5" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER-PART-NUMBER" value="USB3090-30-A" x="98.6" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="None" x="98.6" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIMILAR-COMPONENTS" value="" x="98.6" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="MCR-B-S-RA-SMT-CS5A-NF-T/R" x="98.6" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="93" y="59" smashed="yes" rot="R270">
 <attribute name="POPULARITY" value="69" x="93" y="59" size="1.778" layer="27" rot="R270" display="off"/>

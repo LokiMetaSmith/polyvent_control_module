@@ -792,7 +792,89 @@ Physical Characteristics
 </package>
 </packages>
 </library>
-<library name="rcl" urn="urn:adsk.eagle:library:334">
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="1X03">
+<description>&lt;h3&gt;Plated Through Hole - 3 Pin&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="emi cap">
+<packages>
+<package name="3671250">
+<smd name="P$1" x="0" y="8.61" dx="1.27" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
+<polygon width="1.5" layer="1" pour="cutout">
+<vertex x="2.4" y="0" curve="-90"/>
+<vertex x="0" y="2.4"/>
+<vertex x="0" y="18.3" curve="-90"/>
+<vertex x="2.4" y="20.7"/>
+<vertex x="22.3" y="20.7" curve="-90"/>
+<vertex x="24.7" y="18.3"/>
+<vertex x="24.7" y="2.4" curve="-90"/>
+<vertex x="22.3" y="0"/>
+</polygon>
+<wire x1="2.4" y1="0" x2="0" y2="2.4" width="1.5" layer="29" curve="-90"/>
+<wire x1="0" y1="2.4" x2="0" y2="18.3" width="1.5" layer="29"/>
+<wire x1="0" y1="18.3" x2="2.4" y2="20.7" width="1.5" layer="29" curve="-90"/>
+<wire x1="2.4" y1="20.7" x2="22.3" y2="20.7" width="1.5" layer="29"/>
+<wire x1="22.3" y1="20.7" x2="24.7" y2="18.3" width="1.5" layer="29" curve="-90"/>
+<wire x1="24.7" y1="18.3" x2="24.7" y2="2.4" width="1.5" layer="29"/>
+<wire x1="24.7" y1="2.4" x2="22.3" y2="0" width="1.5" layer="29" curve="-90"/>
+<wire x1="22.3" y1="0" x2="2.4" y2="0" width="1.5" layer="29"/>
+<hole x="0" y="17.65" drill="1.3"/>
+<hole x="24.7" y="4.65" drill="1.3"/>
+</package>
+</packages>
+</library>
+<library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
 &lt;ul&gt;
@@ -1841,7 +1923,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="RTRIM3214W" urn="urn:adsk.eagle:footprint:23240/1" library_version="11">
+<package name="RTRIM3214W" urn="urn:adsk.eagle:footprint:23240/1">
 <description>&lt;b&gt;Trimm resistor&lt;/b&gt; BOURNS&lt;p&gt;
 SMD Cermet trimmer</description>
 <wire x1="-2.3" y1="-1.85" x2="-2.3" y2="1.85" width="0.254" layer="51"/>
@@ -1866,7 +1948,7 @@ SMD Cermet trimmer</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="RTRIM3214W" urn="urn:adsk.eagle:package:23729/1" type="box" library_version="11">
+<package3d name="RTRIM3214W" urn="urn:adsk.eagle:package:23729/1" type="box">
 <description>Trimm resistor BOURNS
 SMD Cermet trimmer</description>
 <packageinstances>
@@ -1874,88 +1956,6 @@ SMD Cermet trimmer</description>
 </packageinstances>
 </package3d>
 </packages3d>
-</library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
-This library contains electrically-functional connectors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="1X03">
-<description>&lt;h3&gt;Plated Through Hole - 3 Pin&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-</packages>
-</library>
-<library name="emi cap">
-<packages>
-<package name="3671250">
-<smd name="P$1" x="0" y="8.61" dx="1.27" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="1.5" layer="1" pour="cutout">
-<vertex x="2.4" y="0" curve="-90"/>
-<vertex x="0" y="2.4"/>
-<vertex x="0" y="18.3" curve="-90"/>
-<vertex x="2.4" y="20.7"/>
-<vertex x="22.3" y="20.7" curve="-90"/>
-<vertex x="24.7" y="18.3"/>
-<vertex x="24.7" y="2.4" curve="-90"/>
-<vertex x="22.3" y="0"/>
-</polygon>
-<wire x1="2.4" y1="0" x2="0" y2="2.4" width="1.5" layer="29" curve="-90"/>
-<wire x1="0" y1="2.4" x2="0" y2="18.3" width="1.5" layer="29"/>
-<wire x1="0" y1="18.3" x2="2.4" y2="20.7" width="1.5" layer="29" curve="-90"/>
-<wire x1="2.4" y1="20.7" x2="22.3" y2="20.7" width="1.5" layer="29"/>
-<wire x1="22.3" y1="20.7" x2="24.7" y2="18.3" width="1.5" layer="29" curve="-90"/>
-<wire x1="24.7" y1="18.3" x2="24.7" y2="2.4" width="1.5" layer="29"/>
-<wire x1="24.7" y1="2.4" x2="22.3" y2="0" width="1.5" layer="29" curve="-90"/>
-<wire x1="22.3" y1="0" x2="2.4" y2="0" width="1.5" layer="29"/>
-<hole x="0" y="17.65" drill="1.3"/>
-<hole x="24.7" y="4.65" drill="1.3"/>
-</package>
-</packages>
 </library>
 </libraries>
 <attributes>
@@ -2278,31 +2278,31 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="65.467" y="14.78" size="0.6" layer="27" rot="R90"/>
 </element>
 <element name="R6" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="30k, 0.1%, 25ppm/C" x="65.99" y="10.07" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="65.99" y="10.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="ERA-6ARB303V" x="65.99" y="10.07" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="64.89" y="8.125" size="0.8" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="0805" x="65.99" y="10.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="65.99" y="10.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Vishay precision resistors or anything else that fits the spec" x="65.99" y="10.07" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="64.88" y="10.175" size="0.8" layer="27" rot="R90"/>
 </element>
 <element name="R7" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="30k, 0.1%, 25ppm/C" x="75.4" y="11.72" smashed="yes" rot="R180">
-<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="75.4" y="11.72" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="ERA-6ARB303V" x="75.4" y="11.72" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="77.545" y="10.63" size="0.8" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="0805" x="75.4" y="11.72" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="75.4" y="11.72" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="75.255" y="10.68" size="0.8" layer="27" rot="R180"/>
 </element>
 <element name="R8" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="1k, 0.1%, 25ppm/C" x="69.05" y="10.13" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="69.05" y="10.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="ERA-6ARB102V" x="69.05" y="10.13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="67.94" y="7.945" size="0.8" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="0805" x="69.05" y="10.13" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="69.05" y="10.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Vishay precision resistors or anything else that fits the spec" x="69.05" y="10.13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="67.93" y="10.505" size="0.8" layer="27" rot="R90"/>
 </element>
 <element name="R9" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="1k, 0.1%, 25ppm/C" x="72.37" y="10.33" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="72.37" y="10.33" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="ERA-6ARB102V" x="72.37" y="10.33" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="71.3" y="8.335" size="0.8" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="0805" x="72.37" y="10.33" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="72.37" y="10.33" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIMILAR-COMPONENTS" value="Vishay precision resistors or anything else that fits the spec" x="72.37" y="10.33" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.29" y="11.055" size="0.8" layer="27" rot="R90"/>
 </element>
 <element name="R10" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="132k, 1%" x="73.71" y="48.59" smashed="yes" rot="R180">
@@ -2327,20 +2327,16 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="64" x="30" y="29" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="28.73" y="25.825" size="1.27" layer="27"/>
 </element>
-<element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="RTRIM3214W" package3d_urn="urn:adsk.eagle:package:23729/1" value="" x="85.51" y="45.01" smashed="yes">
+<element name="R13" library="rcl" package="RTRIM3214W" package3d_urn="urn:adsk.eagle:package:23729/1" value="" x="85.51" y="45.01" smashed="yes">
+<attribute name="MANUFACTURER-PART-NUMBER" value="3214W-1-103E" x="85.51" y="45.01" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="82.97" y="43.105" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="4" x="85.51" y="45.01" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE" value="https://www.digikey.ca/en/products/detail/bourns-inc/3214W-1-502G/2535183" x="85.51" y="45.01" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEMODEL" value="X" x="85.51" y="45.01" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIXL" value="POT" x="85.51" y="45.01" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="89.32" y="43.105" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="RTRIM3214W" package3d_urn="urn:adsk.eagle:package:23729/1" value="" x="92" y="45" smashed="yes">
+<element name="R14" library="rcl" package="RTRIM3214W" package3d_urn="urn:adsk.eagle:package:23729/1" value="" x="92" y="45" smashed="yes">
+<attribute name="MANUFACTURER-PART-NUMBER" value="3214W-1-103E" x="92" y="45" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.46" y="43.095" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="4" x="92" y="45" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE" value="https://www.digikey.ca/en/products/detail/bourns-inc/3214W-1-502G/2535183" x="92" y="45" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEMODEL" value="X" x="92" y="45" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIXL" value="POT" x="92" y="45" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="95.81" y="43.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R12" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="6.5k, 1%" x="73.32" y="42.12" smashed="yes" rot="R180">
@@ -2362,14 +2358,14 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="77.96" y="44.135" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R16" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="16.5k, 1%" x="77.01" y="20.65" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="77.01" y="20.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="RMCF0805FT16K5" x="77.01" y="20.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="75.9" y="18.435" size="0.8" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="0805" x="77.01" y="20.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="77.01" y="20.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="75.91" y="21.495" size="0.8" layer="27" rot="R90"/>
 </element>
 <element name="R17" library="SparkFun-Passives" package="0805" package3d_urn="urn:adsk.eagle:package:30824479/1" value="100, 1%" x="76.99" y="15.91" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER-PART-NUMBER" value="Generic" x="76.99" y="15.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER-PART-NUMBER" value="RMCF0805FT100R" x="76.99" y="15.91" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="75.91" y="13.795" size="0.8" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="0805" x="76.99" y="15.91" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SIMILAR-COMPONENTS" value="Generic 0805 resistors" x="76.99" y="15.91" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2479,7 +2475,43 @@ design rules under a new name.</description>
 <wire x1="61.81" y1="46.35" x2="64.16" y2="44" width="0.508" layer="16"/>
 <wire x1="64.16" y1="44" x2="68" y2="44" width="0.508" layer="16"/>
 <via x="68" y="44" extent="1-16" drill="0.35"/>
+<wire x1="87.75" y1="62.88" x2="97" y2="58.25" width="0" layer="19" extent="1-1"/>
+<wire x1="97" y1="45.25" x2="97" y2="58.25" width="0" layer="19" extent="1-1"/>
+<wire x1="90.725" y1="43.55" x2="97" y2="45.25" width="0" layer="19" extent="1-1"/>
+<wire x1="84.235" y1="43.56" x2="90.725" y2="43.55" width="0" layer="19" extent="1-1"/>
+<wire x1="95.88" y1="35.52" x2="90.725" y2="43.55" width="0" layer="19" extent="1-1"/>
+<wire x1="72.82" y1="46.44" x2="84.235" y2="43.56" width="0" layer="19" extent="1-1"/>
+<wire x1="68" y1="44" x2="72.82" y2="46.44" width="0" layer="19" extent="1-1"/>
+<wire x1="72.43" y1="39.96" x2="68" y2="44" width="0" layer="19" extent="1-1"/>
+<wire x1="79" y1="28" x2="72.43" y2="39.96" width="0" layer="19" extent="1-1"/>
+<wire x1="81" y1="27" x2="79" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="81" y1="16" x2="81" y2="27" width="0" layer="19" extent="1-1"/>
+<wire x1="76.99" y1="15.01" x2="81" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="72.37" y1="9.43" x2="76" y2="14" width="0" layer="19" extent="1-16"/>
 <wire x1="69.92" y1="8.54" x2="72.37" y2="9.43" width="0" layer="19" extent="1-1"/>
+<wire x1="63.91" y1="13.7" x2="69.05" y2="9.23" width="0" layer="19" extent="1-1"/>
+<wire x1="63.055" y1="20.025" x2="64" y2="14" width="0" layer="19" extent="1-16"/>
+<wire x1="70" y1="21" x2="63.055" y2="20.025" width="0" layer="19" extent="1-1"/>
+<wire x1="79" y1="5" x2="72.37" y2="9.43" width="0" layer="19" extent="1-1"/>
+<wire x1="81" y1="6" x2="79" y2="5" width="0" layer="19" extent="1-1"/>
+<wire x1="54.51" y1="14.71" x2="63.055" y2="13.675" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="6" x2="54.51" y2="14.71" width="0" layer="19" extent="1-1"/>
+<wire x1="54" y1="5" x2="53" y2="6" width="0" layer="19" extent="1-1"/>
+<wire x1="54" y1="28" x2="61" y2="21" width="0" layer="19" extent="16-16"/>
+<wire x1="53" y1="27" x2="54" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="46.81" y1="56.683334375" x2="61.81" y2="46.35" width="0" layer="19" extent="1-1"/>
+<wire x1="62.81" y1="67.016659375" x2="46.81" y2="56.683334375" width="0" layer="19" extent="1-1"/>
+<wire x1="46.81" y1="77.35" x2="62.81" y2="67.016659375" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="26.03" x2="53" y2="27" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="23.49" x2="10.68" y2="26.03" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="26.03" x2="10.68" y2="26.03" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="26.03" x2="8.14" y2="26.03" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="28.57" x2="5.6" y2="26.03" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="20.95" x2="10.68" y2="23.49" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="23.49" x2="10.68" y2="23.49" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="23.49" x2="5.6" y2="26.03" width="0" layer="19" extent="1-1"/>
+<wire x1="8.14" y1="20.95" x2="10.68" y2="20.95" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="20.95" x2="5.6" y2="23.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="D1" pad="39"/>

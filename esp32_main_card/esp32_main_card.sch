@@ -1547,7 +1547,7 @@
 <technology name="">
 <attribute name="MANUFACTURER-PART-NUMBER" value="USB3090-30-A"/>
 <attribute name="PACKAGE" value="None"/>
-<attribute name="SIMILAR-COMPONENTS" value="" constant="no"/>
+<attribute name="SIMILAR-COMPONENTS" value="MCR-B-S-RA-SMT-CS5A-NF-T/R" constant="no"/>
 </technology>
 </technologies>
 </device>
