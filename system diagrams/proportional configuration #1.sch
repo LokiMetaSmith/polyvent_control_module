@@ -516,6 +516,95 @@ port USB</text>
 </deviceset>
 </devicesets>
 </library>
+<library name="diode" urn="urn:adsk.eagle:library:210">
+<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola : www.onsemi.com
+&lt;li&gt;Fairchild : www.fairchildsemi.com
+&lt;li&gt;Philips : www.semiconductors.com
+&lt;li&gt;Vishay : www.vishay.de
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DO41-10" urn="urn:adsk.eagle:footprint:43094/1" library_version="8">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="A" x="5.08" y="0" drill="1.1176"/>
+<pad name="C" x="-5.08" y="0" drill="1.1176"/>
+<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
+<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
+<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="DO41-10" urn="urn:adsk.eagle:package:43336/1" type="box" library_version="8">
+<description>DIODE
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<packageinstances>
+<packageinstance name="DO41-10"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="D" urn="urn:adsk.eagle:symbol:43091/2" library_version="8">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1N4004" urn="urn:adsk.eagle:component:43462/3" prefix="D" library_version="8">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+general purpose rectifier, 1 A</description>
+<gates>
+<gate name="1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO41-10">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43336/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="82" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -544,6 +633,7 @@ port USB</text>
 <part name="U$17" library="polyvent card schematics" deviceset="SOLENOID_VALVE" device=""/>
 <part name="U$21" library="polyvent card schematics" deviceset="SOLENOID_VALVE" device=""/>
 <part name="U$22" library="polyvent card schematics" deviceset="OXYGEN_SENSOR" device=""/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -575,6 +665,10 @@ port USB</text>
 <instance part="U$17" gate="G$1" x="-132.08" y="-17.78" smashed="yes" rot="R270"/>
 <instance part="U$21" gate="G$1" x="-132.08" y="-38.1" smashed="yes" rot="R270"/>
 <instance part="U$22" gate="G$1" x="-86.36" y="53.34" smashed="yes" rot="R180"/>
+<instance part="D1" gate="1" x="-111.76" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="-112.2426" y="-15.24" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-109.4486" y="-15.24" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -717,22 +811,27 @@ port USB</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="S+"/>
-<wire x1="-114.3" y1="-35.56" x2="-111.76" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="-35.56" x2="-111.76" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="S+"/>
-<wire x1="-111.76" y1="-27.94" x2="-111.76" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="-15.24" x2="-111.76" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="5.08" x2="-111.76" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="25.4" x2="-114.3" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="-35.56" x2="-106.68" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-35.56" x2="-106.68" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-27.94" x2="-106.68" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-15.24" x2="-106.68" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="U$16" gate="G$1" pin="S+"/>
-<wire x1="-114.3" y1="5.08" x2="-111.76" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-111.76" y="5.08"/>
+<wire x1="-114.3" y1="5.08" x2="-106.68" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="S+"/>
 <wire x1="-114.3" y1="-15.24" x2="-111.76" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="-111.76" y="-15.24"/>
+<junction x="-106.68" y="-15.24"/>
 <pinref part="U$8" gate="G$1" pin="12V-24V_OUTPUT"/>
-<wire x1="-111.76" y1="-27.94" x2="-83.82" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="-111.76" y="-27.94"/>
+<wire x1="-111.76" y1="-15.24" x2="-106.68" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-27.94" x2="-83.82" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="-106.68" y="-27.94"/>
+<pinref part="U$11" gate="G$1" pin="S+"/>
+<wire x1="-111.76" y1="25.4" x2="-114.3" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="5.08" x2="-106.68" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="25.4" x2="-114.3" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-106.68" y="5.08"/>
+<junction x="-114.3" y="25.4"/>
+<pinref part="D1" gate="1" pin="C"/>
+<junction x="-111.76" y="-15.24"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -756,10 +855,13 @@ port USB</text>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U$17" gate="G$1" pin="S-"/>
-<wire x1="-114.3" y1="-20.32" x2="-101.6" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="-20.32" x2="-111.76" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="-20.32" x2="-101.6" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="-20.32" x2="-101.6" y2="0" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="VALVE3"/>
 <wire x1="-101.6" y1="0" x2="-83.82" y2="0" width="0.1524" layer="91"/>
+<pinref part="D1" gate="1" pin="A"/>
+<junction x="-111.76" y="-20.32"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -803,6 +905,21 @@ port USB</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
