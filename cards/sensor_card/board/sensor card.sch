@@ -3662,26 +3662,20 @@ No silk outline, but tDocu layer shows pin location.
 <packages>
 <package name="3671250">
 <smd name="P$1" x="0" y="8.61" dx="1.27" dy="0.635" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="1.5" layer="1" pour="cutout">
-<vertex x="2.4" y="0" curve="-90"/>
-<vertex x="0" y="2.4"/>
-<vertex x="0" y="18.3" curve="-90"/>
-<vertex x="2.4" y="20.7"/>
-<vertex x="22.3" y="20.7" curve="-90"/>
-<vertex x="24.7" y="18.3"/>
-<vertex x="24.7" y="2.4" curve="-90"/>
-<vertex x="22.3" y="0"/>
-</polygon>
 <wire x1="2.4" y1="0" x2="0" y2="2.4" width="1.5" layer="29" curve="-90"/>
 <wire x1="0" y1="2.4" x2="0" y2="18.3" width="1.5" layer="29"/>
-<wire x1="0" y1="18.3" x2="2.4" y2="20.7" width="1.5" layer="29" curve="-90"/>
 <wire x1="2.4" y1="20.7" x2="22.3" y2="20.7" width="1.5" layer="29"/>
 <wire x1="22.3" y1="20.7" x2="24.7" y2="18.3" width="1.5" layer="29" curve="-90"/>
 <wire x1="24.7" y1="18.3" x2="24.7" y2="2.4" width="1.5" layer="29"/>
-<wire x1="24.7" y1="2.4" x2="22.3" y2="0" width="1.5" layer="29" curve="-90"/>
 <wire x1="22.3" y1="0" x2="2.4" y2="0" width="1.5" layer="29"/>
 <hole x="0" y="17.65" drill="1.3"/>
 <hole x="24.7" y="4.65" drill="1.3"/>
+<wire x1="22.3" y1="20.7" x2="24.7" y2="18.3" width="1.5" layer="1" curve="-90"/>
+<wire x1="2.4" y1="0" x2="0" y2="2.4" width="1.5" layer="1" curve="-90"/>
+<wire x1="0" y1="2.4" x2="0" y2="18.3" width="1.5" layer="1"/>
+<wire x1="24.7" y1="18.3" x2="24.7" y2="2.4" width="1.5" layer="1"/>
+<wire x1="22.3" y1="0" x2="2.4" y2="0" width="1.5" layer="1"/>
+<wire x1="2.4" y1="20.7" x2="22.3" y2="20.7" width="1.5" layer="1"/>
 </package>
 </packages>
 <symbols>
