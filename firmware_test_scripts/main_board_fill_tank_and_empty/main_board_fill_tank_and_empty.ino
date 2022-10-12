@@ -2,19 +2,20 @@
 #include <HoneywellTruStabilitySPI.h>
 const int CS = 14; // 15
 float tankSensorVal = 0;
-const int ESP_CS_PINS[13] = {4, 5, 13, 14, 15, 16, 17, 21, 22, 25, 26, 32, 33};
+const int ESP_CS_PINS[11] = {4, 5, 13, 14, 15, 16, 17, 25, 26, 32, 33};
 int stage = 0;
 
 
 TruStabilityPressureSensor sensor1( ESP_CS_PINS[5], -101.97, 101.97 );
 TruStabilityPressureSensor sensor2( ESP_CS_PINS[6], -101.97, 101.97 );
-TruStabilityPressureSensor sensor3( ESP_CS_PINS[7], -6.89476, 6.89476 );
-TruStabilityPressureSensor sensor4( ESP_CS_PINS[8], -101.97, 101.97);
+TruStabilityPressureSensor sensor3( ESP_CS_PINS[8], -101.97, 101.97);
+TruStabilityPressureSensor sensor4( ESP_CS_PINS[7], -6.89476, 6.89476 );
+
 
 uint16_t air_input[13] = {200, 0xFFFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 uint16_t oxygen_input[13] = {200, 0, 0xFFFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-uint16_t solenoid_output[13] = {200, 0, 0, 10000, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-uint16_t patient_inflating_valve[13] = {200, 0, 0, 0, 0xFFFF, 0, 0, 0, 0, 0, 0, 0, 0};
+uint16_t solenoid_output[13] = {200, 0, 0, 0, 40000, 0, 0, 0, 0, 0, 0, 0, 0};
+uint16_t patient_inflating_valve[13] = {200, 0, 0, 0xFFFF, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 uint16_t all_off[13] = {200, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
 void setup() {
@@ -36,8 +37,8 @@ void setup() {
 
 void loop() {
   
-  if (sensor3.readSensor() == 0)
-    tankSensorVal = sensor3.pressure();
+  if (sensor4.readSensor() == 0)
+    tankSensorVal = sensor4.rawPressure();
   Serial.println(stage);
 
   digitalWrite(14, LOW);
@@ -46,7 +47,7 @@ void loop() {
   digitalWrite(14, HIGH);
   Serial.println(tankSensorVal);
 
-  wait_until_pressure(1.5, 1);
+  wait_until_pressure(3000, 1);
 
   digitalWrite(14, LOW);
   for (int x = 0; x < 13; x++)
@@ -54,7 +55,7 @@ void loop() {
   digitalWrite(14, HIGH);
   Serial.println(tankSensorVal);
 
-  wait_until_pressure(1.35, 0);
+  wait_until_pressure(2500, 0);
 
   digitalWrite(14, LOW);
   for (int x = 0; x < 13; x++)
@@ -76,12 +77,12 @@ void loop() {
 
 //waits until the pressure reaches a certain value in bar. if edge is 0, then the function waits for a falling edge, 1 has the opposite effect
 void wait_until_pressure(float pressure_setpoint, bool edge) {
-  if (sensor3.readSensor() == 0)
-    tankSensorVal = sensor3.pressure();
+  if (sensor4.readSensor() == 0)
+    tankSensorVal = sensor4.rawPressure();
 
   while ((edge && tankSensorVal < pressure_setpoint) || (!edge && tankSensorVal > pressure_setpoint)) {
-    if (sensor3.readSensor() == 0)
-      tankSensorVal = sensor3.pressure();
+    if (sensor4.readSensor() == 0)
+      tankSensorVal = sensor4.rawPressure();
       Serial.println(tankSensorVal);
     delay(1); // keep the loop speed reasonable, no need to go that fast
   }

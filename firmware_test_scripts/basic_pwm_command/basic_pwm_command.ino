@@ -2,11 +2,12 @@
 #include <HoneywellTruStabilitySPI.h>
 
 const int CS = 14; // 15
-const int ESP_CS_PINS[13] = {4, 5, 13, 14, 15, 16, 17, 21, 22, 25, 26, 32, 33};
+const int ESP_CS_PINS[11] = {4, 5, 13, 14, 15, 16, 17, 25, 26, 32, 33};
 
 
 
-uint16_t solenoid_output[13] = {200, 0, 0, 3276, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+uint16_t solenoid_output[13] = {200, 0, 0, 0, 45000, 0, 0, 0, 0, 0, 0, 0, 0};
+//uint16_t solenoid_output[13] = {200, 65535, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 uint16_t all_off[13] = {200, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
 void setup() {

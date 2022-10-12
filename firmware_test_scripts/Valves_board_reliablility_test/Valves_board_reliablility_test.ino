@@ -3,9 +3,9 @@ const int CS = 14;
 //const int ESP_CS_PINS[13] = {4, 5, 13, 14, 15, 16, 17, 21, 22, 25, 26, 32, 33};
 
 
-uint16_t transmission[13] = {200, 0xFFFF, 0xFFFF, 32768, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-uint16_t transmission_2[13] = {500, 10000, 10000, 0xFFFF, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-uint16_t transmission_3[13] = {100, 0xFFFF, 0, 45000, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+uint16_t transmission[13] = {200, 0, 0, 0, 0, 0, 0, 0xFFFF, 0, 0, 0, 0, 0};
+uint16_t transmission_2[13] = {500, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+uint16_t transmission_3[13] = {100, 0, 0, 0, 0, 0, 0, 0, 0xFFFF, 0, 0, 0, 0};
 
 
 volatile long val1 = 0, val2 = 0, val3 = 0, lastVal1 = 0, lastVal2 = 0, lastVal3 = 0;

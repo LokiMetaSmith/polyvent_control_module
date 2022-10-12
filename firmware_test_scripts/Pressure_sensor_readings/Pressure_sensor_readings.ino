@@ -11,7 +11,7 @@
 
 #include <HoneywellTruStabilitySPI.h>
 
-const int ESP_CS_PINS[13] = {4, 5, 13, 14, 15, 16, 17, 21, 22, 25, 26, 32, 33};
+const int ESP_CS_PINS[11] = {4, 5, 13, 14, 15, 16, 17, 25, 26, 32, 33};
 
 
 TruStabilityPressureSensor sensor1( ESP_CS_PINS[5], -101.97, 101.97 );
@@ -38,19 +38,19 @@ void loop() {
   // the sensors return 0 when new data is ready
   if ( sensor1.readSensor() == 0 ) {
     Serial.print( "\t pressure [cmH20] of sensor 1: " );
-    Serial.println( sensor1.pressure() );
+    Serial.println( sensor1.rawPressure() );
   }
-  if ( sensor2.readSensor() == 0 ) {
-    Serial.print( "\t pressure [cmH20] of sensor 2: " );
-    Serial.println( sensor2.pressure() );
-  }
-    if ( sensor3.readSensor() == 0 ) {
-    Serial.print( "\t pressure [cmH20] of sensor 3: " );
-    Serial.println( sensor3.pressure() );
-  }
-    if ( sensor4.readSensor() == 0 ) {
-    Serial.print( "\t pressure [bar] of sensor 4: " );
-    Serial.println( sensor4.pressure() );
-  }
-
+//  if ( sensor2.readSensor() == 0 ) {
+//    Serial.print( "\t pressure [cmH20] of sensor 2: " );
+//    Serial.println( sensor2.rawPressure() );
+//  }
+//    if ( sensor3.readSensor() == 0 ) {
+//    Serial.print( "\t pressure [cmH20] of sensor 3: " );
+//    Serial.println( sensor3.rawPressure() );
+//  }
+//    if ( sensor4.readSensor() == 0 ) {
+//    Serial.print( "\t pressure [bar] of sensor 4: " );
+//    Serial.println( sensor4.rawPressure() );
+//  }
+  delay(100);
 }
